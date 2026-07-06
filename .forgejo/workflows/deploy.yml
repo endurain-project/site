@@ -1,0 +1,49 @@
+name: Deploy site
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: Checkout the site but do not deploy
+        required: false
+        default: false
+        type: boolean
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'site/**'
+      - '.forgejo/workflows/deploy.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ forgejo.workflow }}-${{ forgejo.ref }}
+  cancel-in-progress: true
+
+jobs:
+
+  deploy:
+
+    runs-on: local-runner
+
+    steps:
+      - name: Checkout code
+        uses: https://data.forgejo.org/actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 1
+
+      - name: Set dry-run mode
+        if: ${{ inputs.dry-run == true }}
+        run: echo "DEPLOY_DRY_RUN=true" >> "$FORGEJO_ENV"
+
+      - name: Deploy site to Codeberg Pages
+        if: env.DEPLOY_DRY_RUN != 'true'
+        uses: https://data.forgejo.org/actions/git-pages@5978530ffb9bbe196ad9fdc0c48fdaf1483de4cf # v2.1.0
+        with:
+          site: https://endurain.com/
+          server: codeberg.page
+          token: ${{ forge.token }}
+          source: site/

@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, samostatně hostovaný sledovač kondice, který ovládáte",
+    "description": "Endurain je samostatně hostovaná služba pro sledování kondice zaměřená na soukromí. Vlastněte své aktivity, vybavení a zdravotní data, se synchronizací Strava a Garmin, importem .gpx/.tcx/.fit a aplikací pro Android."
+  },
+  "a11y": {
+    "skip": "Přejít na obsah",
+    "home": "Úvodní stránka Endurain",
+    "langMenu": "Změnit jazyk",
+    "theme": "Přepnout tmavý režim",
+    "codeberg": "Zobrazit zdrojový kód na Codebergu",
+    "menu": "Otevřít nabídku"
+  },
+  "nav": {
+    "mission": "Poslání",
+    "features": "Funkce",
+    "mobile": "Mobilní aplikace",
+    "selfHost": "Vlastní hosting",
+    "community": "Komunita"
+  },
+  "hero": {
+    "status": "Zmrazení funkcí: posílení základů",
+    "title1": "Sledujte každý pohyb",
+    "title2": "Vlastněte každý okamžik",
+    "lede": "Endurain je samostatně hostovaná služba pro sledování kondice, domov zaměřený na soukromí pro vaše aktivity, vybavení a zdravotní data. Žádné uzamčení, žádné dolování dat. Jen vaše tréninková historie, na infrastruktuře, kterou ovládáte.",
+    "ctaDemo": "Vyzkoušet živé demo",
+    "ctaDocs": "Přečíst dokumentaci",
+    "badge1": "Otevřený zdroj AGPL-3.0",
+    "badge2": "100% samostatně hostováno",
+    "badge3": "Synchronizace Strava a Garmin",
+    "imgAlt": "Panel Endurain zobrazující kanál aktivit s během na mapě, údaji o tempu a výkonu a měsíčními součty."
+  },
+  "strip": {
+    "k1": "Vaše data",
+    "v1": "Váš server",
+    "v2": "Ruční a hromadný import",
+    "v3": "Synchronizace do Endurainu",
+    "v4": "Připraveno za pár minut"
+  },
+  "mission": {
+    "eyebrow": "Naše poslání",
+    "title": "Data o kondici patří sportovci",
+    "sub": "Endurain existuje, protože vaše tréninková historie je příliš osobní na to, abyste ji svěřovali cizímu cloudu. Je vytvořen pro ty, kdo chtějí eleganci moderní sportovní platformy bez vzdání se vlastnictví, soukromí nebo kontroly.",
+    "c1t": "Vaše data patří vám",
+    "c1b": "Vše leží na infrastruktuře, kterou provozujete. Exportujte je, zálohujte, přesuňte. Žádní správci bran, žádné uzamčení dodavatelem, nikdy.",
+    "c2t": "Soukromí od základu",
+    "c2b": "Nastavení soukromí u každé aktivity, MFA, SSO a ověření e-mailem jsou zabudované. Sdílejte, co chcete; zbytek si nechte pro sebe.",
+    "c3t": "Skutečně otevřený zdroj",
+    "c3b": "Licencováno pod AGPL-3.0 a vyvíjeno otevřeně na Codebergu. Přečtěte si každý řádek, nahlaste problém nebo pošlete pull request."
+  },
+  "status": {
+    "eyebrow": "Aktuální stav",
+    "title": "Dočasné zmrazení funkcí, nikoli pauza",
+    "body": "Endurain rychle rostl. Aby zůstal zdravý, přesunulo se zaměření od dodávání nových funkcí k posilování základů: jasnější hranice modulů, předvídatelnější práce na pozadí, lepší testy a bezpečnější vydání. Opravy chyb, bezpečnostní záplaty, dokumentace a překlady pokračují jako obvykle.",
+    "cta": "Přečíst oznámení",
+    "l1": "Opravy zabezpečení a chyb",
+    "l2": "Refaktoringy a spolehlivost",
+    "l3": "Dokumentace a překlady",
+    "l4": "Testy a zpevnění CI"
+  },
+  "features": {
+    "eyebrow": "Funkce",
+    "title": "Vše, co očekáváte, hostováno po vašem",
+    "sub": "Kompletní tréninkový deník s integracemi a vymoženostmi velkých platforem, ale bez sledování.",
+    "f1t": "Sledování aktivit",
+    "f1b": "Bohaté kanály aktivit, mapy a týdenní a měsíční statistiky pro každý sport.",
+    "f2t": "Strava a Garmin",
+    "f2b": "Synchronizujte aktivity, vybavení a složení těla ze Stravy a Garmin Connect.",
+    "f3t": "Import souborů",
+    "f3b": "Nahrávejte soubory .gpx, .tcx a .fit jednotlivě nebo hromadně. Preferován je .fit.",
+    "f4t": "Sledování vybavení",
+    "f4b": "Sledujte kola, boty, neopreny, lyže a další, až po opotřebení součástí.",
+    "f5t": "Zdravotní metriky",
+    "f5b": "Zaznamenávejte váhu, kroky a spánek a sledujte trendy na vyhrazeném panelu.",
+    "f6t": "Cíle",
+    "f6b": "Nastavte cíle vzdálenosti nebo času a sledujte pokrok týden po týdnu.",
+    "f7t": "Více uživatelů a sledující",
+    "f7b": "Role administrátora a uživatele, kanály sledujících a veřejné profilové stránky.",
+    "f8t": "MFA a SSO",
+    "f8b": "Vícefaktorové ověření TOTP, jednotné přihlášení OIDC/SAML a ověření e-mailem.",
+    "f9t": "Lokalizováno a s motivy",
+    "f9b": "Vícejazyčné, metrické nebo imperiální jednotky a přepínač světlého a tmavého motivu."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobilně",
+    "title": "Váš trénink v kapse",
+    "sub": "Aplikace Endurain zaznamenává běhy, jízdy na kole, procházky a túry živě na mapě a nahrává je přímo na váš vlastní server. Funguje offline, automaticky se synchronizuje, jakmile jste znovu online, a přihlásí vás pomocí SSO a MFA.",
+    "apkTop": "Stáhnout",
+    "apkStrong": "APK pro Android",
+    "comingSoon": "Brzy na",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Brzy",
+    "soonTitle": "Již brzy",
+    "hint": "Aplikace se aktivně vyvíjí. Stáhněte si nejnovější APK pro Android přímo zde na webu. Záznamy v Google Play a App Store budou následovat."
+  },
+  "gallery": {
+    "eyebrow": "Bližší pohled",
+    "title": "Navrženo tak, aby působilo bez námahy",
+    "sub": "Čisté, moderní rozhraní pro aktivity, vybavení, zdraví a nastavení, ve světlém nebo tmavém, na počítači i mobilu.",
+    "alt1": "Stránka podrobností aktivity s mapou, mezičasy a metrikami.",
+    "alt2": "Zdravotní panel s váhou, kroky a trendy spánku.",
+    "alt3": "Seznam vybavení zobrazující kola, boty a jejich využití.",
+    "alt4": "Stránka profilu uživatele se statistikami a historií aktivit.",
+    "alt5": "Stránka nastavení cílů pro definování tréninkových cílů."
+  },
+  "selfHost": {
+    "eyebrow": "Hostujte si to sami",
+    "title": "Zprovozněno s Dockerem",
+    "sub": "Endurain se dodává jako obraz Docker a konfiguruje se výhradně pomocí proměnných prostředí. Kompletní příklad docker compose je v repozitáři. Spusťte stack a otevřete aplikaci.",
+    "step1": "Zkopírujte ukázkové soubory compose a env",
+    "step2": "Nastavte svá tajemství a integrační klíče",
+    "ctaGuide": "Průvodce pro začátek",
+    "ctaDemo": "Nejprve vyzkoušet demo"
+  },
+  "community": {
+    "eyebrow": "Komunita a podpora",
+    "title": "Budováno otevřeně, společně",
+    "sub": "Endurain se vyvíjí na Codebergu a formuje ho jeho komunita. Zapojte se, ptejte se, překládejte nebo pomozte financovat práci.",
+    "codebergT": "Codeberg",
+    "codebergD": "Zdrojový kód, problémy a pull requesty.",
+    "docsT": "Dokumentace",
+    "docsD": "Návody k instalaci, konfiguraci a vývoji.",
+    "discordT": "Discord",
+    "discordD": "Chat, pomoc a oznámení.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Sledujte novinky ve fediverse.",
+    "translateT": "Přeložit",
+    "translateD": "Pomozte lokalizovat Endurain přes Weblate."
+  },
+  "sponsor": {
+    "title": "Podpořte projekt",
+    "body": "Sponzorství udržuje Endurain nezávislý a v pohybu."
+  },
+  "cta": {
+    "title": "Získejte zpět kontrolu nad daty o své kondici",
+    "body": "Vyzkoušejte živé demo a poté si během pár minut zprovozněte vlastní instanci.",
+    "demo": "Vyzkoušet živé demo",
+    "docs": "Přečíst dokumentaci"
+  },
+  "newsletter": {
+    "eyebrow": "Newsletter",
+    "title": "Zůstaňte v obraze",
+    "body": "Novinky o projektu a vydáních přímo do vaší schránky. Žádný spam, kdykoli se lze odhlásit.",
+    "emailLabel": "E-mailová adresa",
+    "button": "Odebírat",
+    "legal": "Provozováno pomocí"
+  },
+  "footer": {
+    "tag": "Samostatně hostované sledování kondice, které respektuje vaše soukromí.",
+    "made": "Vytvořeno s ♥ z Portugalska",
+    "colProduct": "Produkt",
+    "colResources": "Zdroje",
+    "colCommunity": "Komunita",
+    "liveDemo": "Živé demo",
+    "docs": "Dokumentace",
+    "gettingStarted": "Začínáme",
+    "roadmap": "Plán rozvoje",
+    "blog": "Blog",
+    "trademark": "Endurain® je ochranná známka João Vitórii Silvy.",
+    "licensed": "Licencováno pod",
+    "trademarkPolicy": "Zásady ochranné známky",
+    "source": "Zdrojový kód"
+  }
+}

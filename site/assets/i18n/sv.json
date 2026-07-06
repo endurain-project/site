@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, självhostad träningsspårning som du styr",
+    "description": "Endurain är en självhostad, integritetsfokuserad tjänst för träningsspårning. Äg dina aktiviteter, din utrustning och dina hälsodata, med Strava- och Garmin-synk, .gpx/.tcx/.fit-import och en Android-app."
+  },
+  "a11y": {
+    "skip": "Hoppa till innehåll",
+    "home": "Endurain startsida",
+    "langMenu": "Byt språk",
+    "theme": "Växla mörkt läge",
+    "codeberg": "Visa källkoden på Codeberg",
+    "menu": "Öppna meny"
+  },
+  "nav": {
+    "mission": "Uppdrag",
+    "features": "Funktioner",
+    "mobile": "Mobilapp",
+    "selfHost": "Självhosta",
+    "community": "Gemenskap"
+  },
+  "hero": {
+    "status": "Funktionsfrysning: stärka grunderna",
+    "title1": "Spåra varje rörelse",
+    "title2": "Äg varje ögonblick",
+    "lede": "Endurain är en självhostad tjänst för träningsspårning, ett integritetsfokuserat hem för dina aktiviteter, din utrustning och dina hälsodata. Ingen inlåsning, ingen datautvinning. Bara din träningshistorik, på infrastruktur som du styr.",
+    "ctaDemo": "Prova livedemon",
+    "ctaDocs": "Läs dokumentationen",
+    "badge1": "AGPL-3.0 öppen källkod",
+    "badge2": "100% självhostad",
+    "badge3": "Strava- och Garmin-synk",
+    "imgAlt": "Endurain-panelen som visar ett aktivitetsflöde med en löprunda på karta, tempo- och effektdata samt månadssummor."
+  },
+  "strip": {
+    "k1": "Dina data",
+    "v1": "Din server",
+    "v2": "Manuell import och bulkimport",
+    "v3": "Synk till Endurain",
+    "v4": "Igång på minuter"
+  },
+  "mission": {
+    "eyebrow": "Vårt uppdrag",
+    "title": "Träningsdata tillhör atleten",
+    "sub": "Endurain finns för att din träningshistorik är för personlig för att överlämnas till någon annans moln. Det är byggt för dem som vill ha finishen hos en modern träningsplattform utan att ge upp ägande, integritet eller kontroll.",
+    "c1t": "Du äger dina data",
+    "c1b": "Allt finns på infrastruktur som du driver. Exportera, säkerhetskopiera och flytta dem. Inga grindvakter, ingen leverantörsinlåsning, aldrig.",
+    "c2t": "Integritet inbyggd",
+    "c2b": "Integritetskontroller per aktivitet, MFA, SSO och e-postverifiering är inbyggda. Dela det du vill; behåll resten för dig själv.",
+    "c3t": "Verkligt öppen källkod",
+    "c3b": "Licensierad under AGPL-3.0 och utvecklad öppet på Codeberg. Läs varje rad, rapportera ett problem eller skicka in en pull request."
+  },
+  "status": {
+    "eyebrow": "Aktuell status",
+    "title": "En tillfällig funktionsfrysning, inte en paus",
+    "body": "Endurain har växt snabbt. För att hålla det friskt har fokus flyttats från att leverera nya funktioner till att stärka grunderna: tydligare modulgränser, mer förutsägbart bakgrundsarbete, bättre tester och säkrare releaser. Buggfixar, säkerhetspatchar, dokumentation och översättningar fortsätter som vanligt.",
+    "cta": "Läs tillkännagivandet",
+    "l1": "Säkerhets- och buggfixar",
+    "l2": "Refaktorering och tillförlitlighet",
+    "l3": "Dokumentation och översättningar",
+    "l4": "Tester och härdning av CI"
+  },
+  "features": {
+    "eyebrow": "Funktioner",
+    "title": "Allt du förväntar dig, hostat på ditt sätt",
+    "sub": "En komplett träningslogg med integrationerna och bekvämligheterna hos de stora plattformarna, men utan övervakningen.",
+    "f1t": "Aktivitetsspårning",
+    "f1b": "Rika aktivitetsflöden, kartor och vecko- och månadsstatistik för varje sport.",
+    "f2t": "Strava och Garmin",
+    "f2b": "Synka aktiviteter, utrustning och kroppssammansättning från Strava och Garmin Connect.",
+    "f3t": "Importera filer",
+    "f3b": "Ladda upp .gpx-, .tcx- och .fit-filer en i taget eller i bulk. .fit föredras.",
+    "f4t": "Utrustningsspårning",
+    "f4b": "Håll koll på cyklar, skor, våtdräkter, skidor och mer, ända ner till komponentslitage.",
+    "f5t": "Hälsomått",
+    "f5b": "Logga vikt, steg och sömn och följ trender på en särskild panel.",
+    "f6t": "Mål",
+    "f6b": "Sätt distans- eller tidsmål och följ framstegen vecka för vecka.",
+    "f7t": "Fleranvändare och följare",
+    "f7b": "Admin- och användarroller, följarflöden och offentliga profilsidor.",
+    "f8t": "MFA och SSO",
+    "f8b": "TOTP-multifaktorautentisering, OIDC/SAML enkel inloggning och e-postverifiering.",
+    "f9t": "Lokaliserad och med teman",
+    "f9b": "Flerspråkig, metriska eller imperiska enheter och en växlare för ljust/mörkt tema."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobil",
+    "title": "Din träning, i fickan",
+    "sub": "Endurain-appen spelar in löprundor, cykelturer, promenader och vandringar live på en karta och laddar upp dem direkt till din egen server. Den fungerar offline, synkar automatiskt när du är uppkopplad igen och loggar in dig med SSO och MFA.",
+    "apkTop": "Ladda ner",
+    "apkStrong": "Android-APK:n",
+    "comingSoon": "Kommer snart på",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Snart",
+    "soonTitle": "Kommer snart",
+    "hint": "Appen är under aktiv utveckling. Ladda ner den senaste Android-APK:n här på webbplatsen. Listningar på Google Play och App Store kommer senare."
+  },
+  "gallery": {
+    "eyebrow": "En närmare titt",
+    "title": "Utformad för att kännas enkel",
+    "sub": "Ett rent, modernt gränssnitt för aktiviteter, utrustning, hälsa och inställningar, i ljust eller mörkt, på dator och mobil.",
+    "alt1": "Aktivitetsdetaljsida med karta, delsträckor och mätvärden.",
+    "alt2": "Hälsopanel med vikt, steg och sömntrender.",
+    "alt3": "Utrustningslista som visar cyklar, skor och deras användning.",
+    "alt4": "Användarprofilsida med statistik och aktivitetshistorik.",
+    "alt5": "Inställningssida för mål för att definiera träningsmål."
+  },
+  "selfHost": {
+    "eyebrow": "Självhosta det",
+    "title": "Igång med Docker",
+    "sub": "Endurain levereras som en Docker-avbildning och konfigureras helt via miljövariabler. Ett komplett docker compose-exempel finns i förvaret. Starta stacken och öppna appen.",
+    "step1": "Kopiera exempelfilerna compose och env",
+    "step2": "Ange dina hemligheter och integrationsnycklar",
+    "ctaGuide": "Kom igång-guide",
+    "ctaDemo": "Prova demon först"
+  },
+  "community": {
+    "eyebrow": "Gemenskap och stöd",
+    "title": "Byggt öppet, tillsammans",
+    "sub": "Endurain utvecklas på Codeberg och formas av sin gemenskap. Häng med, ställ frågor, översätt eller hjälp till att finansiera arbetet.",
+    "codebergT": "Codeberg",
+    "codebergD": "Källkod, ärenden och pull requests.",
+    "docsT": "Dokumentation",
+    "docsD": "Guider för installation, konfiguration och utveckling.",
+    "discordT": "Discord",
+    "discordD": "Chatt, hjälp och tillkännagivanden.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Följ uppdateringar i fediversum.",
+    "translateT": "Översätt",
+    "translateD": "Hjälp till att lokalisera Endurain via Weblate."
+  },
+  "sponsor": {
+    "title": "Stöd projektet",
+    "body": "Sponsring håller Endurain oberoende och framåtdrivande."
+  },
+  "cta": {
+    "title": "Ta tillbaka kontrollen över dina träningsdata",
+    "body": "Prova livedemon och självhosta sedan din egen instans på minuter.",
+    "demo": "Prova livedemon",
+    "docs": "Läs dokumentationen"
+  },
+  "newsletter": {
+    "eyebrow": "Nyhetsbrev",
+    "title": "Håll dig uppdaterad",
+    "body": "Projektuppdateringar och release-nyheter, direkt i din inkorg. Ingen spam, avsluta när du vill.",
+    "emailLabel": "E-postadress",
+    "button": "Prenumerera",
+    "legal": "Drivs av"
+  },
+  "footer": {
+    "tag": "Självhostad träningsspårning som respekterar din integritet.",
+    "made": "Byggd med ♥ från Portugal",
+    "colProduct": "Produkt",
+    "colResources": "Resurser",
+    "colCommunity": "Gemenskap",
+    "liveDemo": "Livedemo",
+    "docs": "Dokumentation",
+    "gettingStarted": "Kom igång",
+    "roadmap": "Färdplan",
+    "blog": "Blogg",
+    "trademark": "Endurain® är ett varumärke som tillhör João Vitória Silva.",
+    "licensed": "Licensierad under",
+    "trademarkPolicy": "Varumärkespolicy",
+    "source": "Källkod"
+  }
+}

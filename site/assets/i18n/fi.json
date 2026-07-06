@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, itse isännöity kuntoilun seuranta, jota hallitset itse",
+    "description": "Endurain on itse isännöity, yksityisyyttä kunnioittava kuntoilun seurantapalvelu. Omista aktiviteettisi, varusteesi ja terveystietosi, Strava- ja Garmin-synkronoinnilla, .gpx/.tcx/.fit-tuonnilla ja Android-sovelluksella."
+  },
+  "a11y": {
+    "skip": "Siirry sisältöön",
+    "home": "Endurainin etusivu",
+    "langMenu": "Vaihda kieli",
+    "theme": "Vaihda tumma tila",
+    "codeberg": "Näytä lähdekoodi Codebergissä",
+    "menu": "Avaa valikko"
+  },
+  "nav": {
+    "mission": "Missio",
+    "features": "Ominaisuudet",
+    "mobile": "Mobiilisovellus",
+    "selfHost": "Itse isännöinti",
+    "community": "Yhteisö"
+  },
+  "hero": {
+    "status": "Ominaisuusjäädytys: perustan vahvistaminen",
+    "title1": "Seuraa jokaista liikettä",
+    "title2": "Omista jokainen hetki",
+    "lede": "Endurain on itse isännöity kuntoilun seurantapalvelu, yksityisyyttä kunnioittava koti aktiviteeteillesi, varusteillesi ja terveystiedoillesi. Ei lukkiutumista, ei tiedonlouhintaa. Vain harjoitushistoriasi, infrastruktuurilla, jota hallitset itse.",
+    "ctaDemo": "Kokeile live-demoa",
+    "ctaDocs": "Lue dokumentaatio",
+    "badge1": "AGPL-3.0-avoin lähdekoodi",
+    "badge2": "100% itse isännöity",
+    "badge3": "Strava- ja Garmin-synkronointi",
+    "imgAlt": "Endurainin hallintapaneeli, jossa näkyy aktiviteettisyöte kartalla näkyvine juoksuineen, vauhti- ja tehotietoineen sekä kuukausisummineen."
+  },
+  "strip": {
+    "k1": "Sinun tietosi",
+    "v1": "Sinun palvelimesi",
+    "v2": "Manuaalinen ja joukkotuonti",
+    "v3": "Synkronointi Endurainiin",
+    "v4": "Käytössä minuuteissa"
+  },
+  "mission": {
+    "eyebrow": "Missiomme",
+    "title": "Kuntoilutiedot kuuluvat urheilijalle",
+    "sub": "Endurain on olemassa, koska harjoitushistoriasi on liian henkilökohtaista uskottavaksi jonkun toisen pilveen. Se on tehty niille, jotka haluavat modernin kuntoilualustan viimeistelyn luopumatta omistajuudesta, yksityisyydestä tai hallinnasta.",
+    "c1t": "Sinä omistat tietosi",
+    "c1b": "Kaikki sijaitsee infrastruktuurilla, jota sinä ylläpidät. Vie ne, varmuuskopioi ne, siirrä ne. Ei portinvartijoita, ei toimittajalukkoa, ei koskaan.",
+    "c2t": "Yksityisyys suunnittelusta lähtien",
+    "c2b": "Aktiviteettikohtaiset yksityisyysasetukset, MFA, SSO ja sähköpostivahvistus ovat sisäänrakennettuja. Jaa mitä haluat; pidä loput itselläsi.",
+    "c3t": "Aidosti avointa lähdekoodia",
+    "c3b": "Lisensoitu AGPL-3.0:lla ja kehitetty avoimesti Codebergissä. Lue jokainen rivi, raportoi ongelma tai lähetä pull request."
+  },
+  "status": {
+    "eyebrow": "Nykytila",
+    "title": "Väliaikainen ominaisuusjäädytys, ei tauko",
+    "body": "Endurain on kasvanut nopeasti. Pysyäkseen terveenä painopiste on siirtynyt uusien ominaisuuksien toimittamisesta perustan vahvistamiseen: selkeämmät moduulirajat, ennustettavampi taustatyö, paremmat testit ja turvallisemmat julkaisut. Virheenkorjaukset, tietoturvapaikat, dokumentaatio ja käännökset jatkuvat tavalliseen tapaan.",
+    "cta": "Lue ilmoitus",
+    "l1": "Tietoturva- ja virhekorjaukset",
+    "l2": "Refaktoroinnit ja luotettavuus",
+    "l3": "Dokumentaatio ja käännökset",
+    "l4": "Testit ja CI:n vahvistaminen"
+  },
+  "features": {
+    "eyebrow": "Ominaisuudet",
+    "title": "Kaikki mitä odotat, isännöity omalla tavallasi",
+    "sub": "Täydellinen harjoituspäiväkirja suurten alustojen integraatioineen ja mukavuuksineen, mutta ilman valvontaa.",
+    "f1t": "Aktiviteettien seuranta",
+    "f1b": "Rikkaat aktiviteettisyötteet, kartat sekä viikko- ja kuukausitilastot jokaiselle lajille.",
+    "f2t": "Strava ja Garmin",
+    "f2b": "Synkronoi aktiviteetit, varusteet ja kehonkoostumus Stravasta ja Garmin Connectista.",
+    "f3t": "Tuo tiedostoja",
+    "f3b": "Lataa .gpx-, .tcx- ja .fit-tiedostoja yksitellen tai joukkona. .fit on suositeltu.",
+    "f4t": "Varusteiden seuranta",
+    "f4b": "Seuraa pyöriä, kenkiä, märkäpukuja, suksia ja muuta, aina osien kulumiseen asti.",
+    "f5t": "Terveysmittarit",
+    "f5b": "Kirjaa paino, askeleet ja uni ja seuraa trendejä erillisessä hallintapaneelissa.",
+    "f6t": "Tavoitteet",
+    "f6b": "Aseta matka- tai aikatavoitteita ja seuraa edistymistä viikko viikolta.",
+    "f7t": "Monikäyttäjä ja seuraajat",
+    "f7b": "Järjestelmänvalvojan ja käyttäjän roolit, seuraajasyötteet ja julkiset profiilisivut.",
+    "f8t": "MFA ja SSO",
+    "f8b": "TOTP-monivaiheinen todennus, OIDC/SAML-kertakirjautuminen ja sähköpostivahvistus.",
+    "f9t": "Lokalisoitu ja teemoitettu",
+    "f9b": "Monikielinen, metriset tai brittiläiset yksiköt ja vaalean/tumman teeman vaihto."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobiili",
+    "title": "Harjoituksesi taskussasi",
+    "sub": "Endurain-sovellus tallentaa juoksut, pyöräilyt, kävelyt ja vaellukset reaaliajassa kartalle ja lataa ne suoraan omalle palvelimellesi. Se toimii offline-tilassa, synkronoituu automaattisesti, kun yhteys palaa, ja kirjaa sinut sisään SSO:lla ja MFA:lla.",
+    "apkTop": "Lataa",
+    "apkStrong": "Android-APK",
+    "comingSoon": "Pian saatavilla",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Pian",
+    "soonTitle": "Tulossa pian",
+    "hint": "Sovellus on aktiivisessa kehityksessä. Lataa uusin Android-APK suoraan täältä sivustolta. Google Play- ja App Store -listaukset seuraavat myöhemmin."
+  },
+  "gallery": {
+    "eyebrow": "Lähempi katsaus",
+    "title": "Suunniteltu tuntumaan vaivattomalta",
+    "sub": "Selkeä, moderni käyttöliittymä aktiviteeteille, varusteille, terveydelle ja asetuksille, vaaleana tai tummana, työpöydällä ja mobiilissa.",
+    "alt1": "Aktiviteetin tietosivu kartalla, väliajoilla ja mittareilla.",
+    "alt2": "Terveyden hallintapaneeli painolla, askeleilla ja unitrendeillä.",
+    "alt3": "Varusteluettelo, jossa näkyvät pyörät, kengät ja niiden käyttö.",
+    "alt4": "Käyttäjän profiilisivu tilastoilla ja aktiviteettihistorialla.",
+    "alt5": "Tavoitteiden asetussivu harjoitustavoitteiden määrittämiseen."
+  },
+  "selfHost": {
+    "eyebrow": "Isännöi se itse",
+    "title": "Käyntiin Dockerilla",
+    "sub": "Endurain toimitetaan Docker-levykuvana ja määritetään kokonaan ympäristömuuttujilla. Täydellinen docker compose -esimerkki on tietovarastossa. Käynnistä pino ja avaa sovellus.",
+    "step1": "Kopioi esimerkkitiedostot compose ja env",
+    "step2": "Aseta salaisuutesi ja integraatioavaimesi",
+    "ctaGuide": "Aloitusopas",
+    "ctaDemo": "Kokeile ensin demoa"
+  },
+  "community": {
+    "eyebrow": "Yhteisö ja tuki",
+    "title": "Rakennettu avoimesti, yhdessä",
+    "sub": "Endurainia kehitetään Codebergissä ja sen muovaa yhteisö. Liity mukaan, kysy, käännä tai auta rahoittamaan työtä.",
+    "codebergT": "Codeberg",
+    "codebergD": "Lähdekoodi, ongelmat ja pull requestit.",
+    "docsT": "Dokumentaatio",
+    "docsD": "Oppaat asennukseen, määritykseen ja kehitykseen.",
+    "discordT": "Discord",
+    "discordD": "Keskustelu, apu ja ilmoitukset.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Seuraa päivityksiä fediversessä.",
+    "translateT": "Käännä",
+    "translateD": "Auta lokalisoimaan Endurain Weblaten kautta."
+  },
+  "sponsor": {
+    "title": "Tue projektia",
+    "body": "Sponsoroinnit pitävät Endurainin riippumattomana ja liikkeessä."
+  },
+  "cta": {
+    "title": "Ota kuntoilutietosi hallinta takaisin",
+    "body": "Kokeile live-demoa ja isännöi sitten oma instanssisi minuuteissa.",
+    "demo": "Kokeile live-demoa",
+    "docs": "Lue dokumentaatio"
+  },
+  "newsletter": {
+    "eyebrow": "Uutiskirje",
+    "title": "Pysy ajan tasalla",
+    "body": "Projektin päivitykset ja julkaisu-uutiset suoraan postilaatikkoosi. Ei roskapostia, voit perua milloin tahansa.",
+    "emailLabel": "Sähköpostiosoite",
+    "button": "Tilaa",
+    "legal": "Palvelun tarjoaa"
+  },
+  "footer": {
+    "tag": "Itse isännöity kuntoilun seuranta, joka kunnioittaa yksityisyyttäsi.",
+    "made": "Tehty ♥:lla Portugalista",
+    "colProduct": "Tuote",
+    "colResources": "Resurssit",
+    "colCommunity": "Yhteisö",
+    "liveDemo": "Live-demo",
+    "docs": "Dokumentaatio",
+    "gettingStarted": "Aloittaminen",
+    "roadmap": "Tiekartta",
+    "blog": "Blogi",
+    "trademark": "Endurain® on João Vitória Silvan tavaramerkki.",
+    "licensed": "Lisensoitu lisenssillä",
+    "trademarkPolicy": "Tavaramerkkikäytäntö",
+    "source": "Lähdekoodi"
+  }
+}

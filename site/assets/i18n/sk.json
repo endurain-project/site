@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, samostatne hostovaný sledovač kondície, ktorý ovládate",
+    "description": "Endurain je samostatne hostovaná služba na sledovanie kondície zameraná na súkromie. Vlastnite svoje aktivity, výbavu a zdravotné údaje, so synchronizáciou Strava a Garmin, importom .gpx/.tcx/.fit a aplikáciou pre Android."
+  },
+  "a11y": {
+    "skip": "Preskočiť na obsah",
+    "home": "Úvodná stránka Endurain",
+    "langMenu": "Zmeniť jazyk",
+    "theme": "Prepnúť tmavý režim",
+    "codeberg": "Zobraziť zdrojový kód na Codebergu",
+    "menu": "Otvoriť ponuku"
+  },
+  "nav": {
+    "mission": "Poslanie",
+    "features": "Funkcie",
+    "mobile": "Mobilná aplikácia",
+    "selfHost": "Vlastný hosting",
+    "community": "Komunita"
+  },
+  "hero": {
+    "status": "Zmrazenie funkcií: posilnenie základov",
+    "title1": "Sleduj každý pohyb",
+    "title2": "Vlastni každý okamih",
+    "lede": "Endurain je samostatne hostovaná služba na sledovanie kondície, domov zameraný na súkromie pre vaše aktivity, výbavu a zdravotné údaje. Žiadne uzamknutie, žiadne ťaženie dát. Len vaša tréningová história, na infraštruktúre, ktorú ovládate.",
+    "ctaDemo": "Vyskúšať živé demo",
+    "ctaDocs": "Prečítať dokumentáciu",
+    "badge1": "Otvorený zdroj AGPL-3.0",
+    "badge2": "100% samostatne hostované",
+    "badge3": "Synchronizácia Strava a Garmin",
+    "imgAlt": "Panel Endurain zobrazujúci kanál aktivít s behom na mape, údajmi o tempe a výkone a mesačnými súčtami."
+  },
+  "strip": {
+    "k1": "Vaše dáta",
+    "v1": "Váš server",
+    "v2": "Ručný a hromadný import",
+    "v3": "Synchronizácia do Endurainu",
+    "v4": "Pripravené za pár minút"
+  },
+  "mission": {
+    "eyebrow": "Naše poslanie",
+    "title": "Údaje o kondícii patria športovcovi",
+    "sub": "Endurain existuje, pretože vaša tréningová história je príliš osobná na to, aby ste ju zverovali cudziemu cloudu. Je vytvorený pre tých, ktorí chcú eleganciu modernej športovej platformy bez toho, aby sa vzdali vlastníctva, súkromia alebo kontroly.",
+    "c1t": "Vaše dáta patria vám",
+    "c1b": "Všetko je na infraštruktúre, ktorú prevádzkujete. Exportujte ich, zálohujte, presuňte. Žiadni strážcovia brán, žiadne uzamknutie dodávateľom, nikdy.",
+    "c2t": "Súkromie od základu",
+    "c2b": "Nastavenia súkromia pri každej aktivite, MFA, SSO a overenie e-mailom sú zabudované. Zdieľajte, čo chcete; zvyšok si nechajte pre seba.",
+    "c3t": "Skutočne otvorený zdroj",
+    "c3b": "Licencované pod AGPL-3.0 a vyvíjané otvorene na Codebergu. Prečítajte si každý riadok, nahláste problém alebo pošlite pull request."
+  },
+  "status": {
+    "eyebrow": "Aktuálny stav",
+    "title": "Dočasné zmrazenie funkcií, nie prestávka",
+    "body": "Endurain rýchlo rástol. Aby zostal zdravý, zameranie sa presunulo od dodávania nových funkcií k posilňovaniu základov: jasnejšie hranice modulov, predvídateľnejšia práca na pozadí, lepšie testy a bezpečnejšie vydania. Opravy chýb, bezpečnostné záplaty, dokumentácia a preklady pokračujú ako zvyčajne.",
+    "cta": "Prečítať oznámenie",
+    "l1": "Opravy zabezpečenia a chýb",
+    "l2": "Refaktoringy a spoľahlivosť",
+    "l3": "Dokumentácia a preklady",
+    "l4": "Testy a spevnenie CI"
+  },
+  "features": {
+    "eyebrow": "Funkcie",
+    "title": "Všetko, čo očakávate, hostované po vašom",
+    "sub": "Kompletný tréningový denník s integráciami a vymoženosťami veľkých platforiem, ale bez sledovania.",
+    "f1t": "Sledovanie aktivít",
+    "f1b": "Bohaté kanály aktivít, mapy a týždenné a mesačné štatistiky pre každý šport.",
+    "f2t": "Strava a Garmin",
+    "f2b": "Synchronizujte aktivity, výbavu a zloženie tela zo Stravy a Garmin Connect.",
+    "f3t": "Import súborov",
+    "f3b": "Nahrávajte súbory .gpx, .tcx a .fit jednotlivo alebo hromadne. Preferovaný je .fit.",
+    "f4t": "Sledovanie výbavy",
+    "f4b": "Sledujte bicykle, topánky, neoprény, lyže a ďalšie, až po opotrebenie súčastí.",
+    "f5t": "Zdravotné metriky",
+    "f5b": "Zaznamenávajte hmotnosť, kroky a spánok a sledujte trendy na vyhradenom paneli.",
+    "f6t": "Ciele",
+    "f6b": "Nastavte ciele vzdialenosti alebo času a sledujte pokrok týždeň po týždni.",
+    "f7t": "Viacero používateľov a sledovatelia",
+    "f7b": "Role administrátora a používateľa, kanály sledovateľov a verejné profilové stránky.",
+    "f8t": "MFA a SSO",
+    "f8b": "Viacfaktorové overenie TOTP, jednotné prihlásenie OIDC/SAML a overenie e-mailom.",
+    "f9t": "Lokalizované a s motívmi",
+    "f9b": "Viacjazyčné, metrické alebo imperiálne jednotky a prepínač svetlého a tmavého motívu."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobilne",
+    "title": "Váš tréning vo vrecku",
+    "sub": "Aplikácia Endurain zaznamenáva behy, jazdy na bicykli, prechádzky a túry naživo na mape a nahráva ich priamo na váš vlastný server. Funguje offline, automaticky sa synchronizuje, keď ste znova online, a prihlási vás cez SSO a MFA.",
+    "apkTop": "Stiahnuť",
+    "apkStrong": "APK pre Android",
+    "comingSoon": "Čoskoro na",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Čoskoro",
+    "soonTitle": "Už čoskoro",
+    "hint": "Aplikácia sa aktívne vyvíja. Stiahnite si najnovšie APK pre Android priamo tu na stránke. Záznamy v Google Play a App Store budú nasledovať."
+  },
+  "gallery": {
+    "eyebrow": "Bližší pohľad",
+    "title": "Navrhnuté tak, aby pôsobilo bez námahy",
+    "sub": "Čisté, moderné rozhranie pre aktivity, výbavu, zdravie a nastavenia, v svetlom alebo tmavom, na počítači aj mobile.",
+    "alt1": "Stránka podrobností aktivity s mapou, medzičasmi a metrikami.",
+    "alt2": "Zdravotný panel s hmotnosťou, krokmi a trendmi spánku.",
+    "alt3": "Zoznam výbavy zobrazujúci bicykle, topánky a ich využitie.",
+    "alt4": "Stránka profilu používateľa so štatistikami a históriou aktivít.",
+    "alt5": "Stránka nastavení cieľov na definovanie tréningových cieľov."
+  },
+  "selfHost": {
+    "eyebrow": "Hostujte si to sami",
+    "title": "Sprevádzkované s Dockerom",
+    "sub": "Endurain sa dodáva ako obraz Docker a konfiguruje sa výhradne cez premenné prostredia. Kompletný príklad docker compose je v repozitári. Spustite stack a otvorte aplikáciu.",
+    "step1": "Skopírujte ukážkové súbory compose a env",
+    "step2": "Nastavte svoje tajomstvá a integračné kľúče",
+    "ctaGuide": "Sprievodca pre začiatok",
+    "ctaDemo": "Najprv vyskúšať demo"
+  },
+  "community": {
+    "eyebrow": "Komunita a podpora",
+    "title": "Budované otvorene, spoločne",
+    "sub": "Endurain sa vyvíja na Codebergu a formuje ho jeho komunita. Zapojte sa, pýtajte sa, prekladajte alebo pomôžte financovať prácu.",
+    "codebergT": "Codeberg",
+    "codebergD": "Zdrojový kód, problémy a pull requesty.",
+    "docsT": "Dokumentácia",
+    "docsD": "Návody na inštaláciu, konfiguráciu a vývoj.",
+    "discordT": "Discord",
+    "discordD": "Chat, pomoc a oznámenia.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Sledujte novinky vo fediverse.",
+    "translateT": "Preložiť",
+    "translateD": "Pomôžte lokalizovať Endurain cez Weblate."
+  },
+  "sponsor": {
+    "title": "Podporte projekt",
+    "body": "Sponzorstvo udržuje Endurain nezávislý a v pohybe."
+  },
+  "cta": {
+    "title": "Získajte späť kontrolu nad údajmi o svojej kondícii",
+    "body": "Vyskúšajte živé demo a potom si za pár minút sprevádzkujte vlastnú inštanciu.",
+    "demo": "Vyskúšať živé demo",
+    "docs": "Prečítať dokumentáciu"
+  },
+  "newsletter": {
+    "eyebrow": "Newsletter",
+    "title": "Zostaňte v obraze",
+    "body": "Novinky o projekte a vydaniach priamo do vašej schránky. Žiadny spam, kedykoľvek sa môžete odhlásiť.",
+    "emailLabel": "E-mailová adresa",
+    "button": "Odoberať",
+    "legal": "Beží na"
+  },
+  "footer": {
+    "tag": "Samostatne hostované sledovanie kondície, ktoré rešpektuje vaše súkromie.",
+    "made": "Vytvorené s ♥ z Portugalska",
+    "colProduct": "Produkt",
+    "colResources": "Zdroje",
+    "colCommunity": "Komunita",
+    "liveDemo": "Živé demo",
+    "docs": "Dokumentácia",
+    "gettingStarted": "Začíname",
+    "roadmap": "Plán rozvoja",
+    "blog": "Blog",
+    "trademark": "Endurain® je ochranná známka João Vitórii Silvy.",
+    "licensed": "Licencované pod",
+    "trademarkPolicy": "Zásady ochrannej známky",
+    "source": "Zdrojový kód"
+  }
+}

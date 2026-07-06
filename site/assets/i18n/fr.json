@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, le suivi sportif auto-hébergé que vous contrôlez",
+    "description": "Endurain est un service de suivi sportif auto-hébergé et respectueux de la vie privée. Gardez la maîtrise de vos activités, de votre équipement et de vos données de santé, avec la synchronisation Strava et Garmin, l'import .gpx/.tcx/.fit et une application Android."
+  },
+  "a11y": {
+    "skip": "Aller au contenu",
+    "home": "Accueil Endurain",
+    "langMenu": "Changer de langue",
+    "theme": "Basculer le mode sombre",
+    "codeberg": "Voir le code source sur Codeberg",
+    "menu": "Ouvrir le menu"
+  },
+  "nav": {
+    "mission": "Mission",
+    "features": "Fonctionnalités",
+    "mobile": "Application mobile",
+    "selfHost": "Auto-hébergement",
+    "community": "Communauté"
+  },
+  "hero": {
+    "status": "Gel des fonctionnalités : renforcer les fondations",
+    "title1": "Suivez chaque mouvement",
+    "title2": "Vivez chaque instant",
+    "lede": "Endurain est un service de suivi sportif auto-hébergé, un foyer respectueux de la vie privée pour vos activités, votre équipement et vos données de santé. Aucun verrouillage, aucune exploitation de données. Juste votre historique d'entraînement, sur une infrastructure que vous contrôlez.",
+    "ctaDemo": "Essayer la démo en ligne",
+    "ctaDocs": "Lire la documentation",
+    "badge1": "Open source AGPL-3.0",
+    "badge2": "100% auto-hébergé",
+    "badge3": "Synchronisation Strava et Garmin",
+    "imgAlt": "Le tableau de bord Endurain affichant un fil d'activités avec une course cartographiée, des données d'allure et de puissance, et des totaux mensuels."
+  },
+  "strip": {
+    "k1": "Vos données",
+    "v1": "Votre serveur",
+    "v2": "Import manuel et groupé",
+    "v3": "Synchronisation vers Endurain",
+    "v4": "Déployé en quelques minutes"
+  },
+  "mission": {
+    "eyebrow": "Notre mission",
+    "title": "Les données sportives appartiennent à l'athlète",
+    "sub": "Endurain existe parce que votre historique d'entraînement est trop personnel pour être confié au cloud de quelqu'un d'autre. Il est conçu pour celles et ceux qui veulent la finition d'une plateforme sportive moderne sans renoncer à la propriété, à la vie privée ou au contrôle.",
+    "c1t": "Vos données vous appartiennent",
+    "c1b": "Tout réside sur une infrastructure que vous gérez. Exportez-les, sauvegardez-les, déplacez-les. Aucun gardien, aucun verrouillage fournisseur, jamais.",
+    "c2t": "Confidentialité dès la conception",
+    "c2b": "Des contrôles de confidentialité par activité, la MFA, le SSO et la vérification par e-mail sont intégrés. Partagez ce que vous voulez ; gardez le reste pour vous.",
+    "c3t": "Véritablement open source",
+    "c3b": "Sous licence AGPL-3.0 et développé au grand jour sur Codeberg. Lisez chaque ligne, signalez un problème ou proposez une pull request."
+  },
+  "status": {
+    "eyebrow": "État actuel",
+    "title": "Un gel temporaire des fonctionnalités, pas une pause",
+    "body": "Endurain a grandi vite. Pour rester sain, l'attention est passée de la livraison de nouvelles fonctionnalités au renforcement des fondations : des frontières de modules plus claires, des tâches en arrière-plan plus prévisibles, de meilleurs tests et des versions plus sûres. Les corrections de bugs, les correctifs de sécurité, la documentation et les traductions se poursuivent comme d'habitude.",
+    "cta": "Lire l'annonce",
+    "l1": "Corrections de sécurité et de bugs",
+    "l2": "Refactorisations et fiabilité",
+    "l3": "Documentation et traductions",
+    "l4": "Tests et renforcement de la CI"
+  },
+  "features": {
+    "eyebrow": "Fonctionnalités",
+    "title": "Tout ce que vous attendez, hébergé à votre façon",
+    "sub": "Un journal d'entraînement complet avec les intégrations et le confort des grandes plateformes, sans la surveillance.",
+    "f1t": "Suivi d'activités",
+    "f1b": "Des fils d'activités riches, des cartes et des statistiques hebdomadaires et mensuelles pour chaque sport.",
+    "f2t": "Strava et Garmin",
+    "f2b": "Synchronisez activités, équipement et composition corporelle depuis Strava et Garmin Connect.",
+    "f3t": "Importer des fichiers",
+    "f3b": "Importez des fichiers .gpx, .tcx et .fit un par un ou en lot. Le .fit est privilégié.",
+    "f4t": "Suivi de l'équipement",
+    "f4b": "Suivez vélos, chaussures, combinaisons, skis et plus encore, jusqu'à l'usure des composants.",
+    "f5t": "Données de santé",
+    "f5b": "Enregistrez poids, pas et sommeil, et suivez les tendances sur un tableau de bord dédié.",
+    "f6t": "Objectifs",
+    "f6b": "Définissez des objectifs de distance ou de temps et suivez vos progrès semaine après semaine.",
+    "f7t": "Multi-utilisateur et abonnés",
+    "f7b": "Rôles administrateur et utilisateur, fils d'abonnés et pages de profil publiques.",
+    "f8t": "MFA et SSO",
+    "f8b": "Authentification multifacteur TOTP, authentification unique OIDC/SAML et vérification par e-mail.",
+    "f9t": "Localisé et thématisé",
+    "f9b": "Multilingue, unités métriques ou impériales, et un sélecteur de thème clair et sombre."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobile",
+    "title": "Votre entraînement, dans votre poche",
+    "sub": "L'application Endurain enregistre vos courses, sorties à vélo, marches et randonnées en direct sur une carte et les envoie directement vers votre propre serveur. Elle fonctionne hors ligne, se synchronise automatiquement dès que vous êtes reconnecté et vous connecte via SSO et MFA.",
+    "apkTop": "Télécharger l'",
+    "apkStrong": "APK Android",
+    "comingSoon": "Bientôt sur",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Bientôt",
+    "soonTitle": "Bientôt disponible",
+    "hint": "L'application est en développement actif. Téléchargez la dernière APK Android directement ici sur le site. Les fiches Google Play et App Store suivront."
+  },
+  "gallery": {
+    "eyebrow": "Regardez de plus près",
+    "title": "Conçu pour être fluide",
+    "sub": "Une interface claire et moderne pour les activités, l'équipement, la santé et les réglages, en clair ou en sombre, sur ordinateur et mobile.",
+    "alt1": "Page de détail d'activité avec carte, temps intermédiaires et mesures.",
+    "alt2": "Tableau de bord de santé avec poids, pas et tendances de sommeil.",
+    "alt3": "Liste d'équipement montrant vélos, chaussures et leur utilisation.",
+    "alt4": "Page de profil utilisateur avec statistiques et historique d'activités.",
+    "alt5": "Page de réglages des objectifs pour définir des cibles d'entraînement."
+  },
+  "selfHost": {
+    "eyebrow": "Auto-hébergez-le",
+    "title": "Opérationnel avec Docker",
+    "sub": "Endurain est livré sous forme d'image Docker et se configure entièrement via des variables d'environnement. Un exemple docker compose complet se trouve dans le dépôt. Lancez la stack et ouvrez l'application.",
+    "step1": "Copiez les fichiers compose et env d'exemple",
+    "step2": "Définissez vos secrets et clés d'intégration",
+    "ctaGuide": "Guide de démarrage",
+    "ctaDemo": "Essayer d'abord la démo"
+  },
+  "community": {
+    "eyebrow": "Communauté et soutien",
+    "title": "Construit au grand jour, ensemble",
+    "sub": "Endurain est développé sur Codeberg et façonné par sa communauté. Participez, posez des questions, traduisez ou aidez à financer le travail.",
+    "codebergT": "Codeberg",
+    "codebergD": "Code source, tickets et pull requests.",
+    "docsT": "Documentation",
+    "docsD": "Guides d'installation, de configuration et de développement.",
+    "discordT": "Discord",
+    "discordD": "Discussion, aide et annonces.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Suivez les actualités dans le fédivers.",
+    "translateT": "Traduire",
+    "translateD": "Aidez à localiser Endurain via Weblate."
+  },
+  "sponsor": {
+    "title": "Soutenir le projet",
+    "body": "Le parrainage garde Endurain indépendant et le fait avancer."
+  },
+  "cta": {
+    "title": "Reprenez le contrôle de vos données sportives",
+    "body": "Essayez la démo en ligne, puis auto-hébergez votre propre instance en quelques minutes.",
+    "demo": "Essayer la démo en ligne",
+    "docs": "Lire la documentation"
+  },
+  "newsletter": {
+    "eyebrow": "Newsletter",
+    "title": "Restez informé",
+    "body": "Mises à jour du projet et nouveautés des versions, directement dans votre boîte mail. Pas de spam, désabonnement à tout moment.",
+    "emailLabel": "Adresse e-mail",
+    "button": "S'abonner",
+    "legal": "Propulsé par"
+  },
+  "footer": {
+    "tag": "Le suivi sportif auto-hébergé qui respecte votre vie privée.",
+    "made": "Créé avec ♥ au Portugal",
+    "colProduct": "Produit",
+    "colResources": "Ressources",
+    "colCommunity": "Communauté",
+    "liveDemo": "Démo en ligne",
+    "docs": "Documentation",
+    "gettingStarted": "Premiers pas",
+    "roadmap": "Feuille de route",
+    "blog": "Blog",
+    "trademark": "Endurain® est une marque de João Vitória Silva.",
+    "licensed": "Sous licence",
+    "trademarkPolicy": "Politique de marque",
+    "source": "Code source"
+  }
+}

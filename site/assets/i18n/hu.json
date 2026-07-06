@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, önállóan üzemeltetett edzéskövetés, amelyet te irányítasz",
+    "description": "Az Endurain egy önállóan üzemeltetett, adatvédelmet előtérbe helyező edzéskövető szolgáltatás. Birtokold a tevékenységeidet, a felszerelésedet és az egészségügyi adataidat, Strava- és Garmin-szinkronizálással, .gpx/.tcx/.fit-importtal és egy Android-alkalmazással."
+  },
+  "a11y": {
+    "skip": "Ugrás a tartalomra",
+    "home": "Endurain kezdőlap",
+    "langMenu": "Nyelv váltása",
+    "theme": "Sötét mód váltása",
+    "codeberg": "Forráskód megtekintése a Codebergen",
+    "menu": "Menü megnyitása"
+  },
+  "nav": {
+    "mission": "Küldetés",
+    "features": "Funkciók",
+    "mobile": "Mobilalkalmazás",
+    "selfHost": "Önálló üzemeltetés",
+    "community": "Közösség"
+  },
+  "hero": {
+    "status": "Funkcióbefagyasztás: az alapok megerősítése",
+    "title1": "Kövess minden mozdulatot",
+    "title2": "Birtokold minden pillanatod",
+    "lede": "Az Endurain egy önállóan üzemeltetett edzéskövető szolgáltatás, adatvédelmet előtérbe helyező otthon a tevékenységeid, a felszerelésed és az egészségügyi adataid számára. Nincs bezártság, nincs adatbányászat. Csak az edzéselőzményeid, egy általad irányított infrastruktúrán.",
+    "ctaDemo": "Élő demó kipróbálása",
+    "ctaDocs": "Dokumentáció elolvasása",
+    "badge1": "AGPL-3.0 nyílt forráskód",
+    "badge2": "100% önállóan üzemeltetett",
+    "badge3": "Strava- és Garmin-szinkronizálás",
+    "imgAlt": "Az Endurain irányítópultja egy tevékenységfolyammal, egy térképen megjelenített futással, tempó- és teljesítményadatokkal, valamint havi összesítésekkel."
+  },
+  "strip": {
+    "k1": "A te adataid",
+    "v1": "A te szervered",
+    "v2": "Kézi és tömeges import",
+    "v3": "Szinkronizálás az Endurainbe",
+    "v4": "Percek alatt üzemkész"
+  },
+  "mission": {
+    "eyebrow": "Küldetésünk",
+    "title": "Az edzésadatok a sportolóé",
+    "sub": "Az Endurain azért létezik, mert az edzéselőzményeid túl személyesek ahhoz, hogy másvalaki felhőjére bízd. Azoknak készült, akik egy modern edzésplatform kidolgozottságát szeretnék, anélkül hogy lemondanának a tulajdonjogról, az adatvédelemről vagy az irányításról.",
+    "c1t": "Az adataid a tiéid",
+    "c1b": "Minden egy általad üzemeltetett infrastruktúrán található. Exportáld, készíts biztonsági mentést, helyezd át. Nincsenek kapuőrök, nincs gyártói bezártság, soha.",
+    "c2t": "Beépített adatvédelem",
+    "c2b": "Tevékenységenkénti adatvédelmi beállítások, MFA, SSO és e-mailes megerősítés beépítve. Oszd meg, amit szeretnél; a többit tartsd meg magadnak.",
+    "c3t": "Valóban nyílt forráskódú",
+    "c3b": "AGPL-3.0 licenc alatt, nyíltan fejlesztve a Codebergen. Olvass el minden sort, jelents hibát, vagy küldj pull requestet."
+  },
+  "status": {
+    "eyebrow": "Jelenlegi állapot",
+    "title": "Átmeneti funkcióbefagyasztás, nem szünet",
+    "body": "Az Endurain gyorsan nőtt. Hogy egészséges maradjon, a hangsúly az új funkciók szállításáról az alapok megerősítésére helyeződött: tisztább modulhatárok, kiszámíthatóbb háttérmunka, jobb tesztek és biztonságosabb kiadások. A hibajavítások, a biztonsági javítások, a dokumentáció és a fordítások a szokásos módon folytatódnak.",
+    "cta": "Bejelentés elolvasása",
+    "l1": "Biztonsági és hibajavítások",
+    "l2": "Refaktorálások és megbízhatóság",
+    "l3": "Dokumentáció és fordítások",
+    "l4": "Tesztek és a CI megerősítése"
+  },
+  "features": {
+    "eyebrow": "Funkciók",
+    "title": "Minden, amit elvársz, a te módodon üzemeltetve",
+    "sub": "Teljes edzésnapló a nagy platformok integrációival és kényelmi funkcióival, de a megfigyelés nélkül.",
+    "f1t": "Tevékenységkövetés",
+    "f1b": "Gazdag tevékenységfolyamok, térképek, valamint heti és havi statisztikák minden sportághoz.",
+    "f2t": "Strava és Garmin",
+    "f2b": "Szinkronizáld a tevékenységeket, a felszerelést és a testösszetételt a Strava és a Garmin Connect szolgáltatásból.",
+    "f3t": "Fájlok importálása",
+    "f3b": "Tölts fel .gpx-, .tcx- és .fit-fájlokat egyesével vagy tömegesen. A .fit az előnyben részesített.",
+    "f4t": "Felszereléskövetés",
+    "f4b": "Kövesd a kerékpárokat, cipőket, búvárruhákat, síléceket és többet, egészen az alkatrészek kopásáig.",
+    "f5t": "Egészségügyi mutatók",
+    "f5b": "Rögzítsd a testsúlyt, a lépéseket és az alvást, és kövesd a trendeket egy dedikált irányítópulton.",
+    "f6t": "Célok",
+    "f6b": "Határozz meg távolság- vagy időcélokat, és kövesd a haladást hétről hétre.",
+    "f7t": "Több felhasználó és követők",
+    "f7b": "Rendszergazda- és felhasználói szerepkörök, követői folyamok és nyilvános profiloldalak.",
+    "f8t": "MFA és SSO",
+    "f8b": "TOTP többfaktoros hitelesítés, OIDC/SAML egyszeri bejelentkezés és e-mailes megerősítés.",
+    "f9t": "Lokalizált és témázható",
+    "f9b": "Többnyelvű, metrikus vagy angolszász mértékegységek, valamint világos/sötét témaváltó."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobil",
+    "title": "Az edzésed a zsebedben",
+    "sub": "Az Endurain alkalmazás valós időben rögzíti a futásokat, kerékpártúrákat, sétákat és túrákat egy térképen, és közvetlenül a saját szerveredre tölti fel őket. Offline is működik, automatikusan szinkronizál, amint újra online vagy, és SSO-val és MFA-val léptet be.",
+    "apkTop": "Töltsd le az",
+    "apkStrong": "Android APK-t",
+    "comingSoon": "Hamarosan a",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Hamarosan",
+    "soonTitle": "Hamarosan elérhető",
+    "hint": "Az alkalmazás aktív fejlesztés alatt áll. Töltsd le a legújabb Android APK-t itt, a webhelyen. A Google Play- és App Store-megjelenések később következnek."
+  },
+  "gallery": {
+    "eyebrow": "Közelebbről",
+    "title": "Úgy tervezve, hogy könnyed legyen",
+    "sub": "Letisztult, modern felület a tevékenységekhez, a felszereléshez, az egészséghez és a beállításokhoz, világos vagy sötét módban, asztali gépen és mobilon.",
+    "alt1": "Tevékenység részletező oldala térképpel, részidőkkel és mutatókkal.",
+    "alt2": "Egészségügyi irányítópult testsúllyal, lépésekkel és alvási trendekkel.",
+    "alt3": "Felszereléslista, amely kerékpárokat, cipőket és azok használatát mutatja.",
+    "alt4": "Felhasználói profiloldal statisztikákkal és tevékenységelőzményekkel.",
+    "alt5": "Célok beállítási oldala az edzéscélok meghatározásához."
+  },
+  "selfHost": {
+    "eyebrow": "Üzemeltesd magad",
+    "title": "Beüzemelés Dockerrel",
+    "sub": "Az Endurain Docker-képként érkezik, és teljes egészében környezeti változókon keresztül konfigurálható. Egy teljes docker compose példa a tárolóban található. Indítsd el a stacket, és nyisd meg az alkalmazást.",
+    "step1": "Másold le a példa compose- és env-fájlokat",
+    "step2": "Add meg a titkaidat és az integrációs kulcsaidat",
+    "ctaGuide": "Első lépések útmutató",
+    "ctaDemo": "Előbb próbáld ki a demót"
+  },
+  "community": {
+    "eyebrow": "Közösség és támogatás",
+    "title": "Nyíltan építve, együtt",
+    "sub": "Az Enduraint a Codebergen fejlesztik, és a közössége formálja. Csatlakozz, tegyél fel kérdéseket, fordíts, vagy segíts a munka finanszírozásában.",
+    "codebergT": "Codeberg",
+    "codebergD": "Forráskód, hibajegyek és pull requestek.",
+    "docsT": "Dokumentáció",
+    "docsD": "Útmutatók a telepítéshez, konfiguráláshoz és fejlesztéshez.",
+    "discordT": "Discord",
+    "discordD": "Csevegés, segítség és bejelentések.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Kövesd a híreket a fediverzumban.",
+    "translateT": "Fordítás",
+    "translateD": "Segíts az Endurain lokalizálásában a Weblate segítségével."
+  },
+  "sponsor": {
+    "title": "Támogasd a projektet",
+    "body": "A támogatások függetlenül és lendületben tartják az Enduraint."
+  },
+  "cta": {
+    "title": "Szerezd vissza az irányítást az edzésadataid felett",
+    "body": "Próbáld ki az élő demót, majd percek alatt üzemeltesd a saját példányodat.",
+    "demo": "Élő demó kipróbálása",
+    "docs": "Dokumentáció elolvasása"
+  },
+  "newsletter": {
+    "eyebrow": "Hírlevél",
+    "title": "Maradj naprakész",
+    "body": "Projektfrissítések és kiadási hírek egyenesen a postaládádba. Nincs spam, bármikor leiratkozhatsz.",
+    "emailLabel": "E-mail-cím",
+    "button": "Feliratkozás",
+    "legal": "Üzemelteti:"
+  },
+  "footer": {
+    "tag": "Önállóan üzemeltetett edzéskövetés, amely tiszteletben tartja a magánéletedet.",
+    "made": "Készült ♥-lel Portugáliából",
+    "colProduct": "Termék",
+    "colResources": "Erőforrások",
+    "colCommunity": "Közösség",
+    "liveDemo": "Élő demó",
+    "docs": "Dokumentáció",
+    "gettingStarted": "Első lépések",
+    "roadmap": "Ütemterv",
+    "blog": "Blog",
+    "trademark": "Az Endurain® João Vitória Silva védjegye.",
+    "licensed": "Licencelve a következő alatt:",
+    "trademarkPolicy": "Védjegyszabályzat",
+    "source": "Forráskód"
+  }
+}

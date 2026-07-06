@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, selvhostet treningssporing som du styrer",
+    "description": "Endurain er en selvhostet, personvernvennlig tjeneste for treningssporing. Eie aktivitetene dine, utstyret ditt og helsedataene dine, med Strava- og Garmin-synkronisering, .gpx/.tcx/.fit-import og en Android-app."
+  },
+  "a11y": {
+    "skip": "Hopp til innhold",
+    "home": "Endurain startside",
+    "langMenu": "Bytt språk",
+    "theme": "Veksle mørk modus",
+    "codeberg": "Se kildekoden på Codeberg",
+    "menu": "Åpne meny"
+  },
+  "nav": {
+    "mission": "Formål",
+    "features": "Funksjoner",
+    "mobile": "Mobilapp",
+    "selfHost": "Selvhosting",
+    "community": "Fellesskap"
+  },
+  "hero": {
+    "status": "Funksjonsfrys: styrke grunnmuren",
+    "title1": "Spor hver bevegelse",
+    "title2": "Eie hvert øyeblikk",
+    "lede": "Endurain er en selvhostet tjeneste for treningssporing, et personvernvennlig hjem for aktivitetene dine, utstyret ditt og helsedataene dine. Ingen innlåsing, ingen datautvinning. Bare treningshistorikken din, på infrastruktur som du styrer.",
+    "ctaDemo": "Prøv livedemoen",
+    "ctaDocs": "Les dokumentasjonen",
+    "badge1": "AGPL-3.0 åpen kildekode",
+    "badge2": "100% selvhostet",
+    "badge3": "Strava- og Garmin-synkronisering",
+    "imgAlt": "Endurain-dashbordet som viser en aktivitetsstrøm med en løpetur på kart, tempo- og effektdata og månedssummer."
+  },
+  "strip": {
+    "k1": "Dine data",
+    "v1": "Din server",
+    "v2": "Manuell import og masseimport",
+    "v3": "Synk til Endurain",
+    "v4": "I gang på minutter"
+  },
+  "mission": {
+    "eyebrow": "Vårt formål",
+    "title": "Treningsdata tilhører utøveren",
+    "sub": "Endurain finnes fordi treningshistorikken din er for personlig til å overlate til andres sky. Det er bygd for dem som vil ha finishen til en moderne treningsplattform uten å gi fra seg eierskap, personvern eller kontroll.",
+    "c1t": "Du eier dataene dine",
+    "c1b": "Alt ligger på infrastruktur som du drifter. Eksporter dem, ta sikkerhetskopi, flytt dem. Ingen portvoktere, ingen leverandørinnlåsing, aldri.",
+    "c2t": "Personvern innebygd",
+    "c2b": "Personvernkontroller per aktivitet, MFA, SSO og e-postverifisering er innebygd. Del det du vil; behold resten for deg selv.",
+    "c3t": "Virkelig åpen kildekode",
+    "c3b": "Lisensiert under AGPL-3.0 og utviklet åpent på Codeberg. Les hver linje, meld en sak eller send inn en pull request."
+  },
+  "status": {
+    "eyebrow": "Nåværende status",
+    "title": "En midlertidig funksjonsfrys, ikke en pause",
+    "body": "Endurain har vokst raskt. For å holde det sunt har fokuset flyttet seg fra å levere nye funksjoner til å styrke grunnmuren: klarere modulgrenser, mer forutsigbart bakgrunnsarbeid, bedre tester og tryggere utgivelser. Feilrettinger, sikkerhetsoppdateringer, dokumentasjon og oversettelser fortsetter som vanlig.",
+    "cta": "Les kunngjøringen",
+    "l1": "Sikkerhets- og feilrettinger",
+    "l2": "Refaktoreringer og pålitelighet",
+    "l3": "Dokumentasjon og oversettelser",
+    "l4": "Tester og herding av CI"
+  },
+  "features": {
+    "eyebrow": "Funksjoner",
+    "title": "Alt du forventer, hostet på din måte",
+    "sub": "En komplett treningslogg med integrasjonene og bekvemmelighetene til de store plattformene, men uten overvåkingen.",
+    "f1t": "Aktivitetssporing",
+    "f1b": "Rike aktivitetsstrømmer, kart og uke- og månedsstatistikk for alle idretter.",
+    "f2t": "Strava og Garmin",
+    "f2b": "Synkroniser aktiviteter, utstyr og kroppssammensetning fra Strava og Garmin Connect.",
+    "f3t": "Importer filer",
+    "f3b": "Last opp .gpx-, .tcx- og .fit-filer én om gangen eller i bulk. .fit foretrekkes.",
+    "f4t": "Utstyrssporing",
+    "f4b": "Følg med på sykler, sko, våtdrakter, ski og mer, helt ned til komponentslitasje.",
+    "f5t": "Helsemål",
+    "f5b": "Loggfør vekt, skritt og søvn, og følg trender på et eget dashbord.",
+    "f6t": "Mål",
+    "f6b": "Definer distanse- eller tidsmål, og følg fremgangen uke for uke.",
+    "f7t": "Flerbruker og følgere",
+    "f7b": "Admin- og brukerroller, følgerstrømmer og offentlige brukerprofilsider.",
+    "f8t": "MFA og SSO",
+    "f8b": "TOTP-multifaktorautentisering, OIDC/SAML enkeltpålogging og e-postverifisering.",
+    "f9t": "Lokalisert og med temaer",
+    "f9b": "Flerspråklig, metriske eller imperiske enheter og en veksler for lyst/mørkt tema."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobil",
+    "title": "Treningen din, i lomma",
+    "sub": "Endurain-appen tar opp løpeturer, sykkelturer, gåturer og fotturer direkte på et kart og laster dem opp rett til din egen server. Den fungerer frakoblet, synkroniserer automatisk når du er tilkoblet igjen, og logger deg inn med SSO og MFA.",
+    "apkTop": "Last ned",
+    "apkStrong": "Android-APK-en",
+    "comingSoon": "Kommer snart på",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Snart",
+    "soonTitle": "Kommer snart",
+    "hint": "Appen er under aktiv utvikling. Last ned den nyeste Android-APK-en her på nettstedet. Oppføringer på Google Play og App Store kommer senere."
+  },
+  "gallery": {
+    "eyebrow": "Et nærmere blikk",
+    "title": "Designet for å føles uanstrengt",
+    "sub": "Et rent, moderne grensesnitt for aktiviteter, utstyr, helse og innstillinger, i lyst eller mørkt, på datamaskin og mobil.",
+    "alt1": "Aktivitetsdetaljside med kart, mellomtider og mål.",
+    "alt2": "Helsedashbord med vekt, skritt og søvntrender.",
+    "alt3": "Utstyrsliste som viser sykler, sko og bruken av dem.",
+    "alt4": "Brukerprofilside med statistikk og aktivitetshistorikk.",
+    "alt5": "Innstillingsside for mål for å definere treningsmål."
+  },
+  "selfHost": {
+    "eyebrow": "Selvhost det",
+    "title": "I gang med Docker",
+    "sub": "Endurain leveres som et Docker-bilde og konfigureres helt via miljøvariabler. Et komplett docker compose-eksempel ligger i kodelageret. Start stacken og åpne appen.",
+    "step1": "Kopier eksempelfilene compose og env",
+    "step2": "Angi hemmelighetene og integrasjonsnøklene dine",
+    "ctaGuide": "Kom i gang-veiledning",
+    "ctaDemo": "Prøv demoen først"
+  },
+  "community": {
+    "eyebrow": "Fellesskap og støtte",
+    "title": "Bygd i det åpne, sammen",
+    "sub": "Endurain utvikles på Codeberg og formes av fellesskapet sitt. Bli med, still spørsmål, oversett eller bidra til å finansiere arbeidet.",
+    "codebergT": "Codeberg",
+    "codebergD": "Kildekode, saker og pull requests.",
+    "docsT": "Dokumentasjon",
+    "docsD": "Veiledninger for installasjon, konfigurasjon og utvikling.",
+    "discordT": "Discord",
+    "discordD": "Chat, hjelp og kunngjøringer.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Følg oppdateringer i fediverset.",
+    "translateT": "Oversett",
+    "translateD": "Bidra til å lokalisere Endurain via Weblate."
+  },
+  "sponsor": {
+    "title": "Støtt prosjektet",
+    "body": "Sponsing holder Endurain uavhengig og i bevegelse."
+  },
+  "cta": {
+    "title": "Ta tilbake kontrollen over treningsdataene dine",
+    "body": "Prøv livedemoen, og selvhost deretter din egen instans på minutter.",
+    "demo": "Prøv livedemoen",
+    "docs": "Les dokumentasjonen"
+  },
+  "newsletter": {
+    "eyebrow": "Nyhetsbrev",
+    "title": "Hold deg oppdatert",
+    "body": "Prosjektoppdateringer og nyheter om utgivelser, rett i innboksen din. Ingen spam, meld deg av når som helst.",
+    "emailLabel": "E-postadresse",
+    "button": "Abonner",
+    "legal": "Levert av"
+  },
+  "footer": {
+    "tag": "Selvhostet treningssporing som respekterer personvernet ditt.",
+    "made": "Laget med ♥ fra Portugal",
+    "colProduct": "Produkt",
+    "colResources": "Ressurser",
+    "colCommunity": "Fellesskap",
+    "liveDemo": "Livedemo",
+    "docs": "Dokumentasjon",
+    "gettingStarted": "Kom i gang",
+    "roadmap": "Veikart",
+    "blog": "Blogg",
+    "trademark": "Endurain® er et varemerke som tilhører João Vitória Silva.",
+    "licensed": "Lisensiert under",
+    "trademarkPolicy": "Varemerkeretningslinjer",
+    "source": "Kildekode"
+  }
+}

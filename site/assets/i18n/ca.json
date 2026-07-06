@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, seguiment esportiu autoallotjat que controles tu",
+    "description": "Endurain és un servei de seguiment esportiu autoallotjat i centrat en la privadesa. Controla les teves activitats, el teu equipament i les teves dades de salut, amb sincronització de Strava i Garmin, importació .gpx/.tcx/.fit i una aplicació Android."
+  },
+  "a11y": {
+    "skip": "Vés al contingut",
+    "home": "Inici d'Endurain",
+    "langMenu": "Canvia d'idioma",
+    "theme": "Commuta el mode fosc",
+    "codeberg": "Mira el codi font a Codeberg",
+    "menu": "Obre el menú"
+  },
+  "nav": {
+    "mission": "Missió",
+    "features": "Funcions",
+    "mobile": "Aplicació mòbil",
+    "selfHost": "Autoallotjament",
+    "community": "Comunitat"
+  },
+  "hero": {
+    "status": "Congelació de funcions: reforçar els fonaments",
+    "title1": "Segueix cada moviment",
+    "title2": "Viu cada moment",
+    "lede": "Endurain és un servei de seguiment esportiu autoallotjat, una llar centrada en la privadesa per a les teves activitats, el teu equipament i les teves dades de salut. Sense dependències, sense mineria de dades. Només el teu historial d'entrenament, en una infraestructura que controles tu.",
+    "ctaDemo": "Prova la demo en directe",
+    "ctaDocs": "Llegeix la documentació",
+    "badge1": "Codi obert AGPL-3.0",
+    "badge2": "100% autoallotjat",
+    "badge3": "Sincronització amb Strava i Garmin",
+    "imgAlt": "El tauler d'Endurain mostrant un flux d'activitats amb una cursa al mapa, dades de ritme i potència, i totals mensuals."
+  },
+  "strip": {
+    "k1": "Les teves dades",
+    "v1": "El teu servidor",
+    "v2": "Importació manual i massiva",
+    "v3": "Sincronització a Endurain",
+    "v4": "A punt en minuts"
+  },
+  "mission": {
+    "eyebrow": "La nostra missió",
+    "title": "Les dades esportives pertanyen a l'atleta",
+    "sub": "Endurain existeix perquè el teu historial d'entrenament és massa personal per confiar-lo al núvol d'altri. Està fet per a qui vol l'acabat d'una plataforma esportiva moderna sense renunciar a la propietat, la privadesa o el control.",
+    "c1t": "Les teves dades són teves",
+    "c1b": "Tot resideix en una infraestructura que gestiones tu. Exporta-les, fes-ne còpies, mou-les. Sense guardians, sense dependència de proveïdor, mai.",
+    "c2t": "Privadesa des del disseny",
+    "c2b": "Controls de privadesa per activitat, MFA, SSO i verificació per correu vénen integrats. Comparteix el que vulguis; guarda't la resta.",
+    "c3t": "Realment de codi obert",
+    "c3b": "Amb llicència AGPL-3.0 i desenvolupat obertament a Codeberg. Llegeix cada línia, obre una incidència o envia una pull request."
+  },
+  "status": {
+    "eyebrow": "Estat actual",
+    "title": "Una congelació temporal de funcions, no una pausa",
+    "body": "Endurain ha crescut de pressa. Per mantenir-lo sa, el focus ha passat de llançar noves funcions a reforçar els fonaments: límits de mòduls més clars, tasques en segon pla més previsibles, millors proves i versions més segures. Les correccions d'errors, els pedaços de seguretat, la documentació i les traduccions continuen com sempre.",
+    "cta": "Llegeix l'anunci",
+    "l1": "Correccions de seguretat i errors",
+    "l2": "Refactoritzacions i fiabilitat",
+    "l3": "Documentació i traduccions",
+    "l4": "Proves i enfortiment de la CI"
+  },
+  "features": {
+    "eyebrow": "Funcions",
+    "title": "Tot el que esperes, allotjat a la teva manera",
+    "sub": "Un registre d'entrenament complet amb les integracions i comoditats de les grans plataformes, però sense la vigilància.",
+    "f1t": "Seguiment d'activitats",
+    "f1b": "Fluxos d'activitat rics, mapes i estadístiques setmanals i mensuals per a cada esport.",
+    "f2t": "Strava i Garmin",
+    "f2b": "Sincronitza activitats, equipament i composició corporal des de Strava i Garmin Connect.",
+    "f3t": "Importa fitxers",
+    "f3b": "Puja fitxers .gpx, .tcx i .fit un per un o en bloc. Es prefereix .fit.",
+    "f4t": "Seguiment de l'equipament",
+    "f4b": "Fes seguiment de bicicletes, sabatilles, neoprens, esquís i més, fins al desgast dels components.",
+    "f5t": "Mètriques de salut",
+    "f5b": "Registra pes, passos i son, i segueix les tendències en un tauler dedicat.",
+    "f6t": "Objectius",
+    "f6b": "Defineix objectius de distància o temps i segueix el progrés setmana rere setmana.",
+    "f7t": "Multiusuari i seguidors",
+    "f7b": "Rols d'administrador i usuari, fluxos de seguidors i pàgines de perfil públiques.",
+    "f8t": "MFA i SSO",
+    "f8b": "Autenticació multifactor TOTP, inici de sessió únic OIDC/SAML i verificació per correu.",
+    "f9t": "Localitzat i amb temes",
+    "f9b": "Multiidioma, unitats mètriques o imperials i un commutador de tema clar i fosc."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mòbil",
+    "title": "El teu entrenament, a la butxaca",
+    "sub": "L'aplicació d'Endurain registra curses, sortides en bici, caminades i excursions en directe sobre un mapa i les puja directament al teu propi servidor. Funciona sense connexió, se sincronitza automàticament quan tornes a tenir xarxa i t'inicia la sessió amb SSO i MFA.",
+    "apkTop": "Baixa l'",
+    "apkStrong": "APK d'Android",
+    "comingSoon": "Aviat a",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Aviat",
+    "soonTitle": "Disponible aviat",
+    "hint": "L'aplicació està en desenvolupament actiu. Baixa l'APK d'Android més recent aquí mateix al lloc. Les fitxes a Google Play i l'App Store arribaran més endavant."
+  },
+  "gallery": {
+    "eyebrow": "Una mirada més de prop",
+    "title": "Dissenyat perquè sigui senzill",
+    "sub": "Una interfície neta i moderna per a activitats, equipament, salut i configuració, en clar o fosc, a l'escriptori i al mòbil.",
+    "alt1": "Pàgina de detall d'activitat amb mapa, parcials i mètriques.",
+    "alt2": "Tauler de salut amb pes, passos i tendències de son.",
+    "alt3": "Llista d'equipament mostrant bicicletes, sabatilles i el seu ús.",
+    "alt4": "Pàgina de perfil d'usuari amb estadístiques i historial d'activitats.",
+    "alt5": "Pàgina de configuració d'objectius per definir fites d'entrenament."
+  },
+  "selfHost": {
+    "eyebrow": "Autoallotja'l",
+    "title": "En marxa amb Docker",
+    "sub": "Endurain es distribueix com a imatge de Docker i es configura completament mitjançant variables d'entorn. Al repositori hi ha un exemple complet de docker compose. Aixeca la pila i obre l'aplicació.",
+    "step1": "Copia els fitxers d'exemple compose i env",
+    "step2": "Defineix els teus secrets i claus d'integració",
+    "ctaGuide": "Guia d'inici",
+    "ctaDemo": "Prova abans la demo"
+  },
+  "community": {
+    "eyebrow": "Comunitat i suport",
+    "title": "Construït obertament, junts",
+    "sub": "Endurain es desenvolupa a Codeberg i el modela la seva comunitat. Uneix-t'hi, fes preguntes, tradueix o ajuda a finançar la feina.",
+    "codebergT": "Codeberg",
+    "codebergD": "Codi font, incidències i pull requests.",
+    "docsT": "Documentació",
+    "docsD": "Guies d'instal·lació, configuració i desenvolupament.",
+    "discordT": "Discord",
+    "discordD": "Xat, ajuda i anuncis.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Segueix les novetats al fedivers.",
+    "translateT": "Tradueix",
+    "translateD": "Ajuda a localitzar Endurain amb Weblate."
+  },
+  "sponsor": {
+    "title": "Dona suport al projecte",
+    "body": "Els patrocinis mantenen Endurain independent i en marxa."
+  },
+  "cta": {
+    "title": "Recupera el control de les teves dades esportives",
+    "body": "Prova la demo en directe i després autoallotja la teva pròpia instància en minuts.",
+    "demo": "Prova la demo en directe",
+    "docs": "Llegeix la documentació"
+  },
+  "newsletter": {
+    "eyebrow": "Butlletí",
+    "title": "Estigues al dia",
+    "body": "Novetats del projecte i de les versions, directament a la teva safata d'entrada. Sense correu brossa, cancel·la quan vulguis.",
+    "emailLabel": "Adreça electrònica",
+    "button": "Subscriu-te",
+    "legal": "Amb la tecnologia de"
+  },
+  "footer": {
+    "tag": "Seguiment esportiu autoallotjat que respecta la teva privadesa.",
+    "made": "Fet amb ♥ des de Portugal",
+    "colProduct": "Producte",
+    "colResources": "Recursos",
+    "colCommunity": "Comunitat",
+    "liveDemo": "Demo en directe",
+    "docs": "Documentació",
+    "gettingStarted": "Primers passos",
+    "roadmap": "Full de ruta",
+    "blog": "Blog",
+    "trademark": "Endurain® és una marca registrada de João Vitória Silva.",
+    "licensed": "Amb llicència",
+    "trademarkPolicy": "Política de marca",
+    "source": "Codi font"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, urmărire fitness auto-găzduită pe care o controlezi",
+    "description": "Endurain este un serviciu de urmărire fitness auto-găzduit și axat pe confidențialitate. Deține-ți activitățile, echipamentul și datele de sănătate, cu sincronizare Strava și Garmin, import .gpx/.tcx/.fit și o aplicație Android."
+  },
+  "a11y": {
+    "skip": "Salt la conținut",
+    "home": "Pagina principală Endurain",
+    "langMenu": "Schimbă limba",
+    "theme": "Comută modul întunecat",
+    "codeberg": "Vezi codul sursă pe Codeberg",
+    "menu": "Deschide meniul"
+  },
+  "nav": {
+    "mission": "Misiune",
+    "features": "Funcții",
+    "mobile": "Aplicație mobilă",
+    "selfHost": "Auto-găzduire",
+    "community": "Comunitate"
+  },
+  "hero": {
+    "status": "Înghețarea funcțiilor: consolidarea fundației",
+    "title1": "Urmărește fiecare mișcare",
+    "title2": "Trăiește fiecare moment",
+    "lede": "Endurain este un serviciu de urmărire fitness auto-găzduit, o casă axată pe confidențialitate pentru activitățile, echipamentul și datele tale de sănătate. Fără blocaje, fără extragere de date. Doar istoricul tău de antrenament, pe o infrastructură pe care o controlezi.",
+    "ctaDemo": "Încearcă demoul live",
+    "ctaDocs": "Citește documentația",
+    "badge1": "Sursă deschisă AGPL-3.0",
+    "badge2": "100% auto-găzduit",
+    "badge3": "Sincronizare Strava și Garmin",
+    "imgAlt": "Tabloul de bord Endurain care afișează un flux de activități cu o alergare pe hartă, date de ritm și putere și totaluri lunare."
+  },
+  "strip": {
+    "k1": "Datele tale",
+    "v1": "Serverul tău",
+    "v2": "Import manual și în bloc",
+    "v3": "Sincronizare către Endurain",
+    "v4": "Gata în câteva minute"
+  },
+  "mission": {
+    "eyebrow": "Misiunea noastră",
+    "title": "Datele de fitness aparțin sportivului",
+    "sub": "Endurain există pentru că istoricul tău de antrenament este prea personal pentru a-l încredința cloudului altcuiva. Este creat pentru cei care vor finisajul unei platforme moderne de fitness fără a renunța la proprietate, confidențialitate sau control.",
+    "c1t": "Datele tale îți aparțin",
+    "c1b": "Totul se află pe o infrastructură pe care o administrezi. Exportă-le, fă copii de rezervă, mută-le. Fără portari, fără blocare la furnizor, niciodată.",
+    "c2t": "Confidențialitate din proiectare",
+    "c2b": "Controale de confidențialitate per activitate, MFA, SSO și verificare prin e-mail sunt integrate. Partajează ce vrei; păstrează restul pentru tine.",
+    "c3t": "Cu adevărat sursă deschisă",
+    "c3b": "Licențiat sub AGPL-3.0 și dezvoltat deschis pe Codeberg. Citește fiecare linie, raportează o problemă sau trimite un pull request."
+  },
+  "status": {
+    "eyebrow": "Stare actuală",
+    "title": "O înghețare temporară a funcțiilor, nu o pauză",
+    "body": "Endurain a crescut rapid. Pentru a-l menține sănătos, accentul s-a mutat de la livrarea de funcții noi la consolidarea fundației: limite mai clare între module, activități de fundal mai previzibile, teste mai bune și lansări mai sigure. Corecțiile de erori, patch-urile de securitate, documentația și traducerile continuă ca de obicei.",
+    "cta": "Citește anunțul",
+    "l1": "Corecții de securitate și erori",
+    "l2": "Refactorizări și fiabilitate",
+    "l3": "Documentație și traduceri",
+    "l4": "Teste și întărirea CI"
+  },
+  "features": {
+    "eyebrow": "Funcții",
+    "title": "Tot ce te aștepți, găzduit în felul tău",
+    "sub": "Un jurnal de antrenament complet cu integrările și facilitățile marilor platforme, dar fără supraveghere.",
+    "f1t": "Urmărirea activităților",
+    "f1b": "Fluxuri de activitate bogate, hărți și statistici săptămânale și lunare pentru fiecare sport.",
+    "f2t": "Strava și Garmin",
+    "f2b": "Sincronizează activități, echipament și compoziția corporală din Strava și Garmin Connect.",
+    "f3t": "Importă fișiere",
+    "f3b": "Încarcă fișiere .gpx, .tcx și .fit unul câte unul sau în bloc. Se preferă .fit.",
+    "f4t": "Urmărirea echipamentului",
+    "f4b": "Urmărește biciclete, pantofi, costume de neopren, schiuri și altele, până la uzura componentelor.",
+    "f5t": "Valori de sănătate",
+    "f5b": "Înregistrează greutatea, pașii și somnul și urmărește tendințele pe un tablou de bord dedicat.",
+    "f6t": "Obiective",
+    "f6b": "Definește obiective de distanță sau timp și urmărește progresul săptămână de săptămână.",
+    "f7t": "Multi-utilizator și urmăritori",
+    "f7b": "Roluri de administrator și utilizator, fluxuri de urmăritori și pagini publice de profil.",
+    "f8t": "MFA și SSO",
+    "f8b": "Autentificare multifactor TOTP, autentificare unică OIDC/SAML și verificare prin e-mail.",
+    "f9t": "Localizat și cu teme",
+    "f9b": "Multilingv, unități metrice sau imperiale și un comutator de temă deschisă și întunecată."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobil",
+    "title": "Antrenamentul tău, în buzunar",
+    "sub": "Aplicația Endurain înregistrează alergări, ture cu bicicleta, plimbări și drumeții în timp real pe o hartă și le încarcă direct pe propriul tău server. Funcționează offline, se sincronizează automat când revii online și te autentifică prin SSO și MFA.",
+    "apkTop": "Descarcă",
+    "apkStrong": "APK-ul pentru Android",
+    "comingSoon": "În curând pe",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "În curând",
+    "soonTitle": "În curând",
+    "hint": "Aplicația este în dezvoltare activă. Descarcă cel mai recent APK pentru Android chiar aici, pe site. Listările în Google Play și App Store vor urma."
+  },
+  "gallery": {
+    "eyebrow": "O privire mai atentă",
+    "title": "Proiectat să pară fără efort",
+    "sub": "O interfață curată și modernă pentru activități, echipament, sănătate și setări, în luminos sau întunecat, pe desktop și mobil.",
+    "alt1": "Pagina de detalii a activității cu hartă, intervale și valori.",
+    "alt2": "Tablou de bord de sănătate cu greutate, pași și tendințe de somn.",
+    "alt3": "Listă de echipament care arată biciclete, pantofi și utilizarea lor.",
+    "alt4": "Pagina de profil de utilizator cu statistici și istoricul activităților.",
+    "alt5": "Pagina de setări a obiectivelor pentru definirea țintelor de antrenament."
+  },
+  "selfHost": {
+    "eyebrow": "Găzduiește-l singur",
+    "title": "Pus în funcțiune cu Docker",
+    "sub": "Endurain este livrat ca imagine Docker și se configurează în întregime prin variabile de mediu. Un exemplu complet docker compose se află în depozit. Pornește stiva și deschide aplicația.",
+    "step1": "Copiază fișierele exemplu compose și env",
+    "step2": "Setează-ți secretele și cheile de integrare",
+    "ctaGuide": "Ghid de început",
+    "ctaDemo": "Încearcă întâi demoul"
+  },
+  "community": {
+    "eyebrow": "Comunitate și sprijin",
+    "title": "Construit deschis, împreună",
+    "sub": "Endurain este dezvoltat pe Codeberg și modelat de comunitatea sa. Alătură-te, pune întrebări, tradu sau ajută la finanțarea muncii.",
+    "codebergT": "Codeberg",
+    "codebergD": "Cod sursă, probleme și pull request-uri.",
+    "docsT": "Documentație",
+    "docsD": "Ghiduri de instalare, configurare și dezvoltare.",
+    "discordT": "Discord",
+    "discordD": "Chat, ajutor și anunțuri.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Urmărește noutățile în fediverse.",
+    "translateT": "Tradu",
+    "translateD": "Ajută la localizarea Endurain prin Weblate."
+  },
+  "sponsor": {
+    "title": "Sprijină proiectul",
+    "body": "Sponsorizările mențin Endurain independent și în mișcare."
+  },
+  "cta": {
+    "title": "Recapătă controlul asupra datelor tale de fitness",
+    "body": "Încearcă demoul live, apoi auto-găzduiește-ți propria instanță în câteva minute.",
+    "demo": "Încearcă demoul live",
+    "docs": "Citește documentația"
+  },
+  "newsletter": {
+    "eyebrow": "Buletin informativ",
+    "title": "Rămâi la curent",
+    "body": "Noutăți despre proiect și despre versiuni, direct în inbox. Fără spam, te poți dezabona oricând.",
+    "emailLabel": "Adresă de e-mail",
+    "button": "Abonează-te",
+    "legal": "Susținut de"
+  },
+  "footer": {
+    "tag": "Urmărire fitness auto-găzduită care îți respectă confidențialitatea.",
+    "made": "Creat cu ♥ din Portugalia",
+    "colProduct": "Produs",
+    "colResources": "Resurse",
+    "colCommunity": "Comunitate",
+    "liveDemo": "Demo live",
+    "docs": "Documentație",
+    "gettingStarted": "Primii pași",
+    "roadmap": "Foaie de parcurs",
+    "blog": "Blog",
+    "trademark": "Endurain® este o marcă comercială a João Vitória Silva.",
+    "licensed": "Licențiat sub",
+    "trademarkPolicy": "Politica de marcă",
+    "source": "Cod sursă"
+  }
+}

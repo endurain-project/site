@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, savarankiškai talpinamas kūno rengybos stebėjimas, kurį valdote jūs",
+    "description": "Endurain yra savarankiškai talpinama, privatumą pirmumo tvarka teikianti kūno rengybos stebėjimo paslauga. Valdykite savo veiklas, įrangą ir sveikatos duomenis su Strava ir Garmin sinchronizavimu, .gpx/.tcx/.fit importu ir Android programėle."
+  },
+  "a11y": {
+    "skip": "Pereiti prie turinio",
+    "home": "Endurain pradžios puslapis",
+    "langMenu": "Keisti kalbą",
+    "theme": "Perjungti tamsų režimą",
+    "codeberg": "Peržiūrėti pirminį kodą Codeberg",
+    "menu": "Atverti meniu"
+  },
+  "nav": {
+    "mission": "Misija",
+    "features": "Funkcijos",
+    "mobile": "Mobilioji programėlė",
+    "selfHost": "Savarankiškas talpinimas",
+    "community": "Bendruomenė"
+  },
+  "hero": {
+    "status": "Funkcijų įšaldymas: pamatų stiprinimas",
+    "title1": "Stebėk kiekvieną judesį",
+    "title2": "Valdyk kiekvieną akimirką",
+    "lede": "Endurain yra savarankiškai talpinama kūno rengybos stebėjimo paslauga, privatumą pirmumo tvarka teikiantys namai jūsų veikloms, įrangai ir sveikatos duomenims. Jokio pririšimo, jokio duomenų gavybos. Tik jūsų treniruočių istorija, infrastruktūroje, kurią valdote jūs.",
+    "ctaDemo": "Išbandykite tiesioginę demonstraciją",
+    "ctaDocs": "Skaitykite dokumentaciją",
+    "badge1": "Atvirasis kodas AGPL-3.0",
+    "badge2": "100% savarankiškai talpinamas",
+    "badge3": "Strava ir Garmin sinchronizavimas",
+    "imgAlt": "Endurain valdymo skydelis, kuriame rodomas veiklų srautas su bėgimu žemėlapyje, tempo ir galios duomenimis bei mėnesio sumomis."
+  },
+  "strip": {
+    "k1": "Jūsų duomenys",
+    "v1": "Jūsų serveris",
+    "v2": "Rankinis ir masinis importas",
+    "v3": "Sinchronizavimas į Endurain",
+    "v4": "Paruošta per kelias minutes"
+  },
+  "mission": {
+    "eyebrow": "Mūsų misija",
+    "title": "Kūno rengybos duomenys priklauso sportininkui",
+    "sub": "Endurain egzistuoja, nes jūsų treniruočių istorija yra pernelyg asmeniška, kad ją patikėtumėte kažkieno kito debesijai. Jis sukurtas tiems, kurie nori modernios kūno rengybos platformos rafinuotumo, neatsisakydami nuosavybės, privatumo ar kontrolės.",
+    "c1t": "Jūsų duomenys yra jūsų",
+    "c1b": "Viskas yra infrastruktūroje, kurią valdote jūs. Eksportuokite juos, kurkite atsargines kopijas, perkelkite. Jokių vartų sargų, jokio pririšimo prie tiekėjo, niekada.",
+    "c2t": "Privatumas nuo pat pradžių",
+    "c2b": "Privatumo valdikliai kiekvienai veiklai, MFA, SSO ir el. pašto patvirtinimas yra integruoti. Bendrinkite tai, ką norite; likusia dalimi pasilikite sau.",
+    "c3t": "Tikrai atvirasis kodas",
+    "c3b": "Licencijuota pagal AGPL-3.0 ir kuriama atvirai Codeberg. Skaitykite kiekvieną eilutę, praneškite apie problemą arba pateikite pull request."
+  },
+  "status": {
+    "eyebrow": "Dabartinė būsena",
+    "title": "Laikinas funkcijų įšaldymas, o ne pauzė",
+    "body": "Endurain sparčiai augo. Kad išliktų sveikas, dėmesys pasislinko nuo naujų funkcijų teikimo prie pamatų stiprinimo: aiškesnės modulių ribos, nuspėjamesnis foninis darbas, geresni testai ir saugesnės laidos. Klaidų taisymai, saugumo pataisos, dokumentacija ir vertimai tęsiami kaip įprasta.",
+    "cta": "Skaitykite pranešimą",
+    "l1": "Saugumo ir klaidų taisymai",
+    "l2": "Pertvarkymai ir patikimumas",
+    "l3": "Dokumentacija ir vertimai",
+    "l4": "Testai ir CI stiprinimas"
+  },
+  "features": {
+    "eyebrow": "Funkcijos",
+    "title": "Viskas, ko tikitės, talpinama jūsų būdu",
+    "sub": "Pilnas treniruočių žurnalas su didžiųjų platformų integracijomis ir patogumais, bet be sekimo.",
+    "f1t": "Veiklų stebėjimas",
+    "f1b": "Turtingi veiklų srautai, žemėlapiai ir savaitės bei mėnesio statistika kiekvienam sportui.",
+    "f2t": "Strava ir Garmin",
+    "f2b": "Sinchronizuokite veiklas, įrangą ir kūno sudėtį iš Strava ir Garmin Connect.",
+    "f3t": "Failų importas",
+    "f3b": "Įkelkite .gpx, .tcx ir .fit failus po vieną arba masiškai. Pirmenybė teikiama .fit.",
+    "f4t": "Įrangos stebėjimas",
+    "f4b": "Stebėkite dviračius, batus, hidrokostiumus, slides ir daugiau, iki pat komponentų susidėvėjimo.",
+    "f5t": "Sveikatos rodikliai",
+    "f5b": "Registruokite svorį, žingsnius ir miegą bei stebėkite tendencijas specialiame valdymo skydelyje.",
+    "f6t": "Tikslai",
+    "f6b": "Nustatykite atstumo ar laiko tikslus ir stebėkite pažangą savaitė po savaitės.",
+    "f7t": "Keli naudotojai ir sekėjai",
+    "f7b": "Administratoriaus ir naudotojo vaidmenys, sekėjų srautai ir vieši profilio puslapiai.",
+    "f8t": "MFA ir SSO",
+    "f8b": "TOTP kelių veiksnių autentifikavimas, OIDC/SAML vienkartinis prisijungimas ir el. pašto patvirtinimas.",
+    "f9t": "Lokalizuota ir su temomis",
+    "f9b": "Daugiakalbė sąsaja, metriniai arba imperiniai vienetai ir šviesios bei tamsios temos perjungiklis."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobiliajame",
+    "title": "Jūsų treniruotė kišenėje",
+    "sub": "Endurain programėlė realiuoju laiku žemėlapyje įrašo bėgimus, važiavimus dviračiu, pasivaikščiojimus ir žygius ir įkelia juos tiesiai į jūsų pačių serverį. Ji veikia neprisijungus, automatiškai sinchronizuojasi, kai vėl esate prisijungę, ir prijungia jus per SSO ir MFA.",
+    "apkTop": "Atsisiųsti",
+    "apkStrong": "Android APK",
+    "comingSoon": "Netrukus",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Netrukus",
+    "soonTitle": "Netrukus",
+    "hint": "Programėlė aktyviai kuriama. Atsisiųskite naujausią Android APK tiesiai čia, svetainėje. Įrašai Google Play ir App Store bus vėliau."
+  },
+  "gallery": {
+    "eyebrow": "Iš arčiau",
+    "title": "Sukurta jaustis be pastangų",
+    "sub": "Švari, moderni sąsaja veikloms, įrangai, sveikatai ir nustatymams, šviesi arba tamsi, kompiuteryje ir mobiliajame.",
+    "alt1": "Veiklos išsamios informacijos puslapis su žemėlapiu, tarpiniais laikais ir rodikliais.",
+    "alt2": "Sveikatos valdymo skydelis su svoriu, žingsniais ir miego tendencijomis.",
+    "alt3": "Įrangos sąrašas su dviračiais, batais ir jų naudojimu.",
+    "alt4": "Naudotojo profilio puslapis su statistika ir veiklų istorija.",
+    "alt5": "Tikslų nustatymų puslapis treniruočių tikslams apibrėžti."
+  },
+  "selfHost": {
+    "eyebrow": "Talpinkite patys",
+    "title": "Veikia su Docker",
+    "sub": "Endurain pristatomas kaip Docker atvaizdis ir visiškai konfigūruojamas per aplinkos kintamuosius. Pilnas docker compose pavyzdys yra saugykloje. Paleiskite dėklą ir atverkite programą.",
+    "step1": "Nukopijuokite pavyzdinius compose ir env failus",
+    "step2": "Nustatykite savo paslaptis ir integracijos raktus",
+    "ctaGuide": "Darbo pradžios vadovas",
+    "ctaDemo": "Pirmiausia išbandykite demonstraciją"
+  },
+  "community": {
+    "eyebrow": "Bendruomenė ir pagalba",
+    "title": "Kuriama atvirai, kartu",
+    "sub": "Endurain kuriamas Codeberg ir jį formuoja jo bendruomenė. Prisijunkite, užduokite klausimus, verskite arba padėkite finansuoti darbą.",
+    "codebergT": "Codeberg",
+    "codebergD": "Pirminis kodas, problemos ir pull request.",
+    "docsT": "Dokumentacija",
+    "docsD": "Vadovai diegimui, konfigūravimui ir kūrimui.",
+    "discordT": "Discord",
+    "discordD": "Pokalbiai, pagalba ir pranešimai.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Sekite naujienas fediverse.",
+    "translateT": "Versti",
+    "translateD": "Padėkite lokalizuoti Endurain per Weblate."
+  },
+  "sponsor": {
+    "title": "Paremkite projektą",
+    "body": "Rėmimas išlaiko Endurain nepriklausomą ir judantį pirmyn."
+  },
+  "cta": {
+    "title": "Atgaukite savo kūno rengybos duomenų kontrolę",
+    "body": "Išbandykite tiesioginę demonstraciją, o tada per kelias minutes talpinkite savo egzempliorių.",
+    "demo": "Išbandykite tiesioginę demonstraciją",
+    "docs": "Skaitykite dokumentaciją"
+  },
+  "newsletter": {
+    "eyebrow": "Naujienlaiškis",
+    "title": "Būkite informuoti",
+    "body": "Projekto naujienos ir informacija apie leidimus tiesiai į jūsų pašto dėžutę. Jokio šlamšto, atsisakyti galite bet kada.",
+    "emailLabel": "El. pašto adresas",
+    "button": "Prenumeruoti",
+    "legal": "Palaiko"
+  },
+  "footer": {
+    "tag": "Savarankiškai talpinamas kūno rengybos stebėjimas, gerbiantis jūsų privatumą.",
+    "made": "Sukurta su ♥ iš Portugalijos",
+    "colProduct": "Produktas",
+    "colResources": "Ištekliai",
+    "colCommunity": "Bendruomenė",
+    "liveDemo": "Tiesioginė demonstracija",
+    "docs": "Dokumentacija",
+    "gettingStarted": "Darbo pradžia",
+    "roadmap": "Veiksmų planas",
+    "blog": "Tinklaraštis",
+    "trademark": "Endurain® yra João Vitória Silva prekės ženklas.",
+    "licensed": "Licencijuota pagal",
+    "trademarkPolicy": "Prekės ženklo politika",
+    "source": "Pirminis kodas"
+  }
+}

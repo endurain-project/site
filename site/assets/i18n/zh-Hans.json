@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain，由你掌控的自托管健身追踪服务",
+    "description": "Endurain 是一款自托管、注重隐私的健身追踪服务。掌控你的活动、装备和健康数据，支持 Strava 和 Garmin 同步、.gpx/.tcx/.fit 导入以及一款 Android 应用。"
+  },
+  "a11y": {
+    "skip": "跳到内容",
+    "home": "Endurain 首页",
+    "langMenu": "更改语言",
+    "theme": "切换深色模式",
+    "codeberg": "在 Codeberg 查看源代码",
+    "menu": "打开菜单"
+  },
+  "nav": {
+    "mission": "使命",
+    "features": "功能",
+    "mobile": "移动应用",
+    "selfHost": "自托管",
+    "community": "社区"
+  },
+  "hero": {
+    "status": "功能冻结：夯实基础",
+    "title1": "记录每一步",
+    "title2": "掌握每一刻",
+    "lede": "Endurain 是一款自托管的健身追踪服务，是你的活动、装备和健康数据的隐私优先之家。没有锁定，没有数据挖掘。只有你的训练历史，运行在你掌控的基础设施上。",
+    "ctaDemo": "试用在线演示",
+    "ctaDocs": "阅读文档",
+    "badge1": "AGPL-3.0 开源",
+    "badge2": "100% 自托管",
+    "badge3": "Strava 和 Garmin 同步",
+    "imgAlt": "Endurain 仪表板，显示包含地图跑步、配速和功率数据以及月度汇总的活动动态。"
+  },
+  "strip": {
+    "k1": "你的数据",
+    "v1": "你的服务器",
+    "v2": "手动与批量导入",
+    "v3": "同步到 Endurain",
+    "v4": "几分钟即可部署"
+  },
+  "mission": {
+    "eyebrow": "我们的使命",
+    "title": "健身数据属于运动者",
+    "sub": "Endurain 之所以存在，是因为你的训练历史太过私人，不该交给别人的云。它为那些想要现代健身平台的精致体验、又不愿放弃所有权、隐私或掌控的人而打造。",
+    "c1t": "你的数据归你所有",
+    "c1b": "一切都运行在你自己运营的基础设施上。导出、备份、迁移，随你所愿。没有守门人，永远没有厂商锁定。",
+    "c2t": "隐私由设计而生",
+    "c2b": "内置逐项活动的隐私控制、MFA、SSO 和电子邮件验证。想分享什么就分享什么，其余留给自己。",
+    "c3t": "真正的开源",
+    "c3b": "采用 AGPL-3.0 许可，并在 Codeberg 上公开开发。阅读每一行代码，提交问题，或发起合并请求。"
+  },
+  "status": {
+    "eyebrow": "当前状态",
+    "title": "暂时的功能冻结，而非暂停",
+    "body": "Endurain 增长迅速。为保持其健康，重心已从推出新功能转向夯实基础：更清晰的模块边界、更可预测的后台任务、更完善的测试以及更安全的发布。错误修复、安全补丁、文档和翻译一如既往地继续进行。",
+    "cta": "阅读公告",
+    "l1": "安全与错误修复",
+    "l2": "重构与可靠性",
+    "l3": "文档与翻译",
+    "l4": "测试与 CI 加固"
+  },
+  "features": {
+    "eyebrow": "功能",
+    "title": "你所期待的一切，以你的方式托管",
+    "sub": "一份完整的训练日志，拥有大平台的集成与便利功能，却没有监视。",
+    "f1t": "活动追踪",
+    "f1b": "丰富的活动动态、地图，以及每项运动的周/月统计。",
+    "f2t": "Strava 和 Garmin",
+    "f2b": "从 Strava 和 Garmin Connect 同步活动、装备和身体成分。",
+    "f3t": "导入文件",
+    "f3b": "逐个或批量上传 .gpx、.tcx 和 .fit 文件。推荐使用 .fit。",
+    "f4t": "装备追踪",
+    "f4b": "追踪自行车、跑鞋、潜水衣、滑雪板等，直至部件磨损。",
+    "f5t": "健康指标",
+    "f5b": "记录体重、步数和睡眠，并在专属仪表板上跟踪趋势。",
+    "f6t": "目标",
+    "f6b": "设定距离或时间目标，逐周跟踪进度。",
+    "f7t": "多用户与关注者",
+    "f7b": "管理员和用户角色、关注者动态以及公开的用户资料页。",
+    "f8t": "MFA 和 SSO",
+    "f8b": "TOTP 多重身份验证、OIDC/SAML 单点登录和电子邮件验证。",
+    "f9t": "本地化与主题",
+    "f9b": "多语言、公制或英制单位，以及浅色/深色主题切换。"
+  },
+  "mobile": {
+    "eyebrow": "Endurain 移动版",
+    "title": "把训练装进口袋",
+    "sub": "Endurain 应用在地图上实时记录跑步、骑行、步行和徒步，并直接上传到你自己的服务器。它支持离线使用，重新联网后自动同步，并通过 SSO 和 MFA 登录。",
+    "apkTop": "下载",
+    "apkStrong": "Android APK",
+    "comingSoon": "即将上线",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "即将",
+    "soonTitle": "敬请期待",
+    "hint": "该应用正在积极开发中。直接在本站下载最新的 Android APK。Google Play 和 App Store 上架随后推出。"
+  },
+  "gallery": {
+    "eyebrow": "近距离一览",
+    "title": "为轻松体验而设计",
+    "sub": "面向活动、装备、健康和设置的简洁现代界面，支持浅色或深色，适配桌面和移动端。",
+    "alt1": "包含地图、分段和指标的活动详情页。",
+    "alt2": "包含体重、步数和睡眠趋势的健康仪表板。",
+    "alt3": "显示自行车、跑鞋及其使用情况的装备列表。",
+    "alt4": "包含统计和活动历史的用户资料页。",
+    "alt5": "用于设定训练目标的目标设置页。"
+  },
+  "selfHost": {
+    "eyebrow": "自行托管",
+    "title": "使用 Docker 快速运行",
+    "sub": "Endurain 以 Docker 镜像形式提供，完全通过环境变量进行配置。仓库中提供了完整的 docker compose 示例。启动堆栈并打开应用即可。",
+    "step1": "复制示例 compose 和 env 文件",
+    "step2": "设置你的密钥和集成密钥",
+    "ctaGuide": "入门指南",
+    "ctaDemo": "先试用演示"
+  },
+  "community": {
+    "eyebrow": "社区与支持",
+    "title": "开放共建，携手同行",
+    "sub": "Endurain 在 Codeberg 上开发，由其社区共同塑造。加入我们，提出问题，参与翻译，或帮助资助这项工作。",
+    "codebergT": "Codeberg",
+    "codebergD": "源代码、问题和合并请求。",
+    "docsT": "文档",
+    "docsD": "安装、配置和开发指南。",
+    "discordT": "Discord",
+    "discordD": "聊天、帮助和公告。",
+    "mastodonT": "Mastodon",
+    "mastodonD": "在联邦宇宙关注更新。",
+    "translateT": "翻译",
+    "translateD": "通过 Weblate 帮助本地化 Endurain。"
+  },
+  "sponsor": {
+    "title": "支持这个项目",
+    "body": "赞助让 Endurain 保持独立并持续前进。"
+  },
+  "cta": {
+    "title": "重新掌控你的健身数据",
+    "body": "试用在线演示，然后在几分钟内自托管你自己的实例。",
+    "demo": "试用在线演示",
+    "docs": "阅读文档"
+  },
+  "newsletter": {
+    "eyebrow": "订阅通讯",
+    "title": "保持关注",
+    "body": "项目更新和发布动态，直接送达你的收件箱。没有垃圾邮件，随时可退订。",
+    "emailLabel": "电子邮件地址",
+    "button": "订阅",
+    "legal": "技术支持"
+  },
+  "footer": {
+    "tag": "尊重你隐私的自托管健身追踪。",
+    "made": "用 ♥ 在葡萄牙打造",
+    "colProduct": "产品",
+    "colResources": "资源",
+    "colCommunity": "社区",
+    "liveDemo": "在线演示",
+    "docs": "文档",
+    "gettingStarted": "快速开始",
+    "roadmap": "路线图",
+    "blog": "博客",
+    "trademark": "Endurain® 是 João Vitória Silva 的商标。",
+    "licensed": "许可协议",
+    "trademarkPolicy": "商标政策",
+    "source": "源代码"
+  }
+}

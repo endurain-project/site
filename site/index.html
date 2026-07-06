@@ -1,0 +1,1280 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title data-i18n="meta.title">
+      Endurain, self-hosted fitness tracking you control
+    </title>
+    <meta
+      name="description"
+      data-i18n-attr="content:meta.description"
+      content="Endurain is a self-hosted, privacy-first fitness tracking service. Own your activities, gear and health data, with Strava and Garmin sync, .gpx/.tcx/.fit import, and an Android app."
+    />
+    <meta
+      name="theme-color"
+      content="#1d9e75"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#04342c"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link rel="canonical" href="https://endurain.com/" />
+
+    <!-- Icons -->
+    <link
+      rel="icon"
+      href="assets/img/logo/brand_logo_light_theme.png"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="assets/img/logo/brand_logo_light_theme.png"
+    />
+
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Endurain" />
+    <meta
+      property="og:title"
+      content="Endurain, self-hosted fitness tracking you control"
+    />
+    <meta
+      property="og:description"
+      content="Own your activities, gear and health data. A privacy-first, open-source alternative to closed fitness platforms, self-hosted and yours."
+    />
+    <meta property="og:url" content="https://endurain.com/" />
+    <meta
+      property="og:image"
+      content="https://endurain.com/assets/img/screenshots/screenshot_home.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Endurain, self-hosted fitness tracking you control"
+    />
+    <meta
+      name="twitter:description"
+      content="Own your activities, gear and health data. A privacy-first, open-source alternative to closed fitness platforms."
+    />
+    <meta
+      name="twitter:image"
+      content="https://endurain.com/assets/img/screenshots/screenshot_home.jpg"
+    />
+
+    <!-- Set the theme before paint to avoid a flash of the wrong color scheme -->
+    <script>
+      document.documentElement.classList.remove('no-js')
+      document.documentElement.classList.add('js')
+      try {
+        const stored = localStorage.getItem('endurain-theme')
+        const prefersDark = window.matchMedia(
+          '(prefers-color-scheme: dark)',
+        ).matches
+        if (stored === 'dark' || (!stored && prefersDark)) {
+          document.documentElement.classList.add('dark')
+        }
+      } catch (e) {
+        /* localStorage may be unavailable, fall back to light theme */
+      }
+    </script>
+
+    <!-- Inter, matching the Endurain app typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..600&display=swap"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+    <!-- ============================ HEADER ============================ -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a
+          class="brand"
+          href="#top"
+          data-i18n-attr="aria-label:a11y.home"
+          aria-label="Endurain home"
+        >
+          <img
+            class="brand-mark"
+            src="assets/img/logo/brand_logo_light_theme.png"
+            alt=""
+            width="32"
+            height="32"
+          />
+          <span class="brand-name">Endurain</span>
+        </a>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="#mission" data-i18n="nav.mission">Mission</a>
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#mobile" data-i18n="nav.mobile">Mobile app</a>
+          <a href="#self-host" data-i18n="nav.selfHost">Self-host</a>
+          <a href="#community" data-i18n="nav.community">Community</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="lang" id="lang">
+            <button
+              class="icon-btn lang-toggle"
+              id="lang-toggle"
+              type="button"
+              aria-haspopup="listbox"
+              aria-expanded="false"
+              aria-controls="lang-menu"
+              data-i18n-attr="aria-label:a11y.langMenu; title:a11y.langMenu"
+              aria-label="Change language"
+              title="Change language"
+            >
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M3 12h18" />
+                <path d="M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z" />
+              </svg>
+            </button>
+            <ul
+              class="lang-menu"
+              id="lang-menu"
+              role="listbox"
+              tabindex="-1"
+              aria-label="Language"
+              hidden
+            >
+              <li role="option" data-lang="en">English</li>
+              <li role="option" data-lang="bg">Български</li>
+              <li role="option" data-lang="ca">Català</li>
+              <li role="option" data-lang="cs">Čeština</li>
+              <li role="option" data-lang="da">Dansk</li>
+              <li role="option" data-lang="de">Deutsch</li>
+              <li role="option" data-lang="el">Ελληνικά</li>
+              <li role="option" data-lang="es">Español</li>
+              <li role="option" data-lang="et">Eesti</li>
+              <li role="option" data-lang="fi">Suomi</li>
+              <li role="option" data-lang="fr">Français</li>
+              <li role="option" data-lang="gl">Galego</li>
+              <li role="option" data-lang="hr">Hrvatski</li>
+              <li role="option" data-lang="hu">Magyar</li>
+              <li role="option" data-lang="it">Italiano</li>
+              <li role="option" data-lang="lt">Lietuvių</li>
+              <li role="option" data-lang="lv">Latviešu</li>
+              <li role="option" data-lang="nb">Norsk bokmål</li>
+              <li role="option" data-lang="nl">Nederlands</li>
+              <li role="option" data-lang="pl">Polski</li>
+              <li role="option" data-lang="pt-PT">Português</li>
+              <li role="option" data-lang="ro">Română</li>
+              <li role="option" data-lang="sk">Slovenčina</li>
+              <li role="option" data-lang="sl">Slovenščina</li>
+              <li role="option" data-lang="sr">Српски</li>
+              <li role="option" data-lang="sv">Svenska</li>
+              <li role="option" data-lang="tr">Türkçe</li>
+              <li role="option" data-lang="uk">Українська</li>
+              <li role="option" data-lang="zh-Hans">简体中文</li>
+              <li role="option" data-lang="zh-Hant">繁體中文</li>
+            </ul>
+          </div>
+
+          <button
+            class="icon-btn theme-toggle"
+            id="theme-toggle"
+            type="button"
+            data-i18n-attr="aria-label:a11y.theme; title:a11y.theme"
+            aria-label="Toggle dark mode"
+            title="Toggle dark mode"
+          >
+            <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32 1.41-1.41"
+              />
+            </svg>
+            <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" />
+            </svg>
+          </button>
+
+          <a
+            class="icon-btn"
+            href="https://codeberg.org/endurain-project/endurain"
+            target="_blank"
+            rel="noopener"
+            data-i18n-attr="aria-label:a11y.codeberg; title:a11y.codeberg"
+            aria-label="View source on Codeberg"
+            title="View source on Codeberg"
+          >
+            <svg class="icon brand-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M11.955.49A12 12 0 0 0 0 12.49a12 12 0 0 0 1.832 6.373L11.838 5.928a.187.14 0 0 1 .324 0l10.006 12.935A12 12 0 0 0 24 12.49a12 12 0 0 0-12-12 12 12 0 0 0-.045 0zm.375 6.467l4.416 16.553a12 12 0 0 0 5.137-4.213z"
+              />
+            </svg>
+          </a>
+
+          <button
+            class="icon-btn nav-toggle"
+            id="nav-toggle"
+            type="button"
+            data-i18n-attr="aria-label:a11y.menu"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="site-nav"
+          >
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 6h18M3 12h18M3 18h18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============================ HERO ============================ -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <h1>
+              <span data-i18n="hero.title1">Track every move</span><br />
+              <span data-i18n="hero.title2">Own every moment</span>
+            </h1>
+            <p class="lede" data-i18n="hero.lede">
+              Endurain is a self-hosted fitness tracking service, a
+              privacy-first home for your activities, gear and health data. No
+              lock-in, no data mining. Just your training history, on
+              infrastructure you control.
+            </p>
+
+            <div class="hero-cta">
+              <a
+                class="btn btn-primary btn-lg"
+                href="https://demo.endurain.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <span data-i18n="hero.ctaDemo">Try the live demo</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+              <a
+                class="btn btn-outline btn-lg"
+                href="https://docs.endurain.com"
+                target="_blank"
+                rel="noopener"
+                data-i18n="hero.ctaDocs"
+              >
+                Read the docs
+              </a>
+            </div>
+
+            <ul class="hero-badges" aria-label="Project facts">
+              <li>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span data-i18n="hero.badge1">AGPL-3.0 open source</span>
+              </li>
+              <li>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span data-i18n="hero.badge2">100% self-hosted</span>
+              </li>
+              <li>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span data-i18n="hero.badge3">Strava and Garmin sync</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ TRUST STRIP ============================ -->
+      <section class="strip" aria-label="At a glance">
+        <div class="container strip-grid">
+          <div class="strip-item">
+            <span class="strip-k" data-i18n="strip.k1">Your data</span
+            ><span class="strip-v" data-i18n="strip.v1">Your server</span>
+          </div>
+          <div class="strip-item">
+            <span class="strip-k">.gpx · .tcx · .fit</span
+            ><span class="strip-v" data-i18n="strip.v2"
+              >Manual and bulk import</span
+            >
+          </div>
+          <div class="strip-item">
+            <span class="strip-k">Strava · Garmin</span
+            ><span class="strip-v" data-i18n="strip.v3">Sync to Endurain</span>
+          </div>
+          <div class="strip-item">
+            <span class="strip-k">Docker</span
+            ><span class="strip-v" data-i18n="strip.v4">Deploy in minutes</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ MISSION ============================ -->
+      <section class="section" id="mission">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow" data-i18n="mission.eyebrow">Our mission</p>
+            <h2 data-i18n="mission.title">
+              Fitness data belongs to the athlete
+            </h2>
+            <p class="section-sub" data-i18n="mission.sub">
+              Endurain exists because your training history is too personal to
+              hand over to someone else's cloud. It is built for people who want
+              the polish of a modern fitness platform without giving up
+              ownership, privacy, or control.
+            </p>
+          </div>
+
+          <div class="cards-3">
+            <article class="card reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+                </svg>
+              </div>
+              <h3 data-i18n="mission.c1t">You own your data</h3>
+              <p data-i18n="mission.c1b">
+                Everything lives on infrastructure you run. Export it, back it
+                up, move it. No gatekeepers, no vendor lock-in, ever.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="11" rx="2" />
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                </svg>
+              </div>
+              <h3 data-i18n="mission.c2t">Privacy by design</h3>
+              <p data-i18n="mission.c2b">
+                Per-activity privacy controls, MFA, SSO and email verification
+                are built in. Share what you choose; keep the rest to yourself.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M16 18 22 12 16 6M8 6 2 12l6 6" />
+                </svg>
+              </div>
+              <h3 data-i18n="mission.c3t">Truly open source</h3>
+              <p data-i18n="mission.c3b">
+                Licensed under AGPL-3.0 and developed in the open on Codeberg.
+                Read every line, file an issue, or ship a pull request.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ STATUS ============================ -->
+      <section class="section section-muted" id="status">
+        <div class="container">
+          <div class="notice reveal">
+            <div class="notice-body">
+              <p class="eyebrow" data-i18n="status.eyebrow">Current status</p>
+              <h2 data-i18n="status.title">
+                A temporary feature freeze, not a pause
+              </h2>
+              <p data-i18n="status.body">
+                Endurain has grown fast. To keep it healthy, the focus has
+                shifted from shipping new features to strengthening the
+                foundations: clearer module boundaries, more predictable
+                background work, better tests, and safer releases. Bug fixes,
+                security patches, docs and translations continue as usual.
+              </p>
+              <a
+                class="btn btn-outline"
+                href="https://docs.endurain.com/blog/2026/05/23/pausing-new-features-so-endurain-can-keep-growing/"
+                target="_blank"
+                rel="noopener"
+              >
+                <span data-i18n="status.cta">Read the announcement</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+            </div>
+            <ul class="notice-list">
+              <li>
+                <svg class="icon ok" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span data-i18n="status.l1">Security and bug fixes</span>
+              </li>
+              <li>
+                <svg class="icon ok" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span data-i18n="status.l2">Refactors and reliability</span>
+              </li>
+              <li>
+                <svg class="icon ok" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span data-i18n="status.l3">Docs and translations</span>
+              </li>
+              <li>
+                <svg class="icon ok" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span data-i18n="status.l4">Tests and CI hardening</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ FEATURES ============================ -->
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow" data-i18n="features.eyebrow">Features</p>
+            <h2 data-i18n="features.title">
+              Everything you expect, hosted your way
+            </h2>
+            <p class="section-sub" data-i18n="features.sub">
+              A complete training log with the integrations and quality-of-life
+              features of the big platforms, minus the surveillance.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 12h4l3 8 4-16 3 8h4" />
+                </svg>
+              </div>
+              <h3 data-i18n="features.f1t">Activity tracking</h3>
+              <p data-i18n="features.f1b">
+                Rich activity feeds, maps, and week/month statistics across
+                every sport.
+              </p>
+            </article>
+
+            <article class="feature reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v18M3 12h18" />
+                  <circle cx="12" cy="12" r="9" />
+                </svg>
+              </div>
+              <h3 data-i18n="features.f2t">Strava and Garmin</h3>
+              <p data-i18n="features.f2b">
+                Sync activities, gear and body composition from Strava and
+                Garmin Connect.
+              </p>
+            </article>
+
+            <article class="feature reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"
+                  />
+                  <path d="M14 2v6h6M12 18v-6M9 15h6" />
+                </svg>
+              </div>
+              <h3 data-i18n="features.f3t">Import files</h3>
+              <p data-i18n="features.f3b">
+                Upload .gpx, .tcx and .fit files one at a time or in bulk. .fit
+                preferred.
+              </p>
+            </article>
+
+            <article class="feature reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="6" cy="17" r="3" />
+                  <circle cx="18" cy="17" r="3" />
+                  <path d="M6 17 10 6h5l3 11M9 17h6" />
+                </svg>
+              </div>
+              <h3 data-i18n="features.f4t">Gear tracking</h3>
+              <p data-i18n="features.f4b">
+                Track bikes, shoes, wetsuits, skis and more, down to component
+                wear.
+              </p>
+            </article>
+
+            <article class="feature reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="features.f5t">Health metrics</h3>
+              <p data-i18n="features.f5b">
+                Log weight, steps and sleep, and follow trends on a dedicated
+                dashboard.
+              </p>
+            </article>
+
+            <article class="feature reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 8v4l3 2" />
+                </svg>
+              </div>
+              <h3 data-i18n="features.f6t">Goals</h3>
+              <p data-i18n="features.f6b">
+                Define distance or time goals and track progress week over week.
+              </p>
+            </article>
+
+            <article class="feature reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path
+                    d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13A4 4 0 0 1 16 11"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="features.f7t">Multi-user and followers</h3>
+              <p data-i18n="features.f7b">
+                Admin and user roles, follower feeds, and public user profile
+                pages.
+              </p>
+            </article>
+
+            <article class="feature reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="11" rx="2" />
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                </svg>
+              </div>
+              <h3 data-i18n="features.f8t">MFA and SSO</h3>
+              <p data-i18n="features.f8b">
+                TOTP multi-factor auth, OIDC/SAML single sign-on and email
+                verification.
+              </p>
+            </article>
+
+            <article class="feature reveal">
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20Z" />
+                </svg>
+              </div>
+              <h3 data-i18n="features.f9t">Localized and themed</h3>
+              <p data-i18n="features.f9b">
+                Multi-language, metric or imperial units, and a dark / light
+                theme switch.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ MOBILE ============================ -->
+      <section class="section mobile-section" id="mobile">
+        <div class="container mobile-grid">
+          <div class="mobile-copy reveal">
+            <p class="eyebrow eyebrow-on-dark" data-i18n="mobile.eyebrow">
+              Endurain mobile
+            </p>
+            <h2 data-i18n="mobile.title">Your training, in your pocket</h2>
+            <p class="section-sub" data-i18n="mobile.sub">
+              The Endurain app records runs, rides, walks and hikes live on a
+              map and uploads them straight to your own server. It works
+              offline, syncs automatically when you reconnect, and signs you in
+              with SSO and MFA.
+            </p>
+
+            <div class="store-buttons">
+              <a
+                class="store-btn"
+                href="downloads/endurain-latest.apk"
+                download
+              >
+                <svg
+                  class="store-glyph"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  fill="currentColor"
+                  stroke="none"
+                >
+                  <path
+                    d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1ZM5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"
+                  />
+                </svg>
+                <span class="store-text">
+                  <small data-i18n="mobile.apkTop">Download the</small>
+                  <strong data-i18n="mobile.apkStrong">Android APK</strong>
+                </span>
+              </a>
+
+              <span
+                class="store-btn store-btn-disabled"
+                aria-disabled="true"
+                role="link"
+                data-i18n-attr="title:mobile.soonTitle"
+                title="Coming soon"
+              >
+                <svg
+                  class="store-glyph"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  fill="currentColor"
+                  stroke="none"
+                >
+                  <path
+                    d="M3.6 2.3 13 12l-9.4 9.7A2 2 0 0 1 3 20.3V3.7c0-.5.2-1 .6-1.4Zm10.9 10.9 2.6 2.6-9.8 5.5 7.2-8.1Zm0-2.4L7.3 3.7l9.8 5.5-2.6 2.6ZM17.7 9.9l3.1 1.7c1 .6 1 2.2 0 2.8l-3.1 1.7-2.9-2.9 2.9-3.1Z"
+                  />
+                </svg>
+                <span class="store-text">
+                  <small data-i18n="mobile.comingSoon">Coming soon on</small>
+                  <strong data-i18n="mobile.play">Google Play</strong>
+                </span>
+                <span class="soon-badge" data-i18n="mobile.soon">Soon</span>
+              </span>
+
+              <span
+                class="store-btn store-btn-disabled"
+                aria-disabled="true"
+                role="link"
+                data-i18n-attr="title:mobile.soonTitle"
+                title="Coming soon"
+              >
+                <svg
+                  class="store-glyph"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  fill="currentColor"
+                  stroke="none"
+                >
+                  <path
+                    d="M16.4 12.8c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.2 1.2 9.6.8 1.2 1.7 2.5 3 2.4 1.2-.1 1.6-.8 3.1-.8 1.4 0 1.8.8 3.1.8 1.3 0 2.1-1.2 2.9-2.3.9-1.3 1.3-2.6 1.3-2.7-.1 0-2.5-1-2.5-3.7Zm-2.3-6.8c.7-.8 1.1-2 1-3.1-1 0-2.1.6-2.8 1.4-.6.7-1.1 1.9-1 3 1.1.1 2.2-.5 2.8-1.3Z"
+                  />
+                </svg>
+                <span class="store-text">
+                  <small data-i18n="mobile.comingSoon">Coming soon on</small>
+                  <strong data-i18n="mobile.appstore">App Store</strong>
+                </span>
+                <span class="soon-badge" data-i18n="mobile.soon">Soon</span>
+              </span>
+            </div>
+
+            <p class="mobile-hint">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 8h.01M11 12h1v4h1" />
+              </svg>
+              <span data-i18n="mobile.hint">
+                The app is in active development. Download the latest Android
+                APK right here on the site. Google Play and App Store listings
+                will follow.
+              </span>
+            </p>
+          </div>
+
+          <div class="mobile-visual reveal">
+            <div class="phone phone-back">
+              <div class="phone-screen">
+                <img
+                  class="phone-img"
+                  src="assets/img/mobile/mobile_settings.PNG"
+                  alt="The Endurain app settings screen."
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="phone phone-front">
+              <div class="phone-screen">
+                <img
+                  class="phone-img"
+                  src="assets/img/mobile/mobile_map.PNG"
+                  alt="The Endurain app recording a run on a live map."
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ GALLERY ============================ -->
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow" data-i18n="gallery.eyebrow">A closer look</p>
+            <h2 data-i18n="gallery.title">Designed to feel effortless</h2>
+            <p class="section-sub" data-i18n="gallery.sub">
+              A clean, modern interface across activities, gear, health and
+              settings, in light or dark, on desktop and mobile.
+            </p>
+          </div>
+
+          <div class="gallery">
+            <figure class="shot reveal shot-wide">
+              <img
+                src="assets/img/screenshots/screenshot_activity_page_1.jpg"
+                data-i18n-attr="alt:gallery.alt1"
+                alt="Activity detail page with map, splits and metrics."
+                loading="lazy"
+              />
+            </figure>
+            <figure class="shot reveal">
+              <img
+                src="assets/img/screenshots/screenshot_health_home.png"
+                data-i18n-attr="alt:gallery.alt2"
+                alt="Health dashboard with weight, steps and sleep trends."
+                loading="lazy"
+              />
+            </figure>
+            <figure class="shot reveal">
+              <img
+                src="assets/img/screenshots/screenshot_gears_page.png"
+                data-i18n-attr="alt:gallery.alt3"
+                alt="Gear list showing bikes, shoes and their usage."
+                loading="lazy"
+              />
+            </figure>
+            <figure class="shot reveal">
+              <img
+                src="assets/img/screenshots/screenshot_profile.jpg"
+                data-i18n-attr="alt:gallery.alt4"
+                alt="User profile page with stats and activity history."
+                loading="lazy"
+              />
+            </figure>
+            <figure class="shot reveal">
+              <img
+                src="assets/img/screenshots/screenshot_settings_my_goals.png"
+                data-i18n-attr="alt:gallery.alt5"
+                alt="Goals settings page for defining training targets."
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ SELF-HOST ============================ -->
+      <section class="section section-muted" id="self-host">
+        <div class="container self-grid">
+          <div class="self-copy reveal">
+            <p class="eyebrow" data-i18n="selfHost.eyebrow">Self-host it</p>
+            <h2 data-i18n="selfHost.title">Up and running with Docker</h2>
+            <p class="section-sub" data-i18n="selfHost.sub">
+              Endurain ships as a Docker image and is configured entirely
+              through nvironment variables. A complete docker compose example
+              lives in the repository. Spin up the stack and open the app.
+            </p>
+            <ol class="steps">
+              <li>
+                <span class="step-n">1</span>
+                <span data-i18n="selfHost.step1"
+                  >Copy the example compose and env files</span
+                >
+              </li>
+              <li>
+                <span class="step-n">2</span>
+                <span data-i18n="selfHost.step2"
+                  >Set your secrets and integration keys</span
+                >
+              </li>
+              <li>
+                <span class="step-n">3</span> <code>docker compose up -d</code>
+              </li>
+            </ol>
+            <div class="hero-cta">
+              <a
+                class="btn btn-primary"
+                href="https://docs.endurain.com/getting-started/getting-started/"
+                target="_blank"
+                rel="noopener"
+              >
+                <span data-i18n="selfHost.ctaGuide">Getting started guide</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+              <a
+                class="btn btn-outline"
+                href="https://demo.endurain.com"
+                target="_blank"
+                rel="noopener"
+                data-i18n="selfHost.ctaDemo"
+                >Try the demo first</a
+              >
+            </div>
+          </div>
+
+          <div class="self-code reveal">
+            <div class="code-mock">
+              <div class="code-bar">
+                <span class="dot red"></span><span class="dot amber"></span
+                ><span class="dot green"></span>
+                <span class="code-file">docker-compose.yml</span>
+              </div>
+              <pre><code><span class="c-key">services</span>:
+  <span class="c-key">endurain</span>:
+    <span class="c-key">image</span>: <span class="c-str">codeberg.org/endurain-project/endurain:latest</span>
+    <span class="c-key">ports</span>:
+      - <span class="c-str">"8080:8080"</span>
+    <span class="c-key">environment</span>:
+      - <span class="c-str">DB_HOST=postgres</span>
+      - <span class="c-str">TZ=Europe/Lisbon</span>
+    <span class="c-key">volumes</span>:
+      - <span class="c-str">./data:/app/backend/data</span>
+    <span class="c-key">depends_on</span>:
+      - <span class="c-str">postgres</span>
+
+  <span class="c-key">postgres</span>:
+    <span class="c-key">image</span>: <span class="c-str">postgres:16</span>
+    <span class="c-key">environment</span>:
+      - <span class="c-str">POSTGRES_DB=endurain</span></code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ COMMUNITY ============================ -->
+      <section class="section" id="community">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow" data-i18n="community.eyebrow">
+              Community and support
+            </p>
+            <h2 data-i18n="community.title">Built in the open, together</h2>
+            <p class="section-sub" data-i18n="community.sub">
+              Endurain is developed on Codeberg and shaped by its community.
+              Jump in, ask questions, translate, or help fund the work.
+            </p>
+          </div>
+
+          <div class="link-grid">
+            <a
+              class="link-card reveal"
+              href="https://codeberg.org/endurain-project/endurain"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="card-icon">
+                <svg
+                  class="icon brand-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M11.955.49A12 12 0 0 0 0 12.49a12 12 0 0 0 1.832 6.373L11.838 5.928a.187.14 0 0 1 .324 0l10.006 12.935A12 12 0 0 0 24 12.49a12 12 0 0 0-12-12 12 12 0 0 0-.045 0zm.375 6.467l4.416 16.553a12 12 0 0 0 5.137-4.213z"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="community.codebergT">Codeberg</h3>
+              <p data-i18n="community.codebergD">
+                Source, issues and pull requests.
+              </p>
+              <span class="link-arrow"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span>
+            </a>
+
+            <a
+              class="link-card reveal"
+              href="https://docs.endurain.com"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 4h11a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4Z" />
+                  <path d="M4 4v14" />
+                </svg>
+              </div>
+              <h3 data-i18n="community.docsT">Documentation</h3>
+              <p data-i18n="community.docsD">
+                Guides for install, config and dev.
+              </p>
+              <span class="link-arrow"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span>
+            </a>
+
+            <a
+              class="link-card reveal"
+              href="https://discord.gg/6VUjUq2uZR"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="card-icon">
+                <svg
+                  class="icon brand-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="community.discordT">Discord</h3>
+              <p data-i18n="community.discordD">
+                Chat, help and announcements.
+              </p>
+              <span class="link-arrow"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span>
+            </a>
+
+            <a
+              class="link-card reveal"
+              href="https://fosstodon.org/@endurain"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="card-icon">
+                <svg
+                  class="icon brand-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="community.mastodonT">Mastodon</h3>
+              <p data-i18n="community.mastodonD">
+                Follow updates in the fediverse.
+              </p>
+              <span class="link-arrow"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span>
+            </a>
+
+            <a
+              class="link-card reveal"
+              href="https://translate.codeberg.org/projects/endurain/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="card-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="m5 8 6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14 18h6"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="community.translateT">Translate</h3>
+              <p data-i18n="community.translateD">
+                Help localize Endurain via Weblate.
+              </p>
+              <span class="link-arrow"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 17 17 7M9 7h8v8" /></svg
+              ></span>
+            </a>
+          </div>
+
+          <div class="sponsor reveal">
+            <div class="sponsor-text">
+              <h3 data-i18n="sponsor.title">Support the project</h3>
+              <p data-i18n="sponsor.body">
+                Sponsorships keep Endurain independent and moving forward.
+              </p>
+            </div>
+            <div class="sponsor-links">
+              <a
+                class="btn btn-outline"
+                href="https://buymeacoffee.com/endurain"
+                target="_blank"
+                rel="noopener"
+                >Buy Me a Coffee</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://liberapay.com/endurain/"
+                target="_blank"
+                rel="noopener"
+                >Liberapay</a
+              >
+              <a
+                class="btn btn-outline"
+                href="https://patreon.com/u84745218"
+                target="_blank"
+                rel="noopener"
+                >Patreon</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ NEWSLETTER ============================ -->
+      <section class="section section-muted" id="newsletter">
+        <div class="container">
+          <div class="newsletter-card reveal">
+            <div class="newsletter-copy">
+              <p class="eyebrow" data-i18n="newsletter.eyebrow">Newsletter</p>
+              <h2 data-i18n="newsletter.title">Stay in the loop</h2>
+              <p class="section-sub" data-i18n="newsletter.body">
+                Project updates and release news, straight to your inbox. No
+                spam, unsubscribe anytime.
+              </p>
+            </div>
+            <form
+              class="newsletter-form"
+              action="https://app.keila.io/forms/nfrm_GRYrMr3w"
+              method="post"
+            >
+              <label
+                class="sr-only"
+                for="nl-email"
+                data-i18n="newsletter.emailLabel"
+                >Email address</label
+              >
+              <div class="newsletter-row">
+                <input
+                  id="nl-email"
+                  class="newsletter-input"
+                  name="contact[email]"
+                  type="email"
+                  required
+                  autocomplete="email"
+                  placeholder="thankyou@youare.awesome"
+                />
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  data-i18n="newsletter.button"
+                >
+                  Subscribe
+                </button>
+              </div>
+              <!-- Honeypot field for spam bots; kept hidden -->
+              <input
+                aria-hidden="true"
+                autocomplete="off"
+                name="h[url]"
+                tabindex="-1"
+                style="display: none"
+              />
+              <div
+                class="h-captcha"
+                data-sitekey="a1c5fab7-71df-4ea4-af75-87a3d07c61de"
+              ></div>
+              <p class="newsletter-legal">
+                <span data-i18n="newsletter.legal">Powered by</span>
+                <a href="https://keila.io" target="_blank" rel="noopener"
+                  >Keila</a
+                >.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ CTA ============================ -->
+      <section class="section cta-section">
+        <div class="container cta-inner reveal">
+          <h2 data-i18n="cta.title">Take back control of your fitness data</h2>
+          <p data-i18n="cta.body">
+            Try the live demo, then self-host your own instance in minutes.
+          </p>
+          <div class="hero-cta center">
+            <a
+              class="btn btn-primary btn-lg"
+              href="https://demo.endurain.com"
+              target="_blank"
+              rel="noopener"
+              data-i18n="cta.demo"
+              >Try the live demo</a
+            >
+            <a
+              class="btn btn-outline btn-lg on-dark"
+              href="https://docs.endurain.com"
+              target="_blank"
+              rel="noopener"
+              data-i18n="cta.docs"
+              >Read the docs</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================ FOOTER ============================ -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a
+            class="brand"
+            href="#top"
+            data-i18n-attr="aria-label:a11y.home"
+            aria-label="Endurain home"
+          >
+            <img
+              class="brand-mark"
+              src="assets/img/logo/brand_logo_dark_theme.png"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <span class="brand-name">Endurain</span>
+          </a>
+          <p class="footer-tag" data-i18n="footer.tag">
+            Self-hosted fitness tracking that respects your privacy.
+          </p>
+          <p class="footer-made" data-i18n="footer.made">
+            Built with ♥ from Portugal
+          </p>
+        </div>
+
+        <nav class="footer-col" aria-label="Product">
+          <h4 data-i18n="footer.colProduct">Product</h4>
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#mobile" data-i18n="nav.mobile">Mobile app</a>
+          <a
+            href="https://demo.endurain.com"
+            target="_blank"
+            rel="noopener"
+            data-i18n="footer.liveDemo"
+            >Live demo</a
+          >
+          <a href="#self-host" data-i18n="nav.selfHost">Self-host</a>
+        </nav>
+
+        <nav class="footer-col" aria-label="Resources">
+          <h4 data-i18n="footer.colResources">Resources</h4>
+          <a
+            href="https://docs.endurain.com"
+            target="_blank"
+            rel="noopener"
+            data-i18n="footer.docs"
+            >Documentation</a
+          >
+          <a
+            href="https://docs.endurain.com/getting-started/getting-started/"
+            target="_blank"
+            rel="noopener"
+            data-i18n="footer.gettingStarted"
+            >Getting started</a
+          >
+          <a
+            href="https://codeberg.org/endurain-project/endurain/src/branch/master/ROADMAP.md"
+            target="_blank"
+            rel="noopener"
+            data-i18n="footer.roadmap"
+            >Roadmap</a
+          >
+          <a
+            href="https://docs.endurain.com/blog/"
+            target="_blank"
+            rel="noopener"
+            data-i18n="footer.blog"
+            >Blog</a
+          >
+        </nav>
+
+        <nav class="footer-col" aria-label="Community">
+          <h4 data-i18n="footer.colCommunity">Community</h4>
+          <a
+            href="https://codeberg.org/endurain-project/endurain"
+            target="_blank"
+            rel="noopener"
+            data-i18n="community.codebergT"
+            >Codeberg</a
+          >
+          <a
+            href="https://discord.gg/6VUjUq2uZR"
+            target="_blank"
+            rel="noopener"
+            data-i18n="community.discordT"
+            >Discord</a
+          >
+          <a
+            href="https://fosstodon.org/@endurain"
+            target="_blank"
+            rel="noopener"
+            data-i18n="community.mastodonT"
+            >Mastodon</a
+          >
+          <a
+            href="https://translate.codeberg.org/projects/endurain/"
+            target="_blank"
+            rel="noopener"
+            data-i18n="community.translateT"
+            >Translate</a
+          >
+        </nav>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          &copy; <span id="year">2026</span>
+          <span data-i18n="footer.trademark"
+            >Endurain® is a trademark of João Vitória Silva.</span
+          >
+          <span data-i18n="footer.licensed">Licensed under</span>
+          <a
+            href="https://codeberg.org/endurain-project/endurain/src/branch/master/LICENSE"
+            target="_blank"
+            rel="noopener"
+            >AGPL-3.0</a
+          >.
+        </p>
+        <p class="footer-legal">
+          <a
+            href="https://codeberg.org/endurain-project/endurain/src/branch/master/TRADEMARK.md"
+            target="_blank"
+            rel="noopener"
+            data-i18n="footer.trademarkPolicy"
+            >Trademark policy</a
+          >
+          <span aria-hidden="true">·</span>
+          <a
+            href="https://codeberg.org/endurain-project/endurain"
+            target="_blank"
+            rel="noopener"
+            data-i18n="footer.source"
+            >Source</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- hCaptcha has no "auto" theme, so pick a valid light or dark theme from the site theme before it renders. -->
+    <script>
+      const hcaptchaEl = document.querySelector('.h-captcha')
+      if (hcaptchaEl) {
+        const captchaTheme = document.documentElement.classList.contains('dark')
+          ? 'dark'
+          : 'light'
+        hcaptchaEl.setAttribute('data-theme', captchaTheme)
+      }
+    </script>
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+    <script src="assets/js/i18n.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

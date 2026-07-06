@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, zelf-gehoste fitnesstracking die jij beheert",
+    "description": "Endurain is een zelf-gehoste, privacy-eerste fitnesstrackingdienst. Beheer je activiteiten, uitrusting en gezondheidsgegevens, met Strava- en Garmin-synchronisatie, .gpx/.tcx/.fit-import en een Android-app."
+  },
+  "a11y": {
+    "skip": "Naar inhoud gaan",
+    "home": "Endurain startpagina",
+    "langMenu": "Taal wijzigen",
+    "theme": "Donkere modus wisselen",
+    "codeberg": "Broncode op Codeberg bekijken",
+    "menu": "Menu openen"
+  },
+  "nav": {
+    "mission": "Missie",
+    "features": "Functies",
+    "mobile": "Mobiele app",
+    "selfHost": "Zelf hosten",
+    "community": "Community"
+  },
+  "hero": {
+    "status": "Feature freeze: de fundering versterken",
+    "title1": "Registreer elke beweging",
+    "title2": "Bezit elk moment",
+    "lede": "Endurain is een zelf-gehoste fitnesstrackingdienst, een privacy-eerste thuis voor je activiteiten, uitrusting en gezondheidsgegevens. Geen lock-in, geen datamining. Alleen je trainingsgeschiedenis, op infrastructuur die jij beheert.",
+    "ctaDemo": "Probeer de live demo",
+    "ctaDocs": "Lees de documentatie",
+    "badge1": "AGPL-3.0 opensource",
+    "badge2": "100% zelf-gehost",
+    "badge3": "Strava- en Garmin-synchronisatie",
+    "imgAlt": "Het Endurain-dashboard met een activiteitenfeed met een run op de kaart, tempo- en vermogensgegevens en maandtotalen."
+  },
+  "strip": {
+    "k1": "Jouw gegevens",
+    "v1": "Jouw server",
+    "v2": "Handmatige en bulkimport",
+    "v3": "Synchronisatie naar Endurain",
+    "v4": "In minuten inzetbaar"
+  },
+  "mission": {
+    "eyebrow": "Onze missie",
+    "title": "Fitnessgegevens zijn van de sporter",
+    "sub": "Endurain bestaat omdat je trainingsgeschiedenis te persoonlijk is om aan de cloud van iemand anders toe te vertrouwen. Het is gemaakt voor mensen die de verfijning van een modern fitnessplatform willen zonder eigendom, privacy of controle op te geven.",
+    "c1t": "Jouw gegevens zijn van jou",
+    "c1b": "Alles staat op infrastructuur die jij beheert. Exporteer het, maak back-ups, verplaats het. Geen poortwachters, geen leveranciers-lock-in, nooit.",
+    "c2t": "Privacy by design",
+    "c2b": "Privacyinstellingen per activiteit, MFA, SSO en e-mailverificatie zijn ingebouwd. Deel wat je wilt; houd de rest voor jezelf.",
+    "c3t": "Echt opensource",
+    "c3b": "Gelicentieerd onder AGPL-3.0 en in de openbaarheid ontwikkeld op Codeberg. Lees elke regel, meld een probleem of stuur een pull request in."
+  },
+  "status": {
+    "eyebrow": "Huidige status",
+    "title": "Een tijdelijke feature freeze, geen pauze",
+    "body": "Endurain is snel gegroeid. Om het gezond te houden is de focus verschoven van het uitbrengen van nieuwe functies naar het versterken van de fundering: duidelijkere modulegrenzen, voorspelbaarder achtergrondwerk, betere tests en veiligere releases. Bugfixes, beveiligingspatches, documentatie en vertalingen gaan gewoon door.",
+    "cta": "Lees de aankondiging",
+    "l1": "Beveiligings- en bugfixes",
+    "l2": "Refactors en betrouwbaarheid",
+    "l3": "Documentatie en vertalingen",
+    "l4": "Tests en CI-versteviging"
+  },
+  "features": {
+    "eyebrow": "Functies",
+    "title": "Alles wat je verwacht, gehost op jouw manier",
+    "sub": "Een compleet trainingslogboek met de integraties en gemaksfuncties van de grote platforms, maar zonder de surveillance.",
+    "f1t": "Activiteiten volgen",
+    "f1b": "Rijke activiteitenfeeds, kaarten en week- en maandstatistieken voor elke sport.",
+    "f2t": "Strava en Garmin",
+    "f2b": "Synchroniseer activiteiten, uitrusting en lichaamssamenstelling vanuit Strava en Garmin Connect.",
+    "f3t": "Bestanden importeren",
+    "f3b": "Upload .gpx-, .tcx- en .fit-bestanden een voor een of in bulk. .fit heeft de voorkeur.",
+    "f4t": "Uitrusting volgen",
+    "f4b": "Volg fietsen, schoenen, wetsuits, ski's en meer, tot op de slijtage van onderdelen.",
+    "f5t": "Gezondheidsstatistieken",
+    "f5b": "Registreer gewicht, stappen en slaap en volg trends op een speciaal dashboard.",
+    "f6t": "Doelen",
+    "f6b": "Stel afstands- of tijdsdoelen in en volg je voortgang week na week.",
+    "f7t": "Meerdere gebruikers en volgers",
+    "f7b": "Beheerders- en gebruikersrollen, volgersfeeds en openbare gebruikersprofielpagina's.",
+    "f8t": "MFA en SSO",
+    "f8b": "TOTP-multifactorauthenticatie, OIDC/SAML single sign-on en e-mailverificatie.",
+    "f9t": "Gelokaliseerd en met thema's",
+    "f9b": "Meertalig, metrische of imperiale eenheden en een schakelaar voor licht/donker thema."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobiel",
+    "title": "Je training, in je zak",
+    "sub": "De Endurain-app registreert hardloop-, fiets-, wandel- en trektochten live op een kaart en uploadt ze rechtstreeks naar je eigen server. Hij werkt offline, synchroniseert automatisch zodra je weer verbinding hebt en meldt je aan met SSO en MFA.",
+    "apkTop": "Download de",
+    "apkStrong": "Android-APK",
+    "comingSoon": "Binnenkort op",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Binnenkort",
+    "soonTitle": "Binnenkort beschikbaar",
+    "hint": "De app is in actieve ontwikkeling. Download de nieuwste Android-APK hier op de site. Vermeldingen in Google Play en de App Store volgen."
+  },
+  "gallery": {
+    "eyebrow": "Een nadere blik",
+    "title": "Ontworpen om moeiteloos aan te voelen",
+    "sub": "Een strakke, moderne interface voor activiteiten, uitrusting, gezondheid en instellingen, in licht of donker, op desktop en mobiel.",
+    "alt1": "Activiteitdetailpagina met kaart, tussentijden en statistieken.",
+    "alt2": "Gezondheidsdashboard met gewicht, stappen en slaaptrends.",
+    "alt3": "Uitrustinglijst met fietsen, schoenen en hun gebruik.",
+    "alt4": "Gebruikersprofielpagina met statistieken en activiteitengeschiedenis.",
+    "alt5": "Instellingenpagina voor doelen om trainingsdoelen te bepalen."
+  },
+  "selfHost": {
+    "eyebrow": "Host het zelf",
+    "title": "Aan de slag met Docker",
+    "sub": "Endurain wordt geleverd als Docker-image en wordt volledig geconfigureerd via omgevingsvariabelen. Een compleet docker compose-voorbeeld staat in de repository. Start de stack en open de app.",
+    "step1": "Kopieer de voorbeeld compose- en env-bestanden",
+    "step2": "Stel je secrets en integratiesleutels in",
+    "ctaGuide": "Aan de slag-gids",
+    "ctaDemo": "Probeer eerst de demo"
+  },
+  "community": {
+    "eyebrow": "Community en ondersteuning",
+    "title": "Samen in de openbaarheid gebouwd",
+    "sub": "Endurain wordt ontwikkeld op Codeberg en gevormd door zijn community. Doe mee, stel vragen, vertaal of help het werk te financieren.",
+    "codebergT": "Codeberg",
+    "codebergD": "Broncode, issues en pull requests.",
+    "docsT": "Documentatie",
+    "docsD": "Handleidingen voor installatie, configuratie en ontwikkeling.",
+    "discordT": "Discord",
+    "discordD": "Chat, hulp en aankondigingen.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Volg updates in de fediverse.",
+    "translateT": "Vertalen",
+    "translateD": "Help Endurain te lokaliseren via Weblate."
+  },
+  "sponsor": {
+    "title": "Steun het project",
+    "body": "Sponsoring houdt Endurain onafhankelijk en in beweging."
+  },
+  "cta": {
+    "title": "Neem de controle over je fitnessgegevens terug",
+    "body": "Probeer de live demo en host daarna in minuten je eigen instantie.",
+    "demo": "Probeer de live demo",
+    "docs": "Lees de documentatie"
+  },
+  "newsletter": {
+    "eyebrow": "Nieuwsbrief",
+    "title": "Blijf op de hoogte",
+    "body": "Projectupdates en releasenieuws, rechtstreeks in je inbox. Geen spam, altijd uitschrijfbaar.",
+    "emailLabel": "E-mailadres",
+    "button": "Abonneren",
+    "legal": "Mogelijk gemaakt door"
+  },
+  "footer": {
+    "tag": "Zelf-gehoste fitnesstracking die je privacy respecteert.",
+    "made": "Gemaakt met ♥ vanuit Portugal",
+    "colProduct": "Product",
+    "colResources": "Bronnen",
+    "colCommunity": "Community",
+    "liveDemo": "Live demo",
+    "docs": "Documentatie",
+    "gettingStarted": "Aan de slag",
+    "roadmap": "Roadmap",
+    "blog": "Blog",
+    "trademark": "Endurain® is een handelsmerk van João Vitória Silva.",
+    "licensed": "Gelicentieerd onder",
+    "trademarkPolicy": "Handelsmerkbeleid",
+    "source": "Broncode"
+  }
+}

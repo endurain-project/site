@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, samostalno hostano praćenje treninga koje kontrolirate",
+    "description": "Endurain je samostalno hostana usluga za praćenje treninga usmjerena na privatnost. Posjedujte svoje aktivnosti, opremu i zdravstvene podatke, uz sinkronizaciju sa Stravom i Garminom, uvoz .gpx/.tcx/.fit i Android aplikaciju."
+  },
+  "a11y": {
+    "skip": "Preskoči na sadržaj",
+    "home": "Endurain početna",
+    "langMenu": "Promijeni jezik",
+    "theme": "Prebaci tamni način rada",
+    "codeberg": "Pogledaj izvorni kod na Codebergu",
+    "menu": "Otvori izbornik"
+  },
+  "nav": {
+    "mission": "Misija",
+    "features": "Značajke",
+    "mobile": "Mobilna aplikacija",
+    "selfHost": "Samostalno hostanje",
+    "community": "Zajednica"
+  },
+  "hero": {
+    "status": "Zamrzavanje značajki: jačanje temelja",
+    "title1": "Pratite svaki pokret",
+    "title2": "Posjedujte svaki trenutak",
+    "lede": "Endurain je samostalno hostana usluga za praćenje treninga, dom usmjeren na privatnost za vaše aktivnosti, opremu i zdravstvene podatke. Bez zaključavanja, bez rudarenja podataka. Samo vaša povijest treninga, na infrastrukturi koju kontrolirate.",
+    "ctaDemo": "Isprobajte demo uživo",
+    "ctaDocs": "Pročitajte dokumentaciju",
+    "badge1": "Otvoreni kod AGPL-3.0",
+    "badge2": "100% samostalno hostano",
+    "badge3": "Sinkronizacija sa Stravom i Garminom",
+    "imgAlt": "Endurain nadzorna ploča prikazuje feed aktivnosti s trčanjem na karti, podacima o tempu i snazi te mjesečnim zbrojevima."
+  },
+  "strip": {
+    "k1": "Vaši podaci",
+    "v1": "Vaš poslužitelj",
+    "v2": "Ručni i skupni uvoz",
+    "v3": "Sinkronizacija u Endurain",
+    "v4": "Spremno za nekoliko minuta"
+  },
+  "mission": {
+    "eyebrow": "Naša misija",
+    "title": "Podaci o treningu pripadaju sportašu",
+    "sub": "Endurain postoji jer je vaša povijest treninga previše osobna da biste je povjerili tuđem oblaku. Napravljen je za one koji žele dotjeranost moderne platforme za trening bez odricanja od vlasništva, privatnosti ili kontrole.",
+    "c1t": "Vaši podaci su vaši",
+    "c1b": "Sve se nalazi na infrastrukturi kojom upravljate. Izvezite ih, izradite sigurnosne kopije, premjestite ih. Bez vratara, bez vezanja uz dobavljača, nikada.",
+    "c2t": "Privatnost od početka",
+    "c2b": "Kontrole privatnosti po aktivnosti, MFA, SSO i potvrda e-poštom ugrađeni su. Dijelite što želite; ostalo zadržite za sebe.",
+    "c3t": "Uistinu otvorenog koda",
+    "c3b": "Licencirano pod AGPL-3.0 i razvijano otvoreno na Codebergu. Pročitajte svaki redak, prijavite problem ili pošaljite pull request."
+  },
+  "status": {
+    "eyebrow": "Trenutačno stanje",
+    "title": "Privremeno zamrzavanje značajki, a ne pauza",
+    "body": "Endurain je brzo narastao. Kako bi ostao zdrav, fokus se pomaknuo s isporuke novih značajki na jačanje temelja: jasnije granice modula, predvidljiviji rad u pozadini, bolji testovi i sigurnija izdanja. Ispravci pogrešaka, sigurnosne zakrpe, dokumentacija i prijevodi nastavljaju se kao i obično.",
+    "cta": "Pročitajte objavu",
+    "l1": "Ispravci sigurnosti i pogrešaka",
+    "l2": "Refaktoriranja i pouzdanost",
+    "l3": "Dokumentacija i prijevodi",
+    "l4": "Testovi i jačanje CI-ja"
+  },
+  "features": {
+    "eyebrow": "Značajke",
+    "title": "Sve što očekujete, hostano na vaš način",
+    "sub": "Potpuni dnevnik treninga s integracijama i pogodnostima velikih platformi, ali bez nadzora.",
+    "f1t": "Praćenje aktivnosti",
+    "f1b": "Bogati feedovi aktivnosti, karte te tjedne i mjesečne statistike za svaki sport.",
+    "f2t": "Strava i Garmin",
+    "f2b": "Sinkronizirajte aktivnosti, opremu i sastav tijela iz Strave i Garmin Connecta.",
+    "f3t": "Uvoz datoteka",
+    "f3b": "Prenesite datoteke .gpx, .tcx i .fit pojedinačno ili skupno. Preferira se .fit.",
+    "f4t": "Praćenje opreme",
+    "f4b": "Pratite bicikle, tenisice, ronilačka odijela, skije i drugo, sve do istrošenosti komponenti.",
+    "f5t": "Zdravstveni pokazatelji",
+    "f5b": "Bilježite težinu, korake i san te pratite trendove na namjenskoj nadzornoj ploči.",
+    "f6t": "Ciljevi",
+    "f6b": "Postavite ciljeve udaljenosti ili vremena i pratite napredak iz tjedna u tjedan.",
+    "f7t": "Više korisnika i pratitelji",
+    "f7b": "Administratorske i korisničke uloge, feedovi pratitelja i javne stranice profila.",
+    "f8t": "MFA i SSO",
+    "f8b": "TOTP višefaktorska autentifikacija, OIDC/SAML jedinstvena prijava i potvrda e-poštom.",
+    "f9t": "Lokalizirano i s temama",
+    "f9b": "Višejezično, metričke ili imperijalne jedinice i preklopnik svijetle i tamne teme."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobilni",
+    "title": "Vaš trening, u vašem džepu",
+    "sub": "Aplikacija Endurain snima trčanja, vožnje biciklom, šetnje i planinarenja uživo na karti i učitava ih izravno na vaš vlastiti poslužitelj. Radi izvan mreže, automatski se sinkronizira čim se ponovno povežete i prijavljuje vas putem SSO-a i MFA-a.",
+    "apkTop": "Preuzmite",
+    "apkStrong": "Android APK",
+    "comingSoon": "Uskoro na",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Uskoro",
+    "soonTitle": "Uskoro dostupno",
+    "hint": "Aplikacija je u aktivnom razvoju. Preuzmite najnoviji Android APK ovdje na stranici. Objave na Google Playu i App Storeu slijede."
+  },
+  "gallery": {
+    "eyebrow": "Pobliži pogled",
+    "title": "Osmišljeno da djeluje bez napora",
+    "sub": "Čisto, moderno sučelje za aktivnosti, opremu, zdravlje i postavke, u svijetlom ili tamnom, na računalu i mobitelu.",
+    "alt1": "Stranica s detaljima aktivnosti s kartom, međuvremenima i pokazateljima.",
+    "alt2": "Zdravstvena nadzorna ploča s težinom, koracima i trendovima sna.",
+    "alt3": "Popis opreme koji prikazuje bicikle, tenisice i njihovu upotrebu.",
+    "alt4": "Stranica korisničkog profila sa statistikama i poviješću aktivnosti.",
+    "alt5": "Stranica postavki ciljeva za definiranje ciljeva treninga."
+  },
+  "selfHost": {
+    "eyebrow": "Hostajte sami",
+    "title": "Pokrenuto uz Docker",
+    "sub": "Endurain se isporučuje kao Docker slika i konfigurira se u potpunosti putem varijabli okruženja. Potpun primjer docker composea nalazi se u repozitoriju. Pokrenite stog i otvorite aplikaciju.",
+    "step1": "Kopirajte primjere datoteka compose i env",
+    "step2": "Postavite svoje tajne i ključeve integracije",
+    "ctaGuide": "Vodič za početak",
+    "ctaDemo": "Prvo isprobajte demo"
+  },
+  "community": {
+    "eyebrow": "Zajednica i podrška",
+    "title": "Izgrađeno otvoreno, zajedno",
+    "sub": "Endurain se razvija na Codebergu i oblikuje ga njegova zajednica. Pridružite se, postavljajte pitanja, prevodite ili pomozite u financiranju rada.",
+    "codebergT": "Codeberg",
+    "codebergD": "Izvorni kod, problemi i pull requestovi.",
+    "docsT": "Dokumentacija",
+    "docsD": "Vodiči za instalaciju, konfiguraciju i razvoj.",
+    "discordT": "Discord",
+    "discordD": "Razgovor, pomoć i obavijesti.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Pratite novosti u fediverzumu.",
+    "translateT": "Prevedi",
+    "translateD": "Pomozite lokalizirati Endurain putem Weblatea."
+  },
+  "sponsor": {
+    "title": "Podržite projekt",
+    "body": "Sponzorstva održavaju Endurain neovisnim i u pokretu."
+  },
+  "cta": {
+    "title": "Vratite kontrolu nad podacima o svom treningu",
+    "body": "Isprobajte demo uživo, a zatim u nekoliko minuta hostajte vlastitu instancu.",
+    "demo": "Isprobajte demo uživo",
+    "docs": "Pročitajte dokumentaciju"
+  },
+  "newsletter": {
+    "eyebrow": "Bilten",
+    "title": "Ostanite u toku",
+    "body": "Novosti o projektu i izdanjima, izravno u vaš sandučić. Bez neželjene pošte, odjava u bilo kojem trenutku.",
+    "emailLabel": "Adresa e-pošte",
+    "button": "Pretplati se",
+    "legal": "Pokreće"
+  },
+  "footer": {
+    "tag": "Samostalno hostano praćenje treninga koje poštuje vašu privatnost.",
+    "made": "Izrađeno s ♥ iz Portugala",
+    "colProduct": "Proizvod",
+    "colResources": "Resursi",
+    "colCommunity": "Zajednica",
+    "liveDemo": "Demo uživo",
+    "docs": "Dokumentacija",
+    "gettingStarted": "Početak",
+    "roadmap": "Plan razvoja",
+    "blog": "Blog",
+    "trademark": "Endurain® je zaštitni znak Joãoa Vitórije Silve.",
+    "licensed": "Licencirano pod",
+    "trademarkPolicy": "Pravila o zaštitnom znaku",
+    "source": "Izvorni kod"
+  }
+}

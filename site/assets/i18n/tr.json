@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Endurain, kendi sunucunuzda barındırılan, kontrolü sizde olan fitness takibi",
+    "description": "Endurain, kendi sunucunuzda barındırılan, gizlilik öncelikli bir fitness takip hizmetidir. Etkinliklerinize, ekipmanınıza ve sağlık verilerinize sahip olun; Strava ve Garmin senkronizasyonu, .gpx/.tcx/.fit içe aktarma ve bir Android uygulaması ile."
+  },
+  "a11y": {
+    "skip": "İçeriğe geç",
+    "home": "Endurain ana sayfa",
+    "langMenu": "Dili değiştir",
+    "theme": "Karanlık modu değiştir",
+    "codeberg": "Kaynak kodunu Codeberg'de görüntüle",
+    "menu": "Menüyü aç"
+  },
+  "nav": {
+    "mission": "Misyon",
+    "features": "Özellikler",
+    "mobile": "Mobil uygulama",
+    "selfHost": "Kendin barındır",
+    "community": "Topluluk"
+  },
+  "hero": {
+    "status": "Özellik dondurma: temelleri güçlendirmek",
+    "title1": "Her hareketi takip et",
+    "title2": "Her anın sahibi ol",
+    "lede": "Endurain, kendi sunucunuzda barındırılan bir fitness takip hizmetidir; etkinlikleriniz, ekipmanınız ve sağlık verileriniz için gizlilik öncelikli bir yuva. Bağımlılık yok, veri madenciliği yok. Yalnızca antrenman geçmişiniz, kontrolü sizde olan bir altyapıda.",
+    "ctaDemo": "Canlı demoyu deneyin",
+    "ctaDocs": "Belgeleri okuyun",
+    "badge1": "AGPL-3.0 açık kaynak",
+    "badge2": "%100 kendi sunucunuzda",
+    "badge3": "Strava ve Garmin senkronizasyonu",
+    "imgAlt": "Endurain panosu; haritada bir koşu, tempo ve güç verileri ve aylık toplamlar içeren bir etkinlik akışını gösteriyor."
+  },
+  "strip": {
+    "k1": "Verileriniz",
+    "v1": "Sunucunuz",
+    "v2": "Elle ve toplu içe aktarma",
+    "v3": "Endurain'e senkronizasyon",
+    "v4": "Dakikalar içinde hazır"
+  },
+  "mission": {
+    "eyebrow": "Misyonumuz",
+    "title": "Fitness verileri sporcuya aittir",
+    "sub": "Endurain var, çünkü antrenman geçmişiniz bir başkasının bulutuna emanet edilemeyecek kadar kişiseldir. Modern bir fitness platformunun inceliğini, sahiplikten, gizlilikten veya kontrolden vazgeçmeden isteyenler için tasarlandı.",
+    "c1t": "Verileriniz size aittir",
+    "c1b": "Her şey sizin işlettiğiniz bir altyapıda bulunur. Dışa aktarın, yedekleyin, taşıyın. Bekçi yok, tedarikçi bağımlılığı yok, asla.",
+    "c2t": "Tasarımdan gelen gizlilik",
+    "c2b": "Etkinlik bazında gizlilik denetimleri, MFA, SSO ve e-posta doğrulaması yerleşiktir. İstediğinizi paylaşın; gerisini kendinize saklayın.",
+    "c3t": "Gerçekten açık kaynak",
+    "c3b": "AGPL-3.0 lisanslı ve Codeberg'de açıkça geliştirilir. Her satırı okuyun, bir sorun bildirin veya bir pull request gönderin."
+  },
+  "status": {
+    "eyebrow": "Mevcut durum",
+    "title": "Geçici bir özellik dondurma, mola değil",
+    "body": "Endurain hızla büyüdü. Sağlıklı kalması için odak, yeni özellikler sunmaktan temelleri güçlendirmeye kaydı: daha net modül sınırları, daha öngörülebilir arka plan işleri, daha iyi testler ve daha güvenli sürümler. Hata düzeltmeleri, güvenlik yamaları, belgeler ve çeviriler her zamanki gibi devam ediyor.",
+    "cta": "Duyuruyu okuyun",
+    "l1": "Güvenlik ve hata düzeltmeleri",
+    "l2": "Yeniden düzenlemeler ve güvenilirlik",
+    "l3": "Belgeler ve çeviriler",
+    "l4": "Testler ve CI güçlendirmesi"
+  },
+  "features": {
+    "eyebrow": "Özellikler",
+    "title": "Beklediğiniz her şey, kendi tarzınızda barındırılmış",
+    "sub": "Büyük platformların entegrasyonları ve kolaylıklarıyla eksiksiz bir antrenman günlüğü, ancak gözetim olmadan.",
+    "f1t": "Etkinlik takibi",
+    "f1b": "Zengin etkinlik akışları, haritalar ve her spor için haftalık ve aylık istatistikler.",
+    "f2t": "Strava ve Garmin",
+    "f2b": "Etkinlikleri, ekipmanı ve vücut kompozisyonunu Strava ve Garmin Connect'ten senkronize edin.",
+    "f3t": "Dosya içe aktarma",
+    "f3b": ".gpx, .tcx ve .fit dosyalarını tek tek veya toplu olarak yükleyin. .fit tercih edilir.",
+    "f4t": "Ekipman takibi",
+    "f4b": "Bisikletleri, ayakkabıları, dalış kıyafetlerini, kayakları ve daha fazlasını, parça aşınmasına kadar takip edin.",
+    "f5t": "Sağlık ölçümleri",
+    "f5b": "Kilo, adım ve uykuyu kaydedin ve eğilimleri özel bir panoda takip edin.",
+    "f6t": "Hedefler",
+    "f6b": "Mesafe veya süre hedefleri belirleyin ve ilerlemeyi hafta hafta izleyin.",
+    "f7t": "Çoklu kullanıcı ve takipçiler",
+    "f7b": "Yönetici ve kullanıcı rolleri, takipçi akışları ve herkese açık profil sayfaları.",
+    "f8t": "MFA ve SSO",
+    "f8b": "TOTP çok faktörlü kimlik doğrulama, OIDC/SAML tek oturum açma ve e-posta doğrulaması.",
+    "f9t": "Yerelleştirilmiş ve temalı",
+    "f9b": "Çok dilli, metrik veya emperyal birimler ve açık/koyu tema geçişi."
+  },
+  "mobile": {
+    "eyebrow": "Endurain mobil",
+    "title": "Antrenmanınız cebinizde",
+    "sub": "Endurain uygulaması koşuları, bisiklet turlarını, yürüyüşleri ve doğa yürüyüşlerini harita üzerinde canlı olarak kaydeder ve doğrudan kendi sunucunuza yükler. Çevrimdışı çalışır, yeniden bağlandığınızda otomatik olarak eşitlenir ve sizi SSO ve MFA ile oturum açtırır.",
+    "apkTop": "İndir",
+    "apkStrong": "Android APK",
+    "comingSoon": "Yakında",
+    "play": "Google Play",
+    "appstore": "App Store",
+    "soon": "Yakında",
+    "soonTitle": "Çok yakında",
+    "hint": "Uygulama aktif geliştirme aşamasındadır. En son Android APK'sını doğrudan buradan, siteden indirin. Google Play ve App Store girişleri daha sonra gelecek."
+  },
+  "gallery": {
+    "eyebrow": "Daha yakından bakış",
+    "title": "Zahmetsiz hissettirecek şekilde tasarlandı",
+    "sub": "Etkinlikler, ekipman, sağlık ve ayarlar için temiz, modern bir arayüz; açık veya koyu, masaüstünde ve mobilde.",
+    "alt1": "Harita, ara zamanlar ve ölçümler içeren etkinlik ayrıntı sayfası.",
+    "alt2": "Kilo, adım ve uyku eğilimleri içeren sağlık panosu.",
+    "alt3": "Bisikletleri, ayakkabıları ve kullanımlarını gösteren ekipman listesi.",
+    "alt4": "İstatistikler ve etkinlik geçmişi içeren kullanıcı profili sayfası.",
+    "alt5": "Antrenman hedeflerini tanımlamak için hedef ayarları sayfası."
+  },
+  "selfHost": {
+    "eyebrow": "Kendin barındır",
+    "title": "Docker ile çalışır durumda",
+    "sub": "Endurain bir Docker imajı olarak gelir ve tamamen ortam değişkenleriyle yapılandırılır. Depoda eksiksiz bir docker compose örneği bulunur. Yığını başlatın ve uygulamayı açın.",
+    "step1": "Örnek compose ve env dosyalarını kopyalayın",
+    "step2": "Gizli anahtarlarınızı ve entegrasyon anahtarlarınızı ayarlayın",
+    "ctaGuide": "Başlangıç kılavuzu",
+    "ctaDemo": "Önce demoyu deneyin"
+  },
+  "community": {
+    "eyebrow": "Topluluk ve destek",
+    "title": "Açıkça, birlikte inşa edildi",
+    "sub": "Endurain, Codeberg'de geliştirilir ve topluluğu tarafından şekillendirilir. Katılın, soru sorun, çeviri yapın veya çalışmanın finansmanına yardımcı olun.",
+    "codebergT": "Codeberg",
+    "codebergD": "Kaynak kodu, sorunlar ve pull request'ler.",
+    "docsT": "Belgeler",
+    "docsD": "Kurulum, yapılandırma ve geliştirme kılavuzları.",
+    "discordT": "Discord",
+    "discordD": "Sohbet, yardım ve duyurular.",
+    "mastodonT": "Mastodon",
+    "mastodonD": "Fediverse'te güncellemeleri takip edin.",
+    "translateT": "Çevir",
+    "translateD": "Endurain'i Weblate ile yerelleştirmeye yardımcı olun."
+  },
+  "sponsor": {
+    "title": "Projeyi destekleyin",
+    "body": "Sponsorluklar Endurain'i bağımsız ve ileriye dönük tutar."
+  },
+  "cta": {
+    "title": "Fitness verilerinizin kontrolünü geri alın",
+    "body": "Canlı demoyu deneyin, ardından kendi örneğinizi dakikalar içinde barındırın.",
+    "demo": "Canlı demoyu deneyin",
+    "docs": "Belgeleri okuyun"
+  },
+  "newsletter": {
+    "eyebrow": "Bülten",
+    "title": "Gelişmelerden haberdar olun",
+    "body": "Proje güncellemeleri ve sürüm haberleri doğrudan gelen kutunuza. Spam yok, istediğiniz zaman abonelikten çıkabilirsiniz.",
+    "emailLabel": "E-posta adresi",
+    "button": "Abone ol",
+    "legal": "Sağlayan:"
+  },
+  "footer": {
+    "tag": "Gizliliğinize saygı duyan, kendi sunucunuzda barındırılan fitness takibi.",
+    "made": "Portekiz'den ♥ ile yapıldı",
+    "colProduct": "Ürün",
+    "colResources": "Kaynaklar",
+    "colCommunity": "Topluluk",
+    "liveDemo": "Canlı demo",
+    "docs": "Belgeler",
+    "gettingStarted": "Başlarken",
+    "roadmap": "Yol haritası",
+    "blog": "Blog",
+    "trademark": "Endurain®, João Vitória Silva'nın ticari markasıdır.",
+    "licensed": "Şu lisansla lisanslanmıştır:",
+    "trademarkPolicy": "Ticari marka politikası",
+    "source": "Kaynak kodu"
+  }
+}
