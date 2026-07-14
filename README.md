@@ -3,8 +3,8 @@
 
   # Endurain site
 
-  [![License](https://img.shields.io/badge/license-AGPL%20v3-blue)](./LICENSE)
-  [![Trademark Policy](https://img.shields.io/badge/trademark-Endurain%E2%84%A2-blue)](./TRADEMARK.md)
+  [![License](https://img.shields.io/badge/license-GPL%20v3-blue)](./LICENSE)
+  [![Trademark Policy](https://img.shields.io/badge/trademark-Endurain%E2%84%A2-blue)](https://codeberg.org/endurain-project/endurain/src/branch/master/TRADEMARK.md)
 
   **Source of the [endurain.com](https://endurain.com) marketing website**
 </div>
@@ -55,4 +55,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) and the [Code of Conduct](./CODE_OF_CON
 
 ## License
 
-Endurain and this website are licensed under [AGPL-3.0](./LICENSE). "Endurain" is a trademark, see [TRADEMARK.md](./TRADEMARK.md).
+This website is licensed under [GPL-3.0](./LICENSE). Endurain is licensed under [AGPL-3.0](https://codeberg.org/endurain-project/endurain/src/branch/master/LICENSE). "Endurain" is a trademark; see the [Endurain Trademark Policy](https://codeberg.org/endurain-project/endurain/src/branch/master/TRADEMARK.md).
