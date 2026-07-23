@@ -1,3 +1,6 @@
+> [!NOTE]
+> **GitHub Mirror** - If you are viewing this on GitHub, please be aware that this repository is a read-only mirror. Issues, pull requests, and all project activity are tracked on Codeberg: [https://codeberg.org/endurain-project/site](https://codeberg.org/endurain-project/site)
+
 <div align="center">
   <img src="site/assets/img/logo/brand_logo_dark_theme.png" width="128" height="128">
 
@@ -8,9 +11,6 @@
 
   **Source of the [endurain.com](https://endurain.com) marketing website**
 </div>
-
-> [!NOTE]
-> This repository is a mirror. Issues, pull requests, and all project activity are tracked on Codeberg: [https://codeberg.org/endurain-project/site](https://codeberg.org/endurain-project/site)
 
 ## What is this?
 
