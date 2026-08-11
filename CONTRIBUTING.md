@@ -48,7 +48,7 @@ PRs that are too large to review efficiently will be asked to be split before th
 
 ### Translations
 
-- Endurain uses [GitHub Translate](https://translate.github.org/projects/endurain/) for i18n
+- Endurain uses [GitHub Translate](https://translate.github.com/projects/endurain/) for i18n
 - Please contribute translations there rather than via PRs to the repo
 
 ### New Features
