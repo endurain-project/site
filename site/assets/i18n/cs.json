@@ -8,7 +8,7 @@
     "home": "Úvodní stránka Endurain",
     "langMenu": "Změnit jazyk",
     "theme": "Přepnout tmavý režim",
-    "codeberg": "Zobrazit zdrojový kód na Codebergu",
+    "github": "Zobrazit zdrojový kód na GitHubu",
     "menu": "Otevřít nabídku"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Soukromí od základu",
     "c2b": "Nastavení soukromí u každé aktivity, MFA, SSO a ověření e-mailem jsou zabudované. Sdílejte, co chcete; zbytek si nechte pro sebe.",
     "c3t": "Skutečně otevřený zdroj",
-    "c3b": "Licencováno pod AGPL-3.0 a vyvíjeno otevřeně na Codebergu. Přečtěte si každý řádek, nahlaste problém nebo pošlete pull request."
+    "c3b": "Licencováno pod AGPL-3.0 a vyvíjeno otevřeně na GitHubu. Přečtěte si každý řádek, nahlaste problém nebo pošlete pull request."
   },
   "status": {
     "eyebrow": "Aktuální stav",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Komunita a podpora",
     "title": "Budováno otevřeně, společně",
-    "sub": "Endurain se vyvíjí na Codebergu a formuje ho jeho komunita. Zapojte se, ptejte se, překládejte nebo pomozte financovat práci.",
-    "codebergT": "Codeberg",
-    "codebergD": "Zdrojový kód, problémy a pull requesty.",
+    "sub": "Endurain se vyvíjí na GitHubu a formuje ho jeho komunita. Zapojte se, ptejte se, překládejte nebo pomozte financovat práci.",
+    "githubT": "GitHub",
+    "githubD": "Zdrojový kód, problémy a pull requesty.",
     "docsT": "Dokumentace",
     "docsD": "Návody k instalaci, konfiguraci a vývoji.",
     "discordT": "Discord",

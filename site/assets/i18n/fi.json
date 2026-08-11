@@ -8,7 +8,7 @@
     "home": "Endurainin etusivu",
     "langMenu": "Vaihda kieli",
     "theme": "Vaihda tumma tila",
-    "codeberg": "Näytä lähdekoodi Codebergissä",
+    "github": "Näytä lähdekoodi GitHubissä",
     "menu": "Avaa valikko"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Yksityisyys suunnittelusta lähtien",
     "c2b": "Aktiviteettikohtaiset yksityisyysasetukset, MFA, SSO ja sähköpostivahvistus ovat sisäänrakennettuja. Jaa mitä haluat; pidä loput itselläsi.",
     "c3t": "Aidosti avointa lähdekoodia",
-    "c3b": "Lisensoitu AGPL-3.0:lla ja kehitetty avoimesti Codebergissä. Lue jokainen rivi, raportoi ongelma tai lähetä pull request."
+    "c3b": "Lisensoitu AGPL-3.0:lla ja kehitetty avoimesti GitHubissä. Lue jokainen rivi, raportoi ongelma tai lähetä pull request."
   },
   "status": {
     "eyebrow": "Nykytila",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Yhteisö ja tuki",
     "title": "Rakennettu avoimesti, yhdessä",
-    "sub": "Endurainia kehitetään Codebergissä ja sen muovaa yhteisö. Liity mukaan, kysy, käännä tai auta rahoittamaan työtä.",
-    "codebergT": "Codeberg",
-    "codebergD": "Lähdekoodi, ongelmat ja pull requestit.",
+    "sub": "Endurainia kehitetään GitHubissä ja sen muovaa yhteisö. Liity mukaan, kysy, käännä tai auta rahoittamaan työtä.",
+    "githubT": "GitHub",
+    "githubD": "Lähdekoodi, ongelmat ja pull requestit.",
     "docsT": "Dokumentaatio",
     "docsD": "Oppaat asennukseen, määritykseen ja kehitykseen.",
     "discordT": "Discord",

@@ -8,7 +8,7 @@
     "home": "Home di Endurain",
     "langMenu": "Cambia lingua",
     "theme": "Attiva/disattiva modalità scura",
-    "codeberg": "Vedi il codice sorgente su Codeberg",
+    "github": "Vedi il codice sorgente su GitHub",
     "menu": "Apri il menu"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Privacy by design",
     "c2b": "Controlli sulla privacy per singola attività, MFA, SSO e verifica via e-mail sono integrati. Condividi ciò che vuoi; tieni il resto per te.",
     "c3t": "Davvero open source",
-    "c3b": "Con licenza AGPL-3.0 e sviluppato allo scoperto su Codeberg. Leggi ogni riga, apri una segnalazione o invia una pull request."
+    "c3b": "Con licenza AGPL-3.0 e sviluppato allo scoperto su GitHub. Leggi ogni riga, apri una segnalazione o invia una pull request."
   },
   "status": {
     "eyebrow": "Stato attuale",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Comunità e supporto",
     "title": "Costruito allo scoperto, insieme",
-    "sub": "Endurain è sviluppato su Codeberg e plasmato dalla sua comunità. Partecipa, fai domande, traduci o aiuta a finanziare il lavoro.",
-    "codebergT": "Codeberg",
-    "codebergD": "Codice, segnalazioni e pull request.",
+    "sub": "Endurain è sviluppato su GitHub e plasmato dalla sua comunità. Partecipa, fai domande, traduci o aiuta a finanziare il lavoro.",
+    "githubT": "GitHub",
+    "githubD": "Codice, segnalazioni e pull request.",
     "docsT": "Documentazione",
     "docsD": "Guide per installazione, configurazione e sviluppo.",
     "discordT": "Discord",

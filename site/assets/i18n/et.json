@@ -8,7 +8,7 @@
     "home": "Enduraini avaleht",
     "langMenu": "Muuda keelt",
     "theme": "Lülita tume režiim",
-    "codeberg": "Vaata lähtekoodi Codebergis",
+    "github": "Vaata lähtekoodi GitHubis",
     "menu": "Ava menüü"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Privaatsus juba disainis",
     "c2b": "Tegevusepõhised privaatsusseaded, MFA, SSO ja e-posti kinnitus on sisse ehitatud. Jaga, mida soovid; ülejäänu hoia enda teada.",
     "c3t": "Tõeliselt avatud lähtekood",
-    "c3b": "Litsentsitud AGPL-3.0 all ja arendatud avatult Codebergis. Loe iga rida, teata probleemist või saada pull request."
+    "c3b": "Litsentsitud AGPL-3.0 all ja arendatud avatult GitHubis. Loe iga rida, teata probleemist või saada pull request."
   },
   "status": {
     "eyebrow": "Praegune olek",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Kogukond ja tugi",
     "title": "Ehitatud avatult, koos",
-    "sub": "Enduraini arendatakse Codebergis ja seda kujundab selle kogukond. Liitu, esita küsimusi, tõlgi või aita tööd rahastada.",
-    "codebergT": "Codeberg",
-    "codebergD": "Lähtekood, probleemid ja pull request'id.",
+    "sub": "Enduraini arendatakse GitHubis ja seda kujundab selle kogukond. Liitu, esita küsimusi, tõlgi või aita tööd rahastada.",
+    "githubT": "GitHub",
+    "githubD": "Lähtekood, probleemid ja pull request'id.",
     "docsT": "Dokumentatsioon",
     "docsD": "Juhendid paigalduseks, seadistamiseks ja arenduseks.",
     "discordT": "Discord",

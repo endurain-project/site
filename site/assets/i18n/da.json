@@ -8,7 +8,7 @@
     "home": "Endurain forside",
     "langMenu": "Skift sprog",
     "theme": "Skift mørk tilstand",
-    "codeberg": "Se kildekoden på Codeberg",
+    "github": "Se kildekoden på GitHub",
     "menu": "Åbn menu"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Privatliv fra bunden",
     "c2b": "Privatlivskontroller pr. aktivitet, MFA, SSO og e-mailbekræftelse er indbygget. Del det, du vil; behold resten for dig selv.",
     "c3t": "Ægte open source",
-    "c3b": "Licenseret under AGPL-3.0 og udviklet åbent på Codeberg. Læs hver linje, opret en fejlrapport eller send en pull request."
+    "c3b": "Licenseret under AGPL-3.0 og udviklet åbent på GitHub. Læs hver linje, opret en fejlrapport eller send en pull request."
   },
   "status": {
     "eyebrow": "Aktuel status",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Fællesskab og støtte",
     "title": "Bygget åbent, sammen",
-    "sub": "Endurain udvikles på Codeberg og formes af sit fællesskab. Vær med, stil spørgsmål, oversæt eller hjælp med at finansiere arbejdet.",
-    "codebergT": "Codeberg",
-    "codebergD": "Kildekode, issues og pull requests.",
+    "sub": "Endurain udvikles på GitHub og formes af sit fællesskab. Vær med, stil spørgsmål, oversæt eller hjælp med at finansiere arbejdet.",
+    "githubT": "GitHub",
+    "githubD": "Kildekode, issues og pull requests.",
     "docsT": "Dokumentation",
     "docsD": "Vejledninger til installation, konfiguration og udvikling.",
     "discordT": "Discord",

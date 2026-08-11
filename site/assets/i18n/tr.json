@@ -8,7 +8,7 @@
     "home": "Endurain ana sayfa",
     "langMenu": "Dili değiştir",
     "theme": "Karanlık modu değiştir",
-    "codeberg": "Kaynak kodunu Codeberg'de görüntüle",
+    "github": "Kaynak kodunu GitHub'de görüntüle",
     "menu": "Menüyü aç"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Tasarımdan gelen gizlilik",
     "c2b": "Etkinlik bazında gizlilik denetimleri, MFA, SSO ve e-posta doğrulaması yerleşiktir. İstediğinizi paylaşın; gerisini kendinize saklayın.",
     "c3t": "Gerçekten açık kaynak",
-    "c3b": "AGPL-3.0 lisanslı ve Codeberg'de açıkça geliştirilir. Her satırı okuyun, bir sorun bildirin veya bir pull request gönderin."
+    "c3b": "AGPL-3.0 lisanslı ve GitHub'de açıkça geliştirilir. Her satırı okuyun, bir sorun bildirin veya bir pull request gönderin."
   },
   "status": {
     "eyebrow": "Mevcut durum",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Topluluk ve destek",
     "title": "Açıkça, birlikte inşa edildi",
-    "sub": "Endurain, Codeberg'de geliştirilir ve topluluğu tarafından şekillendirilir. Katılın, soru sorun, çeviri yapın veya çalışmanın finansmanına yardımcı olun.",
-    "codebergT": "Codeberg",
-    "codebergD": "Kaynak kodu, sorunlar ve pull request'ler.",
+    "sub": "Endurain, GitHub'de geliştirilir ve topluluğu tarafından şekillendirilir. Katılın, soru sorun, çeviri yapın veya çalışmanın finansmanına yardımcı olun.",
+    "githubT": "GitHub",
+    "githubD": "Kaynak kodu, sorunlar ve pull request'ler.",
     "docsT": "Belgeler",
     "docsD": "Kurulum, yapılandırma ve geliştirme kılavuzları.",
     "discordT": "Discord",

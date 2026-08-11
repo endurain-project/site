@@ -8,7 +8,7 @@
     "home": "Inici d'Endurain",
     "langMenu": "Canvia d'idioma",
     "theme": "Commuta el mode fosc",
-    "codeberg": "Mira el codi font a Codeberg",
+    "github": "Mira el codi font a GitHub",
     "menu": "Obre el menú"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Privadesa des del disseny",
     "c2b": "Controls de privadesa per activitat, MFA, SSO i verificació per correu vénen integrats. Comparteix el que vulguis; guarda't la resta.",
     "c3t": "Realment de codi obert",
-    "c3b": "Amb llicència AGPL-3.0 i desenvolupat obertament a Codeberg. Llegeix cada línia, obre una incidència o envia una pull request."
+    "c3b": "Amb llicència AGPL-3.0 i desenvolupat obertament a GitHub. Llegeix cada línia, obre una incidència o envia una pull request."
   },
   "status": {
     "eyebrow": "Estat actual",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Comunitat i suport",
     "title": "Construït obertament, junts",
-    "sub": "Endurain es desenvolupa a Codeberg i el modela la seva comunitat. Uneix-t'hi, fes preguntes, tradueix o ajuda a finançar la feina.",
-    "codebergT": "Codeberg",
-    "codebergD": "Codi font, incidències i pull requests.",
+    "sub": "Endurain es desenvolupa a GitHub i el modela la seva comunitat. Uneix-t'hi, fes preguntes, tradueix o ajuda a finançar la feina.",
+    "githubT": "GitHub",
+    "githubD": "Codi font, incidències i pull requests.",
     "docsT": "Documentació",
     "docsD": "Guies d'instal·lació, configuració i desenvolupament.",
     "discordT": "Discord",

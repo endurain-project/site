@@ -8,7 +8,7 @@
     "home": "Endurain domača stran",
     "langMenu": "Spremeni jezik",
     "theme": "Preklopi temni način",
-    "codeberg": "Ogled izvorne kode na Codebergu",
+    "github": "Ogled izvorne kode na GitHubu",
     "menu": "Odpri meni"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Zasebnost že v zasnovi",
     "c2b": "Nadzor zasebnosti za vsako aktivnost, MFA, SSO in potrditev po e-pošti so vgrajeni. Delite, kar želite; ostalo obdržite zase.",
     "c3t": "Resnično odprtokodno",
-    "c3b": "Licencirano pod AGPL-3.0 in razvito odprto na Codebergu. Preberite vsako vrstico, prijavite težavo ali pošljite pull request."
+    "c3b": "Licencirano pod AGPL-3.0 in razvito odprto na GitHubu. Preberite vsako vrstico, prijavite težavo ali pošljite pull request."
   },
   "status": {
     "eyebrow": "Trenutno stanje",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Skupnost in podpora",
     "title": "Zgrajeno odprto, skupaj",
-    "sub": "Endurain se razvija na Codebergu in ga oblikuje njegova skupnost. Pridružite se, postavljajte vprašanja, prevajajte ali pomagajte pri financiranju dela.",
-    "codebergT": "Codeberg",
-    "codebergD": "Izvorna koda, težave in pull requesti.",
+    "sub": "Endurain se razvija na GitHubu in ga oblikuje njegova skupnost. Pridružite se, postavljajte vprašanja, prevajajte ali pomagajte pri financiranju dela.",
+    "githubT": "GitHub",
+    "githubD": "Izvorna koda, težave in pull requesti.",
     "docsT": "Dokumentacija",
     "docsD": "Vodniki za namestitev, konfiguracijo in razvoj.",
     "discordT": "Discord",

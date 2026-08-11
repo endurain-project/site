@@ -8,7 +8,7 @@
     "home": "Endurain pradžios puslapis",
     "langMenu": "Keisti kalbą",
     "theme": "Perjungti tamsų režimą",
-    "codeberg": "Peržiūrėti pirminį kodą Codeberg",
+    "github": "Peržiūrėti pirminį kodą GitHub",
     "menu": "Atverti meniu"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Privatumas nuo pat pradžių",
     "c2b": "Privatumo valdikliai kiekvienai veiklai, MFA, SSO ir el. pašto patvirtinimas yra integruoti. Bendrinkite tai, ką norite; likusia dalimi pasilikite sau.",
     "c3t": "Tikrai atvirasis kodas",
-    "c3b": "Licencijuota pagal AGPL-3.0 ir kuriama atvirai Codeberg. Skaitykite kiekvieną eilutę, praneškite apie problemą arba pateikite pull request."
+    "c3b": "Licencijuota pagal AGPL-3.0 ir kuriama atvirai GitHub. Skaitykite kiekvieną eilutę, praneškite apie problemą arba pateikite pull request."
   },
   "status": {
     "eyebrow": "Dabartinė būsena",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Bendruomenė ir pagalba",
     "title": "Kuriama atvirai, kartu",
-    "sub": "Endurain kuriamas Codeberg ir jį formuoja jo bendruomenė. Prisijunkite, užduokite klausimus, verskite arba padėkite finansuoti darbą.",
-    "codebergT": "Codeberg",
-    "codebergD": "Pirminis kodas, problemos ir pull request.",
+    "sub": "Endurain kuriamas GitHub ir jį formuoja jo bendruomenė. Prisijunkite, užduokite klausimus, verskite arba padėkite finansuoti darbą.",
+    "githubT": "GitHub",
+    "githubD": "Pirminis kodas, problemos ir pull request.",
     "docsT": "Dokumentacija",
     "docsD": "Vadovai diegimui, konfigūravimui ir kūrimui.",
     "discordT": "Discord",

@@ -8,7 +8,7 @@
     "home": "Endurain sākumlapa",
     "langMenu": "Mainīt valodu",
     "theme": "Pārslēgt tumšo režīmu",
-    "codeberg": "Skatīt pirmkodu vietnē Codeberg",
+    "github": "Skatīt pirmkodu vietnē GitHub",
     "menu": "Atvērt izvēlni"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Privātums jau projektējot",
     "c2b": "Privātuma vadīklas katrai aktivitātei, MFA, SSO un e-pasta verifikācija ir iebūvētas. Kopīgojiet, ko vēlaties; pārējo paturiet sev.",
     "c3t": "Patiesi atvērtais pirmkods",
-    "c3b": "Licencēts saskaņā ar AGPL-3.0 un izstrādāts atklāti vietnē Codeberg. Lasiet katru rindiņu, ziņojiet par problēmu vai nosūtiet pull request."
+    "c3b": "Licencēts saskaņā ar AGPL-3.0 un izstrādāts atklāti vietnē GitHub. Lasiet katru rindiņu, ziņojiet par problēmu vai nosūtiet pull request."
   },
   "status": {
     "eyebrow": "Pašreizējais statuss",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Kopiena un atbalsts",
     "title": "Veidots atklāti, kopā",
-    "sub": "Endurain tiek izstrādāts vietnē Codeberg, un to veido tā kopiena. Pievienojieties, uzdodiet jautājumus, tulkojiet vai palīdziet finansēt darbu.",
-    "codebergT": "Codeberg",
-    "codebergD": "Pirmkods, problēmas un pull request.",
+    "sub": "Endurain tiek izstrādāts vietnē GitHub, un to veido tā kopiena. Pievienojieties, uzdodiet jautājumus, tulkojiet vai palīdziet finansēt darbu.",
+    "githubT": "GitHub",
+    "githubD": "Pirmkods, problēmas un pull request.",
     "docsT": "Dokumentācija",
     "docsD": "Ceļveži uzstādīšanai, konfigurēšanai un izstrādei.",
     "discordT": "Discord",

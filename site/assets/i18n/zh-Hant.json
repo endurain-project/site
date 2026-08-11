@@ -8,7 +8,7 @@
     "home": "Endurain 首頁",
     "langMenu": "變更語言",
     "theme": "切換深色模式",
-    "codeberg": "在 Codeberg 檢視原始碼",
+    "github": "在 GitHub 檢視原始碼",
     "menu": "開啟選單"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "隱私源於設計",
     "c2b": "內建逐項活動的隱私控制、MFA、SSO 和電子郵件驗證。想分享什麼就分享什麼，其餘留給自己。",
     "c3t": "真正的開源",
-    "c3b": "採用 AGPL-3.0 授權，並在 Codeberg 上公開開發。閱讀每一行程式碼、回報問題，或發起合併請求。"
+    "c3b": "採用 AGPL-3.0 授權，並在 GitHub 上公開開發。閱讀每一行程式碼、回報問題，或發起合併請求。"
   },
   "status": {
     "eyebrow": "目前狀態",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "社群與支援",
     "title": "開放共建，攜手同行",
-    "sub": "Endurain 在 Codeberg 上開發，由其社群共同塑造。加入我們、提出問題、參與翻譯，或協助資助這項工作。",
-    "codebergT": "Codeberg",
-    "codebergD": "原始碼、問題和合併請求。",
+    "sub": "Endurain 在 GitHub 上開發，由其社群共同塑造。加入我們、提出問題、參與翻譯，或協助資助這項工作。",
+    "githubT": "GitHub",
+    "githubD": "原始碼、問題和合併請求。",
     "docsT": "文件",
     "docsD": "安裝、設定和開發指南。",
     "discordT": "Discord",

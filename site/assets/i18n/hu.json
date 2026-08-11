@@ -8,7 +8,7 @@
     "home": "Endurain kezdőlap",
     "langMenu": "Nyelv váltása",
     "theme": "Sötét mód váltása",
-    "codeberg": "Forráskód megtekintése a Codebergen",
+    "github": "Forráskód megtekintése a GitHuben",
     "menu": "Menü megnyitása"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Beépített adatvédelem",
     "c2b": "Tevékenységenkénti adatvédelmi beállítások, MFA, SSO és e-mailes megerősítés beépítve. Oszd meg, amit szeretnél; a többit tartsd meg magadnak.",
     "c3t": "Valóban nyílt forráskódú",
-    "c3b": "AGPL-3.0 licenc alatt, nyíltan fejlesztve a Codebergen. Olvass el minden sort, jelents hibát, vagy küldj pull requestet."
+    "c3b": "AGPL-3.0 licenc alatt, nyíltan fejlesztve a GitHuben. Olvass el minden sort, jelents hibát, vagy küldj pull requestet."
   },
   "status": {
     "eyebrow": "Jelenlegi állapot",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Közösség és támogatás",
     "title": "Nyíltan építve, együtt",
-    "sub": "Az Enduraint a Codebergen fejlesztik, és a közössége formálja. Csatlakozz, tegyél fel kérdéseket, fordíts, vagy segíts a munka finanszírozásában.",
-    "codebergT": "Codeberg",
-    "codebergD": "Forráskód, hibajegyek és pull requestek.",
+    "sub": "Az Enduraint a GitHuben fejlesztik, és a közössége formálja. Csatlakozz, tegyél fel kérdéseket, fordíts, vagy segíts a munka finanszírozásában.",
+    "githubT": "GitHub",
+    "githubD": "Forráskód, hibajegyek és pull requestek.",
     "docsT": "Dokumentáció",
     "docsD": "Útmutatók a telepítéshez, konfiguráláshoz és fejlesztéshez.",
     "discordT": "Discord",

@@ -4,14 +4,14 @@
   # Endurain site
 
   [![License](https://img.shields.io/badge/license-GPL%20v3-blue)](./LICENSE)
-  [![Trademark Policy](https://img.shields.io/badge/trademark-Endurain%E2%84%A2-blue)](https://github.com/endurain-project/endurain/src/branch/master/TRADEMARK.md)
+  [![Trademark Policy](https://img.shields.io/badge/trademark-Endurain%E2%84%A2-blue)](https://github.com/endurain-project/endurain/blob/master/TRADEMARK.md)
 
   **Source of the [endurain.com](https://endurain.com) marketing website**
 </div>
 
 ## What is this?
 
-This repo contains the static marketing/landing page for [Endurain](https://github.com/endurain-project/endurain), a self-hosted, privacy-first fitness tracking service. It's plain, dependency-free HTML/CSS/JS, no framework or build step, deployed as-is to [Codeberg Pages](https://codeberg.page/).
+This repo contains the static marketing/landing page for [Endurain](https://github.com/endurain-project/endurain), a self-hosted, privacy-first fitness tracking service. It's plain, dependency-free HTML/CSS/JS, no framework or build step, deployed as-is to [GitHub Pages](https://pages.github.com/).
 
 ## Structure
 
@@ -44,7 +44,7 @@ Run `npm run format` / `npm run lint` to auto-fix issues.
 
 ## Translations
 
-English strings live directly in `site/index.html`. Other locales live under `site/assets/i18n/` and are contributed via [Codeberg Translate](https://translate.github.com/projects/endurain/) rather than direct PRs, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+English strings live directly in `site/index.html`. Other locales live under `site/assets/i18n/` and are contributed via [GitHub Translate](https://translate.github.com/projects/endurain/) rather than direct PRs, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Contributing
 
@@ -52,4 +52,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) and the [Code of Conduct](./CODE_OF_CON
 
 ## License
 
-This website is licensed under [GPL-3.0](./LICENSE). Endurain is licensed under [AGPL-3.0](https://github.com/endurain-project/endurain/src/branch/master/LICENSE). "Endurain" is a trademark; see the [Endurain Trademark Policy](https://github.com/endurain-project/endurain/src/branch/master/TRADEMARK.md).
+This website is licensed under [GPL-3.0](./LICENSE). Endurain is licensed under [AGPL-3.0](https://github.com/endurain-project/endurain/blob/master/LICENSE). "Endurain" is a trademark; see the [Endurain Trademark Policy](https://github.com/endurain-project/endurain/blob/master/TRADEMARK.md).

@@ -8,7 +8,7 @@
     "home": "Pagina principală Endurain",
     "langMenu": "Schimbă limba",
     "theme": "Comută modul întunecat",
-    "codeberg": "Vezi codul sursă pe Codeberg",
+    "github": "Vezi codul sursă pe GitHub",
     "menu": "Deschide meniul"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "Confidențialitate din proiectare",
     "c2b": "Controale de confidențialitate per activitate, MFA, SSO și verificare prin e-mail sunt integrate. Partajează ce vrei; păstrează restul pentru tine.",
     "c3t": "Cu adevărat sursă deschisă",
-    "c3b": "Licențiat sub AGPL-3.0 și dezvoltat deschis pe Codeberg. Citește fiecare linie, raportează o problemă sau trimite un pull request."
+    "c3b": "Licențiat sub AGPL-3.0 și dezvoltat deschis pe GitHub. Citește fiecare linie, raportează o problemă sau trimite un pull request."
   },
   "status": {
     "eyebrow": "Stare actuală",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "Comunitate și sprijin",
     "title": "Construit deschis, împreună",
-    "sub": "Endurain este dezvoltat pe Codeberg și modelat de comunitatea sa. Alătură-te, pune întrebări, tradu sau ajută la finanțarea muncii.",
-    "codebergT": "Codeberg",
-    "codebergD": "Cod sursă, probleme și pull request-uri.",
+    "sub": "Endurain este dezvoltat pe GitHub și modelat de comunitatea sa. Alătură-te, pune întrebări, tradu sau ajută la finanțarea muncii.",
+    "githubT": "GitHub",
+    "githubD": "Cod sursă, probleme și pull request-uri.",
     "docsT": "Documentație",
     "docsD": "Ghiduri de instalare, configurare și dezvoltare.",
     "discordT": "Discord",

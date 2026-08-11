@@ -8,7 +8,7 @@
     "home": "Endurain 首页",
     "langMenu": "更改语言",
     "theme": "切换深色模式",
-    "codeberg": "在 Codeberg 查看源代码",
+    "github": "在 GitHub 查看源代码",
     "menu": "打开菜单"
   },
   "nav": {
@@ -46,7 +46,7 @@
     "c2t": "隐私由设计而生",
     "c2b": "内置逐项活动的隐私控制、MFA、SSO 和电子邮件验证。想分享什么就分享什么，其余留给自己。",
     "c3t": "真正的开源",
-    "c3b": "采用 AGPL-3.0 许可，并在 Codeberg 上公开开发。阅读每一行代码，提交问题，或发起合并请求。"
+    "c3b": "采用 AGPL-3.0 许可，并在 GitHub 上公开开发。阅读每一行代码，提交问题，或发起合并请求。"
   },
   "status": {
     "eyebrow": "当前状态",
@@ -116,9 +116,9 @@
   "community": {
     "eyebrow": "社区与支持",
     "title": "开放共建，携手同行",
-    "sub": "Endurain 在 Codeberg 上开发，由其社区共同塑造。加入我们，提出问题，参与翻译，或帮助资助这项工作。",
-    "codebergT": "Codeberg",
-    "codebergD": "源代码、问题和合并请求。",
+    "sub": "Endurain 在 GitHub 上开发，由其社区共同塑造。加入我们，提出问题，参与翻译，或帮助资助这项工作。",
+    "githubT": "GitHub",
+    "githubD": "源代码、问题和合并请求。",
     "docsT": "文档",
     "docsD": "安装、配置和开发指南。",
     "discordT": "Discord",
