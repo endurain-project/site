@@ -55,7 +55,7 @@ PRs that are too large to review efficiently will be asked to be split before th
 
 - **Always discuss in an issue first** — this is required, not optional
 - Features that haven't been discussed and approved in an issue may be closed without review, regardless of quality
-- Check the [ROADMAP.md](https://codeberg.org/endurain-project/endurain/src/branch/master/ROADMAP.md) before proposing something that may already be planned
+- Check the [ROADMAP.md](https://github.com/endurain-project/endurain/src/branch/master/ROADMAP.md) before proposing something that may already be planned
 
 ### Refactors and Code Quality
 
@@ -69,7 +69,7 @@ PRs that are too large to review efficiently will be asked to be split before th
 1. **Fork the repository** on Codeberg
 2. **Clone your fork** locally:
    ```bash
-   git clone https://codeberg.org/YOUR_USERNAME/endurain.git
+   git clone https://github.com/YOUR_USERNAME/endurain.git
    ```
 3. **Create a branch** and use a descriptive name:
    ```bash
