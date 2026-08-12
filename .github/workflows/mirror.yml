@@ -20,11 +20,11 @@ jobs:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
           set -euo pipefail
-          mirror_dir="$RUNNER_TEMP/jafaal.git"
+          mirror_dir="$RUNNER_TEMP/site.git"
           git clone --mirror \
             "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
             "$mirror_dir"
           cd "$mirror_dir"
           git remote set-url --push origin \
-            "https://oauth2:${GITLAB_TOKEN}@gitlab.com/endurain-project/jafaal.git"
+            "https://oauth2:${GITLAB_TOKEN}@gitlab.com/endurain-project/site.git"
           git push --mirror
