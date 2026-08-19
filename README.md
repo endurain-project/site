@@ -11,7 +11,7 @@
 
 ## What is this?
 
-This repo contains the static marketing/landing page for [Endurain](https://github.com/endurain-project/endurain), a self-hosted, privacy-first fitness tracking service. It's plain, dependency-free HTML/CSS/JS, no framework or build step, deployed as-is to [Codeberg Pages](https://codeberg.page/).
+This repo contains the static marketing/landing page for [Endurain](https://github.com/endurain-project/endurain), a self-hosted, privacy-first fitness tracking service. It's plain, dependency-free HTML/CSS/JS, no framework or build step, deployed as-is to [GitHub Pages](https://pages.github.com/).
 
 ## Structure
 
