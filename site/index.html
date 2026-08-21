@@ -617,30 +617,35 @@
                 <span class="soon-badge" data-i18n="mobile.soon">Soon</span>
               </span>
 
-              <span
-                class="store-btn store-btn-disabled"
-                aria-disabled="true"
-                role="link"
-                data-i18n-attr="title:mobile.soonTitle"
-                title="Coming soon"
+              <a
+                class="store-btn"
+                href="https://testflight.apple.com/join/BjZ4DWPa"
+                target="_blank"
+                rel="noopener"
+                data-i18n-attr="title:mobile.testflightTitle"
+                title="Join the Endurain iOS beta on TestFlight"
               >
                 <svg
                   class="store-glyph"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
-                  fill="currentColor"
-                  stroke="none"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <path
-                    d="M16.4 12.8c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.2 1.2 9.6.8 1.2 1.7 2.5 3 2.4 1.2-.1 1.6-.8 3.1-.8 1.4 0 1.8.8 3.1.8 1.3 0 2.1-1.2 2.9-2.3.9-1.3 1.3-2.6 1.3-2.7-.1 0-2.5-1-2.5-3.7Zm-2.3-6.8c.7-.8 1.1-2 1-3.1-1 0-2.1.6-2.8 1.4-.6.7-1.1 1.9-1 3 1.1.1 2.2-.5 2.8-1.3Z"
-                  />
+                  <rect x="6" y="2" width="12" height="20" rx="2.5" />
+                  <path d="M12 7v7m0 0 3-3m-3 3-3-3" />
                 </svg>
                 <span class="store-text">
-                  <small data-i18n="mobile.comingSoon">Coming soon on</small>
-                  <strong data-i18n="mobile.appstore">App Store</strong>
+                  <small data-i18n="mobile.testflightTop"
+                    >Join the iOS beta on</small
+                  >
+                  <strong data-i18n="mobile.testflight">TestFlight</strong>
                 </span>
-                <span class="soon-badge" data-i18n="mobile.soon">Soon</span>
-              </span>
+                <span class="beta-badge" data-i18n="mobile.beta">Beta</span>
+              </a>
             </div>
 
             <p class="mobile-hint">
@@ -648,9 +653,11 @@
                 <circle cx="12" cy="12" r="9" />
                 <path d="M12 8h.01M11 12h1v4h1" />
               </svg>
-              <span data-i18n="mobile.hint">
-                The mobile apps are in active development. Google Play and App
-                Store listings will be available soon.
+              <span data-i18n="mobile.hintBeta">
+                The Android app is in active development and the Google Play
+                listing will follow. The iOS app is available as a public beta
+                on TestFlight; beta builds are pre-release software and may be
+                incomplete or unstable.
               </span>
             </p>
           </div>
@@ -1223,6 +1230,10 @@
             data-i18n="footer.source"
             >Source</a
           >
+        </p>
+        <p class="footer-legal" data-i18n="footer.appleTm">
+          TestFlight is a trademark of Apple Inc., registered in the U.S. and
+          other countries and regions.
         </p>
       </div>
     </footer>
