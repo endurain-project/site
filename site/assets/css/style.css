@@ -846,6 +846,17 @@ a.store-btn:hover {
   background: var(--effort);
   color: #3a2705;
 }
+.beta-badge {
+  margin-left: 4px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--brand-dark-fg);
+  color: #07231d;
+}
 .mobile-hint {
   display: flex;
   align-items: flex-start;
