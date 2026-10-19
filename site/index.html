@@ -775,6 +775,12 @@
               <li>
                 <span class="step-n">3</span> <code>docker compose up -d</code>
               </li>
+              <li>
+                <span class="step-n">4</span>
+                <span data-i18n="selfHost.step4"
+                  >Open the app on port 8080 and create your account</span
+                >
+              </li>
             </ol>
             <div class="hero-cta">
               <a
@@ -808,22 +814,70 @@
               </div>
               <pre><code><span class="c-key">services</span>:
   <span class="c-key">endurain</span>:
+    <span class="c-key">container_name</span>: <span class="c-str">endurain-app</span>
     <span class="c-key">image</span>: <span class="c-str">ghcr.io/endurain-project/endurain:latest</span>
+    <span class="c-key">env_file</span>:
+      - <span class="c-str">.env</span>
+    <span class="c-key">volumes</span>:
+      - <span class="c-str">${LOCAL_PATH:-/var/opt/endurain}/backend/data:/app/backend/data:Z</span>
+      - <span class="c-str">${LOCAL_PATH:-/var/opt/endurain}/backend/logs:/app/backend/logs:Z</span>
     <span class="c-key">ports</span>:
       - <span class="c-str">"8080:8080"</span>
-    <span class="c-key">environment</span>:
-      - <span class="c-str">DB_HOST=postgres</span>
-      - <span class="c-str">TZ=Europe/Lisbon</span>
-    <span class="c-key">volumes</span>:
-      - <span class="c-str">./data:/app/backend/data</span>
     <span class="c-key">depends_on</span>:
-      - <span class="c-str">postgres</span>
+      <span class="c-key">postgres</span>:
+        <span class="c-key">condition</span>: <span class="c-str">service_healthy</span>
+    <span class="c-key">restart</span>: <span class="c-str">unless-stopped</span>
 
   <span class="c-key">postgres</span>:
-    <span class="c-key">image</span>: <span class="c-str">postgres:16</span>
-    <span class="c-key">environment</span>:
-      - <span class="c-str">POSTGRES_DB=endurain</span></code></pre>
+    <span class="c-key">image</span>: <span class="c-str">docker.io/postgres:18@sha256:74935e72241653ca55e0414067e6d8763aceb8a810eb51b452253ec3dcfc4336</span>
+    <span class="c-key">container_name</span>: <span class="c-str">endurain-postgres</span>
+    <span class="c-key">env_file</span>:
+      - <span class="c-str">.env</span>
+    <span class="c-key">healthcheck</span>:
+      <span class="c-key">test</span>: [<span class="c-str">"CMD-SHELL", "pg_isready -U endurain"</span>]
+      <span class="c-key">interval</span>: <span class="c-str">5s</span>
+      <span class="c-key">timeout</span>: <span class="c-str">5s</span>
+      <span class="c-key">retries</span>: <span class="c-str">5</span>
+    <span class="c-key">volumes</span>:
+      - <span class="c-str">${LOCAL_PATH:-/var/opt/endurain}/postgres:/var/lib/postgresql/data:Z</span>
+    <span class="c-key">restart</span>: <span class="c-str">unless-stopped</span></code></pre>
             </div>
+
+            <div class="code-mock">
+              <div class="code-bar">
+                <span class="dot red"></span><span class="dot amber"></span
+                ><span class="dot green"></span>
+                <span class="code-file">.env</span>
+              </div>
+              <pre><code><span class="c-key">DB_PASSWORD</span>=<span class="c-str">changeme</span>
+<span class="c-com"># Must be the same as DB_PASSWORD</span>
+<span class="c-key">POSTGRES_PASSWORD</span>=<span class="c-str">changeme</span>
+<span class="c-key">SECRET_KEY</span>=<span class="c-str">changeme</span>
+<span class="c-key">FERNET_KEY</span>=<span class="c-str">changeme</span>
+<span class="c-key">TZ</span>=<span class="c-str">Europe/Lisbon</span>
+<span class="c-key">ENDURAIN_HOST</span>=<span class="c-str">https://endurain.example.com</span>
+<span class="c-key">BEHIND_PROXY</span>=<span class="c-str">true</span>
+
+<span class="c-com"># If you change this, you also have to change DB_DATABASE</span>
+<span class="c-key">POSTGRES_DB</span>=<span class="c-str">endurain</span>
+<span class="c-com"># Uncomment and set it to the same as POSTGRES_DB if you change it</span>
+<span class="c-com"># DB_DATABASE=endurain</span>
+<span class="c-com"># If you change this, you also have to change DB_USER</span>
+<span class="c-key">POSTGRES_USER</span>=<span class="c-str">endurain</span>
+<span class="c-com"># Uncomment and set it to the same as POSTGRES_USER if you change it</span>
+<span class="c-com"># DB_USER=endurain</span>
+<span class="c-key">PGDATA</span>=<span class="c-str">/var/lib/postgresql/data/pgdata</span></code></pre>
+            </div>
+            <p class="code-note">
+              <span data-i18n="selfHost.exampleNote"
+                >These files are examples only. Replace the placeholder secrets
+                and adjust paths and ports for your setup.</span
+              >
+              <span data-i18n="selfHost.exampleHelp">Need help? Check</span>
+              <a href="https://docs.endurain.com" target="_blank" rel="noopener"
+                >docs.endurain.com</a
+              >.
+            </p>
           </div>
         </div>
       </section>

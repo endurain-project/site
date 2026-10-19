@@ -1234,6 +1234,22 @@ html.dark .code-mock {
 .c-str {
   color: #e6c07b;
 }
+.c-com {
+  color: #7fa596;
+}
+.self-code .code-mock + .code-mock {
+  margin-top: 16px;
+}
+.code-note {
+  margin: 14px 0 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.code-note a {
+  color: inherit;
+  text-decoration: underline;
+}
 
 /* ----------------------------- Community -------------------------------- */
 .link-grid {
