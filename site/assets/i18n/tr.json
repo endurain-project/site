@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, kendi sunucunuzda barındırılan, kontrolü sizde olan fitness takibi",
-    "description": "Endurain, kendi sunucunuzda barındırılan, gizlilik öncelikli bir fitness takip hizmetidir. Etkinliklerinize, ekipmanınıza ve sağlık verilerinize sahip olun; Strava ve Garmin senkronizasyonu, .gpx/.tcx/.fit içe aktarma ve bir Android uygulaması ile."
+    "title": "Endurain, kendi sunucunuzda barındırılan, kontrolü sizde olan fitness takibi"
   },
   "a11y": {
     "skip": "İçeriğe geç",
@@ -19,7 +18,6 @@
     "community": "Topluluk"
   },
   "hero": {
-    "status": "Özellik dondurma: temelleri güçlendirmek",
     "title1": "Her hareketi takip et",
     "title2": "Her anın sahibi ol",
     "lede": "Endurain, kendi sunucunuzda barındırılan bir fitness takip hizmetidir; etkinlikleriniz, ekipmanınız ve sağlık verileriniz için gizlilik öncelikli bir yuva. Bağımlılık yok, veri madenciliği yok. Yalnızca antrenman geçmişiniz, kontrolü sizde olan bir altyapıda.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Belgeleri okuyun",
     "badge1": "AGPL-3.0 açık kaynak",
     "badge2": "%100 kendi sunucunuzda",
-    "badge3": "Strava ve Garmin senkronizasyonu",
-    "imgAlt": "Endurain panosu; haritada bir koşu, tempo ve güç verileri ve aylık toplamlar içeren bir etkinlik akışını gösteriyor."
+    "badge3": "Strava ve Garmin senkronizasyonu"
   },
   "strip": {
     "k1": "Verileriniz",
@@ -85,20 +82,13 @@
     "eyebrow": "Endurain mobil",
     "title": "Antrenmanınız cebinizde",
     "sub": "Endurain uygulaması koşuları, bisiklet turlarını, yürüyüşleri ve doğa yürüyüşlerini harita üzerinde canlı olarak kaydeder ve doğrudan kendi sunucunuza yükler. Çevrimdışı çalışır, yeniden bağlandığınızda otomatik olarak eşitlenir ve sizi SSO ve MFA ile oturum açtırır.",
-    "apkTop": "İndir",
-    "apkStrong": "Android APK",
-    "comingSoon": "Yakında",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Yakında",
-    "soonTitle": "Çok yakında",
     "beta": "Beta",
     "playTop": "Android betasına katılın:",
     "playTitle": "Endurain Android betasına Google Play'de katılın",
     "testflightTop": "iOS betasına katılın:",
     "testflightTitle": "Endurain iOS betasına TestFlight'ta katılın",
-    "hintBeta": "Android uygulaması Google Play'de, iOS uygulaması ise TestFlight'ta herkese açık beta olarak sunulmaktadır. Beta sürümleri yayın öncesi yazılımdır ve eksik veya kararsız olabilir.",
-    "hint": "Uygulama aktif geliştirme aşamasındadır. En son Android APK'sını doğrudan buradan, siteden indirin. Google Play ve App Store girişleri daha sonra gelecek."
+    "hintBeta": "Android uygulaması Google Play'de, iOS uygulaması ise TestFlight'ta herkese açık beta olarak sunulmaktadır. Beta sürümleri yayın öncesi yazılımdır ve eksik veya kararsız olabilir."
   },
   "gallery": {
     "eyebrow": "Daha yakından bakış",

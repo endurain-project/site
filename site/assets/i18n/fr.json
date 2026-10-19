@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, le suivi sportif auto-hébergé que vous contrôlez",
-    "description": "Endurain est un service de suivi sportif auto-hébergé et respectueux de la vie privée. Gardez la maîtrise de vos activités, de votre équipement et de vos données de santé, avec la synchronisation Strava et Garmin, l'import .gpx/.tcx/.fit et une application Android."
+    "title": "Endurain, le suivi sportif auto-hébergé que vous contrôlez"
   },
   "a11y": {
     "skip": "Aller au contenu",
@@ -19,7 +18,6 @@
     "community": "Communauté"
   },
   "hero": {
-    "status": "Gel des fonctionnalités : renforcer les fondations",
     "title1": "Suivez chaque mouvement",
     "title2": "Vivez chaque instant",
     "lede": "Endurain est un service de suivi sportif auto-hébergé, un foyer respectueux de la vie privée pour vos activités, votre équipement et vos données de santé. Aucun verrouillage, aucune exploitation de données. Juste votre historique d'entraînement, sur une infrastructure que vous contrôlez.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Lire la documentation",
     "badge1": "Open source AGPL-3.0",
     "badge2": "100% auto-hébergé",
-    "badge3": "Synchronisation Strava et Garmin",
-    "imgAlt": "Le tableau de bord Endurain affichant un fil d'activités avec une course cartographiée, des données d'allure et de puissance, et des totaux mensuels."
+    "badge3": "Synchronisation Strava et Garmin"
   },
   "strip": {
     "k1": "Vos données",
@@ -85,20 +82,13 @@
     "eyebrow": "Endurain mobile",
     "title": "Votre entraînement, dans votre poche",
     "sub": "L'application Endurain enregistre vos courses, sorties à vélo, marches et randonnées en direct sur une carte et les envoie directement vers votre propre serveur. Elle fonctionne hors ligne, se synchronise automatiquement dès que vous êtes reconnecté et vous connecte via SSO et MFA.",
-    "apkTop": "Télécharger l'",
-    "apkStrong": "APK Android",
-    "comingSoon": "Bientôt sur",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Bientôt",
-    "soonTitle": "Bientôt disponible",
     "beta": "Bêta",
     "playTop": "Rejoignez la bêta Android sur",
     "playTitle": "Rejoindre la bêta Android d'Endurain sur Google Play",
     "testflightTop": "Rejoignez la bêta iOS sur",
     "testflightTitle": "Rejoindre la bêta iOS d'Endurain sur TestFlight",
-    "hintBeta": "L'application Android est disponible en bêta publique sur Google Play et l'application iOS en bêta publique sur TestFlight. Les versions bêta sont des logiciels préliminaires et peuvent être incomplètes ou instables.",
-    "hint": "L'application est en développement actif. Téléchargez la dernière APK Android directement ici sur le site. Les fiches Google Play et App Store suivront."
+    "hintBeta": "L'application Android est disponible en bêta publique sur Google Play et l'application iOS en bêta publique sur TestFlight. Les versions bêta sont des logiciels préliminaires et peuvent être incomplètes ou instables."
   },
   "gallery": {
     "eyebrow": "Regardez de plus près",

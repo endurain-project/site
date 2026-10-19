@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, selbstgehostetes Fitness-Tracking unter deiner Kontrolle",
-    "description": "Endurain ist ein selbstgehosteter, datenschutzfreundlicher Fitness-Tracking-Dienst. Besitze deine Aktivitäten, Ausrüstung und Gesundheitsdaten, mit Strava- und Garmin-Sync, .gpx/.tcx/.fit-Import und einer Android-App."
+    "title": "Endurain, selbstgehostetes Fitness-Tracking unter deiner Kontrolle"
   },
   "a11y": {
     "skip": "Zum Inhalt springen",
@@ -19,7 +18,6 @@
     "community": "Community"
   },
   "hero": {
-    "status": "Feature-Freeze: die Grundlagen stärken",
     "title1": "Jeden Schritt verfolgen",
     "title2": "Jeden Moment besitzen",
     "lede": "Endurain ist ein selbstgehosteter Fitness-Tracking-Dienst, ein datenschutzfreundliches Zuhause für deine Aktivitäten, Ausrüstung und Gesundheitsdaten. Kein Lock-in, kein Data-Mining. Nur deine Trainingshistorie, auf einer Infrastruktur, die du kontrollierst.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Dokumentation lesen",
     "badge1": "AGPL-3.0 Open Source",
     "badge2": "100% selbstgehostet",
-    "badge3": "Strava- und Garmin-Sync",
-    "imgAlt": "Das Endurain-Dashboard mit einem Aktivitäts-Feed, einem Lauf auf der Karte, Pace- und Leistungswerten sowie Monatssummen."
+    "badge3": "Strava- und Garmin-Sync"
   },
   "strip": {
     "k1": "Deine Daten",
@@ -85,20 +82,13 @@
     "eyebrow": "Endurain Mobile",
     "title": "Dein Training, in deiner Tasche",
     "sub": "Die Endurain-App zeichnet Läufe, Radtouren, Spaziergänge und Wanderungen live auf einer Karte auf und lädt sie direkt auf deinen eigenen Server hoch. Sie funktioniert offline, synchronisiert automatisch, sobald du wieder online bist, und meldet dich per SSO und MFA an.",
-    "apkTop": "Herunterladen",
-    "apkStrong": "Android-APK",
-    "comingSoon": "Demnächst auf",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Bald",
-    "soonTitle": "Demnächst verfügbar",
     "beta": "Beta",
     "playTop": "Android-Beta beitreten auf",
     "playTitle": "Der Endurain-Android-Beta auf Google Play beitreten",
     "testflightTop": "iOS-Beta beitreten auf",
     "testflightTitle": "Der Endurain-iOS-Beta auf TestFlight beitreten",
-    "hintBeta": "Die Android-App ist als öffentliche Beta bei Google Play und die iOS-App als öffentliche Beta bei TestFlight verfügbar. Beta-Versionen sind Vorabsoftware und können unvollständig oder instabil sein.",
-    "hint": "Die App wird aktiv weiterentwickelt. Lade die neueste Android-APK direkt hier auf der Website herunter. Einträge im Google Play Store und App Store folgen."
+    "hintBeta": "Die Android-App ist als öffentliche Beta bei Google Play und die iOS-App als öffentliche Beta bei TestFlight verfügbar. Beta-Versionen sind Vorabsoftware und können unvollständig oder instabil sein."
   },
   "gallery": {
     "eyebrow": "Ein genauerer Blick",

@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, seguiment esportiu autoallotjat que controles tu",
-    "description": "Endurain és un servei de seguiment esportiu autoallotjat i centrat en la privadesa. Controla les teves activitats, el teu equipament i les teves dades de salut, amb sincronització de Strava i Garmin, importació .gpx/.tcx/.fit i una aplicació Android."
+    "title": "Endurain, seguiment esportiu autoallotjat que controles tu"
   },
   "a11y": {
     "skip": "Vés al contingut",
@@ -19,7 +18,6 @@
     "community": "Comunitat"
   },
   "hero": {
-    "status": "Congelació de funcions: reforçar els fonaments",
     "title1": "Segueix cada moviment",
     "title2": "Viu cada moment",
     "lede": "Endurain és un servei de seguiment esportiu autoallotjat, una llar centrada en la privadesa per a les teves activitats, el teu equipament i les teves dades de salut. Sense dependències, sense mineria de dades. Només el teu historial d'entrenament, en una infraestructura que controles tu.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Llegeix la documentació",
     "badge1": "Codi obert AGPL-3.0",
     "badge2": "100% autoallotjat",
-    "badge3": "Sincronització amb Strava i Garmin",
-    "imgAlt": "El tauler d'Endurain mostrant un flux d'activitats amb una cursa al mapa, dades de ritme i potència, i totals mensuals."
+    "badge3": "Sincronització amb Strava i Garmin"
   },
   "strip": {
     "k1": "Les teves dades",
@@ -85,20 +82,13 @@
     "eyebrow": "Endurain mòbil",
     "title": "El teu entrenament, a la butxaca",
     "sub": "L'aplicació d'Endurain registra curses, sortides en bici, caminades i excursions en directe sobre un mapa i les puja directament al teu propi servidor. Funciona sense connexió, se sincronitza automàticament quan tornes a tenir xarxa i t'inicia la sessió amb SSO i MFA.",
-    "apkTop": "Baixa l'",
-    "apkStrong": "APK d'Android",
-    "comingSoon": "Aviat a",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Aviat",
-    "soonTitle": "Disponible aviat",
     "beta": "Beta",
     "playTop": "Uneix-te a la beta d'Android a",
     "playTitle": "Uneix-te a la beta d'Android d'Endurain a Google Play",
     "testflightTop": "Uneix-te a la beta d'iOS a",
     "testflightTitle": "Uneix-te a la beta d'iOS d'Endurain a TestFlight",
-    "hintBeta": "L'aplicació d'Android està disponible com a beta pública a Google Play i la d'iOS com a beta pública a TestFlight. Les versions beta són programari preliminar i poden estar incompletes o ser inestables.",
-    "hint": "L'aplicació està en desenvolupament actiu. Baixa l'APK d'Android més recent aquí mateix al lloc. Les fitxes a Google Play i l'App Store arribaran més endavant."
+    "hintBeta": "L'aplicació d'Android està disponible com a beta pública a Google Play i la d'iOS com a beta pública a TestFlight. Les versions beta són programari preliminar i poden estar incompletes o ser inestables."
   },
   "gallery": {
     "eyebrow": "Una mirada més de prop",

@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, samostojno gostovano sledenje kondiciji, ki ga nadzorujete",
-    "description": "Endurain je samostojno gostovana storitev za sledenje kondiciji, osredotočena na zasebnost. Imejte v lasti svoje aktivnosti, opremo in zdravstvene podatke, s sinhronizacijo Strava in Garmin, uvozom .gpx/.tcx/.fit in aplikacijo za Android."
+    "title": "Endurain, samostojno gostovano sledenje kondiciji, ki ga nadzorujete"
   },
   "a11y": {
     "skip": "Preskoči na vsebino",
@@ -19,7 +18,6 @@
     "community": "Skupnost"
   },
   "hero": {
-    "status": "Zamrznitev funkcij: krepitev temeljev",
     "title1": "Sledi vsakemu koraku",
     "title2": "Osvoji vsak trenutek",
     "lede": "Endurain je samostojno gostovana storitev za sledenje kondiciji, dom, osredotočen na zasebnost, za vaše aktivnosti, opremo in zdravstvene podatke. Brez vezave, brez rudarjenja podatkov. Samo vaša zgodovina treningov, na infrastrukturi, ki jo nadzorujete.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Preberite dokumentacijo",
     "badge1": "Odprta koda AGPL-3.0",
     "badge2": "100% samostojno gostovano",
-    "badge3": "Sinhronizacija Strava in Garmin",
-    "imgAlt": "Nadzorna plošča Endurain prikazuje vir aktivnosti s tekom na zemljevidu, podatki o tempu in moči ter mesečnimi seštevki."
+    "badge3": "Sinhronizacija Strava in Garmin"
   },
   "strip": {
     "k1": "Vaši podatki",
@@ -85,20 +82,13 @@
     "eyebrow": "Endurain mobilni",
     "title": "Vaš trening, v vašem žepu",
     "sub": "Aplikacija Endurain v živo beleži teke, kolesarjenja, sprehode in pohode na zemljevidu ter jih naloži neposredno na vaš strežnik. Deluje brez povezave, samodejno se sinhronizira, ko ste spet povezani, in vas prijavi s SSO in MFA.",
-    "apkTop": "Prenesite",
-    "apkStrong": "Android APK",
-    "comingSoon": "Kmalu v",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Kmalu",
-    "soonTitle": "Kmalu na voljo",
     "beta": "Beta",
     "playTop": "Pridružite se beti za Android na",
     "playTitle": "Pridružite se beti Endurain za Android v Google Play",
     "testflightTop": "Pridružite se beti za iOS na",
     "testflightTitle": "Pridružite se beti Endurain za iOS v TestFlight",
-    "hintBeta": "Aplikacija za Android je na voljo kot javna beta v Google Play, aplikacija za iOS pa kot javna beta v TestFlight. Različice beta so programska oprema pred izidom in so lahko nepopolne ali nestabilne.",
-    "hint": "Aplikacija je v dejavnem razvoju. Prenesite najnovejši Android APK kar tukaj na spletnem mestu. Objave v trgovini Google Play in App Store bodo sledile."
+    "hintBeta": "Aplikacija za Android je na voljo kot javna beta v Google Play, aplikacija za iOS pa kot javna beta v TestFlight. Različice beta so programska oprema pred izidom in so lahko nepopolne ali nestabilne."
   },
   "gallery": {
     "eyebrow": "Podrobnejši pogled",

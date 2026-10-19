@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, savarankiškai talpinamas kūno rengybos stebėjimas, kurį valdote jūs",
-    "description": "Endurain yra savarankiškai talpinama, privatumą pirmumo tvarka teikianti kūno rengybos stebėjimo paslauga. Valdykite savo veiklas, įrangą ir sveikatos duomenis su Strava ir Garmin sinchronizavimu, .gpx/.tcx/.fit importu ir Android programėle."
+    "title": "Endurain, savarankiškai talpinamas kūno rengybos stebėjimas, kurį valdote jūs"
   },
   "a11y": {
     "skip": "Pereiti prie turinio",
@@ -19,7 +18,6 @@
     "community": "Bendruomenė"
   },
   "hero": {
-    "status": "Funkcijų įšaldymas: pamatų stiprinimas",
     "title1": "Stebėk kiekvieną judesį",
     "title2": "Valdyk kiekvieną akimirką",
     "lede": "Endurain yra savarankiškai talpinama kūno rengybos stebėjimo paslauga, privatumą pirmumo tvarka teikiantys namai jūsų veikloms, įrangai ir sveikatos duomenims. Jokio pririšimo, jokio duomenų gavybos. Tik jūsų treniruočių istorija, infrastruktūroje, kurią valdote jūs.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Skaitykite dokumentaciją",
     "badge1": "Atvirasis kodas AGPL-3.0",
     "badge2": "100% savarankiškai talpinamas",
-    "badge3": "Strava ir Garmin sinchronizavimas",
-    "imgAlt": "Endurain valdymo skydelis, kuriame rodomas veiklų srautas su bėgimu žemėlapyje, tempo ir galios duomenimis bei mėnesio sumomis."
+    "badge3": "Strava ir Garmin sinchronizavimas"
   },
   "strip": {
     "k1": "Jūsų duomenys",
@@ -85,20 +82,13 @@
     "eyebrow": "Endurain mobiliajame",
     "title": "Jūsų treniruotė kišenėje",
     "sub": "Endurain programėlė realiuoju laiku žemėlapyje įrašo bėgimus, važiavimus dviračiu, pasivaikščiojimus ir žygius ir įkelia juos tiesiai į jūsų pačių serverį. Ji veikia neprisijungus, automatiškai sinchronizuojasi, kai vėl esate prisijungę, ir prijungia jus per SSO ir MFA.",
-    "apkTop": "Atsisiųsti",
-    "apkStrong": "Android APK",
-    "comingSoon": "Netrukus",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Netrukus",
-    "soonTitle": "Netrukus",
     "beta": "Beta",
     "playTop": "Prisijunkite prie „Android“ beta:",
     "playTitle": "Prisijunkite prie „Endurain“ „Android“ beta „Google Play“",
     "testflightTop": "Prisijunkite prie „iOS“ beta:",
     "testflightTitle": "Prisijunkite prie „Endurain“ „iOS“ beta „TestFlight“",
-    "hintBeta": "„Android“ programėlė pasiekiama kaip viešoji beta versija „Google Play“, o „iOS“ programėlė – kaip viešoji beta versija „TestFlight“. Beta versijos yra ikileidiminė programinė įranga ir gali būti nebaigtos arba nestabilios.",
-    "hint": "Programėlė aktyviai kuriama. Atsisiųskite naujausią Android APK tiesiai čia, svetainėje. Įrašai Google Play ir App Store bus vėliau."
+    "hintBeta": "„Android“ programėlė pasiekiama kaip viešoji beta versija „Google Play“, o „iOS“ programėlė – kaip viešoji beta versija „TestFlight“. Beta versijos yra ikileidiminė programinė įranga ir gali būti nebaigtos arba nestabilios."
   },
   "gallery": {
     "eyebrow": "Iš arčiau",
