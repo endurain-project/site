@@ -806,12 +806,19 @@
           </div>
 
           <div class="self-code reveal">
-            <div class="code-mock">
-              <div class="code-bar">
+            <details class="code-mock">
+              <summary class="code-bar">
                 <span class="dot red"></span><span class="dot amber"></span
                 ><span class="dot green"></span>
                 <span class="code-file">docker-compose.yml</span>
-              </div>
+                <span class="code-toggle">
+                  <span data-i18n="selfHost.show">Show</span>
+                  <span data-i18n="selfHost.hide">Hide</span>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </span>
+              </summary>
               <pre><code><span class="c-key">services</span>:
   <span class="c-key">endurain</span>:
     <span class="c-key">container_name</span>: <span class="c-str">endurain-app</span>
@@ -841,18 +848,27 @@
     <span class="c-key">volumes</span>:
       - <span class="c-str">${LOCAL_PATH:-/var/opt/endurain}/postgres:/var/lib/postgresql/data:Z</span>
     <span class="c-key">restart</span>: <span class="c-str">unless-stopped</span></code></pre>
-            </div>
+            </details>
 
-            <div class="code-mock">
-              <div class="code-bar">
+            <details class="code-mock">
+              <summary class="code-bar">
                 <span class="dot red"></span><span class="dot amber"></span
                 ><span class="dot green"></span>
                 <span class="code-file">.env</span>
-              </div>
+                <span class="code-toggle">
+                  <span data-i18n="selfHost.show">Show</span>
+                  <span data-i18n="selfHost.hide">Hide</span>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </span>
+              </summary>
               <pre><code><span class="c-key">DB_PASSWORD</span>=<span class="c-str">changeme</span>
 <span class="c-com"># Must be the same as DB_PASSWORD</span>
 <span class="c-key">POSTGRES_PASSWORD</span>=<span class="c-str">changeme</span>
+<span class="c-com"># Generate with: openssl rand -hex 32</span>
 <span class="c-key">SECRET_KEY</span>=<span class="c-str">changeme</span>
+<span class="c-com"># Generate with: openssl rand -base64 32</span>
 <span class="c-key">FERNET_KEY</span>=<span class="c-str">changeme</span>
 <span class="c-key">TZ</span>=<span class="c-str">Europe/Lisbon</span>
 <span class="c-key">ENDURAIN_HOST</span>=<span class="c-str">https://endurain.example.com</span>
@@ -867,7 +883,7 @@
 <span class="c-com"># Uncomment and set it to the same as POSTGRES_USER if you change it</span>
 <span class="c-com"># DB_USER=endurain</span>
 <span class="c-key">PGDATA</span>=<span class="c-str">/var/lib/postgresql/data/pgdata</span></code></pre>
-            </div>
+            </details>
             <p class="code-note">
               <span data-i18n="selfHost.exampleNote"
                 >These files are examples only. Replace the placeholder secrets
@@ -876,6 +892,17 @@
               <span data-i18n="selfHost.exampleHelp">Need help? Check</span>
               <a href="https://docs.endurain.com" target="_blank" rel="noopener"
                 >docs.endurain.com</a
+              >.
+            </p>
+            <p class="code-note">
+              <span data-i18n="selfHost.keysHelp"
+                >You can generate SECRET_KEY and FERNET_KEY at</span
+              >
+              <a
+                href="https://docs.endurain.com/tools/"
+                target="_blank"
+                rel="noopener"
+                >docs.endurain.com/tools/</a
               >.
             </p>
           </div>

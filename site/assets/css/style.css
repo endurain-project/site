@@ -1211,11 +1211,48 @@ html.dark .code-mock {
   background: #131d19;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
+.code-bar {
+  cursor: pointer;
+  list-style: none;
+}
+.code-bar::-webkit-details-marker {
+  display: none;
+}
+.code-bar:focus-visible {
+  outline: 2px solid #5dcaa5;
+  outline-offset: -2px;
+}
+details:not([open]) > .code-bar {
+  border-bottom: 0;
+}
 .code-file {
   margin-left: 10px;
   font-size: 0.78rem;
   color: #7fa596;
   font-family: ui-monospace, monospace;
+}
+.code-toggle {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: #7fa596;
+}
+.code-toggle .icon {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  transition: transform 0.2s ease;
+}
+details[open] > .code-bar .code-toggle .icon {
+  transform: rotate(180deg);
+}
+details[open] > .code-bar .code-toggle > span:first-child,
+details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
+  display: none;
 }
 .code-mock pre {
   margin: 0;
