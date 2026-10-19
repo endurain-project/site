@@ -1168,6 +1168,49 @@ a.store-btn:hover {
   gap: 12px;
   font-weight: 500;
 }
+.steps li.step-multi {
+  align-items: flex-start;
+}
+.steps li .step-body {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  gap: 10px;
+  padding-top: 2px;
+}
+/* Terminal-style block, matches the dark code mock on the right. */
+.steps li .step-cmds {
+  display: grid;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border-strong);
+  background: #0e1512;
+  font-weight: 400;
+}
+.steps li .step-cmds > div {
+  display: grid;
+  grid-template-columns: 1ch 1fr;
+  gap: 8px;
+  align-items: baseline;
+}
+.steps li .sub-n {
+  font-family: ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  font-size: 0.78rem;
+  color: #5dcaa5;
+  user-select: none;
+}
+.steps li .step-cmds code {
+  min-width: 0;
+  padding: 0;
+  background: none;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: #cfe6dc;
+  /* Collapse the source line breaks Prettier adds inside the tag. */
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
 .steps li .step-n {
   display: grid;
   place-items: center;

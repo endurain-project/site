@@ -772,8 +772,31 @@
                   >Set your secrets and integration keys</span
                 >
               </li>
+              <li class="step-multi">
+                <span class="step-n">3</span>
+                <div class="step-body">
+                  <span data-i18n="selfHost.stepFolders"
+                    >Create the data folders, owned by UID 1000</span
+                  >
+                  <div class="step-cmds">
+                    <div>
+                      <span class="sub-n" aria-hidden="true">$</span>
+                      <code
+                        >sudo mkdir -p
+                        /var/opt/endurain/backend/{data,logs}</code
+                      >
+                    </div>
+                    <div>
+                      <span class="sub-n" aria-hidden="true">$</span>
+                      <code
+                        >sudo chown -R 1000:1000 /var/opt/endurain/backend</code
+                      >
+                    </div>
+                  </div>
+                </div>
+              </li>
               <li>
-                <span class="step-n">3</span> <code>docker compose up -d</code>
+                <span class="step-n">4</span> <code>docker compose up -d</code>
               </li>
             </ol>
             <div class="hero-cta">
@@ -898,6 +921,14 @@
                 rel="noopener"
                 >docs.endurain.com/tools/</a
               >.
+            </p>
+            <p class="code-note">
+              <span data-i18n="selfHost.proxyNote"
+                >Login needs ENDURAIN_HOST to match the address you open, so
+                serve Endurain through a reverse proxy with HTTPS. Plain HTTP on
+                port 8080 will not let you log in with the provided
+                example.</span
+              >
             </p>
           </div>
         </div>
