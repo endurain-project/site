@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, urmărire fitness auto-găzduită pe care o controlezi",
-    "description": "Endurain este un serviciu de urmărire fitness auto-găzduit și axat pe confidențialitate. Deține-ți activitățile, echipamentul și datele de sănătate, cu sincronizare Strava și Garmin, import .gpx/.tcx/.fit și o aplicație Android."
+    "title": "Endurain, urmărire fitness auto-găzduită pe care o controlezi"
   },
   "a11y": {
     "skip": "Salt la conținut",
@@ -19,7 +18,6 @@
     "community": "Comunitate"
   },
   "hero": {
-    "status": "Înghețarea funcțiilor: consolidarea fundației",
     "title1": "Urmărește fiecare mișcare",
     "title2": "Trăiește fiecare moment",
     "lede": "Endurain este un serviciu de urmărire fitness auto-găzduit, o casă axată pe confidențialitate pentru activitățile, echipamentul și datele tale de sănătate. Fără blocaje, fără extragere de date. Doar istoricul tău de antrenament, pe o infrastructură pe care o controlezi.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Citește documentația",
     "badge1": "Sursă deschisă AGPL-3.0",
     "badge2": "100% auto-găzduit",
-    "badge3": "Sincronizare Strava și Garmin",
-    "imgAlt": "Tabloul de bord Endurain care afișează un flux de activități cu o alergare pe hartă, date de ritm și putere și totaluri lunare."
+    "badge3": "Sincronizare Strava și Garmin"
   },
   "strip": {
     "k1": "Datele tale",
@@ -85,14 +82,13 @@
     "eyebrow": "Endurain mobil",
     "title": "Antrenamentul tău, în buzunar",
     "sub": "Aplicația Endurain înregistrează alergări, ture cu bicicleta, plimbări și drumeții în timp real pe o hartă și le încarcă direct pe propriul tău server. Funcționează offline, se sincronizează automat când revii online și te autentifică prin SSO și MFA.",
-    "apkTop": "Descarcă",
-    "apkStrong": "APK-ul pentru Android",
-    "comingSoon": "În curând pe",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "În curând",
-    "soonTitle": "În curând",
-    "hint": "Aplicația este în dezvoltare activă. Descarcă cel mai recent APK pentru Android chiar aici, pe site. Listările în Google Play și App Store vor urma."
+    "beta": "Beta",
+    "playTop": "Alătură-te beta Android pe",
+    "playTitle": "Alătură-te beta Endurain pentru Android pe Google Play",
+    "testflightTop": "Alătură-te beta iOS pe",
+    "testflightTitle": "Alătură-te beta Endurain pentru iOS pe TestFlight",
+    "hintBeta": "Aplicația Android este disponibilă ca beta publică pe Google Play, iar aplicația iOS ca beta publică pe TestFlight. Versiunile beta sunt software preliminar și pot fi incomplete sau instabile."
   },
   "gallery": {
     "eyebrow": "O privire mai atentă",
@@ -125,6 +121,10 @@
     "discordD": "Chat, ajutor și anunțuri.",
     "mastodonT": "Mastodon",
     "mastodonD": "Urmărește noutățile în fediverse.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Urmărește noutățile pe Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Urmărește proiectul pe LinkedIn.",
     "translateT": "Tradu",
     "translateD": "Ajută la localizarea Endurain prin Weblate."
   },

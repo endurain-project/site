@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, itse isännöity kuntoilun seuranta, jota hallitset itse",
-    "description": "Endurain on itse isännöity, yksityisyyttä kunnioittava kuntoilun seurantapalvelu. Omista aktiviteettisi, varusteesi ja terveystietosi, Strava- ja Garmin-synkronoinnilla, .gpx/.tcx/.fit-tuonnilla ja Android-sovelluksella."
+    "title": "Endurain, itse isännöity kuntoilun seuranta, jota hallitset itse"
   },
   "a11y": {
     "skip": "Siirry sisältöön",
@@ -19,7 +18,6 @@
     "community": "Yhteisö"
   },
   "hero": {
-    "status": "Ominaisuusjäädytys: perustan vahvistaminen",
     "title1": "Seuraa jokaista liikettä",
     "title2": "Omista jokainen hetki",
     "lede": "Endurain on itse isännöity kuntoilun seurantapalvelu, yksityisyyttä kunnioittava koti aktiviteeteillesi, varusteillesi ja terveystiedoillesi. Ei lukkiutumista, ei tiedonlouhintaa. Vain harjoitushistoriasi, infrastruktuurilla, jota hallitset itse.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Lue dokumentaatio",
     "badge1": "AGPL-3.0-avoin lähdekoodi",
     "badge2": "100% itse isännöity",
-    "badge3": "Strava- ja Garmin-synkronointi",
-    "imgAlt": "Endurainin hallintapaneeli, jossa näkyy aktiviteettisyöte kartalla näkyvine juoksuineen, vauhti- ja tehotietoineen sekä kuukausisummineen."
+    "badge3": "Strava- ja Garmin-synkronointi"
   },
   "strip": {
     "k1": "Sinun tietosi",
@@ -85,14 +82,13 @@
     "eyebrow": "Endurain mobiili",
     "title": "Harjoituksesi taskussasi",
     "sub": "Endurain-sovellus tallentaa juoksut, pyöräilyt, kävelyt ja vaellukset reaaliajassa kartalle ja lataa ne suoraan omalle palvelimellesi. Se toimii offline-tilassa, synkronoituu automaattisesti, kun yhteys palaa, ja kirjaa sinut sisään SSO:lla ja MFA:lla.",
-    "apkTop": "Lataa",
-    "apkStrong": "Android-APK",
-    "comingSoon": "Pian saatavilla",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Pian",
-    "soonTitle": "Tulossa pian",
-    "hint": "Sovellus on aktiivisessa kehityksessä. Lataa uusin Android-APK suoraan täältä sivustolta. Google Play- ja App Store -listaukset seuraavat myöhemmin."
+    "beta": "Beta",
+    "playTop": "Liity Android-betaan:",
+    "playTitle": "Liity Endurainin Android-betaan Google Playssa",
+    "testflightTop": "Liity iOS-betaan:",
+    "testflightTitle": "Liity Endurainin iOS-betaan TestFlightissä",
+    "hintBeta": "Android-sovellus on saatavilla julkisena betana Google Playssa ja iOS-sovellus julkisena betana TestFlightissä. Beta-versiot ovat julkaisua edeltävää ohjelmistoa, ja ne voivat olla keskeneräisiä tai epävakaita."
   },
   "gallery": {
     "eyebrow": "Lähempi katsaus",
@@ -125,6 +121,10 @@
     "discordD": "Keskustelu, apu ja ilmoitukset.",
     "mastodonT": "Mastodon",
     "mastodonD": "Seuraa päivityksiä fediversessä.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Seuraa päivityksiä Blueskyssa.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Seuraa projektia LinkedInissä.",
     "translateT": "Käännä",
     "translateD": "Auta lokalisoimaan Endurain Weblaten kautta."
   },

@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, självhostad träningsspårning som du styr",
-    "description": "Endurain är en självhostad, integritetsfokuserad tjänst för träningsspårning. Äg dina aktiviteter, din utrustning och dina hälsodata, med Strava- och Garmin-synk, .gpx/.tcx/.fit-import och en Android-app."
+    "title": "Endurain, självhostad träningsspårning som du styr"
   },
   "a11y": {
     "skip": "Hoppa till innehåll",
@@ -19,7 +18,6 @@
     "community": "Gemenskap"
   },
   "hero": {
-    "status": "Funktionsfrysning: stärka grunderna",
     "title1": "Spåra varje rörelse",
     "title2": "Äg varje ögonblick",
     "lede": "Endurain är en självhostad tjänst för träningsspårning, ett integritetsfokuserat hem för dina aktiviteter, din utrustning och dina hälsodata. Ingen inlåsning, ingen datautvinning. Bara din träningshistorik, på infrastruktur som du styr.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Läs dokumentationen",
     "badge1": "AGPL-3.0 öppen källkod",
     "badge2": "100% självhostad",
-    "badge3": "Strava- och Garmin-synk",
-    "imgAlt": "Endurain-panelen som visar ett aktivitetsflöde med en löprunda på karta, tempo- och effektdata samt månadssummor."
+    "badge3": "Strava- och Garmin-synk"
   },
   "strip": {
     "k1": "Dina data",
@@ -85,14 +82,13 @@
     "eyebrow": "Endurain mobil",
     "title": "Din träning, i fickan",
     "sub": "Endurain-appen spelar in löprundor, cykelturer, promenader och vandringar live på en karta och laddar upp dem direkt till din egen server. Den fungerar offline, synkar automatiskt när du är uppkopplad igen och loggar in dig med SSO och MFA.",
-    "apkTop": "Ladda ner",
-    "apkStrong": "Android-APK:n",
-    "comingSoon": "Kommer snart på",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Snart",
-    "soonTitle": "Kommer snart",
-    "hint": "Appen är under aktiv utveckling. Ladda ner den senaste Android-APK:n här på webbplatsen. Listningar på Google Play och App Store kommer senare."
+    "beta": "Beta",
+    "playTop": "Gå med i Android-betan på",
+    "playTitle": "Gå med i Endurains Android-beta på Google Play",
+    "testflightTop": "Gå med i iOS-betan på",
+    "testflightTitle": "Gå med i Endurains iOS-beta på TestFlight",
+    "hintBeta": "Android-appen finns som offentlig beta på Google Play och iOS-appen som offentlig beta på TestFlight. Betaversioner är förhandsprogramvara och kan vara ofullständiga eller instabila."
   },
   "gallery": {
     "eyebrow": "En närmare titt",
@@ -125,6 +121,10 @@
     "discordD": "Chatt, hjälp och tillkännagivanden.",
     "mastodonT": "Mastodon",
     "mastodonD": "Följ uppdateringar i fediversum.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Följ uppdateringar på Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Följ projektet på LinkedIn.",
     "translateT": "Översätt",
     "translateD": "Hjälp till att lokalisera Endurain via Weblate."
   },

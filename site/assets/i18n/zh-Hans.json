@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain，由你掌控的自托管健身追踪服务",
-    "description": "Endurain 是一款自托管、注重隐私的健身追踪服务。掌控你的活动、装备和健康数据，支持 Strava 和 Garmin 同步、.gpx/.tcx/.fit 导入以及一款 Android 应用。"
+    "title": "Endurain，由你掌控的自托管健身追踪服务"
   },
   "a11y": {
     "skip": "跳到内容",
@@ -19,7 +18,6 @@
     "community": "社区"
   },
   "hero": {
-    "status": "功能冻结：夯实基础",
     "title1": "记录每一步",
     "title2": "掌握每一刻",
     "lede": "Endurain 是一款自托管的健身追踪服务，是你的活动、装备和健康数据的隐私优先之家。没有锁定，没有数据挖掘。只有你的训练历史，运行在你掌控的基础设施上。",
@@ -27,8 +25,7 @@
     "ctaDocs": "阅读文档",
     "badge1": "AGPL-3.0 开源",
     "badge2": "100% 自托管",
-    "badge3": "Strava 和 Garmin 同步",
-    "imgAlt": "Endurain 仪表板，显示包含地图跑步、配速和功率数据以及月度汇总的活动动态。"
+    "badge3": "Strava 和 Garmin 同步"
   },
   "strip": {
     "k1": "你的数据",
@@ -85,14 +82,13 @@
     "eyebrow": "Endurain 移动版",
     "title": "把训练装进口袋",
     "sub": "Endurain 应用在地图上实时记录跑步、骑行、步行和徒步，并直接上传到你自己的服务器。它支持离线使用，重新联网后自动同步，并通过 SSO 和 MFA 登录。",
-    "apkTop": "下载",
-    "apkStrong": "Android APK",
-    "comingSoon": "即将上线",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "即将",
-    "soonTitle": "敬请期待",
-    "hint": "该应用正在积极开发中。直接在本站下载最新的 Android APK。Google Play 和 App Store 上架随后推出。"
+    "beta": "测试版",
+    "playTop": "加入 Android 测试版，前往",
+    "playTitle": "在 Google Play 上加入 Endurain Android 测试版",
+    "testflightTop": "加入 iOS 测试版，前往",
+    "testflightTitle": "在 TestFlight 上加入 Endurain iOS 测试版",
+    "hintBeta": "Android 应用已在 Google Play 提供公开测试版，iOS 应用已在 TestFlight 提供公开测试版。测试版属于预发布软件，可能不完整或不稳定。"
   },
   "gallery": {
     "eyebrow": "近距离一览",
@@ -125,6 +121,10 @@
     "discordD": "聊天、帮助和公告。",
     "mastodonT": "Mastodon",
     "mastodonD": "在联邦宇宙关注更新。",
+    "blueskyT": "Bluesky",
+    "blueskyD": "在 Bluesky 上关注更新。",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "在 LinkedIn 上关注该项目。",
     "translateT": "翻译",
     "translateD": "通过 Weblate 帮助本地化 Endurain。"
   },

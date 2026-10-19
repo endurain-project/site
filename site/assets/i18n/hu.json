@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, önállóan üzemeltetett edzéskövetés, amelyet te irányítasz",
-    "description": "Az Endurain egy önállóan üzemeltetett, adatvédelmet előtérbe helyező edzéskövető szolgáltatás. Birtokold a tevékenységeidet, a felszerelésedet és az egészségügyi adataidat, Strava- és Garmin-szinkronizálással, .gpx/.tcx/.fit-importtal és egy Android-alkalmazással."
+    "title": "Endurain, önállóan üzemeltetett edzéskövetés, amelyet te irányítasz"
   },
   "a11y": {
     "skip": "Ugrás a tartalomra",
@@ -19,7 +18,6 @@
     "community": "Közösség"
   },
   "hero": {
-    "status": "Funkcióbefagyasztás: az alapok megerősítése",
     "title1": "Kövess minden mozdulatot",
     "title2": "Birtokold minden pillanatod",
     "lede": "Az Endurain egy önállóan üzemeltetett edzéskövető szolgáltatás, adatvédelmet előtérbe helyező otthon a tevékenységeid, a felszerelésed és az egészségügyi adataid számára. Nincs bezártság, nincs adatbányászat. Csak az edzéselőzményeid, egy általad irányított infrastruktúrán.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Dokumentáció elolvasása",
     "badge1": "AGPL-3.0 nyílt forráskód",
     "badge2": "100% önállóan üzemeltetett",
-    "badge3": "Strava- és Garmin-szinkronizálás",
-    "imgAlt": "Az Endurain irányítópultja egy tevékenységfolyammal, egy térképen megjelenített futással, tempó- és teljesítményadatokkal, valamint havi összesítésekkel."
+    "badge3": "Strava- és Garmin-szinkronizálás"
   },
   "strip": {
     "k1": "A te adataid",
@@ -85,14 +82,13 @@
     "eyebrow": "Endurain mobil",
     "title": "Az edzésed a zsebedben",
     "sub": "Az Endurain alkalmazás valós időben rögzíti a futásokat, kerékpártúrákat, sétákat és túrákat egy térképen, és közvetlenül a saját szerveredre tölti fel őket. Offline is működik, automatikusan szinkronizál, amint újra online vagy, és SSO-val és MFA-val léptet be.",
-    "apkTop": "Töltsd le az",
-    "apkStrong": "Android APK-t",
-    "comingSoon": "Hamarosan a",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Hamarosan",
-    "soonTitle": "Hamarosan elérhető",
-    "hint": "Az alkalmazás aktív fejlesztés alatt áll. Töltsd le a legújabb Android APK-t itt, a webhelyen. A Google Play- és App Store-megjelenések később következnek."
+    "beta": "Béta",
+    "playTop": "Csatlakozz az Android bétához:",
+    "playTitle": "Csatlakozz az Endurain Android bétájához a Google Playen",
+    "testflightTop": "Csatlakozz az iOS bétához:",
+    "testflightTitle": "Csatlakozz az Endurain iOS bétájához a TestFlighton",
+    "hintBeta": "Az Android-alkalmazás nyilvános bétaként elérhető a Google Playen, az iOS-alkalmazás pedig nyilvános bétaként a TestFlighton. A béta verziók kiadás előtti szoftverek, hiányosak vagy instabilak lehetnek."
   },
   "gallery": {
     "eyebrow": "Közelebbről",
@@ -125,6 +121,10 @@
     "discordD": "Csevegés, segítség és bejelentések.",
     "mastodonT": "Mastodon",
     "mastodonD": "Kövesd a híreket a fediverzumban.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Kövesd a híreket a Blueskyon.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Kövesd a projektet a LinkedInen.",
     "translateT": "Fordítás",
     "translateD": "Segíts az Endurain lokalizálásában a Weblate segítségével."
   },

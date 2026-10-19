@@ -467,7 +467,7 @@ html.dark .lang-menu li[aria-selected='true'] {
   flex: none;
 }
 
-/* Brand marks (GitHub, Discord, Mastodon) are solid-fill, not stroked. */
+/* Brand marks (GitHub, Discord, Mastodon, Bluesky, LinkedIn) are solid-fill, not stroked. */
 .brand-icon {
   fill: currentColor;
   stroke: none;
@@ -1168,6 +1168,49 @@ a.store-btn:hover {
   gap: 12px;
   font-weight: 500;
 }
+.steps li.step-multi {
+  align-items: flex-start;
+}
+.steps li .step-body {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  gap: 10px;
+  padding-top: 2px;
+}
+/* Terminal-style block, matches the dark code mock on the right. */
+.steps li .step-cmds {
+  display: grid;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border-strong);
+  background: #0e1512;
+  font-weight: 400;
+}
+.steps li .step-cmds > div {
+  display: grid;
+  grid-template-columns: 1ch 1fr;
+  gap: 8px;
+  align-items: baseline;
+}
+.steps li .sub-n {
+  font-family: ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  font-size: 0.78rem;
+  color: #5dcaa5;
+  user-select: none;
+}
+.steps li .step-cmds code {
+  min-width: 0;
+  padding: 0;
+  background: none;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: #cfe6dc;
+  /* Collapse the source line breaks Prettier adds inside the tag. */
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
 .steps li .step-n {
   display: grid;
   place-items: center;
@@ -1211,11 +1254,48 @@ html.dark .code-mock {
   background: #131d19;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
+.code-bar {
+  cursor: pointer;
+  list-style: none;
+}
+.code-bar::-webkit-details-marker {
+  display: none;
+}
+.code-bar:focus-visible {
+  outline: 2px solid #5dcaa5;
+  outline-offset: -2px;
+}
+details:not([open]) > .code-bar {
+  border-bottom: 0;
+}
 .code-file {
   margin-left: 10px;
   font-size: 0.78rem;
   color: #7fa596;
   font-family: ui-monospace, monospace;
+}
+.code-toggle {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: #7fa596;
+}
+.code-toggle .icon {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  transition: transform 0.2s ease;
+}
+details[open] > .code-bar .code-toggle .icon {
+  transform: rotate(180deg);
+}
+details[open] > .code-bar .code-toggle > span:first-child,
+details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
+  display: none;
 }
 .code-mock pre {
   margin: 0;
@@ -1233,6 +1313,22 @@ html.dark .code-mock {
 }
 .c-str {
   color: #e6c07b;
+}
+.c-com {
+  color: #7fa596;
+}
+.self-code .code-mock + .code-mock {
+  margin-top: 16px;
+}
+.code-note {
+  margin: 14px 0 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.code-note a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 /* ----------------------------- Community -------------------------------- */

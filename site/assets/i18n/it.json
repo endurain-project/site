@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, il monitoraggio sportivo self-hosted che controlli tu",
-    "description": "Endurain è un servizio di monitoraggio sportivo self-hosted e attento alla privacy. Controlla le tue attività, la tua attrezzatura e i tuoi dati sulla salute, con sincronizzazione Strava e Garmin, import .gpx/.tcx/.fit e un'app Android."
+    "title": "Endurain, il monitoraggio sportivo self-hosted che controlli tu"
   },
   "a11y": {
     "skip": "Vai al contenuto",
@@ -19,7 +18,6 @@
     "community": "Comunità"
   },
   "hero": {
-    "status": "Blocco delle funzionalità: rafforzare le fondamenta",
     "title1": "Registra ogni movimento",
     "title2": "Possiedi ogni momento",
     "lede": "Endurain è un servizio di monitoraggio sportivo self-hosted, una casa attenta alla privacy per le tue attività, la tua attrezzatura e i tuoi dati sulla salute. Nessun vincolo, nessuna estrazione di dati. Solo la tua storia di allenamento, su un'infrastruttura che controlli tu.",
@@ -27,8 +25,7 @@
     "ctaDocs": "Leggi la documentazione",
     "badge1": "Open source AGPL-3.0",
     "badge2": "100% self-hosted",
-    "badge3": "Sincronizzazione Strava e Garmin",
-    "imgAlt": "La dashboard di Endurain con un feed di attività, una corsa sulla mappa, dati di ritmo e potenza e totali mensili."
+    "badge3": "Sincronizzazione Strava e Garmin"
   },
   "strip": {
     "k1": "I tuoi dati",
@@ -85,14 +82,13 @@
     "eyebrow": "Endurain mobile",
     "title": "Il tuo allenamento, in tasca",
     "sub": "L'app Endurain registra corse, uscite in bici, camminate ed escursioni in tempo reale su una mappa e le carica direttamente sul tuo server. Funziona offline, si sincronizza automaticamente quando torni online e ti fa accedere con SSO e MFA.",
-    "apkTop": "Scarica l'",
-    "apkStrong": "APK Android",
-    "comingSoon": "Presto su",
     "play": "Google Play",
-    "appstore": "App Store",
-    "soon": "Presto",
-    "soonTitle": "Presto disponibile",
-    "hint": "L'app è in sviluppo attivo. Scarica l'ultima APK Android proprio qui sul sito. Le schede su Google Play e App Store arriveranno."
+    "beta": "Beta",
+    "playTop": "Unisciti alla beta Android su",
+    "playTitle": "Unisciti alla beta Android di Endurain su Google Play",
+    "testflightTop": "Unisciti alla beta iOS su",
+    "testflightTitle": "Unisciti alla beta iOS di Endurain su TestFlight",
+    "hintBeta": "L'app Android è disponibile come beta pubblica su Google Play e l'app iOS come beta pubblica su TestFlight. Le versioni beta sono software pre-rilascio e possono essere incomplete o instabili."
   },
   "gallery": {
     "eyebrow": "Uno sguardo più da vicino",
@@ -125,6 +121,10 @@
     "discordD": "Chat, aiuto e annunci.",
     "mastodonT": "Mastodon",
     "mastodonD": "Segui gli aggiornamenti nel fediverso.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Segui gli aggiornamenti su Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Segui il progetto su LinkedIn.",
     "translateT": "Traduci",
     "translateD": "Aiuta a localizzare Endurain con Weblate."
   },
