@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Snart",
     "soonTitle": "Kommer snart",
+    "beta": "Beta",
+    "playTop": "Bli med i Android-betaen på",
+    "playTitle": "Bli med i Endurains Android-beta på Google Play",
+    "testflightTop": "Bli med i iOS-betaen på",
+    "testflightTitle": "Bli med i Endurains iOS-beta på TestFlight",
+    "hintBeta": "Android-appen er tilgjengelig som offentlig beta på Google Play, og iOS-appen som offentlig beta på TestFlight. Betaversjoner er programvare under utvikling og kan være ufullstendige eller ustabile.",
     "hint": "Appen er under aktiv utvikling. Last ned den nyeste Android-APK-en her på nettstedet. Oppføringer på Google Play og App Store kommer senere."
   },
   "gallery": {

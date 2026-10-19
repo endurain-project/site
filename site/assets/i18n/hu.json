@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Hamarosan",
     "soonTitle": "Hamarosan elérhető",
+    "beta": "Béta",
+    "playTop": "Csatlakozz az Android bétához:",
+    "playTitle": "Csatlakozz az Endurain Android bétájához a Google Playen",
+    "testflightTop": "Csatlakozz az iOS bétához:",
+    "testflightTitle": "Csatlakozz az Endurain iOS bétájához a TestFlighton",
+    "hintBeta": "Az Android-alkalmazás nyilvános bétaként elérhető a Google Playen, az iOS-alkalmazás pedig nyilvános bétaként a TestFlighton. A béta verziók kiadás előtti szoftverek, hiányosak vagy instabilak lehetnek.",
     "hint": "Az alkalmazás aktív fejlesztés alatt áll. Töltsd le a legújabb Android APK-t itt, a webhelyen. A Google Play- és App Store-megjelenések később következnek."
   },
   "gallery": {

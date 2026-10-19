@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Незабаром",
     "soonTitle": "Незабаром",
+    "beta": "Бета",
+    "playTop": "Приєднуйтесь до Android-бети в",
+    "playTitle": "Приєднуйтесь до Android-бети Endurain у Google Play",
+    "testflightTop": "Приєднуйтесь до iOS-бети в",
+    "testflightTitle": "Приєднуйтесь до iOS-бети Endurain у TestFlight",
+    "hintBeta": "Android-застосунок доступний як публічна бета в Google Play, а iOS-застосунок — як публічна бета в TestFlight. Бета-збірки є попереднім програмним забезпеченням і можуть бути неповними або нестабільними.",
     "hint": "Застосунок активно розробляється. Завантажте найновіший APK для Android прямо тут, на сайті. Сторінки в Google Play та App Store зʼявляться згодом."
   },
   "gallery": {

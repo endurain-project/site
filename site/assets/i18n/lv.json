@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Drīz",
     "soonTitle": "Drīzumā",
+    "beta": "Beta",
+    "playTop": "Pievienojieties Android beta versijai:",
+    "playTitle": "Pievienojieties Endurain Android beta versijai pakalpojumā Google Play",
+    "testflightTop": "Pievienojieties iOS beta versijai:",
+    "testflightTitle": "Pievienojieties Endurain iOS beta versijai pakalpojumā TestFlight",
+    "hintBeta": "Android lietotne ir pieejama kā publiska beta versija Google Play, bet iOS lietotne — kā publiska beta versija TestFlight. Beta versijas ir pirmsizlaides programmatūra, un tās var būt nepilnīgas vai nestabilas.",
     "hint": "Lietotne tiek aktīvi izstrādāta. Lejupielādējiet jaunāko Android APK tieši šeit, vietnē. Ieraksti Google Play un App Store sekos."
   },
   "gallery": {

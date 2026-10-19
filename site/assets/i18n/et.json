@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Peagi",
     "soonTitle": "Peagi saadaval",
+    "beta": "Beeta",
+    "playTop": "Liitu Androidi beetaga:",
+    "playTitle": "Liitu Endurain Androidi beetaga Google Plays",
+    "testflightTop": "Liitu iOS-i beetaga:",
+    "testflightTitle": "Liitu Endurain iOS-i beetaga TestFlightis",
+    "hintBeta": "Androidi rakendus on avaliku beetana saadaval Google Plays ja iOS-i rakendus avaliku beetana TestFlightis. Beetaversioonid on eelväljalase tarkvara ning võivad olla poolikud või ebastabiilsed.",
     "hint": "Rakendus on aktiivses arenduses. Laadi uusim Androidi APK alla otse siit saidilt. Google Play ja App Store'i kirjed järgnevad."
   },
   "gallery": {

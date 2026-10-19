@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Pian",
     "soonTitle": "Tulossa pian",
+    "beta": "Beta",
+    "playTop": "Liity Android-betaan:",
+    "playTitle": "Liity Endurainin Android-betaan Google Playssa",
+    "testflightTop": "Liity iOS-betaan:",
+    "testflightTitle": "Liity Endurainin iOS-betaan TestFlightissä",
+    "hintBeta": "Android-sovellus on saatavilla julkisena betana Google Playssa ja iOS-sovellus julkisena betana TestFlightissä. Beta-versiot ovat julkaisua edeltävää ohjelmistoa, ja ne voivat olla keskeneräisiä tai epävakaita.",
     "hint": "Sovellus on aktiivisessa kehityksessä. Lataa uusin Android-APK suoraan täältä sivustolta. Google Play- ja App Store -listaukset seuraavat myöhemmin."
   },
   "gallery": {

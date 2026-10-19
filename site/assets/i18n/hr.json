@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Uskoro",
     "soonTitle": "Uskoro dostupno",
+    "beta": "Beta",
+    "playTop": "Pridružite se Android beti na",
+    "playTitle": "Pridružite se Endurain Android beti na Google Playu",
+    "testflightTop": "Pridružite se iOS beti na",
+    "testflightTitle": "Pridružite se Endurain iOS beti na TestFlightu",
+    "hintBeta": "Android aplikacija dostupna je kao javna beta na Google Playu, a iOS aplikacija kao javna beta na TestFlightu. Beta verzije su pretprodukcijski softver i mogu biti nepotpune ili nestabilne.",
     "hint": "Aplikacija je u aktivnom razvoju. Preuzmite najnoviji Android APK ovdje na stranici. Objave na Google Playu i App Storeu slijede."
   },
   "gallery": {

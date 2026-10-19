@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Σύντομα",
     "soonTitle": "Σύντομα διαθέσιμο",
+    "beta": "Beta",
+    "playTop": "Εγγραφείτε στο beta Android στο",
+    "playTitle": "Εγγραφείτε στο beta του Endurain για Android στο Google Play",
+    "testflightTop": "Εγγραφείτε στο beta iOS στο",
+    "testflightTitle": "Εγγραφείτε στο beta του Endurain για iOS στο TestFlight",
+    "hintBeta": "Η εφαρμογή Android είναι διαθέσιμη ως δημόσιο beta στο Google Play και η εφαρμογή iOS ως δημόσιο beta στο TestFlight. Οι εκδόσεις beta είναι λογισμικό πριν από την κυκλοφορία και μπορεί να είναι ελλιπείς ή ασταθείς.",
     "hint": "Η εφαρμογή βρίσκεται σε ενεργή ανάπτυξη. Κατεβάστε το πιο πρόσφατο APK για Android εδώ, στον ιστότοπο. Οι καταχωρίσεις στο Google Play και το App Store θα ακολουθήσουν."
   },
   "gallery": {

@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "即將",
     "soonTitle": "敬請期待",
+    "beta": "測試版",
+    "playTop": "加入 Android 測試版，前往",
+    "playTitle": "在 Google Play 上加入 Endurain Android 測試版",
+    "testflightTop": "加入 iOS 測試版，前往",
+    "testflightTitle": "在 TestFlight 上加入 Endurain iOS 測試版",
+    "hintBeta": "Android 應用程式已在 Google Play 提供公開測試版，iOS 應用程式已在 TestFlight 提供公開測試版。測試版屬於預發行軟體，可能不完整或不穩定。",
     "hint": "此應用程式正在積極開發中。直接在本網站下載最新的 Android APK。Google Play 和 App Store 上架隨後推出。"
   },
   "gallery": {

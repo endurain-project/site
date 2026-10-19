@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Yakında",
     "soonTitle": "Çok yakında",
+    "beta": "Beta",
+    "playTop": "Android betasına katılın:",
+    "playTitle": "Endurain Android betasına Google Play'de katılın",
+    "testflightTop": "iOS betasına katılın:",
+    "testflightTitle": "Endurain iOS betasına TestFlight'ta katılın",
+    "hintBeta": "Android uygulaması Google Play'de, iOS uygulaması ise TestFlight'ta herkese açık beta olarak sunulmaktadır. Beta sürümleri yayın öncesi yazılımdır ve eksik veya kararsız olabilir.",
     "hint": "Uygulama aktif geliştirme aşamasındadır. En son Android APK'sını doğrudan buradan, siteden indirin. Google Play ve App Store girişleri daha sonra gelecek."
   },
   "gallery": {

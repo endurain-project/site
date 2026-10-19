@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Netrukus",
     "soonTitle": "Netrukus",
+    "beta": "Beta",
+    "playTop": "Prisijunkite prie „Android“ beta:",
+    "playTitle": "Prisijunkite prie „Endurain“ „Android“ beta „Google Play“",
+    "testflightTop": "Prisijunkite prie „iOS“ beta:",
+    "testflightTitle": "Prisijunkite prie „Endurain“ „iOS“ beta „TestFlight“",
+    "hintBeta": "„Android“ programėlė pasiekiama kaip viešoji beta versija „Google Play“, o „iOS“ programėlė – kaip viešoji beta versija „TestFlight“. Beta versijos yra ikileidiminė programinė įranga ir gali būti nebaigtos arba nestabilios.",
     "hint": "Programėlė aktyviai kuriama. Atsisiųskite naujausią Android APK tiesiai čia, svetainėje. Įrašai Google Play ir App Store bus vėliau."
   },
   "gallery": {

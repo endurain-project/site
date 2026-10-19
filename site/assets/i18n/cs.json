@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Brzy",
     "soonTitle": "Již brzy",
+    "beta": "Beta",
+    "playTop": "Připojte se k betě pro Android na",
+    "playTitle": "Připojte se k betě Endurain pro Android na Google Play",
+    "testflightTop": "Připojte se k betě pro iOS na",
+    "testflightTitle": "Připojte se k betě Endurain pro iOS na TestFlight",
+    "hintBeta": "Aplikace pro Android je dostupná jako veřejná beta na Google Play a aplikace pro iOS jako veřejná beta na TestFlight. Beta verze jsou předběžný software a mohou být neúplné nebo nestabilní.",
     "hint": "Aplikace se aktivně vyvíjí. Stáhněte si nejnovější APK pro Android přímo zde na webu. Záznamy v Google Play a App Store budou následovat."
   },
   "gallery": {

@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Binnenkort",
     "soonTitle": "Binnenkort beschikbaar",
+    "beta": "Bèta",
+    "playTop": "Doe mee met de Android-bèta op",
+    "playTitle": "Doe mee met de Endurain Android-bèta op Google Play",
+    "testflightTop": "Doe mee met de iOS-bèta op",
+    "testflightTitle": "Doe mee met de Endurain iOS-bèta op TestFlight",
+    "hintBeta": "De Android-app is beschikbaar als openbare bèta op Google Play en de iOS-app als openbare bèta op TestFlight. Bètaversies zijn voorlopige software en kunnen onvolledig of instabiel zijn.",
     "hint": "De app is in actieve ontwikkeling. Download de nieuwste Android-APK hier op de site. Vermeldingen in Google Play en de App Store volgen."
   },
   "gallery": {

@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Aviat",
     "soonTitle": "Disponible aviat",
+    "beta": "Beta",
+    "playTop": "Uneix-te a la beta d'Android a",
+    "playTitle": "Uneix-te a la beta d'Android d'Endurain a Google Play",
+    "testflightTop": "Uneix-te a la beta d'iOS a",
+    "testflightTitle": "Uneix-te a la beta d'iOS d'Endurain a TestFlight",
+    "hintBeta": "L'aplicació d'Android està disponible com a beta pública a Google Play i la d'iOS com a beta pública a TestFlight. Les versions beta són programari preliminar i poden estar incompletes o ser inestables.",
     "hint": "L'aplicació està en desenvolupament actiu. Baixa l'APK d'Android més recent aquí mateix al lloc. Les fitxes a Google Play i l'App Store arribaran més endavant."
   },
   "gallery": {

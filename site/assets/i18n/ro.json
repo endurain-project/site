@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "În curând",
     "soonTitle": "În curând",
+    "beta": "Beta",
+    "playTop": "Alătură-te beta Android pe",
+    "playTitle": "Alătură-te beta Endurain pentru Android pe Google Play",
+    "testflightTop": "Alătură-te beta iOS pe",
+    "testflightTitle": "Alătură-te beta Endurain pentru iOS pe TestFlight",
+    "hintBeta": "Aplicația Android este disponibilă ca beta publică pe Google Play, iar aplicația iOS ca beta publică pe TestFlight. Versiunile beta sunt software preliminar și pot fi incomplete sau instabile.",
     "hint": "Aplicația este în dezvoltare activă. Descarcă cel mai recent APK pentru Android chiar aici, pe site. Listările în Google Play și App Store vor urma."
   },
   "gallery": {

@@ -92,6 +92,12 @@
     "appstore": "App Store",
     "soon": "Wkrótce",
     "soonTitle": "Wkrótce dostępne",
+    "beta": "Beta",
+    "playTop": "Dołącz do bety Androida na",
+    "playTitle": "Dołącz do bety Endurain na Androida w Google Play",
+    "testflightTop": "Dołącz do bety iOS na",
+    "testflightTitle": "Dołącz do bety Endurain na iOS w TestFlight",
+    "hintBeta": "Aplikacja na Androida jest dostępna jako publiczna beta w Google Play, a aplikacja na iOS jako publiczna beta w TestFlight. Wersje beta to oprogramowanie przedpremierowe i mogą być niekompletne lub niestabilne.",
     "hint": "Aplikacja jest aktywnie rozwijana. Pobierz najnowszy plik APK na Androida bezpośrednio z tej witryny. Wpisy w Google Play i App Store pojawią się później."
   },
   "gallery": {
