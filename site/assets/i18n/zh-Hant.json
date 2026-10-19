@@ -125,6 +125,10 @@
     "discordD": "聊天、協助和公告。",
     "mastodonT": "Mastodon",
     "mastodonD": "在聯邦宇宙關注更新。",
+    "blueskyT": "Bluesky",
+    "blueskyD": "在 Bluesky 上關注更新。",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "在 LinkedIn 上關注此專案。",
     "translateT": "翻譯",
     "translateD": "透過 Weblate 協助在地化 Endurain。"
   },

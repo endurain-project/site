@@ -125,6 +125,10 @@
     "discordD": "Chat, pomoc a oznámení.",
     "mastodonT": "Mastodon",
     "mastodonD": "Sledujte novinky ve fediverse.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Sledujte novinky na Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Sledujte projekt na LinkedIn.",
     "translateT": "Přeložit",
     "translateD": "Pomozte lokalizovat Endurain přes Weblate."
   },

@@ -125,6 +125,10 @@
     "discordD": "Sohbet, yardım ve duyurular.",
     "mastodonT": "Mastodon",
     "mastodonD": "Fediverse'te güncellemeleri takip edin.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Bluesky'da güncellemeleri takip edin.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Projeyi LinkedIn'de takip edin.",
     "translateT": "Çevir",
     "translateD": "Endurain'i Weblate ile yerelleştirmeye yardımcı olun."
   },

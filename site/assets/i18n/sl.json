@@ -125,6 +125,10 @@
     "discordD": "Klepet, pomoč in obvestila.",
     "mastodonT": "Mastodon",
     "mastodonD": "Spremljajte novosti v fediverzumu.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Spremljajte novosti na Blueskyju.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Spremljajte projekt na LinkedInu.",
     "translateT": "Prevedi",
     "translateD": "Pomagajte lokalizirati Endurain prek Weblatea."
   },

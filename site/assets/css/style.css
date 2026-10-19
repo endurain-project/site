@@ -467,7 +467,7 @@ html.dark .lang-menu li[aria-selected='true'] {
   flex: none;
 }
 
-/* Brand marks (GitHub, Discord, Mastodon) are solid-fill, not stroked. */
+/* Brand marks (GitHub, Discord, Mastodon, Bluesky, LinkedIn) are solid-fill, not stroked. */
 .brand-icon {
   fill: currentColor;
   stroke: none;

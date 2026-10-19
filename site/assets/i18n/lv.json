@@ -125,6 +125,10 @@
     "discordD": "Tērzēšana, palīdzība un paziņojumi.",
     "mastodonT": "Mastodon",
     "mastodonD": "Sekojiet jaunumiem fediversā.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Sekojiet jaunumiem Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Sekojiet projektam LinkedIn.",
     "translateT": "Tulkot",
     "translateD": "Palīdziet lokalizēt Endurain, izmantojot Weblate."
   },

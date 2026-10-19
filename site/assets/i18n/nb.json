@@ -125,6 +125,10 @@
     "discordD": "Chat, hjelp og kunngjøringer.",
     "mastodonT": "Mastodon",
     "mastodonD": "Følg oppdateringer i fediverset.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Følg oppdateringer på Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Følg prosjektet på LinkedIn.",
     "translateT": "Oversett",
     "translateD": "Bidra til å lokalisere Endurain via Weblate."
   },

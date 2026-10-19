@@ -125,6 +125,10 @@
     "discordD": "Keskustelu, apu ja ilmoitukset.",
     "mastodonT": "Mastodon",
     "mastodonD": "Seuraa päivityksiä fediversessä.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Seuraa päivityksiä Blueskyssa.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Seuraa projektia LinkedInissä.",
     "translateT": "Käännä",
     "translateD": "Auta lokalisoimaan Endurain Weblaten kautta."
   },

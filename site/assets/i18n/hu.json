@@ -125,6 +125,10 @@
     "discordD": "Csevegés, segítség és bejelentések.",
     "mastodonT": "Mastodon",
     "mastodonD": "Kövesd a híreket a fediverzumban.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Kövesd a híreket a Blueskyon.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Kövesd a projektet a LinkedInen.",
     "translateT": "Fordítás",
     "translateD": "Segíts az Endurain lokalizálásában a Weblate segítségével."
   },

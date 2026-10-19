@@ -125,6 +125,10 @@
     "discordD": "Συνομιλία, βοήθεια και ανακοινώσεις.",
     "mastodonT": "Mastodon",
     "mastodonD": "Ακολουθήστε τις ενημερώσεις στο fediverse.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Ακολουθήστε τις ενημερώσεις στο Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Ακολουθήστε το έργο στο LinkedIn.",
     "translateT": "Μετάφραση",
     "translateD": "Βοηθήστε στην τοπικοποίηση του Endurain μέσω του Weblate."
   },

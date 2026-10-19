@@ -125,6 +125,10 @@
     "discordD": "Chat, ayuda y anuncios.",
     "mastodonT": "Mastodon",
     "mastodonD": "Sigue las novedades en el fediverso.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Sigue las novedades en Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Sigue el proyecto en LinkedIn.",
     "translateT": "Traducir",
     "translateD": "Ayuda a localizar Endurain con Weblate."
   },

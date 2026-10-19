@@ -125,6 +125,10 @@
     "discordD": "Pokalbiai, pagalba ir pranešimai.",
     "mastodonT": "Mastodon",
     "mastodonD": "Sekite naujienas fediverse.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Sekite naujienas Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Sekite projektą LinkedIn.",
     "translateT": "Versti",
     "translateD": "Padėkite lokalizuoti Endurain per Weblate."
   },

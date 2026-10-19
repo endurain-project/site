@@ -125,6 +125,10 @@
     "discordD": "Chat, hulp en aankondigingen.",
     "mastodonT": "Mastodon",
     "mastodonD": "Volg updates in de fediverse.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Volg updates op Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Volg het project op LinkedIn.",
     "translateT": "Vertalen",
     "translateD": "Help Endurain te lokaliseren via Weblate."
   },

@@ -125,6 +125,10 @@
     "discordD": "Vestlus, abi ja teated.",
     "mastodonT": "Mastodon",
     "mastodonD": "Jälgi uuendusi föderaalses võrgus.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Jälgi uuendusi Blueskys.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Jälgi projekti LinkedInis.",
     "translateT": "Tõlgi",
     "translateD": "Aita Enduraini lokaliseerida Weblate'i kaudu."
   },

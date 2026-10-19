@@ -125,6 +125,10 @@
     "discordD": "Чат, допомога та оголошення.",
     "mastodonT": "Mastodon",
     "mastodonD": "Стежте за оновленнями у федіверсі.",
+    "blueskyT": "Bluesky",
+    "blueskyD": "Стежте за оновленнями в Bluesky.",
+    "linkedinT": "LinkedIn",
+    "linkedinD": "Стежте за проєктом у LinkedIn.",
     "translateT": "Перекласти",
     "translateD": "Допоможіть локалізувати Endurain через Weblate."
   },
