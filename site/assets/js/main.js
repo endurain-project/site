@@ -64,6 +64,10 @@
       const open = nav.classList.toggle('open')
       navToggle.setAttribute('aria-expanded', String(open))
       navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu')
+      // The links come before the button in the DOM, so move focus into
+      // the drop-down for keyboard users.
+      const first = nav.querySelector('a')
+      if (open && first) first.focus()
     })
 
     nav.addEventListener('click', function (e) {
@@ -71,10 +75,17 @@
     })
 
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeNav()
+      if (e.key !== 'Escape' || !nav.classList.contains('open')) return
+      const focusWasInside = nav.contains(document.activeElement)
+      closeNav()
+      if (focusWasInside) navToggle.focus()
     })
 
     window.addEventListener('resize', fitNav)
+
+    // The drop-down CSS only applies once the menu button works.
+    const navHeader = document.querySelector('.site-header')
+    if (navHeader) navHeader.classList.add('nav-ready')
   }
 
   /* Collapse the nav into the menu button whenever its links don't fit on
@@ -100,6 +111,9 @@
     fitNav()
     if (document.fonts && document.fonts.ready)
       document.fonts.ready.then(fitNav)
+    // Fonts for other scripts (e.g. Cyrillic) can arrive later.
+    if (document.fonts && document.fonts.addEventListener)
+      document.fonts.addEventListener('loadingdone', fitNav)
     // Re-measure when the language switcher replaces the link labels.
     new MutationObserver(fitNav).observe(nav, {
       subtree: true,

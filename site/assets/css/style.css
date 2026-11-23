@@ -26,7 +26,7 @@
   --bg-elevated: #ffffff;
   --card: #ffffff;
   --ink: #2c2c2a;
-  --muted: #6c6b64;
+  --muted: #67665f; /* 4.5:1+ on --section-muted */
   --muted-2: #8a897f;
   --border: rgba(0, 0, 0, 0.09);
   --border-strong: rgba(0, 0, 0, 0.16);
@@ -191,7 +191,12 @@ code {
   padding-block: clamp(64px, 9vw, 120px);
 }
 
-.section-muted {
+/* Every second content section gets the muted background, skipping the dark
+   mobile section, so the stripes stay correct however sections are ordered. */
+main
+  > .section:not(.mobile-section):nth-child(
+    even of .section:not(.mobile-section)
+  ) {
   background: var(--section-muted);
 }
 
@@ -452,12 +457,18 @@ html.dark .theme-toggle .icon-moon {
   border-bottom: 1px solid var(--border);
   box-shadow: var(--shadow-md);
   transform: translateY(-130%);
-  transition: transform 0.3s ease;
+  /* visibility flips after the slide, so closed links leave the Tab order */
+  visibility: hidden;
+  transition:
+    transform 0.3s ease,
+    visibility 0s linear 0.3s;
   max-height: calc(100dvh - var(--nav-h));
   overflow-y: auto;
 }
 .site-header.nav-collapsed .site-nav.open {
   transform: none;
+  visibility: visible;
+  transition: transform 0.3s ease;
 }
 .site-header.nav-collapsed .site-nav a {
   padding: 12px 14px;
@@ -701,17 +712,31 @@ html:not(.js) .lang {
   font-weight: 400;
   color: var(--muted);
 }
+/* Same hues as the app, darker in light mode and lighter in dark mode so the
+   values keep at least 4.5:1 contrast on the card. */
 .v-dist {
-  color: var(--brand);
+  color: #188462;
 }
 .v-pace {
-  color: var(--info);
+  color: #2276c9;
 }
 .v-effort {
-  color: var(--effort);
+  color: #a4670c;
 }
 .v-elev {
-  color: #639922;
+  color: #53801c;
+}
+html.dark .v-dist {
+  color: #1fa77b;
+}
+html.dark .v-pace {
+  color: #4d97e1;
+}
+html.dark .v-effort {
+  color: var(--effort);
+}
+html.dark .v-elev {
+  color: #68a124;
 }
 
 .act-map {
@@ -775,7 +800,7 @@ html:not(.js) .lang {
 .specs dt {
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  color: var(--muted-2);
+  color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -1541,7 +1566,7 @@ details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
 }
 .newsletter-legal {
   font-size: 0.8rem;
-  color: var(--muted-2);
+  color: var(--muted);
 }
 .newsletter-legal a {
   color: var(--brand-ink);
@@ -1664,7 +1689,9 @@ details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
 }
 
 @media (max-width: 760px) {
-  .site-nav {
+  /* The drop-down needs main.js, which marks the header .nav-ready once the
+     menu button works. Without it, the links wrap onto a row of their own. */
+  .site-header.nav-ready .site-nav {
     position: fixed;
     inset: var(--nav-h) 0 auto 0;
     flex-direction: column;
@@ -1676,19 +1703,36 @@ details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
     border-bottom: 1px solid var(--border);
     box-shadow: var(--shadow-md);
     transform: translateY(-130%);
-    transition: transform 0.3s ease;
+    visibility: hidden;
+    transition:
+      transform 0.3s ease,
+      visibility 0s linear 0.3s;
     max-height: calc(100dvh - var(--nav-h));
     overflow-y: auto;
   }
-  .site-nav.open {
+  .site-header.nav-ready .site-nav.open {
     transform: none;
+    visibility: visible;
+    transition: transform 0.3s ease;
   }
-  .site-nav a {
+  .site-header.nav-ready .site-nav a {
     padding: 12px 14px;
     font-size: 1rem;
   }
-  .nav-toggle {
+  .site-header.nav-ready .nav-toggle {
     display: inline-grid;
+  }
+  .site-header:not(.nav-ready) .header-inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding-block: 12px;
+    row-gap: 6px;
+  }
+  .site-header:not(.nav-ready) .site-nav {
+    order: 3;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    margin: 0;
   }
   .header-actions {
     margin-left: auto;

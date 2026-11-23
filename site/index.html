@@ -520,7 +520,7 @@
       </section>
 
       <!-- ============================ STATUS ============================ -->
-      <section class="section section-muted" id="status">
+      <section class="section" id="status">
         <div class="container status-grid">
           <div class="status-copy">
             <p class="label label-live">
@@ -898,7 +898,7 @@
       </section>
 
       <!-- ============================ SELF-HOST ============================ -->
-      <section class="section section-muted" id="self-host">
+      <section class="section" id="self-host">
         <div class="container self-grid">
           <div class="self-copy">
             <p class="label" data-i18n="selfHost.eyebrow">Self-host it</p>
@@ -1274,70 +1274,6 @@
         </div>
       </section>
 
-      <!-- ============================ NEWSLETTER ============================ -->
-      <section class="section section-muted" id="newsletter">
-        <div class="container">
-          <div class="newsletter-card">
-            <div class="newsletter-copy">
-              <p class="label" data-i18n="newsletter.eyebrow">Newsletter</p>
-              <h2 data-i18n="newsletter.heading">Get the release notes</h2>
-              <p class="section-sub" data-i18n="newsletter.text">
-                Release notes and project updates, sent when there's actually
-                something to say. No spam, unsubscribe any time.
-              </p>
-            </div>
-            <form
-              class="newsletter-form"
-              action="https://app.keila.io/forms/nfrm_GRYrMr3w"
-              method="post"
-            >
-              <label
-                class="sr-only"
-                for="nl-email"
-                data-i18n="newsletter.emailLabel"
-                >Email address</label
-              >
-              <div class="newsletter-row">
-                <input
-                  id="nl-email"
-                  class="newsletter-input"
-                  name="contact[email]"
-                  type="email"
-                  required
-                  autocomplete="email"
-                  placeholder="thankyou@youare.awesome"
-                />
-                <button
-                  type="submit"
-                  class="btn btn-primary"
-                  data-i18n="newsletter.button"
-                >
-                  Subscribe
-                </button>
-              </div>
-              <!-- Honeypot field for spam bots, kept hidden -->
-              <input
-                aria-hidden="true"
-                autocomplete="off"
-                name="h[url]"
-                tabindex="-1"
-                style="display: none"
-              />
-              <div
-                class="h-captcha"
-                data-sitekey="a1c5fab7-71df-4ea4-af75-87a3d07c61de"
-              ></div>
-              <p class="newsletter-legal">
-                <span data-i18n="newsletter.legal">Powered by</span>
-                <a href="https://keila.io" target="_blank" rel="noopener"
-                  >Keila</a
-                >.
-              </p>
-            </form>
-          </div>
-        </div>
-      </section>
-
       <!-- ============================ GALLERY ============================ -->
       <section class="section" id="gallery">
         <div class="container">
@@ -1405,6 +1341,70 @@
               />
               <figcaption data-i18n="gallery.cap5">Goals</figcaption>
             </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ NEWSLETTER ============================ -->
+      <section class="section" id="newsletter">
+        <div class="container">
+          <div class="newsletter-card">
+            <div class="newsletter-copy">
+              <p class="label" data-i18n="newsletter.eyebrow">Newsletter</p>
+              <h2 data-i18n="newsletter.heading">Get the release notes</h2>
+              <p class="section-sub" data-i18n="newsletter.text">
+                Release notes and project updates, sent when there's actually
+                something to say. No spam, unsubscribe any time.
+              </p>
+            </div>
+            <form
+              class="newsletter-form"
+              action="https://app.keila.io/forms/nfrm_GRYrMr3w"
+              method="post"
+            >
+              <label
+                class="sr-only"
+                for="nl-email"
+                data-i18n="newsletter.emailLabel"
+                >Email address</label
+              >
+              <div class="newsletter-row">
+                <input
+                  id="nl-email"
+                  class="newsletter-input"
+                  name="contact[email]"
+                  type="email"
+                  required
+                  autocomplete="email"
+                  placeholder="thankyou@youare.awesome"
+                />
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  data-i18n="newsletter.button"
+                >
+                  Subscribe
+                </button>
+              </div>
+              <!-- Honeypot field for spam bots, kept hidden -->
+              <input
+                aria-hidden="true"
+                autocomplete="off"
+                name="h[url]"
+                tabindex="-1"
+                style="display: none"
+              />
+              <div
+                class="h-captcha"
+                data-sitekey="a1c5fab7-71df-4ea4-af75-87a3d07c61de"
+              ></div>
+              <p class="newsletter-legal">
+                <span data-i18n="newsletter.legal">Powered by</span>
+                <a href="https://keila.io" target="_blank" rel="noopener"
+                  >Keila</a
+                >.
+              </p>
+            </form>
           </div>
         </div>
       </section>
