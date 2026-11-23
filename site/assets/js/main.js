@@ -1,7 +1,7 @@
 /*
  * Endurain landing page, progressive enhancement.
- * Handles theme toggling, the mobile nav, sticky-header state, and
- * scroll-reveal animations. The page is fully usable without this file.
+ * Handles theme toggling, the mobile nav, sticky-header state and the
+ * active nav link. The page is fully usable without this file.
  */
 ;(function () {
   'use strict'
@@ -87,30 +87,6 @@
     }
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
-  }
-
-  /* --------------------------- Scroll reveal --------------------------- */
-  const revealables = document.querySelectorAll('.reveal')
-
-  if (!('IntersectionObserver' in window) || revealables.length === 0) {
-    revealables.forEach(function (el) {
-      el.classList.add('in')
-    })
-  } else {
-    const observer = new IntersectionObserver(
-      function (entries, obs) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('in')
-            obs.unobserve(entry.target)
-          }
-        })
-      },
-      { rootMargin: '0px 0px -8% 0px', threshold: 0.08 },
-    )
-    revealables.forEach(function (el) {
-      observer.observe(el)
-    })
   }
 
   /* --------------------------- Active nav link ------------------------- */
