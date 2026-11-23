@@ -138,6 +138,31 @@ h4 {
   text-wrap: balance;
 }
 
+/* Line endings: never leave a sentence's last word or two stranded on a line
+   of its own. Longer paragraphs get "pretty" wrapping. Short blocks get
+   balanced lines. */
+p,
+li,
+dd,
+figcaption {
+  text-wrap: pretty;
+}
+.section-sub,
+.label,
+.demo-note,
+.principles p,
+.feature-list p,
+.spotlight-shot figcaption,
+.mobile-hint,
+.shot figcaption,
+.code-note,
+.link-text span,
+.sponsor p,
+.cta-section p,
+.act-when {
+  text-wrap: balance;
+}
+
 /* Negative tracking suits Latin headings but crowds CJK characters. */
 html[lang^='zh'] :is(h1, h2, h3, h4) {
   letter-spacing: 0;
@@ -224,7 +249,6 @@ code {
 
 .section-head {
   margin-bottom: clamp(36px, 5vw, 56px);
-  max-width: 760px;
 }
 .section-head h2,
 .status-copy h2,

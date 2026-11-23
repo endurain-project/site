@@ -131,7 +131,7 @@
   },
   "community": {
     "heading": "Užsukite pasisveikinti",
-    "intro": "Klausimai, pranešimai apie klaidas, vertimai ir idėjos – viskas laukiama. Endurain formuoja jį naudojantys žmonės.",
+    "intro": "Laukiame klausimų, pranešimų apie klaidas, vertimų ir idėjų. Endurain formuoja jį naudojantys žmonės.",
     "githubT": "GitHub",
     "githubD": "Pirminis kodas, problemos ir pull request.",
     "discordT": "Discord",
@@ -160,7 +160,7 @@
   "cta": {
     "heading": "Pirma apsidairykite",
     "textA": "Prisijunkite prie demonstracijos su",
-    "textB": "Spaudykite viską ir gadinkite kiek širdis geidžia – kiekvieną naktį viskas atkuriama iš naujo.",
+    "textB": "Spaudykite viską ir gadinkite kiek širdis geidžia. Kiekvieną naktį viskas atkuriama iš naujo.",
     "demo": "Išbandykite tiesioginę demonstraciją",
     "docs": "Skaitykite dokumentaciją"
   },

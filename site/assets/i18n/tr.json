@@ -21,7 +21,7 @@
     "kicker": "Kendi sunucunuzda · açık kaynak · Portekiz'de yapıldı",
     "headline1": "Koşu, bisiklet, yüzme.",
     "headline2": "Hepsi kendi sunucunuzda.",
-    "intro": "Endurain, kendi sunucunuzda barındırılan bir fitness takip hizmetidir; etkinlikleriniz, ekipmanınız ve sağlık verileriniz için gizlilik öncelikli bir yuva. Bağımlılık yok, veri madenciliği yok. Yalnızca antrenman geçmişiniz, kontrolü sizde olan bir altyapıda.",
+    "intro": "Endurain, kendi sunucunuzda barındırılan bir fitness takip hizmetidir. Etkinlikleriniz, ekipmanınız ve sağlık verileriniz için gizlilik öncelikli bir yuva. Bağımlılık yok, veri madenciliği yok. Yalnızca antrenman geçmişiniz, kontrolü sizde olan bir altyapıda.",
     "ctaDemo": "Canlı demoyu deneyin",
     "ctaDocs": "Belgeleri okuyun",
     "demoLogin": "Demo girişi:",
@@ -38,7 +38,7 @@
   "why": {
     "label": "Neden var",
     "title": "Zinciri ne zaman değiştireceğini bilmek isteyen bir triatletin eseri",
-    "p1": "Endurain kişisel bir proje olarak başladı. Kabul etmek istediğimden fazla bisikleti ve koşu ayakkabısı olan amatör bir triatletim; her antrenmanı kaydedebileceğim ve hepsinin ne kadar yıprandığını zincirinden kaletine kadar görebileceğim tek bir yer istedim. Bu geçmişin başkasının değil, kendi sunucumda durmasını da istedim.",
+    "p1": "Endurain kişisel bir proje olarak başladı. Kabul etmek istediğimden fazla bisikleti ve koşu ayakkabısı olan amatör bir triatletim. Her antrenmanı kaydedebileceğim ve hepsinin ne kadar yıprandığını zincirinden kaletine kadar görebileceğim tek bir yer istedim. Bu geçmişin başkasının değil, kendi sunucumda durmasını da istedim.",
     "p2": "Sonra büyüdü: çoklu kullanıcı, Strava ve Garmin senkronizasyonu, hedefler, tek oturum açma, mobil uygulama ve 30 dile çeviri. Hâlâ boş zamanlarımda, küçük bir katkıcı grubuyla birlikte geliştiriyorum ve hâlâ yaptıkça öğreniyorum.",
     "role": "Bakımcı",
     "c1t": "Verileriniz, sunucunuz",
@@ -66,7 +66,7 @@
     "intro": "Büyük platformlardan beklediğiniz entegrasyonlarla eksiksiz bir antrenman günlüğü, üstelik kendi donanımınızda.",
     "gearLabel": "Her şeyin başladığı özellik",
     "gearT": "Son parçasına kadar ekipman takibi",
-    "gearB": "Bisikletlerinizi, ayakkabılarınızı, neopren kıyafetlerinizi, kayaklarınızı veya raketlerinizi, ardından üzerlerindeki parçaları ekleyin: zincir, kaset, lastikler, fren balataları, kaletler, tabanlıklar, hatta bağcıklar. Her parçaya bir aşınma sınırı verin; kilometreler ve saatler biriktikçe Endurain sayar.",
+    "gearB": "Bisikletlerinizi, ayakkabılarınızı, neopren kıyafetlerinizi, kayaklarınızı veya raketlerinizi, ardından üzerlerindeki parçaları ekleyin: zincir, kaset, lastikler, fren balataları, kaletler, tabanlıklar, hatta bağcıklar. Her parçaya bir aşınma sınırı verin. Kilometreler ve saatler biriktikçe Endurain hepsini sayar.",
     "gearCaption": "Evet, aynı ayakkabıdan üç çift.",
     "f1t": "Etkinlik takibi",
     "f1b": "Her spor için akışlar, haritalar, turlar ve haftalık ya da aylık toplamlar.",
@@ -127,7 +127,7 @@
     "exampleNote": "Bu dosyalar yalnızca örnektir. Yer tutucu gizli anahtarları değiştirin, yolları ve portları kendi kurulumunuza göre ayarlayın.",
     "exampleHelp": "Yardım mı lazım? Şuraya bakın:",
     "keysHelp": "SECRET_KEY ve FERNET_KEY'i şurada oluşturabilirsiniz:",
-    "proxyNote": "Girişin çalışması için ENDURAIN_HOST'un açtığınız adresle eşleşmesi gerekir; bu yüzden Endurain'i HTTPS'li bir reverse proxy üzerinden sunun. Verilen örnekle 8080 portunda düz HTTP üzerinden giriş yapamazsınız."
+    "proxyNote": "Girişin çalışması için ENDURAIN_HOST'un açtığınız adresle eşleşmesi gerekir. Bu yüzden Endurain'i HTTPS'li bir reverse proxy üzerinden sunun. Verilen örnekle 8080 portunda düz HTTP üzerinden giriş yapamazsınız."
   },
   "community": {
     "heading": "Gelin bir merhaba deyin",

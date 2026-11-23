@@ -52,4 +52,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) and the [Code of Conduct](./CODE_OF_CON
 
 ## License
 
-This website is licensed under [GPL-3.0](./LICENSE). Endurain is licensed under [AGPL-3.0](https://github.com/endurain-project/endurain/blob/master/LICENSE). "Endurain" is a trademark; see the [Endurain Trademark Policy](https://github.com/endurain-project/endurain/blob/master/TRADEMARK.md).
+This website is licensed under [GPL-3.0](./LICENSE). Endurain is licensed under [AGPL-3.0](https://github.com/endurain-project/endurain/blob/master/LICENSE). "Endurain" is a trademark. See the [Endurain Trademark Policy](https://github.com/endurain-project/endurain/blob/master/TRADEMARK.md).
