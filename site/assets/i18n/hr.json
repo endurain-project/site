@@ -4,7 +4,7 @@
   },
   "a11y": {
     "skip": "Preskoči na sadržaj",
-    "home": "Endurain početna",
+    "home": "Početna stranica Enduraina",
     "langMenu": "Promijeni jezik",
     "theme": "Prebaci tamni način rada",
     "github": "Pogledaj izvorni kod na GitHubu",
@@ -14,13 +14,15 @@
     "why": "Zašto",
     "features": "Značajke",
     "mobile": "Mobilna aplikacija",
+    "apps": "Vanjske aplikacije",
     "selfHost": "Samostalno hostanje",
-    "community": "Zajednica"
+    "community": "Zajednica",
+    "gallery": "Galerija"
   },
   "hero": {
-    "kicker": "Samostalno hostano · otvoreni kod · izrađeno u Portugalu",
-    "headline1": "Vaše trčanje, bicikl i plivanje.",
-    "headline2": "Na vašem vlastitom poslužitelju.",
+    "kicker": "Samostalno hostano · Otvoreni kod · Izrađeno s ❤️ u Portugalu",
+    "headline1": "Pratite svaki pokret",
+    "headline2": "Posjedujte svaki trenutak",
     "intro": "Endurain je samostalno hostana usluga za praćenje treninga, dom usmjeren na privatnost za vaše aktivnosti, opremu i zdravstvene podatke. Bez zaključavanja, bez rudarenja podataka. Samo vaša povijest treninga, na infrastrukturi koju kontrolirate.",
     "ctaDemo": "Isprobajte demo uživo",
     "ctaDocs": "Pročitajte dokumentaciju",
@@ -37,12 +39,12 @@
   },
   "why": {
     "label": "Zašto postoji",
-    "title": "Napravio ga je triatlonac koji je htio znati kad promijeniti lanac",
+    "title": "Napravio ga je triatlonac u pokušaju koji je htio znati kad promijeniti lanac",
     "p1": "Endurain je počeo kao osobni projekt. Rekreativni sam triatlonac s više bicikala i tenisica za trčanje nego što bih volio priznati i htio sam jedno mjesto gdje ću bilježiti svaki trening i vidjeti koliko se što istrošilo, sve do lanca i pločica. Htio sam i da ta povijest bude na mom poslužitelju, a ne na tuđem.",
     "p2": "Onda je narastao: više korisnika, sinkronizacija sa Stravom i Garminom, ciljevi, jedinstvena prijava, mobilna aplikacija i prijevodi na 30 jezika. I dalje ga radim u slobodno vrijeme, ja i mala skupina suradnika, i još uvijek učim usput.",
     "role": "Održavatelj",
     "c1t": "Vaši podaci, vaš poslužitelj",
-    "c1b": "Sve je u vašoj vlastitoj PostgreSQL bazi. Izvezite profil, napravite sigurnosnu kopiju, premjestite ga na drugo računalo. Nitko vas ne može zaključati vani.",
+    "c1b": "Sve je u vašoj vlastitoj PostgreSQL bazi. Izvezite profil, napravite sigurnosnu kopiju, premjestite ga na drugo računalo. Nitko vam ne može uskratiti pristup.",
     "c2t": "Dijelite što odaberete",
     "c2b": "Sakrijte kartu, puls, snagu ili vrijeme početka na bilo kojoj aktivnosti. Dodajte prijavu u dva koraka i jedinstvenu prijavu. Ostalo zadržite za sebe.",
     "c3t": "Stvarno otvoreno",
@@ -113,6 +115,20 @@
     "testflight": "TestFlight",
     "hintRough": "Obje aplikacije su javne bete, pa očekujte pokoju sitnicu koja još škripi. Prijave grešaka su itekako dobrodošle."
   },
+  "apps": {
+    "label": "Aplikacije trećih strana",
+    "heading": "Dobro se slaže s drugima",
+    "intro": "Aplikacije drugih razvijatelja koje mogu slati vaše treninge u Endurain.",
+    "gbMeta": "Android · besplatna i otvorenog koda",
+    "gbB": "Koristite pametni sat ili fitness narukvicu bez aplikacije proizvođača, a zatim prenesite bilo koju sportsku aktivnost u Endurain kao .fit datoteku. Da biste se mogli prijaviti, vaš administrator to najprije mora odobriti.",
+    "tetherMeta": "iPhone · besplatna, uz neobveznu nadogradnju na Pro",
+    "tetherB": "Sinkronizira korake, san, vitalne znakove i Apple Watch treninge iz Apple Healtha na vaš Endurain poslužitelj, uključujući rute i puls. Bez posrednika u oblaku.",
+    "ruMeta": "Android · besplatna i otvorenog koda",
+    "ruB": "Bilježite trčanja i druge aktivnosti na mobitelu i automatski ih sinkronizirajte s Endurainom. Računi s prijavom u dva koraka zasad nisu podržani.",
+    "disclaimer": "Ove aplikacije izrađuju i održavaju neovisni razvijatelji. Nisu dio projekta Endurain, a Endurain ih ne preporučuje, ne provjerava njihov kod niti za njih pruža podršku. Probleme prijavite razvijateljima pojedine aplikacije, a prije korištenja pročitajte njihova pravila o privatnosti i uvjete korištenja.",
+    "trust": "Aplikacija putem koje se prijavljujete ima pristup vašem Endurain računu, stoga koristite samo aplikacije kojima vjerujete. Nazivi proizvoda i zaštitni znakovi pripadaju njihovim vlasnicima.",
+    "docs": "Upute za postavljanje u dokumentaciji"
+  },
   "selfHost": {
     "eyebrow": "Hostajte sami",
     "heading": "Pokrenite ga sami",
@@ -152,17 +168,10 @@
   "newsletter": {
     "eyebrow": "Bilten",
     "heading": "Bilješke o izdanjima e-poštom",
-    "text": "Bilješke o izdanjima i novosti o projektu, šalju se samo kad stvarno ima nešto za reći. Bez spama, odjava u bilo kojem trenutku.",
+    "text": "Bilješke o izdanjima i novosti o projektu, šalju se samo kad stvarno ima što reći. Bez spama, odjava u bilo kojem trenutku.",
     "emailLabel": "Adresa e-pošte",
     "button": "Pretplati se",
     "legal": "Pokreće"
-  },
-  "cta": {
-    "heading": "Najprije se malo razgledajte",
-    "textA": "Prijavite se u demo s",
-    "textB": "Kliknite bilo što i pokvarite što god želite, svake se noći resetira.",
-    "demo": "Isprobajte demo uživo",
-    "docs": "Pročitajte dokumentaciju"
   },
   "footer": {
     "tag": "Samostalno hostano praćenje treninga koje poštuje vašu privatnost.",
@@ -179,6 +188,7 @@
     "licensed": "Licencirano pod",
     "trademarkPolicy": "Pravila o zaštitnom znaku",
     "source": "Izvorni kod",
-    "appleTm": "TestFlight je zaštitni znak tvrtke Apple Inc., registriran u SAD-u i drugim državama i regijama."
+    "appleTm": "TestFlight je zaštitni znak tvrtke Apple Inc., registriran u SAD-u i drugim državama i regijama.",
+    "apps": "Aplikacije trećih strana"
   }
 }

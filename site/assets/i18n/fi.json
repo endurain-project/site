@@ -14,13 +14,15 @@
     "why": "Miksi",
     "features": "Ominaisuudet",
     "mobile": "Mobiilisovellus",
+    "apps": "Ulkoiset sovellukset",
     "selfHost": "Itse isännöinti",
-    "community": "Yhteisö"
+    "community": "Yhteisö",
+    "gallery": "Galleria"
   },
   "hero": {
-    "kicker": "Itse isännöity · avoin lähdekoodi · tehty Portugalissa",
-    "headline1": "Juoksusi, pyörälenkkisi ja uintisi.",
-    "headline2": "Omalla palvelimellasi.",
+    "kicker": "Itse isännöity · Avoin lähdekoodi · Tehty ❤️:lla Portugalissa",
+    "headline1": "Seuraa jokaista liikettä",
+    "headline2": "Omista jokainen hetki",
     "intro": "Endurain on itse isännöity kuntoilun seurantapalvelu, yksityisyyttä kunnioittava koti aktiviteeteillesi, varusteillesi ja terveystiedoillesi. Ei lukkiutumista, ei tiedonlouhintaa. Vain harjoitushistoriasi, infrastruktuurilla, jota hallitset itse.",
     "ctaDemo": "Kokeile live-demoa",
     "ctaDocs": "Lue dokumentaatio",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Miksi tämä on olemassa",
-    "title": "Triathlonistin tekemä, koska hän halusi tietää, milloin ketju pitää vaihtaa",
+    "title": "Triathlonistin alun tekemä, koska hän halusi tietää, milloin ketju pitää vaihtaa",
     "p1": "Endurain alkoi henkilökohtaisena projektina. Olen harrastelijatriathlonisti, jolla on enemmän pyöriä ja juoksukenkiä kuin kehtaan myöntää, ja halusin yhden paikan, johon kirjata jokaisen treenin ja nähdä, kuinka paljon kukin niistä on kulunut, aina ketjua ja klosseja myöten. Halusin myös, että se historia on omalla palvelimellani eikä jonkun muun.",
     "p2": "Siitä se sitten kasvoi: useita käyttäjiä, Strava- ja Garmin-synkronointi, tavoitteet, kertakirjautuminen, mobiilisovellus ja käännökset 30 kielelle. Sitä tehdään yhä vapaa-ajalla, minun ja pienen avustajaporukan voimin, ja opin edelleen koko ajan uutta.",
     "role": "Ylläpitäjä",
@@ -46,7 +48,7 @@
     "c2t": "Jaa vain se, mitä haluat",
     "c2b": "Piilota kartta, syke, teho tai aloitusaika mistä tahansa aktiviteetista. Ota käyttöön kaksivaiheinen kirjautuminen ja kertakirjautuminen. Loput pidät itselläsi.",
     "c3t": "Oikeasti avoin",
-    "c3b": "AGPL-3.0 ja kehitetään avoimesti GitHubissa. Lue koodi, avaa issue tai lähetä pull request."
+    "c3b": "AGPL-3.0-lisensoitu ja kehitetty avoimesti GitHubissa. Lue koodi, avaa issue tai lähetä pull request."
   },
   "status": {
     "label": "Projektin tila 23. toukokuuta 2026 alkaen",
@@ -91,7 +93,7 @@
     "intro": "Näkymiä verkkosovelluksesta, kaikki tummalla teemalla. Vaaleakin löytyy.",
     "alt1": "Aktiviteetin tietosivu kartalla, väliajoilla ja mittareilla.",
     "cap1": "Aktiviteettisivu",
-    "alt2": "Terveyden hallintapaneeli painolla, askeleilla ja unitrendeillä.",
+    "alt2": "Terveysnäkymä, jossa näkyvät paino, askeleet ja unitrendit.",
     "cap2": "Terveysnäkymä",
     "altSleep": "Unisivu, jossa on viikoittainen unitrendikaavio ja pisteet jokaiselle yölle.",
     "cap3": "Uni",
@@ -112,6 +114,20 @@
     "testflightTop": "Liity iOS-betaan:",
     "testflight": "TestFlight",
     "hintRough": "Molemmat sovellukset ovat julkisessa betassa, joten vähän hiottavaa on vielä luvassa. Virheraportit ovat todella tervetulleita."
+  },
+  "apps": {
+    "label": "Kolmannen osapuolen sovellukset",
+    "heading": "Tulee toimeen muiden kanssa",
+    "intro": "Muiden kehittäjien tekemiä sovelluksia, jotka voivat lähettää harjoituksesi Endurainiin.",
+    "gbMeta": "Android · ilmainen ja avointa lähdekoodia",
+    "gbB": "Käytä älykelloasi tai aktiivisuusrannekettasi ilman valmistajan sovellusta ja lataa sitten mikä tahansa urheilusuoritus Endurainiin .fit-tiedostona. Endurain-palvelimesi ylläpitäjän täytyy sallia tämä, ennen kuin voit kirjautua sisään.",
+    "tetherMeta": "iPhone · ilmainen, valinnainen Pro-päivitys",
+    "tetherB": "Synkronoi askeleet, unen, elintoimintojen arvot ja Apple Watch -treenit Apple Healthista Endurain-palvelimellesi, reitit ja syke mukaan lukien. Ei pilveä välissä.",
+    "ruMeta": "Android · ilmainen ja avointa lähdekoodia",
+    "ruB": "Tallenna juoksusi ja muut aktiviteettisi puhelimella ja synkronoi ne automaattisesti Endurainiin. Se ei vielä tue tilejä, joissa on käytössä kaksivaiheinen kirjautuminen.",
+    "disclaimer": "Nämä sovellukset ovat riippumattomien kehittäjien tekemiä ja ylläpitämiä. Ne eivät kuulu Endurain-projektiin, eikä Endurain suosittele niitä, tarkasta niiden koodia tai tarjoa niille tukea. Ilmoita ongelmista kunkin sovelluksen kehittäjille ja lue niiden tietosuojakäytännöt ja käyttöehdot ennen käyttöä.",
+    "trust": "Sovellus, jolla kirjaudut sisään, pääsee käsiksi Endurain-tiliisi, joten käytä vain sovelluksia, joihin luotat. Tuotenimet ja tavaramerkit kuuluvat omistajilleen.",
+    "docs": "Asennusohjeet dokumentaatiossa"
   },
   "selfHost": {
     "eyebrow": "Isännöi se itse",
@@ -157,13 +173,6 @@
     "button": "Tilaa",
     "legal": "Palvelun tarjoaa"
   },
-  "cta": {
-    "heading": "Vilkaise ensin ympärillesi",
-    "textA": "Kirjaudu demoon tunnuksilla",
-    "textB": "Klikkaile mitä vain ja riko mitä haluat, se nollautuu joka yö.",
-    "demo": "Kokeile live-demoa",
-    "docs": "Lue dokumentaatio"
-  },
   "footer": {
     "tag": "Itse isännöity kuntoilun seuranta, joka kunnioittaa yksityisyyttäsi.",
     "madeIn": "Tehty Portugalissa, vapaa-ajalla",
@@ -179,6 +188,7 @@
     "licensed": "Lisensoitu lisenssillä",
     "trademarkPolicy": "Tavaramerkkikäytäntö",
     "source": "Lähdekoodi",
-    "appleTm": "TestFlight on Apple Inc:n Yhdysvalloissa ja muissa maissa ja muilla alueilla rekisteröity tavaramerkki."
+    "appleTm": "TestFlight on Apple Inc:n Yhdysvalloissa ja muissa maissa ja muilla alueilla rekisteröity tavaramerkki.",
+    "apps": "Kolmannen osapuolen sovellukset"
   }
 }

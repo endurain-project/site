@@ -14,13 +14,15 @@
     "why": "Pourquoi",
     "features": "Fonctionnalités",
     "mobile": "Application mobile",
+    "apps": "Applis tierces",
     "selfHost": "Auto-hébergement",
-    "community": "Communauté"
+    "community": "Communauté",
+    "gallery": "Galerie"
   },
   "hero": {
-    "kicker": "Auto-hébergé · open source · fait au Portugal",
-    "headline1": "Vos courses, sorties vélo et longueurs.",
-    "headline2": "Sur votre propre serveur.",
+    "kicker": "Auto-hébergé · Open source · Fait avec ❤️ au Portugal",
+    "headline1": "Suivez chaque mouvement",
+    "headline2": "Vivez chaque instant",
     "intro": "Endurain est un service de suivi sportif auto-hébergé, un foyer respectueux de la vie privée pour vos activités, votre équipement et vos données de santé. Aucun verrouillage, aucune exploitation de données. Juste votre historique d'entraînement, sur une infrastructure que vous contrôlez.",
     "ctaDemo": "Essayer la démo en ligne",
     "ctaDocs": "Lire la documentation",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Pourquoi il existe",
-    "title": "Créé par un triathlète qui voulait savoir quand changer sa chaîne",
+    "title": "Créé par un triathlète du dimanche qui voulait savoir quand changer sa chaîne",
     "p1": "Endurain a commencé comme un projet perso. Je suis triathlète amateur, avec plus de vélos et de chaussures de course que je ne voudrais l'avouer, et je voulais un seul endroit pour noter chaque séance et voir l'usure de chacun, jusqu'à la chaîne et aux cales. Je voulais aussi garder cet historique sur mon propre serveur, pas sur celui de quelqu'un d'autre.",
     "p2": "Puis ça a grandi : plusieurs utilisateurs, synchro Strava et Garmin, objectifs, authentification unique, une appli mobile et des traductions dans 30 langues. Je le développe toujours sur mon temps libre, avec un petit groupe de contributeurs, et j'apprends encore en chemin.",
     "role": "Mainteneur",
@@ -113,6 +115,20 @@
     "testflight": "TestFlight",
     "hintRough": "Les deux applis sont en bêta publique, attendez-vous donc à quelques imperfections. Les rapports de bugs sont plus que bienvenus."
   },
+  "apps": {
+    "label": "Applis tierces",
+    "heading": "S'entend bien avec les autres",
+    "intro": "Des applis créées par d'autres développeurs qui peuvent envoyer vos entraînements vers Endurain.",
+    "gbMeta": "Android · libre et gratuite",
+    "gbB": "Utilisez votre montre connectée ou votre bracelet d'activité sans l'appli du fabricant, puis envoyez n'importe quelle activité sportive vers Endurain sous forme de fichier .fit. Votre administrateur doit l'autoriser avant que vous puissiez vous connecter.",
+    "tetherMeta": "iPhone · gratuite, avec une mise à niveau Pro facultative",
+    "tetherB": "Synchronise les pas, le sommeil, les signes vitaux et les entraînements Apple Watch depuis Apple Health vers votre serveur Endurain, parcours et fréquence cardiaque compris. Aucun cloud entre les deux.",
+    "ruMeta": "Android · libre et gratuite",
+    "ruB": "Enregistrez vos courses et autres activités sur votre téléphone et synchronisez-les automatiquement avec Endurain. Elle ne prend pas encore en charge les comptes avec connexion à deux facteurs.",
+    "disclaimer": "Ces applis sont créées et maintenues par des développeurs indépendants. Elles ne font pas partie du projet Endurain, et Endurain ne les cautionne pas, n'en vérifie pas le code et n'en assure pas le support. Merci de signaler les problèmes aux développeurs de chaque appli et de lire leurs politiques de confidentialité et conditions d'utilisation avant de les utiliser.",
+    "trust": "Une appli avec laquelle vous vous connectez peut accéder à votre compte Endurain : n'utilisez donc que des applis de confiance. Les noms de produits et les marques appartiennent à leurs propriétaires respectifs.",
+    "docs": "Notes de configuration dans la documentation"
+  },
   "selfHost": {
     "eyebrow": "Auto-hébergez-le",
     "heading": "Hébergez-le vous-même",
@@ -157,13 +173,6 @@
     "button": "S'abonner",
     "legal": "Propulsé par"
   },
-  "cta": {
-    "heading": "Faites d'abord un tour",
-    "textA": "Connectez-vous à la démo avec",
-    "textB": "Cliquez partout et cassez ce que vous voulez, tout est remis à zéro chaque nuit.",
-    "demo": "Essayer la démo en ligne",
-    "docs": "Lire la documentation"
-  },
   "footer": {
     "tag": "Le suivi sportif auto-hébergé qui respecte votre vie privée.",
     "madeIn": "Fait au Portugal, sur du temps libre",
@@ -179,6 +188,7 @@
     "licensed": "Sous licence",
     "trademarkPolicy": "Politique de marque",
     "source": "Code source",
-    "appleTm": "TestFlight est une marque d'Apple Inc., déposée aux États-Unis et dans d'autres pays et régions."
+    "appleTm": "TestFlight est une marque d'Apple Inc., déposée aux États-Unis et dans d'autres pays et régions.",
+    "apps": "Applis tierces"
   }
 }

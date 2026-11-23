@@ -14,14 +14,16 @@
     "why": "Hvorfor",
     "features": "Funktioner",
     "mobile": "Mobilapp",
+    "apps": "Tredjepartsapps",
     "selfHost": "Selvhost",
-    "community": "Fællesskab"
+    "community": "Fællesskab",
+    "gallery": "Galleri"
   },
   "hero": {
-    "kicker": "Selvhostet · open source · lavet i Portugal",
-    "headline1": "Dine løbeture, cykelture og svømmeture.",
-    "headline2": "På din egen server.",
-    "intro": "Endurain er en selvhostet tjeneste til fitnesssporing, et privatlivsfokuseret hjem for dine aktiviteter, dit udstyr og dine helbredsdata. Ingen fastlåsning, ingen dataminedrift. Kun din træningshistorik, på infrastruktur, som du styrer.",
+    "kicker": "Selvhostet · Open source · Lavet med ❤️ i Portugal",
+    "headline1": "Følg hvert skridt",
+    "headline2": "Ej hvert øjeblik",
+    "intro": "Endurain er en selvhostet tjeneste til fitnesssporing, et privatlivsfokuseret hjem for dine aktiviteter, dit udstyr og dine helbredsdata. Ingen fastlåsning, ingen dataudvinding. Kun din træningshistorik, på infrastruktur, som du styrer.",
     "ctaDemo": "Prøv livedemoen",
     "ctaDocs": "Læs dokumentationen",
     "demoLogin": "Demo-login:",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Hvorfor det findes",
-    "title": "Bygget af en triatlet, der ville vide, hvornår kæden skulle skiftes",
+    "title": "Bygget af en wannabe-triatlet, der ville vide, hvornår kæden skulle skiftes",
     "p1": "Endurain startede som et personligt projekt. Jeg er amatørtriatlet med flere cykler og løbesko, end jeg har lyst til at indrømme, og jeg ville have ét sted at logge hver træning og se, hvor meget slid hver af dem havde fået, helt ned til kæden og klamperne. Jeg ville også have den historik på min egen server, ikke på en andens.",
     "p2": "Det voksede derfra: flere brugere, Strava- og Garmin-synk, mål, single sign-on, en mobilapp og oversættelser til 30 sprog. Det bygges stadig i fritiden, af mig og en lille flok bidragydere, og jeg lærer stadig undervejs.",
     "role": "Vedligeholder",
@@ -74,7 +76,7 @@
     "f2b": "Synkronisér aktiviteter, udstyr og kropssammensætning fra Strava og Garmin Connect.",
     "f3t": "Importér filer",
     "f3b": "Upload .fit-, .gpx- eller .tcx-filer én ad gangen eller mange på én gang. Vælg .fit, hvis du kan.",
-    "f5t": "Helbredsmål",
+    "f5t": "Helbredsmålinger",
     "healthB": "Søvn, vægt, skridt, hvilepuls, faste og væskeindtag. Ja, endda toiletbesøg.",
     "f6t": "Mål",
     "f6b": "Sæt distance- eller tidsmål, og følg dine fremskridt uge for uge.",
@@ -89,7 +91,7 @@
     "alt3": "Udstyrsliste, der viser cykler, sko og deres brug.",
     "heading": "Et kig rundt",
     "intro": "Skærmbilleder fra webappen, alle i det mørke tema. Der findes også et lyst.",
-    "alt1": "Aktivitetsdetaljeside med kort, mellemtider og mål.",
+    "alt1": "Aktivitetsdetaljeside med kort, mellemtider og nøgletal.",
     "cap1": "Aktivitetsside",
     "alt2": "Helbredsdashboard med vægt, skridt og søvntendenser.",
     "cap2": "Helbredsdashboard",
@@ -112,6 +114,20 @@
     "testflightTop": "Deltag i iOS-betaen på",
     "testflight": "TestFlight",
     "hintRough": "Begge apps er i offentlig beta, så regn med et par skønhedsfejl. Fejlrapporter er meget velkomne."
+  },
+  "apps": {
+    "label": "Tredjepartsapps",
+    "heading": "Spiller godt sammen med andre",
+    "intro": "Apps fra andre udviklere, der kan sende din træning til Endurain.",
+    "gbMeta": "Android · gratis og open source",
+    "gbB": "Brug dit smartwatch eller fitnessarmbånd uden producentens app, og upload derefter enhver sportsaktivitet til Endurain som en .fit-fil. Din administrator skal tillade det, før du kan logge ind.",
+    "tetherMeta": "iPhone · gratis, med en valgfri Pro-opgradering",
+    "tetherB": "Synkroniserer skridt, søvn, vitale værdier og Apple Watch-træninger fra Apple Health til din Endurain-server, inklusive ruter og puls. Ingen sky imellem.",
+    "ruMeta": "Android · gratis og open source",
+    "ruB": "Registrér dine løbeture og andre aktiviteter på telefonen, og synkronisér dem automatisk med Endurain. Den understøtter endnu ikke konti med totrinslogin.",
+    "disclaimer": "Disse apps udvikles og vedligeholdes af uafhængige udviklere. De er ikke en del af Endurain-projektet, og Endurain står ikke inde for dem, gennemgår ikke deres kode og yder ikke support til dem. Rapportér venligst problemer til udviklerne af den enkelte app, og læs deres privatlivspolitikker og vilkår, før du bruger dem.",
+    "trust": "En app, du logger ind med, kan få adgang til din Endurain-konto, så brug kun apps, du stoler på. Produktnavne og varemærker tilhører deres respektive ejere.",
+    "docs": "Vejledning til opsætning i dokumentationen"
   },
   "selfHost": {
     "eyebrow": "Selvhost det",
@@ -157,13 +173,6 @@
     "button": "Tilmeld",
     "legal": "Leveret af"
   },
-  "cta": {
-    "heading": "Kig dig omkring først",
-    "textA": "Log ind på demoen med",
-    "textB": "Klik på alt og ødelæg, hvad du har lyst til, den nulstilles hver nat.",
-    "demo": "Prøv livedemoen",
-    "docs": "Læs dokumentationen"
-  },
   "footer": {
     "tag": "Selvhostet fitnesssporing, der respekterer dit privatliv.",
     "madeIn": "Lavet i Portugal, i fritiden",
@@ -179,6 +188,7 @@
     "licensed": "Licenseret under",
     "trademarkPolicy": "Varemærkepolitik",
     "source": "Kildekode",
-    "appleTm": "TestFlight er et varemærke tilhørende Apple Inc., registreret i USA og andre lande og regioner."
+    "appleTm": "TestFlight er et varemærke tilhørende Apple Inc., registreret i USA og andre lande og regioner.",
+    "apps": "Tredjepartsapps"
   }
 }

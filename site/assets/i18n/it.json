@@ -14,13 +14,15 @@
     "why": "Perché",
     "features": "Funzionalità",
     "mobile": "App mobile",
+    "apps": "App di terze parti",
     "selfHost": "Self-hosting",
-    "community": "Comunità"
+    "community": "Comunità",
+    "gallery": "Galleria"
   },
   "hero": {
-    "kicker": "Self-hosted · open source · fatto in Portogallo",
-    "headline1": "Le tue corse, pedalate e bracciate.",
-    "headline2": "Sul tuo server.",
+    "kicker": "Self-hosted · Open source · Fatto con ❤️ in Portogallo",
+    "headline1": "Registra ogni movimento",
+    "headline2": "Possiedi ogni momento",
     "intro": "Endurain è un servizio di monitoraggio sportivo self-hosted, una casa attenta alla privacy per le tue attività, la tua attrezzatura e i tuoi dati sulla salute. Nessun vincolo, nessuna estrazione di dati. Solo la tua storia di allenamento, su un'infrastruttura che controlli tu.",
     "ctaDemo": "Prova la demo live",
     "ctaDocs": "Leggi la documentazione",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Perché esiste",
-    "title": "Creato da un triatleta che voleva sapere quando cambiare la catena",
+    "title": "Creato da un aspirante triatleta che voleva sapere quando cambiare la catena",
     "p1": "Endurain è nato come progetto personale. Sono un triatleta amatoriale con più bici e scarpe da corsa di quante vorrei ammettere, e volevo un unico posto dove registrare ogni allenamento e vedere quanta usura avesse accumulato ognuna, fino alla catena e alle tacchette. E volevo quello storico sul mio server, non su quello di qualcun altro.",
     "p2": "Da lì è cresciuto: più utenti, sincronizzazione con Strava e Garmin, obiettivi, single sign-on, un'app mobile e traduzioni in 30 lingue. Lo porto ancora avanti nel tempo libero, con un piccolo gruppo di collaboratori, e sto ancora imparando strada facendo.",
     "role": "Maintainer",
@@ -113,9 +115,23 @@
     "testflight": "TestFlight",
     "hintRough": "Entrambe le app sono in beta pubblica, quindi aspettati qualche spigolo da smussare. Le segnalazioni di bug sono più che benvenute."
   },
+  "apps": {
+    "label": "App di terze parti",
+    "heading": "Va d'accordo con tutti",
+    "intro": "App create da altri sviluppatori che possono inviare i tuoi allenamenti a Endurain.",
+    "gbMeta": "Android · gratuita e open source",
+    "gbB": "Usa il tuo smartwatch o la tua fitness band senza l'app del produttore, poi carica qualsiasi attività sportiva su Endurain come file .fit. Il tuo amministratore deve autorizzarla prima che tu possa accedere.",
+    "tetherMeta": "iPhone · gratuita, con upgrade Pro opzionale",
+    "tetherB": "Sincronizza passi, sonno, parametri vitali e allenamenti di Apple Watch da Apple Health al tuo server Endurain, percorsi e frequenza cardiaca compresi. Nessun cloud di mezzo.",
+    "ruMeta": "Android · gratuita e open source",
+    "ruB": "Registra le tue corse e altre attività sul telefono e sincronizzale automaticamente con Endurain. Non supporta ancora gli account con accesso a due fattori.",
+    "disclaimer": "Queste app sono create e gestite da sviluppatori indipendenti. Non fanno parte del progetto Endurain, ed Endurain non le approva, non ne verifica il codice e non fornisce assistenza. Segnala eventuali problemi agli sviluppatori di ciascuna app e leggi le loro informative sulla privacy e i termini prima di usarle.",
+    "trust": "Un'app con cui accedi ha accesso al tuo account Endurain, quindi usa solo app di cui ti fidi. I nomi dei prodotti e i marchi appartengono ai rispettivi proprietari.",
+    "docs": "Note di configurazione nella documentazione"
+  },
   "selfHost": {
     "eyebrow": "Ospitalo tu",
-    "heading": "Ospitalo tu",
+    "heading": "Fallo girare tu",
     "intro": "Endurain è un'immagine Docker più PostgreSQL, configurata con variabili d'ambiente. Se hai già avviato qualcosa con docker compose, ti sentirai a casa.",
     "step1": "Copia i file di esempio compose ed env",
     "step2": "Imposta i tuoi segreti e le chiavi di integrazione",
@@ -155,14 +171,7 @@
     "text": "Note di rilascio e novità sul progetto, inviate quando c'è davvero qualcosa da dire. Niente spam, puoi disiscriverti quando vuoi.",
     "emailLabel": "Indirizzo e-mail",
     "button": "Iscriviti",
-    "legal": "Offerto da"
-  },
-  "cta": {
-    "heading": "Prima dai un'occhiata",
-    "textA": "Accedi alla demo con",
-    "textB": "Clicca dove vuoi e rompi quello che ti pare, tanto si azzera ogni notte.",
-    "demo": "Prova la demo live",
-    "docs": "Leggi la documentazione"
+    "legal": "Con la tecnologia di"
   },
   "footer": {
     "tag": "Monitoraggio sportivo self-hosted che rispetta la tua privacy.",
@@ -179,6 +188,7 @@
     "licensed": "Con licenza",
     "trademarkPolicy": "Politica sul marchio",
     "source": "Codice sorgente",
-    "appleTm": "TestFlight è un marchio di Apple Inc., registrato negli Stati Uniti e in altri Paesi e regioni."
+    "appleTm": "TestFlight è un marchio di Apple Inc., registrato negli Stati Uniti e in altri Paesi e regioni.",
+    "apps": "App di terze parti"
   }
 }

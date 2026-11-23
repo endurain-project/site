@@ -14,13 +14,15 @@
     "why": "Por que",
     "features": "Funcións",
     "mobile": "Aplicación móbil",
+    "apps": "Apps de terceiros",
     "selfHost": "Auto-hospedaxe",
-    "community": "Comunidade"
+    "community": "Comunidade",
+    "gallery": "Galería"
   },
   "hero": {
-    "kicker": "Auto-hospedado · código aberto · feito en Portugal",
-    "headline1": "As túas carreiras, pedaladas e brazadas.",
-    "headline2": "No teu propio servidor.",
+    "kicker": "Auto-hospedado · Código aberto · Feito con ❤️ en Portugal",
+    "headline1": "Rexistra cada movemento",
+    "headline2": "Fai teu cada momento",
     "intro": "Endurain é un servizo de seguimento deportivo auto-hospedado, un fogar centrado na privacidade para as túas actividades, o teu equipamento e os teus datos de saúde. Sen ataduras, sen minaría de datos. Só o teu historial de adestramento, nunha infraestrutura que controlas ti.",
     "ctaDemo": "Proba a demo en directo",
     "ctaDocs": "Le a documentación",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Por que existe",
-    "title": "Feito por un triatleta que quería saber cando cambiar a cadea",
+    "title": "Feito por un aspirante a triatleta que quería saber cando cambiar a cadea",
     "p1": "Endurain comezou como un proxecto persoal. Son triatleta afeccionado, con máis bicis e zapatillas de correr das que me gustaría admitir, e quería un único sitio onde rexistrar cada sesión e ver canto desgaste levaba cada unha, ata a cadea e as calas. Tamén quería ese historial no meu propio servidor, non no doutra persoa.",
     "p2": "A partir de aí foi medrando: varios usuarios, sincronización con Strava e Garmin, obxectivos, inicio de sesión único, unha app móbil e traducións a 30 idiomas. Aínda o fago no tempo libre, cun pequeno grupo de colaboradores, e aínda vou aprendendo polo camiño.",
     "role": "Mantedor",
@@ -113,6 +115,20 @@
     "testflight": "TestFlight",
     "hintRough": "As dúas apps son betas públicas, así que conta con atopar algunha cousa por pulir. Os informes de erros son máis que benvidos."
   },
+  "apps": {
+    "label": "Apps de terceiros",
+    "heading": "Lévase ben cos demais",
+    "intro": "Apps doutros desenvolvedores que poden enviar os teus adestramentos a Endurain.",
+    "gbMeta": "Android · gratuíta e de código aberto",
+    "gbB": "Usa o teu reloxo intelixente ou pulseira de actividade sen a app do fabricante e sube calquera actividade deportiva a Endurain como ficheiro .fit. O teu administrador ten que permitila antes de que poidas iniciar sesión.",
+    "tetherMeta": "iPhone · gratuíta, cunha mellora Pro opcional",
+    "tetherB": "Sincroniza pasos, sono, constantes vitais e adestramentos do Apple Watch desde Apple Health ao teu servidor de Endurain, con rutas e frecuencia cardíaca incluídas. Sen nube polo medio.",
+    "ruMeta": "Android · gratuíta e de código aberto",
+    "ruB": "Rexistra as túas carreiras e outras actividades no móbil e sincronízaas automaticamente con Endurain. Aínda non admite contas con autenticación en dous pasos.",
+    "disclaimer": "Estas apps créanas e mantéñenas desenvolvedores independentes. Non forman parte do proxecto Endurain, e Endurain non as avala, non revisa o seu código nin ofrece asistencia para elas. Comunica calquera problema aos desenvolvedores de cada app e le as súas políticas de privacidade e condicións antes de usalas.",
+    "trust": "Unha app coa que inicias sesión pode acceder á túa conta de Endurain, así que usa só apps de confianza. Os nomes de produtos e as marcas pertencen aos seus respectivos propietarios.",
+    "docs": "Notas de configuración na documentación"
+  },
   "selfHost": {
     "eyebrow": "Auto-hospédao",
     "heading": "Móntao ti mesmo",
@@ -157,13 +173,6 @@
     "button": "Subscribirse",
     "legal": "Coa tecnoloxía de"
   },
-  "cta": {
-    "heading": "Bótalle unha ollada primeiro",
-    "textA": "Entra na demo con",
-    "textB": "Preme onde queiras e rompe o que che pete, cada noite reiníciase.",
-    "demo": "Proba a demo en directo",
-    "docs": "Le a documentación"
-  },
   "footer": {
     "tag": "Seguimento deportivo auto-hospedado que respecta a túa privacidade.",
     "madeIn": "Feito en Portugal, no tempo libre",
@@ -179,6 +188,7 @@
     "licensed": "Con licenza",
     "trademarkPolicy": "Política de marca",
     "source": "Código fonte",
-    "appleTm": "TestFlight é unha marca comercial de Apple Inc., rexistrada nos Estados Unidos e noutros países e rexións."
+    "appleTm": "TestFlight é unha marca comercial de Apple Inc., rexistrada nos Estados Unidos e noutros países e rexións.",
+    "apps": "Apps de terceiros"
   }
 }

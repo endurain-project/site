@@ -7,21 +7,23 @@
     "home": "Endurain pradžios puslapis",
     "langMenu": "Keisti kalbą",
     "theme": "Perjungti tamsų režimą",
-    "github": "Peržiūrėti pirminį kodą GitHub",
+    "github": "Peržiūrėti pirminį kodą GitHub platformoje",
     "menu": "Atverti meniu"
   },
   "nav": {
     "why": "Kodėl",
     "features": "Funkcijos",
     "mobile": "Mobilioji programėlė",
+    "apps": "Išorinės programėlės",
     "selfHost": "Savarankiškas talpinimas",
-    "community": "Bendruomenė"
+    "community": "Bendruomenė",
+    "gallery": "Galerija"
   },
   "hero": {
-    "kicker": "Talpinamas savarankiškai · atvirasis kodas · sukurta Portugalijoje",
-    "headline1": "Bėgimas, dviratis, plaukimas.",
-    "headline2": "Jūsų pačių serveryje.",
-    "intro": "Endurain yra savarankiškai talpinama kūno rengybos stebėjimo paslauga, privatumą pirmumo tvarka teikiantys namai jūsų veikloms, įrangai ir sveikatos duomenims. Jokio pririšimo, jokio duomenų gavybos. Tik jūsų treniruočių istorija, infrastruktūroje, kurią valdote jūs.",
+    "kicker": "Talpinamas savarankiškai · atvirasis kodas · sukurta su ❤️ Portugalijoje",
+    "headline1": "Stebėkite kiekvieną judesį",
+    "headline2": "Valdykite kiekvieną akimirką",
+    "intro": "Endurain yra savarankiškai talpinama kūno rengybos stebėjimo paslauga, privatumui pirmenybę teikiantys namai jūsų veikloms, įrangai ir sveikatos duomenims. Jokio pririšimo, jokios duomenų gavybos. Tik jūsų treniruočių istorija, infrastruktūroje, kurią valdote jūs.",
     "ctaDemo": "Išbandykite tiesioginę demonstraciją",
     "ctaDocs": "Skaitykite dokumentaciją",
     "demoLogin": "Demonstracijos prisijungimas:",
@@ -37,16 +39,16 @@
   },
   "why": {
     "label": "Kodėl jis atsirado",
-    "title": "Sukūrė triatlonininkas, norėjęs žinoti, kada keisti grandinę",
+    "title": "Sukūrė triatlonininku save vadinantis mėgėjas, norėjęs žinoti, kada keisti grandinę",
     "p1": "Endurain prasidėjo kaip asmeninis projektas. Esu triatlonininkas mėgėjas, turintis daugiau dviračių ir bėgimo batų, nei norėčiau prisipažinti, ir norėjau vienos vietos, kur galėčiau registruoti kiekvieną treniruotę ir matyti, kiek kiekvienas jų nusidėvėjo, iki pat grandinės ir kaladėlių. Taip pat norėjau, kad ta istorija būtų mano paties serveryje, o ne kažkieno kito.",
-    "p2": "Toliau viskas augo: keli naudotojai, Strava ir Garmin sinchronizavimas, tikslai, SSO, mobilioji programėlė ir vertimai į 30 kalbų. Jį vis dar kuriu laisvalaikiu kartu su nedideliu bendraautorių būreliu ir vis dar mokausi eidamas.",
+    "p2": "Toliau viskas augo: keli naudotojai, Strava ir Garmin sinchronizavimas, tikslai, bendrasis prisijungimas (SSO), mobilioji programėlė ir vertimai į 30 kalbų. Jį vis dar kuriu laisvalaikiu kartu su nedideliu bendraautorių būreliu ir vis dar mokausi eidamas.",
     "role": "Prižiūrėtojas",
     "c1t": "Jūsų duomenys, jūsų serveris",
     "c1b": "Viskas saugoma jūsų pačių PostgreSQL duomenų bazėje. Eksportuokite profilį, pasidarykite atsarginę kopiją, perkelkite į kitą kompiuterį. Niekas negali atimti iš jūsų prieigos.",
     "c2t": "Bendrinkite tai, ką norite",
-    "c2b": "Paslėpkite bet kurios veiklos žemėlapį, pulsą, galią ar pradžios laiką. Įjunkite dviejų veiksnių prisijungimą ir SSO. Visa kita pasilikite sau.",
+    "c2b": "Paslėpkite bet kurios veiklos žemėlapį, pulsą, galią ar pradžios laiką. Įjunkite dviejų veiksnių autentifikavimą ir bendrąjį prisijungimą (SSO). Visa kita pasilikite sau.",
     "c3t": "Tikrai atviras",
-    "c3b": "AGPL-3.0 ir kuriamas viešai GitHub. Skaitykite kodą, praneškite apie problemą arba atsiųskite pull request."
+    "c3b": "AGPL-3.0 licencija ir viešas kūrimas GitHub platformoje. Skaitykite kodą, praneškite apie problemą arba atsiųskite pull request."
   },
   "status": {
     "label": "Projekto būsena nuo 2026 m. gegužės 23 d.",
@@ -63,7 +65,7 @@
   },
   "features": {
     "heading": "Ką jis moka",
-    "intro": "Pilnas treniruočių žurnalas su integracijomis, kurių tikėtumėtės iš didžiųjų platformų, veikiantis jūsų pačių aparatinėje įrangoje.",
+    "intro": "Išsamus treniruočių žurnalas su integracijomis, kurių tikėtumėtės iš didžiųjų platformų, veikiantis jūsų pačių aparatinėje įrangoje.",
     "gearLabel": "Funkcija, nuo kurios viskas prasidėjo",
     "gearT": "Įrangos stebėjimas iki paskutinės detalės",
     "gearB": "Pridėkite dviračius, batus, hidrokostiumus, slides ar raketes, o tada jų dalis: grandinę, kasetę, padangas, stabdžių trinkeles, kaladėles, vidpadžius, net raištelius. Kiekvienai daliai nustatykite nusidėvėjimo ribą, o Endurain skaičiuos, kaip kaupiasi kilometrai ir valandos.",
@@ -104,14 +106,28 @@
     "label": "iOS ir Android, viešoji beta",
     "heading": "Įrašykite tiesiai į savo serverį",
     "intro": "Programėlė realiuoju laiku žemėlapyje įrašo bėgimus, važiavimus dviračiu, pasivaikščiojimus ir žygius ir įkelia juos į jūsų pačių Endurain serverį. Trasoje nėra ryšio? Ji toliau įrašo neprisijungusi ir sinchronizuoja, kai vėl pagaunate ryšį. Prisijunkite per SSO ir dviejų veiksnių autentifikavimą, kaip ir žiniatinklyje.",
-    "playTitle": "Prisijunkite prie „Endurain“ „Android“ beta „Google Play“",
+    "playTitle": "Prisijunkite prie „Endurain“ „Android“ beta versijos per „Google Play“",
     "playTop": "Prisijunkite prie „Android“ beta:",
     "play": "Google Play",
     "beta": "Beta",
-    "testflightTitle": "Prisijunkite prie „Endurain“ „iOS“ beta „TestFlight“",
+    "testflightTitle": "Prisijunkite prie „Endurain“ „iOS“ beta versijos per „TestFlight“",
     "testflightTop": "Prisijunkite prie „iOS“ beta:",
     "testflight": "TestFlight",
     "hintRough": "Abi programėlės yra viešosios beta versijos, tad gali pasitaikyti šiokių tokių nesklandumų. Pranešimai apie klaidas labai laukiami."
+  },
+  "apps": {
+    "label": "Trečiųjų šalių programėlės",
+    "heading": "Puikiai sutaria su kitais",
+    "intro": "Kitų kūrėjų programėlės, galinčios siųsti jūsų treniruotes į Endurain.",
+    "gbMeta": "Android · nemokama ir atvirojo kodo",
+    "gbB": "Naudokite išmanųjį laikrodį ar fitneso apyrankę be gamintojo programėlės, o tada įkelkite bet kurią sporto veiklą į Endurain kaip .fit failą. Kad galėtumėte prisijungti, administratorius pirmiausia turi tai leisti.",
+    "tetherMeta": "iPhone · nemokama, su pasirenkama Pro versija",
+    "tetherB": "Sinchronizuoja žingsnius, miegą, gyvybinius rodiklius ir Apple Watch treniruotes iš Apple Health į jūsų Endurain serverį, įskaitant maršrutus ir pulsą. Be jokių tarpinių debesijos paslaugų.",
+    "ruMeta": "Android · nemokama ir atvirojo kodo",
+    "ruB": "Registruokite bėgimus ir kitas veiklas telefone ir automatiškai sinchronizuokite juos su Endurain. Paskyrų su dviejų veiksnių autentifikavimu ji kol kas nepalaiko.",
+    "disclaimer": "Šias programėles kuria ir prižiūri nepriklausomi kūrėjai. Jos nėra Endurain projekto dalis, o Endurain jų oficialiai nerekomenduoja, netikrina jų kodo ir neteikia joms pagalbos. Apie problemas praneškite kiekvienos programėlės kūrėjams ir prieš naudodamiesi perskaitykite jų privatumo politiką ir naudojimo sąlygas.",
+    "trust": "Programėlė, per kurią prisijungiate, gauna prieigą prie jūsų Endurain paskyros, todėl naudokite tik tas programėles, kuriomis pasitikite. Produktų pavadinimai ir prekių ženklai priklauso atitinkamiems jų savininkams.",
+    "docs": "Sąrankos pastabos dokumentacijoje"
   },
   "selfHost": {
     "eyebrow": "Talpinkite patys",
@@ -157,13 +173,6 @@
     "button": "Prenumeruoti",
     "legal": "Palaiko"
   },
-  "cta": {
-    "heading": "Pirma apsidairykite",
-    "textA": "Prisijunkite prie demonstracijos su",
-    "textB": "Spaudykite viską ir gadinkite kiek širdis geidžia. Kiekvieną naktį viskas atkuriama iš naujo.",
-    "demo": "Išbandykite tiesioginę demonstraciją",
-    "docs": "Skaitykite dokumentaciją"
-  },
   "footer": {
     "tag": "Savarankiškai talpinamas kūno rengybos stebėjimas, gerbiantis jūsų privatumą.",
     "madeIn": "Sukurta Portugalijoje, laisvalaikiu",
@@ -179,6 +188,7 @@
     "licensed": "Licencijuota pagal",
     "trademarkPolicy": "Prekės ženklo politika",
     "source": "Pirminis kodas",
-    "appleTm": "TestFlight yra Apple Inc. prekių ženklas, registruotas JAV ir kitose šalyse bei regionuose."
+    "appleTm": "TestFlight yra Apple Inc. prekių ženklas, registruotas JAV ir kitose šalyse bei regionuose.",
+    "apps": "Trečiųjų šalių programėlės"
   }
 }

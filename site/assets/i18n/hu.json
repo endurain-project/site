@@ -14,14 +14,16 @@
     "why": "Miért",
     "features": "Funkciók",
     "mobile": "Mobilalkalmazás",
+    "apps": "Külső alkalmazások",
     "selfHost": "Önálló üzemeltetés",
-    "community": "Közösség"
+    "community": "Közösség",
+    "gallery": "Galéria"
   },
   "hero": {
-    "kicker": "Önállóan üzemeltetett · nyílt forráskódú · Portugáliában készült",
-    "headline1": "Futás, bringa, úszás.",
-    "headline2": "A saját szervereden.",
-    "intro": "Az Endurain egy önállóan üzemeltetett edzéskövető szolgáltatás, adatvédelmet előtérbe helyező otthon a tevékenységeid, a felszerelésed és az egészségügyi adataid számára. Nincs bezártság, nincs adatbányászat. Csak az edzéselőzményeid, egy általad irányított infrastruktúrán.",
+    "kicker": "Önállóan üzemeltetett · Nyílt forráskódú · Készült ❤️-vel Portugáliában",
+    "headline1": "Kövess minden mozdulatot",
+    "headline2": "Birtokold minden pillanatod",
+    "intro": "Az Endurain egy önállóan üzemeltetett edzéskövető szolgáltatás, adatvédelmet előtérbe helyező otthon a tevékenységeid, a felszerelésed és az egészségügyi adataid számára. Nincs szolgáltatói bezártság, nincs adatbányászat. Csak az edzéselőzményeid, egy általad irányított infrastruktúrán.",
     "ctaDemo": "Élő demó kipróbálása",
     "ctaDocs": "Dokumentáció elolvasása",
     "demoLogin": "Demó belépés:",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Miért létezik",
-    "title": "Egy triatlonos építette, aki tudni akarta, mikor kell láncot cserélni",
+    "title": "Egy félig-meddig triatlonos építette, aki tudni akarta, mikor kell láncot cserélni",
     "p1": "Az Endurain személyes projektként indult. Amatőr triatlonos vagyok, több bringával és futócipővel, mint amennyit szívesen bevallanék, és szerettem volna egyetlen helyet, ahol minden edzést rögzíthetek, és láthatom, mennyit kopott mindegyik, egészen a láncig és a stoplikig. Azt is akartam, hogy ez az előzmény a saját szerveremen legyen, ne valaki másén.",
     "p2": "Onnan nőtt tovább: több felhasználó, Strava- és Garmin-szinkron, célok, egyszeri bejelentkezés, mobilalkalmazás és fordítás 30 nyelvre. Még mindig szabadidőben fejlesztem, egy kis csapatnyi közreműködővel együtt, és még mindig menet közben tanulok.",
     "role": "Karbantartó",
@@ -113,6 +115,20 @@
     "testflight": "TestFlight",
     "hintRough": "Mindkét app nyilvános béta, úgyhogy lehetnek még apró döccenők. A hibajelentéseket nagyon szívesen várom."
   },
+  "apps": {
+    "label": "Külső alkalmazások",
+    "heading": "Jól kijön másokkal",
+    "intro": "Más fejlesztők alkalmazásai, amelyek el tudják küldeni az edzéseidet az Endurainbe.",
+    "gbMeta": "Android · ingyenes és nyílt forráskódú",
+    "gbB": "Használd az okosórádat vagy fitneszkarkötődet a gyártó alkalmazása nélkül, majd tölts fel bármilyen sporttevékenységet .fit-fájlként az Endurainbe. Bejelentkezni csak azután tudsz, hogy a rendszergazda ezt engedélyezte.",
+    "tetherMeta": "iPhone · ingyenes, opcionális Pro bővítéssel",
+    "tetherB": "Szinkronizálja a lépéseket, az alvást, az életjeleket és az Apple Watch-edzéseket az Apple Health alkalmazásból az Endurain-szerveredre, útvonalakkal és pulzussal együtt. Nincs felhő a kettő között.",
+    "ruMeta": "Android · ingyenes és nyílt forráskódú",
+    "ruB": "Rögzítsd a futásaidat és más tevékenységeidet a telefonodon, és szinkronizáld őket automatikusan az Endurainnel. Kétlépcsős belépéssel védett fiókokat egyelőre nem támogat.",
+    "disclaimer": "Ezeket az alkalmazásokat független fejlesztők készítik és tartják karban. Nem részei az Endurain projektnek, és az Endurain nem ajánlja őket, nem ellenőrzi a kódjukat, és nem nyújt hozzájuk támogatást. A hibákat az adott alkalmazás fejlesztőinek jelezd, és használat előtt olvasd el az adatvédelmi irányelveiket és a felhasználási feltételeiket.",
+    "trust": "Az az alkalmazás, amellyel bejelentkezel, hozzáférhet az Endurain-fiókodhoz, ezért csak megbízható alkalmazásokat használj. A terméknevek és a védjegyek a jogtulajdonosaikat illetik.",
+    "docs": "Beállítási tudnivalók a dokumentációban"
+  },
   "selfHost": {
     "eyebrow": "Üzemeltesd magad",
     "heading": "Futtasd magad",
@@ -157,13 +173,6 @@
     "button": "Feliratkozás",
     "legal": "Üzemelteti:"
   },
-  "cta": {
-    "heading": "Előbb nézz körül",
-    "textA": "Lépj be a demóba ezzel:",
-    "textB": "Kattints bármire, és ronts el, amit csak akarsz, minden éjjel visszaáll.",
-    "demo": "Élő demó kipróbálása",
-    "docs": "Dokumentáció elolvasása"
-  },
   "footer": {
     "tag": "Önállóan üzemeltetett edzéskövetés, amely tiszteletben tartja a magánéletedet.",
     "madeIn": "Portugáliában készült, szabadidőben",
@@ -179,6 +188,7 @@
     "licensed": "Licencelve a következő alatt:",
     "trademarkPolicy": "Védjegyszabályzat",
     "source": "Forráskód",
-    "appleTm": "A TestFlight az Apple Inc. védjegye, amely az Egyesült Államokban és más országokban és régiókban bejegyzett védjegy."
+    "appleTm": "A TestFlight az Apple Inc. védjegye, amely az Egyesült Államokban és más országokban és régiókban bejegyzett védjegy.",
+    "apps": "Külső alkalmazások"
   }
 }

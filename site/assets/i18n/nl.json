@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Endurain, zelf-gehoste fitnesstracking die jij beheert"
+    "title": "Endurain, zelfgehoste fitnesstracking die jij beheert"
   },
   "a11y": {
     "skip": "Naar inhoud gaan",
@@ -14,14 +14,16 @@
     "why": "Waarom",
     "features": "Functies",
     "mobile": "Mobiele app",
+    "apps": "Apps van derden",
     "selfHost": "Zelf hosten",
-    "community": "Community"
+    "community": "Community",
+    "gallery": "Galerij"
   },
   "hero": {
-    "kicker": "Zelf gehost · opensource · gemaakt in Portugal",
-    "headline1": "Jouw loopjes, ritten en baantjes.",
-    "headline2": "Op je eigen server.",
-    "intro": "Endurain is een zelf-gehoste fitnesstrackingdienst, een privacy-eerste thuis voor je activiteiten, uitrusting en gezondheidsgegevens. Geen lock-in, geen datamining. Alleen je trainingsgeschiedenis, op infrastructuur die jij beheert.",
+    "kicker": "Zelfgehost · Open source · Met ❤️ gemaakt in Portugal",
+    "headline1": "Registreer elke beweging",
+    "headline2": "Bezit elk moment",
+    "intro": "Endurain is een zelfgehoste fitnesstrackingdienst waarin privacy voorop staat, een thuis voor je activiteiten, uitrusting en gezondheidsgegevens. Geen lock-in, geen datamining. Alleen je trainingsgeschiedenis, op infrastructuur die jij beheert.",
     "ctaDemo": "Probeer de live demo",
     "ctaDocs": "Lees de documentatie",
     "demoLogin": "Demo-login:",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Waarom het bestaat",
-    "title": "Gebouwd door een triatleet die wilde weten wanneer de ketting aan vervanging toe was",
+    "title": "Gebouwd door een wannabe-triatleet die wilde weten wanneer de ketting aan vervanging toe was",
     "p1": "Endurain begon als persoonlijk project. Ik ben amateurtriatleet met meer fietsen en hardloopschoenen dan ik graag toegeef, en ik wilde één plek om elke training te loggen en te zien hoeveel slijtage ze allemaal te verduren hadden gehad, tot aan de ketting en de schoenplaatjes. En ik wilde die geschiedenis op mijn eigen server, niet op die van een ander.",
     "p2": "Daarna groeide het verder: meerdere gebruikers, Strava- en Garmin-sync, doelen, single sign-on, een mobiele app en vertalingen in 30 talen. Het wordt nog steeds in de vrije tijd gebouwd, door mij en een kleine groep bijdragers, en ik leer nog steeds al doende.",
     "role": "Maintainer",
@@ -86,7 +88,7 @@
     "f9b": "30 talen, metrische of imperiale eenheden, licht of donker thema."
   },
   "gallery": {
-    "alt3": "Uitrustinglijst met fietsen, schoenen en hun gebruik.",
+    "alt3": "Uitrustingslijst met fietsen, schoenen en hun gebruik.",
     "heading": "Even rondkijken",
     "intro": "Schermen uit de webapp, allemaal in het donkere thema. Er is ook een lichte.",
     "alt1": "Activiteitdetailpagina met kaart, tussentijden en statistieken.",
@@ -113,11 +115,25 @@
     "testflight": "TestFlight",
     "hintRough": "Beide apps zijn openbare bèta's, dus reken op wat ruwe randjes. Bugmeldingen zijn heel welkom."
   },
+  "apps": {
+    "label": "Apps van derden",
+    "heading": "Werkt goed samen met anderen",
+    "intro": "Apps van andere ontwikkelaars die je trainingen naar Endurain kunnen sturen.",
+    "gbMeta": "Android · gratis en open source",
+    "gbB": "Gebruik je smartwatch of fitnessband zonder de app van de fabrikant en upload daarna elke sportactiviteit als .fit-bestand naar Endurain. Je beheerder moet dit eerst toestaan voordat je kunt inloggen.",
+    "tetherMeta": "iPhone · gratis, met een optionele Pro-upgrade",
+    "tetherB": "Synchroniseert stappen, slaap, vitale waarden en workouts van je Apple Watch vanuit Apple Health naar je Endurain-server, inclusief routes en hartslag. Zonder cloud ertussen.",
+    "ruMeta": "Android · gratis en open source",
+    "ruB": "Leg je hardlooprondjes en andere activiteiten vast op je telefoon en synchroniseer ze automatisch met Endurain. Accounts met inloggen in twee stappen worden nog niet ondersteund.",
+    "disclaimer": "Deze apps worden gemaakt en onderhouden door onafhankelijke ontwikkelaars. Ze maken geen deel uit van het Endurain-project, en Endurain onderschrijft ze niet, controleert hun code niet en biedt er geen ondersteuning voor. Meld problemen bij de ontwikkelaars van de betreffende app en lees hun privacybeleid en voorwaarden voordat je ze gebruikt.",
+    "trust": "Een app waarmee je inlogt, heeft toegang tot je Endurain-account, dus gebruik alleen apps die je vertrouwt. Productnamen en handelsmerken zijn eigendom van hun respectieve eigenaren.",
+    "docs": "Installatie-instructies in de documentatie"
+  },
   "selfHost": {
     "eyebrow": "Host het zelf",
     "heading": "Zelf draaien",
     "intro": "Endurain is één Docker-image plus PostgreSQL, ingesteld met omgevingsvariabelen. Heb je al eens iets met docker compose gedraaid, dan voelt dit vertrouwd.",
-    "step1": "Kopieer de voorbeeld compose- en env-bestanden",
+    "step1": "Kopieer de voorbeeldbestanden voor compose en env",
     "step2": "Stel je secrets en integratiesleutels in",
     "stepFolders": "Maak de datamappen aan, met UID 1000 als eigenaar",
     "ctaGuide": "Aan de slag-gids",
@@ -157,15 +173,8 @@
     "button": "Abonneren",
     "legal": "Mogelijk gemaakt door"
   },
-  "cta": {
-    "heading": "Kijk eerst even rond",
-    "textA": "Log in op de demo met",
-    "textB": "Klik overal op en sloop wat je wilt, hij wordt elke nacht gereset.",
-    "demo": "Probeer de live demo",
-    "docs": "Lees de documentatie"
-  },
   "footer": {
-    "tag": "Zelf-gehoste fitnesstracking die je privacy respecteert.",
+    "tag": "Zelfgehoste fitnesstracking die je privacy respecteert.",
     "madeIn": "Gemaakt in Portugal, in de vrije tijd",
     "colProduct": "Product",
     "liveDemo": "Live demo",
@@ -179,6 +188,7 @@
     "licensed": "Gelicentieerd onder",
     "trademarkPolicy": "Handelsmerkbeleid",
     "source": "Broncode",
-    "appleTm": "TestFlight is een handelsmerk van Apple Inc., gedeponeerd in de VS en andere landen en regio's."
+    "appleTm": "TestFlight is een handelsmerk van Apple Inc., gedeponeerd in de VS en andere landen en regio's.",
+    "apps": "Apps van derden"
   }
 }

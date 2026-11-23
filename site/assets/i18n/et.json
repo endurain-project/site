@@ -14,13 +14,15 @@
     "why": "Miks",
     "features": "Funktsioonid",
     "mobile": "Mobiilirakendus",
+    "apps": "Välised rakendused",
     "selfHost": "Ise majutamine",
-    "community": "Kogukond"
+    "community": "Kogukond",
+    "gallery": "Galerii"
   },
   "hero": {
-    "kicker": "Ise majutatud · avatud lähtekood · tehtud Portugalis",
-    "headline1": "Sinu jooksud, rattasõidud ja ujumised.",
-    "headline2": "Sinu enda serveris.",
+    "kicker": "Ise majutatud · avatud lähtekood · tehtud ❤️-ga Portugalis",
+    "headline1": "Jälgi iga liigutust",
+    "headline2": "Iga hetk on sinu",
     "intro": "Endurain on ise majutatud treeningu jälgimise teenus, privaatsust esikohale seadev kodu sinu tegevustele, varustusele ja terviseandmetele. Ei mingit lukustamist, ei andmekaevet. Ainult sinu treeningajalugu, taristul, mida sina kontrollid.",
     "ctaDemo": "Proovi otsedemo",
     "ctaDocs": "Loe dokumentatsiooni",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Miks see olemas on",
-    "title": "Selle ehitas triatleet, kes tahtis teada, millal kett vahetada",
+    "title": "Selle ehitas triatleedihakatis, kes tahtis teada, millal kett vahetada",
     "p1": "Endurain sai alguse isikliku projektina. Olen harrastustriatleet ja mul on rohkem jalgrattaid ja jooksujalatseid, kui julgen tunnistada. Tahtsin ühte kohta, kuhu iga treening kirja panna ja kust näha, kui palju igaüks neist on kulunud, kuni keti ja kingaklotsideni välja. Ja tahtsin, et see ajalugu oleks minu enda serveris, mitte kellegi teise omas.",
     "p2": "Sealt see kasvas: mitu kasutajat, Strava ja Garmini sünkroonimine, eesmärgid, ühekordne sisselogimine, mobiilirakendus ja tõlked 30 keelde. Teen seda ikka vabal ajal, koos väikese kaasaaitajate seltskonnaga, ja õpin endiselt käigu pealt.",
     "role": "Haldur",
@@ -83,7 +85,7 @@
     "f8t": "MFA ja SSO",
     "ssoB": "Kaheastmeline autentimine TOTP-ga, ühekordne sisselogimine mis tahes OpenID Connecti pakkuja kaudu ja e-posti kinnitus.",
     "f9t": "Lokaliseeritud ja teemadega",
-    "f9b": "30 keelt, meetermõõdustik või impeeriumiühikud, hele või tume teema."
+    "f9b": "30 keelt, meetrilised või imperiaalsed ühikud, hele või tume teema."
   },
   "gallery": {
     "alt3": "Varustuse loend, mis näitab jalgrattaid, jalatseid ja nende kasutust.",
@@ -95,7 +97,7 @@
     "cap2": "Tervise juhtpaneel",
     "altSleep": "Une leht nädala unetrendi graafiku ja iga öö skooridega.",
     "cap3": "Uni",
-    "alt4": "Kasutaja profiililehe statistika ja tegevuste ajalooga.",
+    "alt4": "Kasutaja profiilileht statistika ja tegevuste ajalooga.",
     "cap4": "Profiil",
     "alt5": "Eesmärkide seadete leht treeningueesmärkide määramiseks.",
     "cap5": "Eesmärgid"
@@ -113,11 +115,25 @@
     "testflight": "TestFlight",
     "hintRough": "Mõlemad rakendused on avalikus beetas, nii et mõni konarus võib ette tulla. Veateated on väga oodatud."
   },
+  "apps": {
+    "label": "Kolmanda osapoole rakendused",
+    "heading": "Saab teistega hästi läbi",
+    "intro": "Teiste arendajate rakendused, mis oskavad sinu treeninguid Endurainisse saata.",
+    "gbMeta": "Android · tasuta ja avatud lähtekoodiga",
+    "gbB": "Kasuta oma nutikella või aktiivsusmonitori ilma tootja rakenduseta ja laadi seejärel mis tahes spordiala tegevus .fit-failina Endurainisse üles. Enne sisselogimist peab sinu administraator selle lubama.",
+    "tetherMeta": "iPhone · tasuta, valikulise Pro-versiooniga",
+    "tetherB": "Sünkroonib sammud, une, elutähtsad näitajad ja Apple Watchi treeningud Apple Healthist sinu Enduraini serverisse koos marsruutide ja pulsiga. Ilma vahepealse pilveteenuseta.",
+    "ruMeta": "Android · tasuta ja avatud lähtekoodiga",
+    "ruB": "Salvesta oma jooksud ja muud tegevused telefoniga ning sünkrooni need automaatselt Endurainiga. Kaheastmelise autentimisega kontosid see veel ei toeta.",
+    "disclaimer": "Neid rakendusi arendavad ja haldavad sõltumatud arendajad. Need ei ole Enduraini projekti osa ning Endurain ei kiida neid heaks, ei kontrolli nende koodi ega paku neile tuge. Palun teata probleemidest iga rakenduse arendajatele ning loe enne kasutamist läbi nende privaatsuspoliitika ja kasutustingimused.",
+    "trust": "Rakendus, millega sisse logid, pääseb ligi sinu Enduraini kontole, seega kasuta ainult rakendusi, mida usaldad. Tootenimed ja kaubamärgid kuuluvad nende vastavatele omanikele.",
+    "docs": "Seadistusjuhised dokumentatsioonis"
+  },
   "selfHost": {
     "eyebrow": "Majuta ise",
-    "heading": "Majuta ise",
+    "heading": "Käita seda ise",
     "intro": "Endurain on üks Dockeri tõmmis pluss PostgreSQL, seadistatud keskkonnamuutujatega. Kui oled varem midagi docker compose'iga käivitanud, tundub see tuttav.",
-    "step1": "Kopeeri näidisfailid compose ja env",
+    "step1": "Kopeeri compose- ja env-näidisfailid",
     "step2": "Määra oma saladused ja integratsioonivõtmed",
     "stepFolders": "Loo andmekaustad, mille omanik on UID 1000",
     "ctaGuide": "Alustamise juhend",
@@ -157,13 +173,6 @@
     "button": "Telli",
     "legal": "Teenusepakkuja:"
   },
-  "cta": {
-    "heading": "Vaata enne ringi",
-    "textA": "Logi demosse sisse andmetega",
-    "textB": "Klõpsa kõike ja lõhu, mida tahad, see lähtestatakse igal ööl.",
-    "demo": "Proovi otsedemo",
-    "docs": "Loe dokumentatsiooni"
-  },
   "footer": {
     "tag": "Ise majutatud treeningu jälgimine, mis austab sinu privaatsust.",
     "madeIn": "Tehtud Portugalis, vabal ajal",
@@ -176,9 +185,10 @@
     "blog": "Ajaveeb",
     "colCommunity": "Kogukond",
     "trademark": "Endurain® on João Vitória Silva kaubamärk.",
-    "licensed": "Litsentsitud",
+    "licensed": "Litsents:",
     "trademarkPolicy": "Kaubamärgi poliitika",
     "source": "Lähtekood",
-    "appleTm": "TestFlight on ettevõtte Apple Inc. kaubamärk, mis on registreeritud USA-s ning teistes riikides ja piirkondades."
+    "appleTm": "TestFlight on ettevõtte Apple Inc. kaubamärk, mis on registreeritud USA-s ning teistes riikides ja piirkondades.",
+    "apps": "Kolmanda osapoole rakendused"
   }
 }

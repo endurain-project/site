@@ -74,8 +74,37 @@
       if (e.key === 'Escape') closeNav()
     })
 
-    window.addEventListener('resize', function () {
-      if (window.innerWidth > 760) closeNav()
+    window.addEventListener('resize', fitNav)
+  }
+
+  /* Collapse the nav into the menu button whenever its links don't fit on
+     one line. Label length varies a lot between languages, so this is
+     measured rather than tied to a fixed breakpoint. */
+  const siteHeader = document.querySelector('.site-header')
+  const headerInner = document.querySelector('.header-inner')
+
+  function fitNav() {
+    if (!siteHeader || !headerInner || !nav) return
+    if (window.innerWidth <= 760) {
+      // The CSS breakpoint already shows the menu button here.
+      siteHeader.classList.remove('nav-collapsed')
+      return
+    }
+    siteHeader.classList.remove('nav-collapsed')
+    const overflowing = headerInner.scrollWidth > headerInner.clientWidth + 1
+    siteHeader.classList.toggle('nav-collapsed', overflowing)
+    if (!overflowing) closeNav()
+  }
+
+  if (nav) {
+    fitNav()
+    if (document.fonts && document.fonts.ready)
+      document.fonts.ready.then(fitNav)
+    // Re-measure when the language switcher replaces the link labels.
+    new MutationObserver(fitNav).observe(nav, {
+      subtree: true,
+      childList: true,
+      characterData: true,
     })
   }
 

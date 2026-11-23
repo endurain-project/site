@@ -7,20 +7,22 @@
     "home": "Úvodná stránka Endurain",
     "langMenu": "Zmeniť jazyk",
     "theme": "Prepnúť tmavý režim",
-    "github": "Zobraziť zdrojový kód na GitHubu",
+    "github": "Zobraziť zdrojový kód na GitHube",
     "menu": "Otvoriť ponuku"
   },
   "nav": {
     "why": "Prečo",
     "features": "Funkcie",
     "mobile": "Mobilná aplikácia",
+    "apps": "Externé aplikácie",
     "selfHost": "Vlastný hosting",
-    "community": "Komunita"
+    "community": "Komunita",
+    "gallery": "Galéria"
   },
   "hero": {
-    "kicker": "Samostatne hostované · otvorený zdroj · vyrobené v Portugalsku",
-    "headline1": "Vaše behy, jazdy a plávanie.",
-    "headline2": "Na vašom vlastnom serveri.",
+    "kicker": "Samostatne hostované · Open source · Vyrobené s ❤️ v Portugalsku",
+    "headline1": "Sledujte každý pohyb",
+    "headline2": "Vlastnite každý okamih",
     "intro": "Endurain je samostatne hostovaná služba na sledovanie kondície, domov zameraný na súkromie pre vaše aktivity, výbavu a zdravotné údaje. Žiadne uzamknutie, žiadne ťaženie dát. Len vaša tréningová história, na infraštruktúre, ktorú ovládate.",
     "ctaDemo": "Vyskúšať živé demo",
     "ctaDocs": "Prečítať dokumentáciu",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Prečo vznikol",
-    "title": "Vytvoril ho triatlonista, ktorý chcel vedieť, kedy vymeniť reťaz",
+    "title": "Vytvoril ho rádoby triatlonista, ktorý chcel vedieť, kedy vymeniť reťaz",
     "p1": "Endurain začal ako osobný projekt. Som amatérsky triatlonista a mám viac bicyklov a bežeckých topánok, než by som rád priznal. Chcel som jedno miesto, kam zapíšem každý tréning a uvidím, ako veľmi sa čo opotrebovalo, až po reťaz a zarážky. A chcel som mať tú históriu na vlastnom serveri, nie na cudzom.",
     "p2": "Potom sa to rozrástlo: viacero používateľov, synchronizácia so Stravou a Garminom, ciele, jednotné prihlásenie, mobilná aplikácia a preklady do 30 jazykov. Stále ho robím vo voľnom čase, ja a malá skupina prispievateľov, a stále sa učím za pochodu.",
     "role": "Správca projektu",
@@ -113,6 +115,20 @@
     "testflight": "TestFlight",
     "hintRough": "Obe aplikácie sú vo verejnej bete, takže rátajte s pár muchami. Hlásenia chýb sú veľmi vítané."
   },
+  "apps": {
+    "label": "Aplikácie tretích strán",
+    "heading": "Dobre si rozumie s ostatnými",
+    "intro": "Aplikácie od iných vývojárov, ktoré vedia posielať vaše tréningy do Endurainu.",
+    "gbMeta": "Android · zadarmo a open source",
+    "gbB": "Používajte inteligentné hodinky alebo fitness náramok bez aplikácie výrobcu a potom nahrajte akúkoľvek športovú aktivitu do Endurainu ako súbor .fit. Skôr než sa budete môcť prihlásiť, musí to povoliť váš administrátor.",
+    "tetherMeta": "iPhone · zadarmo, s voliteľným upgradom na Pro",
+    "tetherB": "Synchronizuje z Apple Health na váš server Endurain kroky, spánok, vitálne funkcie a tréningy z Apple Watch vrátane trás a tepu. Bez sprostredkovateľa v cloude.",
+    "ruMeta": "Android · zadarmo a open source",
+    "ruB": "Zaznamenávajte behy a ďalšie aktivity v telefóne a nechajte ich automaticky synchronizovať do Endurainu. Účty s dvojfaktorovým overením zatiaľ nepodporuje.",
+    "disclaimer": "Tieto aplikácie vytvárajú a spravujú nezávislí vývojári. Nie sú súčasťou projektu Endurain a Endurain ich nijako neodporúča, nekontroluje ich kód ani pre ne neposkytuje podporu. Problémy, prosím, hláste vývojárom príslušnej aplikácie a pred použitím si prečítajte ich zásady ochrany súkromia a podmienky používania.",
+    "trust": "Aplikácia, cez ktorú sa prihlásite, získa prístup k vášmu účtu Endurain, preto používajte len aplikácie, ktorým dôverujete. Názvy produktov a ochranné známky patria ich príslušným vlastníkom.",
+    "docs": "Návod na nastavenie v dokumentácii"
+  },
   "selfHost": {
     "eyebrow": "Hostujte si to sami",
     "heading": "Spustite si ho sami",
@@ -157,13 +173,6 @@
     "button": "Odoberať",
     "legal": "Beží na"
   },
-  "cta": {
-    "heading": "Najprv sa poobzerajte",
-    "textA": "Do dema sa prihlásite ako",
-    "textB": "Klikajte na čokoľvek a rozbite, čo chcete, každú noc sa všetko vráti do pôvodného stavu.",
-    "demo": "Vyskúšať živé demo",
-    "docs": "Prečítať dokumentáciu"
-  },
   "footer": {
     "tag": "Samostatne hostované sledovanie kondície, ktoré rešpektuje vaše súkromie.",
     "madeIn": "Vyrobené v Portugalsku, vo voľnom čase",
@@ -179,6 +188,7 @@
     "licensed": "Licencované pod",
     "trademarkPolicy": "Zásady ochrannej známky",
     "source": "Zdrojový kód",
-    "appleTm": "TestFlight je ochranná známka spoločnosti Apple Inc. registrovaná v USA a ďalších krajinách a regiónoch."
+    "appleTm": "TestFlight je ochranná známka spoločnosti Apple Inc. registrovaná v USA a ďalších krajinách a regiónoch.",
+    "apps": "Aplikácie tretích strán"
   }
 }

@@ -14,13 +14,15 @@
     "why": "Kāpēc",
     "features": "Funkcijas",
     "mobile": "Mobilā lietotne",
+    "apps": "Trešo pušu lietotnes",
     "selfHost": "Pašmitināšana",
-    "community": "Kopiena"
+    "community": "Kopiena",
+    "gallery": "Galerija"
   },
   "hero": {
-    "kicker": "Pašmitināts · atvērtais pirmkods · radīts Portugālē",
-    "headline1": "Jūsu skrējieni, braucieni un peldējumi.",
-    "headline2": "Jūsu pašu serverī.",
+    "kicker": "Pašmitināts · atvērtais pirmkods · radīts ar ❤️ Portugālē",
+    "headline1": "Izsekojiet katru kustību",
+    "headline2": "Pārvaldiet katru mirkli",
     "intro": "Endurain ir pašmitināts fitnesa izsekošanas pakalpojums, privātumu prioritizējošas mājas jūsu aktivitātēm, aprīkojumam un veselības datiem. Nekādas piesaistes, nekādas datu ieguves. Tikai jūsu treniņu vēsture, infrastruktūrā, ko kontrolējat jūs.",
     "ctaDemo": "Izmēģiniet tiešsaistes demo",
     "ctaDocs": "Lasiet dokumentāciju",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Kāpēc tas radās",
-    "title": "Radījis triatlonists, kurš gribēja zināt, kad mainīt ķēdi",
+    "title": "Radījis triatlonists (nu, gandrīz), kurš gribēja zināt, kad mainīt ķēdi",
     "p1": "Endurain sākās kā personīgs projekts. Esmu triatlonists amatieris, un man ir vairāk velosipēdu un skriešanas apavu, nekā gribētos atzīt. Gribēju vienu vietu, kur ierakstīt katru treniņu un redzēt, cik katrs no tiem nolietojies, līdz pat ķēdei un radzēm. Un gribēju, lai šī vēsture glabātos manā serverī, nevis kāda cita.",
     "p2": "No tā viss izauga: vairāki lietotāji, Strava un Garmin sinhronizācija, mērķi, vienotā pieteikšanās, mobilā lietotne un tulkojumi 30 valodās. To joprojām veidoju brīvajā laikā kopā ar nelielu līdzautoru pulciņu, un joprojām mācos pa ceļam.",
     "role": "Uzturētājs",
@@ -113,6 +115,20 @@
     "testflight": "TestFlight",
     "hintRough": "Abas lietotnes ir publiskas beta versijas, tāpēc gaidiet pa kādai nepilnībai. Kļūdu ziņojumi ir ļoti gaidīti."
   },
+  "apps": {
+    "label": "Trešo pušu lietotnes",
+    "heading": "Labi sadzīvo ar citiem",
+    "intro": "Citu izstrādātāju lietotnes, kas var sūtīt jūsu treniņus uz Endurain.",
+    "gbMeta": "Android · bezmaksas un atvērtā pirmkoda",
+    "gbB": "Lietojiet savu viedpulksteni vai fitnesa aproci bez ražotāja lietotnes un pēc tam augšupielādējiet jebkuru sporta aktivitāti Endurain kā .fit failu. Lai varētu pieteikties, administratoram tas vispirms ir jāatļauj.",
+    "tetherMeta": "iPhone · bezmaksas, ar izvēles Pro jauninājumu",
+    "tetherB": "Sinhronizē soļus, miegu, vitālos rādītājus un Apple Watch treniņus no Apple Health uz jūsu Endurain serveri, ieskaitot maršrutus un pulsu. Bez mākoņa starpniecības.",
+    "ruMeta": "Android · bezmaksas un atvērtā pirmkoda",
+    "ruB": "Ierakstiet skrējienus un citas aktivitātes tālrunī un automātiski sinhronizējiet tās ar Endurain. Kontus ar divfaktoru autentifikāciju tā vēl neatbalsta.",
+    "disclaimer": "Šīs lietotnes veido un uztur neatkarīgi izstrādātāji. Tās nav Endurain projekta daļa, un Endurain tās oficiāli neapstiprina, nepārbauda to kodu un nesniedz tām atbalstu. Lūdzu, ziņojiet par problēmām katras lietotnes izstrādātājiem un pirms lietošanas izlasiet to privātuma politiku un lietošanas noteikumus.",
+    "trust": "Lietotne, ar kuru piesakāties, var piekļūt jūsu Endurain kontam, tāpēc izmantojiet tikai tās lietotnes, kurām uzticaties. Produktu nosaukumi un preču zīmes pieder to attiecīgajiem īpašniekiem.",
+    "docs": "Iestatīšanas piezīmes dokumentācijā"
+  },
   "selfHost": {
     "eyebrow": "Mitiniet paši",
     "heading": "Palaidiet paši",
@@ -157,13 +173,6 @@
     "button": "Abonēt",
     "legal": "Nodrošina"
   },
-  "cta": {
-    "heading": "Vispirms paskatieties apkārt",
-    "textA": "Piesakieties demo ar",
-    "textB": "Klikšķiniet uz visa un salauziet, ko vien vēlaties, katru nakti viss tiek atiestatīts.",
-    "demo": "Izmēģiniet tiešsaistes demo",
-    "docs": "Lasiet dokumentāciju"
-  },
   "footer": {
     "tag": "Pašmitināta fitnesa izsekošana, kas ciena jūsu privātumu.",
     "madeIn": "Radīts Portugālē, brīvajā laikā",
@@ -172,13 +181,14 @@
     "colResources": "Resursi",
     "docs": "Dokumentācija",
     "gettingStarted": "Darba sākšana",
-    "roadmap": "Ceļvedis",
+    "roadmap": "Ceļa karte",
     "blog": "Blogs",
     "colCommunity": "Kopiena",
     "trademark": "Endurain® ir João Vitória Silva preču zīme.",
     "licensed": "Licencēts saskaņā ar",
     "trademarkPolicy": "Preču zīmes politika",
     "source": "Pirmkods",
-    "appleTm": "TestFlight ir Apple Inc. preču zīme, kas reģistrēta ASV un citās valstīs un reģionos."
+    "appleTm": "TestFlight ir Apple Inc. preču zīme, kas reģistrēta ASV un citās valstīs un reģionos.",
+    "apps": "Trešo pušu lietotnes"
   }
 }

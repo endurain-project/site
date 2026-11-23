@@ -14,14 +14,16 @@
     "why": "Per què",
     "features": "Funcions",
     "mobile": "Aplicació mòbil",
+    "apps": "Apps de tercers",
     "selfHost": "Autoallotjament",
-    "community": "Comunitat"
+    "community": "Comunitat",
+    "gallery": "Galeria"
   },
   "hero": {
-    "kicker": "Autoallotjat · codi obert · fet a Portugal",
-    "headline1": "Les teves curses, pedalades i braçades.",
-    "headline2": "Al teu propi servidor.",
-    "intro": "Endurain és un servei de seguiment esportiu autoallotjat, una llar centrada en la privadesa per a les teves activitats, el teu equipament i les teves dades de salut. Sense dependències, sense mineria de dades. Només el teu historial d'entrenament, en una infraestructura que controles tu.",
+    "kicker": "Autoallotjat · Codi obert · Fet amb ❤️ a Portugal",
+    "headline1": "Segueix cada moviment",
+    "headline2": "Viu cada moment",
+    "intro": "Endurain és un servei de seguiment esportiu autoallotjat, una llar centrada en la privadesa per a les teves activitats, el teu equipament i les teves dades de salut. Sense lligams, sense mineria de dades. Només el teu historial d'entrenament, en una infraestructura que controles tu.",
     "ctaDemo": "Prova la demo en directe",
     "ctaDocs": "Llegeix la documentació",
     "demoLogin": "Accés a la demo:",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Per què existeix",
-    "title": "Fet per un triatleta que volia saber quan canviar la cadena",
+    "title": "Fet per un aspirant a triatleta que volia saber quan canviar la cadena",
     "p1": "Endurain va començar com un projecte personal. Soc triatleta aficionat, amb més bicis i sabatilles de córrer de les que m'agradaria admetre, i volia un sol lloc on registrar cada sessió i veure quant desgast portava cadascuna, fins a la cadena i les cales. També volia aquest historial al meu propi servidor, no al d'algú altre.",
     "p2": "A partir d'aquí va anar creixent: diversos usuaris, sincronització amb Strava i Garmin, objectius, inici de sessió únic, una app mòbil i traduccions a 30 idiomes. Encara el faig en el temps lliure, amb un petit grup de col·laboradors, i encara vaig aprenent pel camí.",
     "role": "Mantenidor",
@@ -111,7 +113,21 @@
     "testflightTitle": "Uneix-te a la beta d'iOS d'Endurain a TestFlight",
     "testflightTop": "Uneix-te a la beta d'iOS a",
     "testflight": "TestFlight",
-    "hintRough": "Totes dues apps són betes públiques, així que compta a trobar-hi coses per polir. Els informes d'errors són més que benvinguts."
+    "hintRough": "Totes dues apps són betes públiques, així que compta que hi haurà coses per polir. Els informes d'errors són més que benvinguts."
+  },
+  "apps": {
+    "label": "Apps de tercers",
+    "heading": "Es porta bé amb els altres",
+    "intro": "Apps d'altres desenvolupadors que poden enviar els teus entrenaments a Endurain.",
+    "gbMeta": "Android · gratuïta i de codi obert",
+    "gbB": "Fes servir el teu rellotge intel·ligent o polsera d'activitat sense l'app del fabricant i puja qualsevol activitat esportiva a Endurain com a fitxer .fit. El teu administrador l'ha de permetre abans que puguis iniciar sessió.",
+    "tetherMeta": "iPhone · gratuïta, amb una millora Pro opcional",
+    "tetherB": "Sincronitza passos, son, constants vitals i entrenaments de l'Apple Watch des d'Apple Health al teu servidor d'Endurain, amb rutes i freqüència cardíaca incloses. Sense núvol pel mig.",
+    "ruMeta": "Android · gratuïta i de codi obert",
+    "ruB": "Registra les teves curses i altres activitats al mòbil i sincronitza-les automàticament amb Endurain. Encara no admet comptes amb autenticació en dos passos.",
+    "disclaimer": "Aquestes apps les creen i mantenen desenvolupadors independents. No formen part del projecte Endurain, i Endurain no les avala, no en revisa el codi ni hi ofereix suport. Comunica qualsevol problema als desenvolupadors de cada app i llegeix-ne les polítiques de privadesa i les condicions abans de fer-les servir.",
+    "trust": "Una app amb què inicies sessió pot accedir al teu compte d'Endurain, així que fes servir només apps de confiança. Els noms de productes i les marques pertanyen als seus respectius propietaris.",
+    "docs": "Notes de configuració a la documentació"
   },
   "selfHost": {
     "eyebrow": "Autoallotja'l",
@@ -157,13 +173,6 @@
     "button": "Subscriu-te",
     "legal": "Amb la tecnologia de"
   },
-  "cta": {
-    "heading": "Primer, fes-hi una ullada",
-    "textA": "Entra a la demo amb",
-    "textB": "Clica on vulguis i trenca el que et vingui de gust, cada nit es reinicia.",
-    "demo": "Prova la demo en directe",
-    "docs": "Llegeix la documentació"
-  },
   "footer": {
     "tag": "Seguiment esportiu autoallotjat que respecta la teva privadesa.",
     "madeIn": "Fet a Portugal, en temps lliure",
@@ -179,6 +188,7 @@
     "licensed": "Amb llicència",
     "trademarkPolicy": "Política de marca",
     "source": "Codi font",
-    "appleTm": "TestFlight és una marca comercial d'Apple Inc., registrada als Estats Units i en altres països i regions."
+    "appleTm": "TestFlight és una marca comercial d'Apple Inc., registrada als Estats Units i en altres països i regions.",
+    "apps": "Apps de tercers"
   }
 }

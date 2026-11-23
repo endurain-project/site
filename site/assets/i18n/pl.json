@@ -7,20 +7,22 @@
     "home": "Strona główna Endurain",
     "langMenu": "Zmień język",
     "theme": "Przełącz tryb ciemny",
-    "github": "Zobacz kod źródłowy na GitHub",
+    "github": "Zobacz kod źródłowy na GitHubie",
     "menu": "Otwórz menu"
   },
   "nav": {
     "why": "Dlaczego",
     "features": "Funkcje",
     "mobile": "Aplikacja mobilna",
+    "apps": "Aplikacje zewnętrzne",
     "selfHost": "Samodzielny hosting",
-    "community": "Społeczność"
+    "community": "Społeczność",
+    "gallery": "Galeria"
   },
   "hero": {
-    "kicker": "Samodzielny hosting · otwarte źródło · zrobione w Portugalii",
-    "headline1": "Twoje bieganie, rower i pływanie.",
-    "headline2": "Na Twoim własnym serwerze.",
+    "kicker": "Samodzielny hosting · Open source · Zrobione z ❤️ w Portugalii",
+    "headline1": "Śledź każdy ruch",
+    "headline2": "Posiądź każdą chwilę",
     "intro": "Endurain to samodzielnie hostowana usługa śledzenia aktywności, dbający o prywatność dom dla Twoich aktywności, sprzętu i danych zdrowotnych. Bez uzależnienia od dostawcy, bez eksploracji danych. Tylko Twoja historia treningów, na infrastrukturze, którą kontrolujesz.",
     "ctaDemo": "Wypróbuj demo na żywo",
     "ctaDocs": "Przeczytaj dokumentację",
@@ -37,16 +39,16 @@
   },
   "why": {
     "label": "Skąd się wziął",
-    "title": "Zbudowany przez triathlonistę, który chciał wiedzieć, kiedy wymienić łańcuch",
+    "title": "Zbudowany przez aspirującego triathlonistę, który chciał wiedzieć, kiedy wymienić łańcuch",
     "p1": "Endurain zaczął się jako projekt osobisty. Jestem triathlonistą amatorem i mam więcej rowerów i butów do biegania, niż chciałbym się przyznać. Chciałem mieć jedno miejsce, w którym zapiszę każdy trening i zobaczę, jak bardzo zużył się każdy z nich, aż po łańcuch i bloki. Chciałem też, żeby ta historia leżała na moim serwerze, a nie na cudzym.",
-    "p2": "Potem projekt się rozrósł: wielu użytkowników, synchronizacja ze Strava i Garmin, cele, logowanie jednokrotne, aplikacja mobilna i tłumaczenia na 30 języków. Nadal rozwijam go po godzinach, razem z niewielką grupą współtwórców, i wciąż uczę się w trakcie.",
+    "p2": "Potem projekt się rozrósł: wielu użytkowników, synchronizacja ze Stravą i Garminem, cele, logowanie jednokrotne, aplikacja mobilna i tłumaczenia na 30 języków. Nadal rozwijam go po godzinach, razem z niewielką grupą współtwórców, i wciąż uczę się w trakcie.",
     "role": "Opiekun projektu",
     "c1t": "Twoje dane, Twój serwer",
     "c1b": "Wszystko jest w Twojej własnej bazie PostgreSQL. Wyeksportuj profil, zrób kopię zapasową, przenieś go na inną maszynę. Nikt nie odetnie Cię od Twoich danych.",
     "c2t": "Udostępniaj, co chcesz",
     "c2b": "Ukryj mapę, tętno, moc lub godzinę startu w dowolnej aktywności. Włącz logowanie dwuskładnikowe i jednokrotne. Resztę zachowaj dla siebie.",
     "c3t": "Naprawdę otwarte",
-    "c3b": "AGPL-3.0 i rozwijany publicznie na GitHub. Czytaj kod, zgłoś problem albo wyślij pull request."
+    "c3b": "AGPL-3.0 i rozwijany publicznie na GitHubie. Czytaj kod, zgłoś problem albo wyślij pull request."
   },
   "status": {
     "label": "Stan projektu, od 23 maja 2026 r.",
@@ -71,7 +73,7 @@
     "f1t": "Śledzenie aktywności",
     "f1b": "Kanały aktywności, mapy, okrążenia oraz sumy tygodniowe i miesięczne dla każdego sportu.",
     "f2t": "Strava i Garmin",
-    "f2b": "Synchronizuj aktywności, sprzęt i skład ciała ze Strava i Garmin Connect.",
+    "f2b": "Synchronizuj aktywności, sprzęt i skład ciała ze Stravy i Garmin Connect.",
     "f3t": "Importuj pliki",
     "f3b": "Przesyłaj pliki .fit, .gpx lub .tcx pojedynczo albo hurtem. Jeśli masz wybór, bierz .fit.",
     "f5t": "Wskaźniki zdrowia",
@@ -112,6 +114,20 @@
     "testflightTop": "Dołącz do bety iOS na",
     "testflight": "TestFlight",
     "hintRough": "Obie aplikacje są w publicznej becie, więc spodziewaj się paru niedoróbek. Zgłoszenia błędów są bardzo mile widziane."
+  },
+  "apps": {
+    "label": "Aplikacje zewnętrzne",
+    "heading": "Dobrze dogaduje się z innymi",
+    "intro": "Aplikacje innych twórców, które mogą wysyłać Twoje treningi do Endurainu.",
+    "gbMeta": "Android · darmowa i open source",
+    "gbB": "Używaj smartwatcha lub opaski fitness bez aplikacji producenta, a potem przesyłaj dowolną aktywność sportową do Endurainu jako plik .fit. Zanim się zalogujesz, administrator musi na to zezwolić.",
+    "tetherMeta": "iPhone · darmowa, z opcjonalnym przejściem na wersję Pro",
+    "tetherB": "Synchronizuje z Apple Health na Twój serwer Endurain kroki, sen, parametry życiowe i treningi z Apple Watch, razem z trasami i tętnem. Bez żadnej chmury po drodze.",
+    "ruMeta": "Android · darmowa i open source",
+    "ruB": "Rejestruj biegi i inne aktywności na telefonie i automatycznie synchronizuj je z Endurainem. Na razie nie obsługuje kont z logowaniem dwuskładnikowym.",
+    "disclaimer": "Te aplikacje są tworzone i utrzymywane przez niezależnych twórców. Nie są częścią projektu Endurain, a Endurain ich nie rekomenduje, nie sprawdza ich kodu ani nie zapewnia dla nich wsparcia. Problemy zgłaszaj twórcom danej aplikacji, a przed użyciem zapoznaj się z jej polityką prywatności i warunkami korzystania.",
+    "trust": "Aplikacja, w której się logujesz, uzyskuje dostęp do Twojego konta Endurain, więc korzystaj tylko z aplikacji, którym ufasz. Nazwy produktów i znaki towarowe należą do ich właścicieli.",
+    "docs": "Instrukcje konfiguracji w dokumentacji"
   },
   "selfHost": {
     "eyebrow": "Hostuj samodzielnie",
@@ -157,13 +173,6 @@
     "button": "Subskrybuj",
     "legal": "Obsługiwane przez"
   },
-  "cta": {
-    "heading": "Najpierw się rozejrzyj",
-    "textA": "Zaloguj się do demo jako",
-    "textB": "Klikaj, w co chcesz, i psuj, co się da, co noc wszystko wraca do stanu początkowego.",
-    "demo": "Wypróbuj demo na żywo",
-    "docs": "Przeczytaj dokumentację"
-  },
   "footer": {
     "tag": "Samodzielnie hostowane śledzenie aktywności, które szanuje Twoją prywatność.",
     "madeIn": "Zrobione w Portugalii, po godzinach",
@@ -179,6 +188,7 @@
     "licensed": "Na licencji",
     "trademarkPolicy": "Zasady dotyczące znaku towarowego",
     "source": "Kod źródłowy",
-    "appleTm": "TestFlight jest znakiem towarowym firmy Apple Inc., zastrzeżonym w Stanach Zjednoczonych i innych krajach i regionach."
+    "appleTm": "TestFlight jest znakiem towarowym firmy Apple Inc., zastrzeżonym w Stanach Zjednoczonych i innych krajach i regionach.",
+    "apps": "Aplikacje zewnętrzne"
   }
 }

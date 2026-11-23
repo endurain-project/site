@@ -14,13 +14,15 @@
     "why": "Warum",
     "features": "Funktionen",
     "mobile": "Mobile App",
+    "apps": "Drittanbieter-Apps",
     "selfHost": "Selbst hosten",
-    "community": "Community"
+    "community": "Community",
+    "gallery": "Galerie"
   },
   "hero": {
-    "kicker": "Selbstgehostet · Open Source · aus Portugal",
-    "headline1": "Deine Läufe, Radtouren und Bahnen.",
-    "headline2": "Auf deinem eigenen Server.",
+    "kicker": "Selbstgehostet · Open Source · Mit ❤️ aus Portugal",
+    "headline1": "Jeden Schritt verfolgen",
+    "headline2": "Jeden Moment besitzen",
     "intro": "Endurain ist ein selbstgehosteter Fitness-Tracking-Dienst, ein datenschutzfreundliches Zuhause für deine Aktivitäten, Ausrüstung und Gesundheitsdaten. Kein Lock-in, kein Data-Mining. Nur deine Trainingshistorie, auf einer Infrastruktur, die du kontrollierst.",
     "ctaDemo": "Live-Demo ausprobieren",
     "ctaDocs": "Dokumentation lesen",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Warum es Endurain gibt",
-    "title": "Gebaut von einem Triathleten, der wissen wollte, wann die Kette fällig ist",
+    "title": "Gebaut von einem Möchtegern-Triathleten, der wissen wollte, wann die Kette fällig ist",
     "p1": "Endurain hat als privates Projekt angefangen. Ich bin Hobby-Triathlet mit mehr Rädern und Laufschuhen, als ich zugeben möchte, und ich wollte einen Ort, an dem ich jede Einheit festhalte und sehe, wie viel Verschleiß jedes Teil schon abbekommen hat, bis hin zur Kette und den Schuhplatten. Und ich wollte diese Historie auf meinem eigenen Server haben, nicht auf dem von jemand anderem.",
     "p2": "Von da an ist es gewachsen: mehrere Benutzer, Strava- und Garmin-Sync, Ziele, Single Sign-on, eine Mobile App und Übersetzungen in 30 Sprachen. Gebaut wird es immer noch in der Freizeit, von mir und einer kleinen Gruppe von Mitwirkenden, und ich lerne dabei ständig dazu.",
     "role": "Maintainer",
@@ -113,6 +115,20 @@
     "testflight": "TestFlight",
     "hintRough": "Beide Apps sind öffentliche Betas, also rechne mit ein paar Ecken und Kanten. Fehlerberichte sind sehr willkommen."
   },
+  "apps": {
+    "label": "Apps von Drittanbietern",
+    "heading": "Versteht sich gut mit anderen",
+    "intro": "Apps anderer Entwickler, die dein Training an Endurain senden können.",
+    "gbMeta": "Android · kostenlos und Open Source",
+    "gbB": "Nutze deine Smartwatch oder dein Fitnessarmband ohne die App des Herstellers und lade dann jede Sportaktivität als .fit-Datei zu Endurain hoch. Dein Administrator muss das erst erlauben, bevor du dich anmelden kannst.",
+    "tetherMeta": "iPhone · kostenlos, mit optionalem Pro-Upgrade",
+    "tetherB": "Synchronisiert Schritte, Schlaf, Vitalwerte und Workouts von der Apple Watch aus Apple Health mit deinem Endurain-Server, samt Routen und Herzfrequenz. Ohne Cloud dazwischen.",
+    "ruMeta": "Android · kostenlos und Open Source",
+    "ruB": "Zeichne deine Läufe und andere Aktivitäten auf dem Handy auf und synchronisiere sie automatisch mit Endurain. Konten mit Zwei-Faktor-Login werden noch nicht unterstützt.",
+    "disclaimer": "Diese Apps werden von unabhängigen Entwicklern erstellt und gepflegt. Sie sind nicht Teil des Endurain-Projekts. Endurain befürwortet sie nicht, prüft ihren Code nicht und bietet keinen Support für sie. Bitte melde Probleme den Entwicklern der jeweiligen App und lies vor der Nutzung deren Datenschutzerklärungen und Nutzungsbedingungen.",
+    "trust": "Eine App, mit der du dich anmeldest, kann auf dein Endurain-Konto zugreifen. Nutze also nur Apps, denen du vertraust. Produktnamen und Marken gehören ihren jeweiligen Inhabern.",
+    "docs": "Einrichtungshinweise in der Dokumentation"
+  },
   "selfHost": {
     "eyebrow": "Selbst hosten",
     "heading": "Selbst betreiben",
@@ -157,13 +173,6 @@
     "button": "Abonnieren",
     "legal": "Bereitgestellt von"
   },
-  "cta": {
-    "heading": "Schau dich erst mal um",
-    "textA": "Melde dich in der Demo an mit",
-    "textB": "Klick dich durch und mach kaputt, was du willst, sie wird jede Nacht zurückgesetzt.",
-    "demo": "Live-Demo ausprobieren",
-    "docs": "Dokumentation lesen"
-  },
   "footer": {
     "tag": "Selbstgehostetes Fitness-Tracking, das deine Privatsphäre respektiert.",
     "madeIn": "Gebaut in Portugal, in der Freizeit",
@@ -179,6 +188,7 @@
     "licensed": "Lizenziert unter",
     "trademarkPolicy": "Markenrichtlinie",
     "source": "Quellcode",
-    "appleTm": "TestFlight ist eine Marke der Apple Inc., die in den USA und weiteren Ländern und Regionen eingetragen ist."
+    "appleTm": "TestFlight ist eine Marke der Apple Inc., die in den USA und weiteren Ländern und Regionen eingetragen ist.",
+    "apps": "Apps von Drittanbietern"
   }
 }

@@ -135,32 +135,6 @@ h4 {
   letter-spacing: -0.02em;
   font-weight: 650;
   color: var(--ink);
-  text-wrap: balance;
-}
-
-/* Line endings: never leave a sentence's last word or two stranded on a line
-   of its own. Longer paragraphs get "pretty" wrapping. Short blocks get
-   balanced lines. */
-p,
-li,
-dd,
-figcaption {
-  text-wrap: pretty;
-}
-.section-sub,
-.label,
-.demo-note,
-.principles p,
-.feature-list p,
-.spotlight-shot figcaption,
-.mobile-hint,
-.shot figcaption,
-.code-note,
-.link-text span,
-.sponsor p,
-.cta-section p,
-.act-when {
-  text-wrap: balance;
 }
 
 /* Negative tracking suits Latin headings but crowds CJK characters. */
@@ -253,7 +227,6 @@ code {
 .section-head h2,
 .status-copy h2,
 .self-copy h2,
-.cta-inner h2,
 .why-head h2 {
   font-size: clamp(2rem, 3.8vw, 3rem);
 }
@@ -401,7 +374,7 @@ html.dark .btn-primary:hover {
   margin-inline: auto;
 }
 .site-nav a {
-  padding: 8px 14px;
+  padding: 8px 11px;
   border-radius: 8px;
   color: var(--muted);
   font-weight: 500;
@@ -462,6 +435,39 @@ html.dark .theme-toggle .icon-moon {
 
 .nav-toggle {
   display: none;
+}
+
+/* When the links don't fit on one line (long labels in some languages),
+   main.js adds .nav-collapsed and the nav becomes the same drop-down menu
+   used on phones. Without JS, the 760px breakpoint below does the same. */
+.site-header.nav-collapsed .site-nav {
+  position: fixed;
+  inset: var(--nav-h) 0 auto 0;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2px;
+  margin: 0;
+  padding: 12px 16px 20px;
+  background: var(--bg-elevated);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-130%);
+  transition: transform 0.3s ease;
+  max-height: calc(100dvh - var(--nav-h));
+  overflow-y: auto;
+}
+.site-header.nav-collapsed .site-nav.open {
+  transform: none;
+}
+.site-header.nav-collapsed .site-nav a {
+  padding: 12px 14px;
+  font-size: 1rem;
+}
+.site-header.nav-collapsed .nav-toggle {
+  display: inline-grid;
+}
+.site-header.nav-collapsed .header-actions {
+  margin-left: auto;
 }
 
 /* Language switcher (markup currently commented out in index.html) */
@@ -556,7 +562,6 @@ html.dark .theme-toggle .icon-moon {
   font-size: clamp(1.05rem, 1.5vw, 1.2rem);
   color: var(--muted);
   margin-top: 24px;
-  max-width: 34em;
 }
 
 .hero-cta {
@@ -770,9 +775,6 @@ html.dark .theme-toggle .icon-moon {
   gap: clamp(32px, 6vw, 80px);
   align-items: start;
 }
-.why-head h2 {
-  max-width: 14em;
-}
 .note {
   font-size: 1.1rem;
   line-height: 1.7;
@@ -841,7 +843,6 @@ html.dark .theme-toggle .icon-moon {
 .status-copy > p:not(.label) {
   color: var(--muted);
   margin-top: 16px;
-  max-width: 40em;
 }
 .status-copy .status-aside {
   font-style: italic;
@@ -851,7 +852,23 @@ html.dark .theme-toggle .icon-moon {
   height: 8px;
   border-radius: 50%;
   background: var(--effort);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--effort) 22%, transparent);
+  box-shadow: 0 0 0 0 color-mix(in srgb, var(--effort) 55%, transparent);
+  animation: live-pulse 2s ease-out infinite;
+}
+@keyframes live-pulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--effort) 55%, transparent);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--effort) 0%, transparent);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .live-dot {
+    animation: none;
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--effort) 22%, transparent);
+  }
 }
 .label-live::before {
   display: none;
@@ -1049,7 +1066,6 @@ a.store-btn:hover {
   margin-top: 26px;
   font-size: 0.9rem;
   color: #a7cabd;
-  max-width: 46ch;
 }
 .mobile-hint .icon {
   width: 18px;
@@ -1099,6 +1115,60 @@ a.store-btn:hover {
 .phone-front {
   transform: translate(-46px, 24px) rotate(-4deg);
   z-index: 2;
+}
+
+/* ----------------------------- Third-party apps ------------------------- */
+.apps {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+.apps li {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  border-top: 2px solid var(--ink);
+}
+.apps h3 {
+  font-size: 1.3rem;
+}
+.app-meta {
+  margin-top: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--brand-ink);
+}
+.apps li p:not(.app-meta) {
+  margin: 12px 0 18px;
+  color: var(--muted);
+}
+.apps .text-link {
+  margin-top: auto;
+}
+.apps-note {
+  display: flex;
+  gap: 14px;
+  margin-top: clamp(40px, 5vw, 56px);
+  padding: 22px 26px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--r-card);
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+.apps-note > .icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  color: var(--muted-2);
+}
+.apps-note p + p {
+  margin-top: 8px;
+}
+.apps-note .text-link {
+  margin-top: 14px;
+  font-size: 0.92rem;
 }
 
 /* ----------------------------- Gallery ---------------------------------- */
@@ -1400,7 +1470,6 @@ details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
 .sponsor p {
   color: var(--muted);
   margin-top: 4px;
-  max-width: 36em;
 }
 .sponsor-links {
   display: flex;
@@ -1473,44 +1542,6 @@ details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
   border: 0;
 }
 
-/* ----------------------------- CTA -------------------------------------- */
-.cta-section {
-  background: #0f6e56;
-  color: #fff;
-}
-.cta-inner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 28px 48px;
-}
-.cta-section h2 {
-  color: #fff;
-}
-.cta-section p {
-  color: rgba(255, 255, 255, 0.88);
-  font-size: 1.1rem;
-  margin-top: 12px;
-  max-width: 34em;
-}
-.cta-section code {
-  padding: 2px 7px;
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.14);
-  color: #fff;
-}
-.cta-section .hero-cta {
-  margin-top: 0;
-}
-.cta-section .btn-primary {
-  --btn-bg: #fff;
-  --btn-fg: #0f6e56;
-}
-.cta-section .btn-primary:hover {
-  --btn-bg: #e1f5ee;
-}
-
 /* ----------------------------- Footer ----------------------------------- */
 .site-footer {
   background: var(--brand-dark-surface);
@@ -1529,7 +1560,6 @@ details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
 .footer-tag {
   margin-top: 14px;
   color: #9fc4b7;
-  max-width: 30ch;
   font-size: 0.95rem;
 }
 .footer-made {
@@ -1609,7 +1639,8 @@ details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
     order: -1;
     min-height: 460px;
   }
-  .principles {
+  .principles,
+  .apps {
     grid-template-columns: 1fr;
     gap: 28px;
   }
@@ -1641,6 +1672,9 @@ details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
   }
   .nav-toggle {
     display: inline-grid;
+  }
+  .header-actions {
+    margin-left: auto;
   }
   .specs-grid {
     grid-template-columns: 1fr 1fr;

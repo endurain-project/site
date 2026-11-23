@@ -7,20 +7,22 @@
     "home": "Endurain ana sayfa",
     "langMenu": "Dili değiştir",
     "theme": "Karanlık modu değiştir",
-    "github": "Kaynak kodunu GitHub'de görüntüle",
+    "github": "Kaynak kodunu GitHub'da görüntüle",
     "menu": "Menüyü aç"
   },
   "nav": {
     "why": "Neden",
     "features": "Özellikler",
     "mobile": "Mobil uygulama",
+    "apps": "Harici uygulamalar",
     "selfHost": "Kendin barındır",
-    "community": "Topluluk"
+    "community": "Topluluk",
+    "gallery": "Galeri"
   },
   "hero": {
-    "kicker": "Kendi sunucunuzda · açık kaynak · Portekiz'de yapıldı",
-    "headline1": "Koşu, bisiklet, yüzme.",
-    "headline2": "Hepsi kendi sunucunuzda.",
+    "kicker": "Kendi sunucunuzda · Açık kaynak · Portekiz'de ❤️ ile yapıldı",
+    "headline1": "Her hareketi takip et",
+    "headline2": "Her anın sahibi ol",
     "intro": "Endurain, kendi sunucunuzda barındırılan bir fitness takip hizmetidir. Etkinlikleriniz, ekipmanınız ve sağlık verileriniz için gizlilik öncelikli bir yuva. Bağımlılık yok, veri madenciliği yok. Yalnızca antrenman geçmişiniz, kontrolü sizde olan bir altyapıda.",
     "ctaDemo": "Canlı demoyu deneyin",
     "ctaDocs": "Belgeleri okuyun",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Neden var",
-    "title": "Zinciri ne zaman değiştireceğini bilmek isteyen bir triatletin eseri",
+    "title": "Zinciri ne zaman değiştireceğini bilmek isteyen bir triatlet özentisinin eseri",
     "p1": "Endurain kişisel bir proje olarak başladı. Kabul etmek istediğimden fazla bisikleti ve koşu ayakkabısı olan amatör bir triatletim. Her antrenmanı kaydedebileceğim ve hepsinin ne kadar yıprandığını zincirinden kaletine kadar görebileceğim tek bir yer istedim. Bu geçmişin başkasının değil, kendi sunucumda durmasını da istedim.",
     "p2": "Sonra büyüdü: çoklu kullanıcı, Strava ve Garmin senkronizasyonu, hedefler, tek oturum açma, mobil uygulama ve 30 dile çeviri. Hâlâ boş zamanlarımda, küçük bir katkıcı grubuyla birlikte geliştiriyorum ve hâlâ yaptıkça öğreniyorum.",
     "role": "Bakımcı",
@@ -46,7 +48,7 @@
     "c2t": "Ne istiyorsanız onu paylaşın",
     "c2b": "Herhangi bir etkinlikte haritayı, nabzı, gücü veya başlangıç saatini gizleyin. İki adımlı giriş ve tek oturum açma ekleyin. Gerisi sizde kalsın.",
     "c3t": "Gerçekten açık",
-    "c3b": "AGPL-3.0 lisanslı ve GitHub'de herkesin gözü önünde geliştiriliyor. Kodu okuyun, bir sorun bildirin veya bir pull request gönderin."
+    "c3b": "AGPL-3.0 lisanslı ve GitHub'da herkesin gözü önünde geliştiriliyor. Kodu okuyun, bir sorun bildirin veya bir pull request gönderin."
   },
   "status": {
     "label": "Projenin durumu, 23 Mayıs 2026'dan beri",
@@ -113,8 +115,22 @@
     "testflight": "TestFlight",
     "hintRough": "İki uygulama da herkese açık beta, yani ufak tefek pürüzler olabilir. Hata bildirimlerine çok seviniriz."
   },
+  "apps": {
+    "label": "Üçüncü taraf uygulamalar",
+    "heading": "Diğerleriyle iyi anlaşır",
+    "intro": "Antrenmanlarınızı Endurain'e gönderebilen, başka geliştiricilerin yaptığı uygulamalar.",
+    "gbMeta": "Android · ücretsiz ve açık kaynak",
+    "gbB": "Akıllı saatinizi veya fitness bilekliğinizi üreticinin uygulaması olmadan kullanın, ardından herhangi bir spor etkinliğini .fit dosyası olarak Endurain'e yükleyin. Giriş yapabilmeniz için önce yöneticinizin buna izin vermesi gerekir.",
+    "tetherMeta": "iPhone · ücretsiz, isteğe bağlı Pro yükseltmesiyle",
+    "tetherB": "Adımları, uykuyu, yaşamsal verileri ve Apple Watch antrenmanlarını, rotalar ve nabız dahil, Apple Health'ten Endurain sunucunuza senkronize eder. Arada bulut yok.",
+    "ruMeta": "Android · ücretsiz ve açık kaynak",
+    "ruB": "Koşularınızı ve diğer etkinliklerinizi telefonunuzda kaydedin, Endurain ile otomatik olarak senkronize edin. İki adımlı giriş kullanan hesapları henüz desteklemiyor.",
+    "disclaimer": "Bu uygulamalar bağımsız geliştiriciler tarafından geliştirilir ve bakımı yapılır. Endurain projesinin parçası değildir. Endurain bu uygulamaları onaylamaz, kodlarını denetlemez ve bunlar için destek sağlamaz. Lütfen sorunları ilgili uygulamanın geliştiricilerine bildirin ve kullanmadan önce gizlilik politikalarını ve kullanım koşullarını okuyun.",
+    "trust": "Giriş yaptığınız bir uygulama Endurain hesabınıza erişebilir, bu yüzden yalnızca güvendiğiniz uygulamaları kullanın. Ürün adları ve ticari markalar ilgili sahiplerine aittir.",
+    "docs": "Belgelerdeki kurulum notları"
+  },
   "selfHost": {
-    "eyebrow": "Kendin barındır",
+    "eyebrow": "Kendiniz barındırın",
     "heading": "Kendiniz çalıştırın",
     "intro": "Endurain, ortam değişkenleriyle yapılandırılan tek bir Docker imajı ve PostgreSQL'den ibaret. Daha önce docker compose ile bir şey çalıştırdıysanız, size tanıdık gelecek.",
     "step1": "Örnek compose ve env dosyalarını kopyalayın",
@@ -157,13 +173,6 @@
     "button": "Abone ol",
     "legal": "Sağlayan:"
   },
-  "cta": {
-    "heading": "Önce bir göz atın",
-    "textA": "Demoya şu bilgilerle giriş yapın:",
-    "textB": "İstediğiniz yere tıklayın, istediğinizi bozun, her gece sıfırlanıyor.",
-    "demo": "Canlı demoyu deneyin",
-    "docs": "Belgeleri okuyun"
-  },
   "footer": {
     "tag": "Gizliliğinize saygı duyan, kendi sunucunuzda barındırılan fitness takibi.",
     "madeIn": "Portekiz'de, boş zamanlarda yapıldı",
@@ -179,6 +188,7 @@
     "licensed": "Şu lisansla lisanslanmıştır:",
     "trademarkPolicy": "Ticari marka politikası",
     "source": "Kaynak kodu",
-    "appleTm": "TestFlight, Apple Inc.'in ABD'de ve diğer ülke ve bölgelerde tescilli ticari markasıdır."
+    "appleTm": "TestFlight, Apple Inc.'in ABD'de ve diğer ülke ve bölgelerde tescilli ticari markasıdır.",
+    "apps": "Üçüncü taraf uygulamalar"
   }
 }

@@ -14,13 +14,15 @@
     "why": "Varför",
     "features": "Funktioner",
     "mobile": "Mobilapp",
+    "apps": "Tredjepartsappar",
     "selfHost": "Självhosta",
-    "community": "Gemenskap"
+    "community": "Gemenskap",
+    "gallery": "Galleri"
   },
   "hero": {
-    "kicker": "Självhostad · öppen källkod · gjord i Portugal",
-    "headline1": "Dina löprundor, cykelturer och simpass.",
-    "headline2": "På din egen server.",
+    "kicker": "Självhostad · Öppen källkod · Gjord med ❤️ i Portugal",
+    "headline1": "Spåra varje rörelse",
+    "headline2": "Äg varje ögonblick",
     "intro": "Endurain är en självhostad tjänst för träningsspårning, ett integritetsfokuserat hem för dina aktiviteter, din utrustning och dina hälsodata. Ingen inlåsning, ingen datautvinning. Bara din träningshistorik, på infrastruktur som du styr.",
     "ctaDemo": "Prova livedemon",
     "ctaDocs": "Läs dokumentationen",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Varför det finns",
-    "title": "Byggt av en triathlet som ville veta när det var dags att byta kedja",
+    "title": "Byggt av en wannabe-triathlet som ville veta när det var dags att byta kedja",
     "p1": "Endurain började som ett personligt projekt. Jag är amatörtriathlet med fler cyklar och löparskor än jag vill erkänna, och jag ville ha ett ställe där jag kunde logga varje pass och se hur mycket slitage var och en hade fått, ända ner till kedjan och skoklossarna. Jag ville också ha den historiken på min egen server, inte på någon annans.",
     "p2": "Sedan växte det: flera användare, synk med Strava och Garmin, mål, enkel inloggning, en mobilapp och översättningar till 30 språk. Det byggs fortfarande på fritiden, av mig och ett litet gäng bidragsgivare, och jag lär mig fortfarande under resans gång.",
     "role": "Projektansvarig",
@@ -91,7 +93,7 @@
     "intro": "Skärmar från webbappen, alla i mörkt tema. Det finns ett ljust också.",
     "alt1": "Aktivitetsdetaljsida med karta, delsträckor och mätvärden.",
     "cap1": "Aktivitetssida",
-    "alt2": "Hälsopanel med vikt, steg och sömntrender.",
+    "alt2": "Hälsoöversikt med vikt, steg och sömntrender.",
     "cap2": "Hälsoöversikt",
     "altSleep": "Sömnsida med ett diagram över veckans sömntrend och poäng för varje natt.",
     "cap3": "Sömn",
@@ -112,6 +114,20 @@
     "testflightTop": "Gå med i iOS-betan på",
     "testflight": "TestFlight",
     "hintRough": "Båda apparna är i offentlig beta, så räkna med en del skavanker. Buggrapporter är väldigt välkomna."
+  },
+  "apps": {
+    "label": "Appar från tredje part",
+    "heading": "Spelar bra ihop med andra",
+    "intro": "Appar från andra utvecklare som kan skicka din träning till Endurain.",
+    "gbMeta": "Android · gratis och öppen källkod",
+    "gbB": "Använd din smartklocka eller ditt aktivitetsarmband utan tillverkarens app och ladda sedan upp valfri träningsaktivitet till Endurain som en .fit-fil. Din administratör måste tillåta det innan du kan logga in.",
+    "tetherMeta": "iPhone · gratis, med en valfri Pro-uppgradering",
+    "tetherB": "Synkar steg, sömn, vitalvärden och Apple Watch-träningspass från Apple Health till din Endurain-server, inklusive rutter och puls. Inget moln emellan.",
+    "ruMeta": "Android · gratis och öppen källkod",
+    "ruB": "Spela in dina löprundor och andra aktiviteter i mobilen och synka dem automatiskt till Endurain. Konton med tvåfaktorsinloggning stöds inte än.",
+    "disclaimer": "De här apparna utvecklas och underhålls av fristående utvecklare. De är inte en del av Endurain-projektet, och Endurain ställer sig inte bakom dem, granskar inte deras kod och ger ingen support för dem. Rapportera problem till respektive apps utvecklare och läs deras integritetspolicyer och villkor innan du använder dem.",
+    "trust": "En app som du loggar in med får åtkomst till ditt Endurain-konto, så använd bara appar du litar på. Produktnamn och varumärken tillhör sina respektive ägare.",
+    "docs": "Installationsanvisningar i dokumentationen"
   },
   "selfHost": {
     "eyebrow": "Självhosta det",
@@ -157,13 +173,6 @@
     "button": "Prenumerera",
     "legal": "Drivs av"
   },
-  "cta": {
-    "heading": "Ta en titt först",
-    "textA": "Logga in i demon med",
-    "textB": "Klicka på allt och ha sönder vad du vill, den återställs varje natt.",
-    "demo": "Prova livedemon",
-    "docs": "Läs dokumentationen"
-  },
   "footer": {
     "tag": "Självhostad träningsspårning som respekterar din integritet.",
     "madeIn": "Gjord i Portugal, på fritiden",
@@ -179,6 +188,7 @@
     "licensed": "Licensierad under",
     "trademarkPolicy": "Varumärkespolicy",
     "source": "Källkod",
-    "appleTm": "TestFlight är ett varumärke som tillhör Apple Inc. och är registrerat i USA och andra länder och regioner."
+    "appleTm": "TestFlight är ett varumärke som tillhör Apple Inc. och är registrerat i USA och andra länder och regioner.",
+    "apps": "Appar från tredje part"
   }
 }

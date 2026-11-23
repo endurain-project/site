@@ -4,7 +4,7 @@
   },
   "a11y": {
     "skip": "Preskoči na vsebino",
-    "home": "Endurain domača stran",
+    "home": "Domača stran Endurain",
     "langMenu": "Spremeni jezik",
     "theme": "Preklopi temni način",
     "github": "Ogled izvorne kode na GitHubu",
@@ -14,13 +14,15 @@
     "why": "Zakaj",
     "features": "Funkcije",
     "mobile": "Mobilna aplikacija",
+    "apps": "Zunanje aplikacije",
     "selfHost": "Samostojno gostovanje",
-    "community": "Skupnost"
+    "community": "Skupnost",
+    "gallery": "Galerija"
   },
   "hero": {
-    "kicker": "Samostojno gostovano · odprta koda · narejeno na Portugalskem",
-    "headline1": "Vaš tek, kolo in plavanje.",
-    "headline2": "Na vašem lastnem strežniku.",
+    "kicker": "Samostojno gostovano · Odprta koda · Narejeno z ❤️ na Portugalskem",
+    "headline1": "Sledite vsakemu koraku",
+    "headline2": "Osvojite vsak trenutek",
     "intro": "Endurain je samostojno gostovana storitev za sledenje kondiciji, dom, osredotočen na zasebnost, za vaše aktivnosti, opremo in zdravstvene podatke. Brez vezave, brez rudarjenja podatkov. Samo vaša zgodovina treningov, na infrastrukturi, ki jo nadzorujete.",
     "ctaDemo": "Preizkusite demo v živo",
     "ctaDocs": "Preberite dokumentacijo",
@@ -37,7 +39,7 @@
   },
   "why": {
     "label": "Zakaj obstaja",
-    "title": "Naredil ga je triatlonec, ki je hotel vedeti, kdaj zamenjati verigo",
+    "title": "Naredil ga je nadobudni triatlonec, ki je hotel vedeti, kdaj zamenjati verigo",
     "p1": "Endurain se je začel kot osebni projekt. Sem rekreativni triatlonec in imam več koles in tekaških copat, kot bi rad priznal. Hotel sem eno mesto, kjer bi zabeležil vsak trening in videl, koliko se je kaj obrabilo, vse do verige in ploščic. Hotel sem tudi, da je ta zgodovina na mojem strežniku, ne na tujem.",
     "p2": "Potem se je razraslo: več uporabnikov, sinhronizacija s Stravo in Garminom, cilji, enotna prijava, mobilna aplikacija in prevodi v 30 jezikov. Še vedno ga razvijam v prostem času, jaz in majhna skupina sodelavcev, in še vedno se učim sproti.",
     "role": "Vzdrževalec",
@@ -113,6 +115,20 @@
     "testflight": "TestFlight",
     "hintRough": "Obe aplikaciji sta v javni beti, zato računajte na kakšno nedodelanost. Prijave napak so zelo dobrodošle."
   },
+  "apps": {
+    "label": "Aplikacije tretjih oseb",
+    "heading": "Lepo se razume z drugimi",
+    "intro": "Aplikacije drugih razvijalcev, ki lahko vaše treninge pošiljajo v Endurain.",
+    "gbMeta": "Android · brezplačna in odprtokodna",
+    "gbB": "Uporabljajte pametno uro ali fitnes zapestnico brez aplikacije proizvajalca, nato pa katero koli športno aktivnost naložite v Endurain kot datoteko .fit. Preden se lahko prijavite, mora to dovoliti vaš skrbnik.",
+    "tetherMeta": "iPhone · brezplačna, z neobvezno nadgradnjo Pro",
+    "tetherB": "Iz Apple Health na vaš strežnik Endurain sinhronizira korake, spanje, vitalne znake in vadbe z Apple Watch, vključno s potmi in srčnim utripom. Brez oblaka vmes.",
+    "ruMeta": "Android · brezplačna in odprtokodna",
+    "ruB": "Beležite teke in druge aktivnosti na telefonu ter jih samodejno sinhronizirajte z Endurainom. Računov z dvostopenjsko prijavo še ne podpira.",
+    "disclaimer": "Te aplikacije izdelujejo in vzdržujejo neodvisni razvijalci. Niso del projekta Endurain in Endurain jih ne priporoča, ne pregleduje njihove kode in zanje ne nudi podpore. Težave sporočite razvijalcem posamezne aplikacije, pred uporabo pa preberite njihov pravilnik o zasebnosti in pogoje uporabe.",
+    "trust": "Aplikacija, prek katere se prijavite, ima dostop do vašega računa Endurain, zato uporabljajte le aplikacije, ki jim zaupate. Imena izdelkov in blagovne znamke so last njihovih lastnikov.",
+    "docs": "Navodila za nastavitev v dokumentaciji"
+  },
   "selfHost": {
     "eyebrow": "Gostujte sami",
     "heading": "Zaženite ga sami",
@@ -157,13 +173,6 @@
     "button": "Naročite se",
     "legal": "Poganja"
   },
-  "cta": {
-    "heading": "Najprej se razglejte",
-    "textA": "V demo se prijavite z",
-    "textB": "Kliknite karkoli in pokvarite, kar želite, vsako noč se ponastavi.",
-    "demo": "Preizkusite demo v živo",
-    "docs": "Preberite dokumentacijo"
-  },
   "footer": {
     "tag": "Samostojno gostovano sledenje kondiciji, ki spoštuje vašo zasebnost.",
     "madeIn": "Narejeno na Portugalskem, v prostem času",
@@ -179,6 +188,7 @@
     "licensed": "Licencirano pod",
     "trademarkPolicy": "Pravilnik o blagovni znamki",
     "source": "Izvorna koda",
-    "appleTm": "TestFlight je blagovna znamka družbe Apple Inc., registrirana v ZDA ter drugih državah in regijah."
+    "appleTm": "TestFlight je blagovna znamka družbe Apple Inc., registrirana v ZDA ter drugih državah in regijah.",
+    "apps": "Aplikacije tretjih oseb"
   }
 }
