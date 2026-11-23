@@ -470,9 +470,26 @@ html.dark .theme-toggle .icon-moon {
   margin-left: auto;
 }
 
-/* Language switcher (markup currently commented out in index.html) */
+/* Language switcher */
 .lang {
   position: relative;
+}
+/* The switcher needs JavaScript, so hide it when scripts don't run. */
+html:not(.js) .lang {
+  display: none;
+}
+.lang-toggle {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding-inline: 10px;
+}
+.lang-code {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 .lang-menu {
   position: absolute;
@@ -1693,6 +1710,14 @@ details:not([open]) > .code-bar .code-toggle > span:nth-child(2) {
   }
   .footer-brand {
     grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 420px) {
+  /* Make room for the language switcher. GitHub is also linked in the
+     Community section and the footer. */
+  .gh-link {
+    display: none;
   }
 }
 

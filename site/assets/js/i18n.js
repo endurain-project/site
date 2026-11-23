@@ -171,15 +171,23 @@
     })
   }
 
-  function setLang(lang) {
+  /**
+   * Apply a language. Only an explicit choice from the menu is remembered,
+   * so visitors who never pick one keep following their browser language.
+   * @param {string} lang
+   * @param {boolean} [remember]
+   */
+  function setLang(lang, remember) {
     if (SUPPORTED.indexOf(lang) === -1) lang = DEFAULT_LANG
     loadDict(lang).then(function (dict) {
       applyDict(dict)
       root.setAttribute('lang', lang)
-      try {
-        localStorage.setItem(STORAGE_KEY, lang)
-      } catch (e) {
-        /* storage unavailable, selection still applies for this session */
+      if (remember) {
+        try {
+          localStorage.setItem(STORAGE_KEY, lang)
+        } catch (e) {
+          /* storage unavailable, selection still applies for this session */
+        }
       }
       markSelected(lang)
     })
@@ -196,7 +204,11 @@
     li.setAttribute('tabindex', '-1')
   })
 
+  var codeLabel = document.getElementById('lang-code')
+
   function markSelected(lang) {
+    // Short code next to the globe icon, e.g. "EN", "NB", "PT".
+    if (codeLabel) codeLabel.textContent = lang.split('-')[0].toUpperCase()
     options.forEach(function (li) {
       li.setAttribute(
         'aria-selected',
@@ -233,13 +245,13 @@
 
     options.forEach(function (li, index) {
       li.addEventListener('click', function () {
-        setLang(li.getAttribute('data-lang'))
+        setLang(li.getAttribute('data-lang'), true)
         closeMenu(true)
       })
       li.addEventListener('keydown', function (e) {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault()
-          setLang(li.getAttribute('data-lang'))
+          setLang(li.getAttribute('data-lang'), true)
           closeMenu(true)
         } else if (e.key === 'ArrowDown') {
           e.preventDefault()
