@@ -1,7 +1,7 @@
 /*
  * Endurain landing page, progressive enhancement.
- * Handles theme toggling, the mobile nav, sticky-header state, and
- * scroll-reveal animations. The page is fully usable without this file.
+ * Handles theme toggling, the mobile nav, sticky-header state and the
+ * active nav link. The page is fully usable without this file.
  */
 ;(function () {
   'use strict'
@@ -64,6 +64,10 @@
       const open = nav.classList.toggle('open')
       navToggle.setAttribute('aria-expanded', String(open))
       navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu')
+      // The links come before the button in the DOM, so move focus into
+      // the drop-down for keyboard users.
+      const first = nav.querySelector('a')
+      if (open && first) first.focus()
     })
 
     nav.addEventListener('click', function (e) {
@@ -71,11 +75,50 @@
     })
 
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeNav()
+      if (e.key !== 'Escape' || !nav.classList.contains('open')) return
+      const focusWasInside = nav.contains(document.activeElement)
+      closeNav()
+      if (focusWasInside) navToggle.focus()
     })
 
-    window.addEventListener('resize', function () {
-      if (window.innerWidth > 760) closeNav()
+    window.addEventListener('resize', fitNav)
+
+    // The drop-down CSS only applies once the menu button works.
+    const navHeader = document.querySelector('.site-header')
+    if (navHeader) navHeader.classList.add('nav-ready')
+  }
+
+  /* Collapse the nav into the menu button whenever its links don't fit on
+     one line. Label length varies a lot between languages, so this is
+     measured rather than tied to a fixed breakpoint. */
+  const siteHeader = document.querySelector('.site-header')
+  const headerInner = document.querySelector('.header-inner')
+
+  function fitNav() {
+    if (!siteHeader || !headerInner || !nav) return
+    if (window.innerWidth <= 760) {
+      // The CSS breakpoint already shows the menu button here.
+      siteHeader.classList.remove('nav-collapsed')
+      return
+    }
+    siteHeader.classList.remove('nav-collapsed')
+    const overflowing = headerInner.scrollWidth > headerInner.clientWidth + 1
+    siteHeader.classList.toggle('nav-collapsed', overflowing)
+    if (!overflowing) closeNav()
+  }
+
+  if (nav) {
+    fitNav()
+    if (document.fonts && document.fonts.ready)
+      document.fonts.ready.then(fitNav)
+    // Fonts for other scripts (e.g. Cyrillic) can arrive later.
+    if (document.fonts && document.fonts.addEventListener)
+      document.fonts.addEventListener('loadingdone', fitNav)
+    // Re-measure when the language switcher replaces the link labels.
+    new MutationObserver(fitNav).observe(nav, {
+      subtree: true,
+      childList: true,
+      characterData: true,
     })
   }
 
@@ -87,30 +130,6 @@
     }
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
-  }
-
-  /* --------------------------- Scroll reveal --------------------------- */
-  const revealables = document.querySelectorAll('.reveal')
-
-  if (!('IntersectionObserver' in window) || revealables.length === 0) {
-    revealables.forEach(function (el) {
-      el.classList.add('in')
-    })
-  } else {
-    const observer = new IntersectionObserver(
-      function (entries, obs) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('in')
-            obs.unobserve(entry.target)
-          }
-        })
-      },
-      { rootMargin: '0px 0px -8% 0px', threshold: 0.08 },
-    )
-    revealables.forEach(function (el) {
-      observer.observe(el)
-    })
   }
 
   /* --------------------------- Active nav link ------------------------- */

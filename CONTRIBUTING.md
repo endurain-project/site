@@ -12,7 +12,7 @@ Endurain is maintained by a single person in their spare time. This means review
  
 If an issue already exists, comment on it to signal your intent so work isn't duplicated.
 
-## Pull Request Size — The Most Important Rule
+## Pull Request Size: The Most Important Rule
  
 **Keep PRs small and focused on a single concern.**
  
@@ -29,8 +29,8 @@ PRs that are too large to review efficiently will be asked to be split before th
 ## Prerequisites
 
 - **Python 3.13+**
-- **uv** (installed globally) — see [docs.astral.sh/uv](https://docs.astral.sh/uv/)
-- **Hatch** is included as a dev dependency — run `cd backend && uv sync` once to install it
+- **uv** (installed globally). See [docs.astral.sh/uv](https://docs.astral.sh/uv/)
+- **Hatch** is included as a dev dependency. Run `cd backend && uv sync` once to install it
 
 ## How to Contribute
  
@@ -53,7 +53,7 @@ PRs that are too large to review efficiently will be asked to be split before th
 
 ### New Features
 
-- **Always discuss in an issue first** — this is required, not optional
+- **Always discuss in an issue first**. This is required, not optional
 - Features that haven't been discussed and approved in an issue may be closed without review, regardless of quality
 - Check the [ROADMAP.md](https://github.com/endurain-project/endurain/blob/master/ROADMAP.md) before proposing something that may already be planned
 
@@ -86,7 +86,7 @@ PRs that are too large to review efficiently will be asked to be split before th
    - **Allowed types:** `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `revert`, `style`, `test`.
    - **Description** must start with a lowercase letter and must not end with a period.
    - **Header length** (the first line) must be 72 characters or fewer.
-   - **Scope** (optional) must be lowercase and may contain letters, digits, `-`, `_`, `.`, `/`, `,` or spaces — e.g. `feat(api): ...`, `fix(garmin): ...`.
+   - **Scope** (optional) must be lowercase and may contain letters, digits, `-`, `_`, `.`, `/`, `,` or spaces. For example: `feat(api): ...`, `fix(garmin): ...`.
    - **Breaking changes** are marked with `!` after the type/scope (e.g. `feat(api)!: ...`) or a `BREAKING CHANGE:` footer in the commit body.
 
    Examples:
@@ -102,7 +102,7 @@ PRs that are too large to review efficiently will be asked to be split before th
 
    CI will enforce these checks on all PRs.
 
-6. **Push and open a PR** against the `master` branch, filling in the PR template completely. The PR title must also follow the rules above — the *Conventional Commits* workflow validates it on every edit.
+6. **Push and open a PR** against the `master` branch, filling in the PR template completely. The PR title must also follow the rules above, since the *Conventional Commits* workflow validates it on every edit.
 
 ## Response Time Expectations
  
